@@ -13,3 +13,6 @@ dashboard/page_doc.json
 
 # Mac-only background job, not used in the cloud
 com.liquidbot.disclosure-watcher.plist
+
+# One-time local upload helper
+push_to_github.sh
