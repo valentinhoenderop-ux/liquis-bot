@@ -1,148 +1,246 @@
 {
-  "at": "2026-10-15T00:31:10+02:00",
+  "at": "2026-10-15T01:09:12+02:00",
   "markets_scanned": 56,
   "smart_money_snapshot": true,
   "candidates": [
     {
-      "symbol": "xyz:CRWV",
+      "symbol": "xyz:CRCL",
       "side": "short",
-      "score": 1.11,
-      "price": 63.0385,
-      "atr": 1.4699352975286042,
-      "atr_pct": 2.292,
-      "stop": 65.97837059505721,
-      "breakout_level": 64.526,
-      "trend_atr": 2.94,
-      "breakout_atr": 0.27,
-      "funding_hourly_pct": -0.01264,
-      "volume_24h": 63125361,
+      "score": 2.288,
+      "price": 76.935,
+      "atr": 1.070295491221952,
+      "atr_pct": 1.396,
+      "stop": 79.07559098244391,
+      "breakout_level": 78.383,
+      "trend_atr": 1.64,
+      "breakout_atr": 1.61,
+      "funding_hourly_pct": -0.00274,
+      "volume_24h": 105521550,
       "smart_money_view": "mixed",
-      "smart_money": "2L/0S top traders, net $+6.2M"
-    }
-  ],
-  "smart_money_candidates": [
+      "smart_money": "2L/3S top traders, net $-12.5M"
+    },
     {
-      "symbol": "xyz:META",
+      "symbol": "xyz:SPCX",
       "side": "short",
-      "price": 734.265,
-      "score": 0.729,
-      "smart_money": "1L/3S top traders, net $-4.3M",
-      "atr_pct": 0.599,
-      "trend": "close 737.31 vs 50h EMA 748.58",
-      "funding_hourly_pct": 0.00066,
-      "volume_24h": 56999688
+      "score": 1.628,
+      "price": 150.725,
+      "atr": 1.1883899489495007,
+      "atr_pct": 0.788,
+      "stop": 153.101779897899,
+      "breakout_level": 151.22,
+      "trend_atr": 2.5,
+      "breakout_atr": 0.38,
+      "funding_hourly_pct": 0.00262,
+      "volume_24h": 106872542,
+      "smart_money_view": "mixed",
+      "smart_money": "2L/3S top traders, net $-13.9M"
+    },
+    {
+      "symbol": "xyz:NVDA",
+      "side": "short",
+      "score": 1.558,
+      "price": 218.985,
+      "atr": 1.3415818082437703,
+      "atr_pct": 0.614,
+      "stop": 221.66816361648756,
+      "breakout_level": 219.76,
+      "trend_atr": 1.43,
+      "breakout_atr": 0.84,
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 224493501,
+      "smart_money_view": "mixed",
+      "smart_money": "2L/2S top traders, net $+0.4M"
     },
     {
       "symbol": "xyz:CXMT",
       "side": "short",
-      "price": 6.58635,
-      "score": 0.622,
-      "smart_money": "0L/3S top traders, net $-3.2M",
-      "atr_pct": 1.005,
-      "trend": "close 6.6539 vs 50h EMA 6.9789",
-      "funding_hourly_pct": -0.01558,
-      "volume_24h": 12249054
+      "score": 1.13,
+      "price": 6.57635,
+      "atr": 0.06843920736876642,
+      "atr_pct": 1.039,
+      "stop": 6.713228414737532,
+      "breakout_level": 6.6155,
+      "trend_atr": 2.47,
+      "breakout_atr": 0.38,
+      "funding_hourly_pct": -0.01973,
+      "volume_24h": 12462178,
+      "smart_money_view": "agrees",
+      "smart_money": "0L/3S top traders, net $-3.2M"
+    },
+    {
+      "symbol": "xyz:MSFT",
+      "side": "short",
+      "score": 0.891,
+      "price": 530.665,
+      "atr": 2.1210910323828203,
+      "atr_pct": 0.399,
+      "stop": 534.9071820647656,
+      "breakout_level": 532.28,
+      "trend_atr": 0.87,
+      "breakout_atr": 0.46,
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 26436531,
+      "smart_money_view": "mixed",
+      "smart_money": "2L/1S top traders, net $+2.3M"
+    },
+    {
+      "symbol": "xyz:META",
+      "side": "short",
+      "score": 0.883,
+      "price": 732.635,
+      "atr": 4.544722577475089,
+      "atr_pct": 0.62,
+      "stop": 741.7244451549502,
+      "breakout_level": 734.57,
+      "trend_atr": 0.22,
+      "breakout_atr": 0.28,
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 59680605,
+      "smart_money_view": "agrees",
+      "smart_money": "1L/3S top traders, net $-4.3M"
+    }
+  ],
+  "smart_money_candidates": [
+    {
+      "symbol": "ASTER",
+      "side": "short",
+      "price": 0.69746,
+      "score": 0.51,
+      "smart_money": "0L/3S top traders, net $-2.1M",
+      "atr_pct": 0.885,
+      "trend": "close 0.69851 vs 50h EMA 0.699212",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 3235315
     },
     {
       "symbol": "MON",
       "side": "short",
-      "price": 0.024233,
+      "price": 0.024308,
       "score": 0.479,
       "smart_money": "0L/4S top traders, net $-0.8M",
-      "atr_pct": 1.61,
-      "trend": "close 0.024189 vs 50h EMA 0.0245804",
+      "atr_pct": 1.573,
+      "trend": "close 0.024248 vs 50h EMA 0.024567",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 6293117
-    },
-    {
-      "symbol": "xyz:NATGAS",
-      "side": "long",
-      "price": 3.5966,
-      "score": 0.43,
-      "smart_money": "3L/0S top traders, net $+1.3M",
-      "atr_pct": 0.754,
-      "trend": "close 3.5913 vs 50h EMA 3.5517",
-      "funding_hourly_pct": -0.00098,
-      "volume_24h": 19335368
+      "volume_24h": 6294893
     },
     {
       "symbol": "GRAM",
       "side": "short",
-      "price": 1.35655,
+      "price": 1.35955,
       "score": 0.413,
       "smart_money": "1L/3S top traders, net $-1.1M",
-      "atr_pct": 0.699,
-      "trend": "close 1.3613 vs 50h EMA 1.3776",
+      "atr_pct": 0.693,
+      "trend": "close 1.3600 vs 50h EMA 1.3767",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 1409428
+      "volume_24h": 1383941
     },
     {
       "symbol": "xyz:RKLB",
       "side": "short",
-      "price": 55.392,
-      "score": 0.385,
+      "price": 55.651,
+      "score": 0.383,
       "smart_money": "0L/3S top traders, net $-0.8M",
-      "atr_pct": 1.983,
-      "trend": "close 55.3420 vs 50h EMA 63.1481",
+      "atr_pct": 1.986,
+      "trend": "close 55.8620 vs 50h EMA 62.8623",
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 15682377
+      "volume_24h": 16074275
     }
   ],
   "skipped_as_correlated": [
     {
       "symbol": "xyz:MU",
       "side": "short",
-      "score": 1.521,
+      "score": 2.454,
+      "moves_with": [
+        "xyz:DRAM (corr 0.87)"
+      ]
+    },
+    {
+      "symbol": "xyz:NBIS",
+      "side": "short",
+      "score": 2.284,
+      "moves_with": [
+        "xyz:CRWV (corr 0.8)"
+      ]
+    },
+    {
+      "symbol": "xyz:AMD",
+      "side": "short",
+      "score": 1.998,
+      "moves_with": [
+        "xyz:DRAM (corr 0.73)"
+      ]
+    },
+    {
+      "symbol": "xyz:SOXL",
+      "side": "short",
+      "score": 1.919,
       "moves_with": [
         "xyz:DRAM (corr 0.86)"
       ]
     },
     {
-      "symbol": "xyz:KORU",
+      "symbol": "xyz:XYZ100",
       "side": "short",
-      "score": 1.174,
+      "score": 1.778,
       "moves_with": [
-        "xyz:DRAM (corr 0.9)"
+        "xyz:DRAM (corr 0.77)"
+      ]
+    },
+    {
+      "symbol": "xyz:INTC",
+      "side": "short",
+      "score": 1.734,
+      "moves_with": [
+        "xyz:DRAM (corr 0.86)"
+      ]
+    },
+    {
+      "symbol": "xyz:SNDK",
+      "side": "short",
+      "score": 1.661,
+      "moves_with": [
+        "xyz:DRAM (corr 0.78)"
       ]
     },
     {
       "symbol": "xyz:EWY",
       "side": "short",
-      "score": 1.135,
+      "score": 1.561,
       "moves_with": [
         "xyz:DRAM (corr 0.91)"
       ]
     },
     {
-      "symbol": "xyz:SKHY",
+      "symbol": "xyz:KORU",
       "side": "short",
-      "score": 0.22,
-      "moves_with": [
-        "xyz:DRAM (corr 0.93)"
-      ]
-    },
-    {
-      "symbol": "AAVE",
-      "side": "short",
-      "score": -0.248,
-      "moves_with": [
-        "ETH (corr 0.78)"
-      ]
-    },
-    {
-      "symbol": "xyz:SMSN",
-      "side": "short",
-      "score": -1.088,
+      "score": 1.505,
       "moves_with": [
         "xyz:DRAM (corr 0.9)"
       ]
     },
     {
+      "symbol": "xyz:SKHY",
+      "side": "short",
+      "score": 0.575,
+      "moves_with": [
+        "xyz:DRAM (corr 0.93)"
+      ]
+    },
+    {
       "symbol": "xyz:SKHX",
       "side": "short",
-      "score": 1.6,
+      "score": -2.375,
       "moves_with": [
-        "xyz:DRAM (corr 0.89)"
+        "xyz:DRAM (corr 0.9)"
+      ]
+    },
+    {
+      "symbol": "xyz:SMSN",
+      "side": "short",
+      "score": -4.677,
+      "moves_with": [
+        "xyz:DRAM (corr 0.91)"
       ]
     },
     {
@@ -172,7 +270,7 @@
     {
       "symbol": "WLD",
       "side": "short",
-      "score": 1.258,
+      "score": 1.26,
       "moves_with": [
         "ETH (corr 0.74)"
       ]
@@ -180,25 +278,9 @@
     {
       "symbol": "FARTCOIN",
       "side": "short",
-      "score": 1.073,
+      "score": 1.069,
       "moves_with": [
         "ETH (corr 0.79)"
-      ]
-    },
-    {
-      "symbol": "xyz:INTC",
-      "side": "short",
-      "score": 1.045,
-      "moves_with": [
-        "xyz:DRAM (corr 0.86)"
-      ]
-    },
-    {
-      "symbol": "xyz:AMD",
-      "side": "short",
-      "score": 0.655,
-      "moves_with": [
-        "xyz:DRAM (corr 0.72)"
       ]
     },
     {
@@ -214,7 +296,8 @@
       "side": "short",
       "score": 0.428,
       "moves_with": [
-        "ETH (corr 0.76)"
+        "ETH (corr 0.76)",
+        "ASTER (corr 0.74)"
       ]
     },
     {
