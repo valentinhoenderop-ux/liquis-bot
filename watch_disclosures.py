@@ -31,6 +31,8 @@ import xml.etree.ElementTree as ET
 import zipfile
 from pathlib import Path
 
+from trader import now, now_iso, parse_time
+
 ROOT = Path(__file__).resolve().parent
 CONFIG = ROOT / "config.json"
 STATE = ROOT / "state.json"
@@ -339,12 +341,12 @@ def enrich(filing, cfg):
 
 
 def append_log(cfg, filings):
-    now = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+    found = now().strftime("%Y-%m-%d %H:%M")
     lines = []
     if not LOG.exists():
         lines.append("# Disclosed congressional trades\n")
     for f in filings:
-        lines.append(f"\n## {f['member']}: filing {f['doc_id']}, filed {f['filing_date']} (found {now})\n")
+        lines.append(f"\n## {f['member']}: filing {f['doc_id']}, filed {f['filing_date']} (found {found})\n")
         lines.append(f"[PDF]({f['url']})\n")
         for problem in f["problems"]:
             lines.append(f"- Parsing problem ({problem}). Check the PDF by hand.\n")
@@ -390,9 +392,9 @@ def record_failure(error, notify_failures):
         if not STATE.exists():
             return
         state = json.loads(STATE.read_text())
-        now = dt.datetime.now()
-        since = dt.datetime.fromisoformat(state.setdefault("failing_since", now.isoformat(timespec="seconds")))
-        if notify_failures and not state.get("failure_notified") and now - since > dt.timedelta(hours=1):
+        current = now()
+        since = parse_time(state.setdefault("failing_since", now_iso()))
+        if notify_failures and not state.get("failure_notified") and current - since > dt.timedelta(hours=1):
             mac_notification(f"Checks have failed since {since:%H:%M}: {error}", "Disclosure watcher is failing")
             state["failure_notified"] = True
         write_json(STATE, state)
@@ -419,7 +421,7 @@ def check(cfg, years, notify_new):
         # as seen, so only future filings count.
         filings, etags = member_filings(cfg, years)
         write_json(STATE, {"members": cfg["members"], "seen": [f["doc_id"] for f in filings], "etags": etags,
-                           "last_check": dt.datetime.now().isoformat(timespec="seconds")})
+                           "last_check": now_iso()})
         return {"status": "initialized", "baseline_filings": len(filings),
                 "latest_filing_date": filings[-1]["filing_date"] if filings else None}
 
@@ -435,7 +437,7 @@ def check(cfg, years, notify_new):
         pending = json.loads(PENDING.read_text()) if PENDING.exists() else []
         write_json(PENDING, pending + notable)
     state.update(seen=sorted(seen | {f["doc_id"] for f in new}), etags=etags,
-                 last_check=dt.datetime.now().isoformat(timespec="seconds"))
+                 last_check=now_iso())
     state.pop("failing_since", None)
     state.pop("failure_notified", None)
     write_json(STATE, state)
@@ -456,7 +458,7 @@ def main():
     args = ap.parse_args()
 
     cfg = json.loads(CONFIG.read_text())
-    today = dt.date.today()
+    today = now().date()
     # Filings are indexed by the year they're filed; early January can still see last year's.
     years = [today.year] + ([today.year - 1] if today.month == 1 else [])
 
@@ -483,7 +485,7 @@ def main():
             pending = [f for f in pending if f["doc_id"] not in set(args.done)]
             write_json(PENDING, pending)
         last = json.loads(STATE.read_text()).get("last_check") if STATE.exists() else None
-    age = (dt.datetime.now() - dt.datetime.fromisoformat(last)).total_seconds() / 60 if last else None
+    age = (now() - parse_time(last)).total_seconds() / 60 if last else None
     print(json.dumps({"member": cfg, "pending": pending, "last_check": last,
                       "minutes_since_last_check": round(age) if age is not None else None}, indent=2))
 

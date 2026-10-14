@@ -30,6 +30,7 @@ import time
 import urllib.error
 import urllib.request
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(os.environ.get("TRADER_HOME") or Path(__file__).resolve().parent)
 CONFIG = Path(__file__).resolve().parent / "trader_config.json"
@@ -38,6 +39,9 @@ JOURNAL = ROOT / "journal.md"
 REPORTS = ROOT / "reports"
 LOCK = ROOT / ".trader.lock"
 API = "https://api.hyperliquid.xyz/info"
+# Every timestamp carries its offset and days follow this zone, so the Mac (Madrid time)
+# and the cloud (UTC) record the same moment the same way.
+TZ = ZoneInfo(json.loads(CONFIG.read_text()).get("timezone", "Europe/Madrid"))
 HOUR_MS = 3_600_000
 
 
@@ -168,8 +172,22 @@ def signal(mkt, ind, cfg):
 
 # --- account -----------------------------------------------------------------
 
+def now():
+    return dt.datetime.now(TZ)
+
+
 def now_iso():
-    return dt.datetime.now().isoformat(timespec="seconds")
+    return now().isoformat(timespec="seconds")
+
+
+def today():
+    return now().date().isoformat()
+
+
+def parse_time(iso):
+    """ISO time as an aware datetime; a time saved without an offset is UTC (the cloud's clock)."""
+    t = dt.datetime.fromisoformat(iso)
+    return t if t.tzinfo else t.replace(tzinfo=dt.timezone.utc)
 
 
 def load_account(cfg):
@@ -220,7 +238,7 @@ def journal(line):
     with JOURNAL.open("a") as fh:
         if new:
             fh.write("# Paper trading journal\n\n")
-        fh.write(f"- {dt.datetime.now():%Y-%m-%d %H:%M} {line}\n")
+        fh.write(f"- {now():%Y-%m-%d %H:%M} {line}\n")
 
 
 def fmt_px(x):
@@ -229,13 +247,13 @@ def fmt_px(x):
 
 def roll_day(acct, eq):
     """Track each local day's opening equity, for the daily loss limit and reports."""
-    today = dt.date.today().isoformat()
-    if today not in acct["days"]:
+    today_key = today()
+    if today_key not in acct["days"]:
         for d in acct["days"].values():
             d.setdefault("end_equity", eq)
-        acct["days"][today] = {"start_equity": eq}
+        acct["days"][today_key] = {"start_equity": eq}
     acct["peak_equity"] = max(acct["peak_equity"], eq)
-    return acct["days"][today]
+    return acct["days"][today_key]
 
 
 def entry_block(acct, cfg, eq):
@@ -461,7 +479,7 @@ def scan(acct, cfg, mkts, top):
 def account_summary(acct, cfg, mkts):
     eq = equity(acct, mkts)
     block = entry_block(acct, cfg, eq)
-    day = acct["days"][dt.date.today().isoformat()]
+    day = acct["days"][today()]
     closed = acct["closed"]
     wins = [t for t in closed if t["net_pnl"] > 0]
     return {
@@ -539,7 +557,7 @@ def main():
     sub.add_parser("auto")
     sub.add_parser("status")
     rp = sub.add_parser("report")
-    rp.add_argument("--date", default=dt.date.today().isoformat())
+    rp.add_argument("--date", default=today())
     sub.add_parser("resume")
     args = ap.parse_args()
 

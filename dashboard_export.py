@@ -14,7 +14,7 @@ import datetime as dt
 import json
 from pathlib import Path
 
-from trader import CONFIG, ROOT, direction, equity, load_account, post
+from trader import CONFIG, ROOT, TZ, direction, equity, load_account, now, now_iso, parse_time, post, today
 
 OUT = ROOT / "dashboard" / "snapshot.json"
 COMMODITIES = {"BRENTOIL", "CL", "COPPER", "GOLD", "HO", "NATGAS", "PALLADIUM", "PLATINUM", "SILVER"}
@@ -37,8 +37,8 @@ def category(symbol, dex):
 
 
 def stamp(iso):
-    """Local naive ISO time → ISO with the UTC offset, so browsers read it right."""
-    return dt.datetime.fromisoformat(iso).astimezone().isoformat(timespec="seconds") if iso else None
+    """Any saved time as ISO with its offset, in the bot's timezone."""
+    return parse_time(iso).astimezone(TZ).isoformat(timespec="seconds") if iso else None
 
 
 def fresh(path, hours):
@@ -46,7 +46,7 @@ def fresh(path, hours):
         return None
     data = json.loads(path.read_text())
     at = data.get("as_of") or data.get("at")
-    return data if at and dt.datetime.now() - dt.datetime.fromisoformat(at) < dt.timedelta(hours=hours) else None
+    return data if at and now() - parse_time(at) < dt.timedelta(hours=hours) else None
 
 
 def market_rows(cfg, acct):
@@ -88,7 +88,7 @@ def main():
     acct = load_account(cfg)
     markets = market_rows(cfg, acct)
     marks = {m["symbol"]: m["price"] for m in markets}
-    now = dt.datetime.now().isoformat(timespec="seconds")
+    now_s = now_iso()
 
     trades = []
     for sym, p in acct["positions"].items():
@@ -116,18 +116,18 @@ def main():
     equity_now = round(equity(acct, {s: {"mark": m} for s, m in marks.items()}), 2)
     curve = [{"t": stamp(acct["created"]), "equity": acct["starting_equity"]}]
     curve += [{"t": stamp(e["t"]), "equity": e["equity"]} for e in acct["equity_history"]]
-    curve.append({"t": stamp(now), "equity": equity_now})
+    curve.append({"t": stamp(now_s), "equity": equity_now})
     peak, max_dd = curve[0]["equity"], 0.0
     for e in curve:
         peak = max(peak, e["equity"])
         max_dd = max(max_dd, 1 - e["equity"] / peak)
-    day = acct["days"].get(dt.date.today().isoformat(), {"start_equity": equity_now})
+    day = acct["days"].get(today(), {"start_equity": equity_now})
     closed = [t for t in trades if t["status"] == "closed"]
     open_risk = sum(max(0.0, (p["entry_px"] - p["stop"]) * direction(p)) * p["qty"] for p in acct["positions"].values())
 
     sm = fresh(ROOT / "smart_money_latest.json", 3) or {}
     meta = {
-        "kind": "meta", "as_of": stamp(now), "starting_equity": acct["starting_equity"], "equity": equity_now,
+        "kind": "meta", "as_of": stamp(now_s), "starting_equity": acct["starting_equity"], "equity": equity_now,
         "total_return": round(equity_now / acct["starting_equity"] - 1, 5),
         "today_pnl": round(equity_now - day["start_equity"], 2),
         "max_drawdown": round(max_dd, 5),

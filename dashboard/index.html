@@ -510,7 +510,8 @@
     if (st === 'error') return failLine(host);
     if (st !== 'ok') return;
     host.classList.remove('dash-skeleton');
-    const rows = dash.data('equity_curve').data.map((d) => ({ date: new Date(d.t), equity: d.equity })).filter((d) => !isNaN(d.date));
+    const rows = dash.data('equity_curve').data.map((d) => ({ date: new Date(d.t), equity: d.equity }))
+      .filter((d) => !isNaN(d.date)).sort((a, b) => a.date - b.date);
     const start = dash.data('account').data[0]?.starting_equity ?? rows[0]?.equity;
     host.replaceChildren();
     if (rows.length < 2) { const p = document.createElement('div'); p.className = 'pd-empty'; p.textContent = 'The curve starts after the first hourly run.'; host.appendChild(p); return; }
@@ -526,7 +527,8 @@
     const endLabel = F.usd(rows[rows.length - 1].equity);
     const probe2 = svg.append('text').attr('font-size', 12).text(endLabel);
     const right = Math.ceil(probe2.node().getComputedTextLength()) + 14; probe2.remove();
-    const x = d3.scaleUtc(d3.extent(rows, (d) => d.date), [left, W - right]);
+    // Local time on the axis, matching the clock on the viewer's phone or computer.
+    const x = d3.scaleTime(d3.extent(rows, (d) => d.date), [left, W - right]);
     const c0 = dash.colors[0];
 
     svg.append('g').selectAll('line').data(yTicks).join('line')

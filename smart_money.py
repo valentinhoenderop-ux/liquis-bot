@@ -18,7 +18,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-from trader import CONFIG, ROOT, post
+from trader import CONFIG, ROOT, now, now_iso, parse_time, post
 
 TRADERS = ROOT / "smart_money_traders.json"
 LATEST = ROOT / "smart_money_latest.json"
@@ -52,7 +52,7 @@ def select_traders(sm):
             "all_time_pnl": round(all_time["pnl"]), "monthly_turnover": round(turnover, 1),
         })
     picked.sort(key=lambda t: -t["month_pnl"])
-    return {"selected_at": dt.datetime.now().isoformat(timespec="seconds"), "traders": picked[:sm["traders"]]}
+    return {"selected_at": now_iso(), "traders": picked[:sm["traders"]]}
 
 
 def trader_positions(address, dexes):
@@ -93,7 +93,7 @@ def diff(before, after):
 def snapshot(cfg):
     sm = cfg["smart_money"]
     roster = json.loads(TRADERS.read_text()) if TRADERS.exists() else None
-    age_h = (dt.datetime.now() - dt.datetime.fromisoformat(roster["selected_at"])).total_seconds() / 3600 if roster else None
+    age_h = (now() - parse_time(roster["selected_at"])).total_seconds() / 3600 if roster else None
     if roster is None or age_h >= sm["refresh_hours"]:
         roster = select_traders(sm)
         TRADERS.write_text(json.dumps(roster, indent=2))
@@ -137,7 +137,7 @@ def snapshot(cfg):
     moves.sort(key=lambda m: -m["notional"])
 
     out = {
-        "as_of": dt.datetime.now().isoformat(timespec="seconds"),
+        "as_of": now_iso(),
         "traders_followed": len(roster["traders"]),
         "traders_with_positions": sum(1 for b in books.values() if b),
         "consensus": consensus,
@@ -161,7 +161,7 @@ def load_consensus(max_age_hours=3):
     if not LATEST.exists():
         return {}
     snap = json.loads(LATEST.read_text())
-    age = dt.datetime.now() - dt.datetime.fromisoformat(snap["as_of"])
+    age = now() - parse_time(snap["as_of"])
     return snap["by_symbol"] if age < dt.timedelta(hours=max_age_hours) else {}
 
 

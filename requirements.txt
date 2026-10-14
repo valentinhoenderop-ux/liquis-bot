@@ -1,2 +1,4 @@
 # Only needed off macOS (the cloud runs Ubuntu): reads House disclosure PDFs.
 pdfplumber==0.11.4
+# Time zone rules for Europe/Madrid, in case the system has none.
+tzdata==2024.2
