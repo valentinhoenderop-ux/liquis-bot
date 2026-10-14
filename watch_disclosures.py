@@ -71,13 +71,16 @@ TX_RE = re.compile(
     r"(?P<tx_date>\d{2}/\d{2}/\d{4})\s+(?P<notified>\d{2}/\d{2}/\d{4})\s+"
     r"(?P<amount>\$[\d,]+(?:\s*-(?:\s*\$[\d,]+)?)?|Spouse/DC Over(?:\s*\$[\d,]+)?)"
 )
-AMOUNT_CONT_RE = re.compile(r"^\$[\d,]+$")
+# An amount cell on its own: one figure, a range, or "Spouse/DC Over $1,000,000".
+AMOUNT_CONT_RE = re.compile(r"^(?:\$[\d,]+(?:\s*-\s*(?:\$[\d,]+)?)?|Spouse/DC Over(?:\s*\$[\d,]+)?)$")
 # What's left of a transaction when PDFKit splits it into separate runs on one line.
-TX_PIECE_RE = re.compile(r"\s(?:P|S \(partial\)|S|E)$|\d{2}/\d{2}/\d{4}\s+\d{2}/\d{2}/\d{4}\s.*$")
+TX_PIECE_RE = re.compile(r"(?:^|\s)(?:P|S \(partial\)|S|E)$|\d{2}/\d{2}/\d{4}\s+\d{2}/\d{2}/\d{4}(?:\s.*)?$")
 OWNER_RE = re.compile(r"^(?:(?:SP|JT|DC)\b\s*)+")
 LABEL_RE = re.compile(r"^(?:[A-Z] ?){1,2}:\s*")  # "F S: New", "S O: ...", "D: ..."
 TX_TYPES = {"P": "purchase", "S": "sale", "S (partial)": "partial sale", "E": "exchange"}
-HEADER_RE = re.compile(r"^(?:ID Owner|Type$|Date|Amount Cap|Gains >|\$200\?)")
+# Table header cells, as PDFKit (whole header rows) or pdfplumber (word groups) return them.
+HEADER_RE = re.compile(r"^(?:ID|ID Owner.*|Owner(?: Asset)?|Asset|Transaction.*|Notification.*|Type|Date.*|"
+                       r"Amount.*|Cap\.?|Gains >|\$200\?)$")
 FOOTER_RE = re.compile(r"^\* For the complete list")
 ROW_TOL = 3  # points of slack when comparing line tops
 
