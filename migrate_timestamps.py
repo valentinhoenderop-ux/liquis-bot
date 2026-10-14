@@ -12,16 +12,41 @@ Usage: python3 migrate_timestamps.py [--mac-commit f84ffae]
 import argparse
 import datetime as dt
 import json
+import re
 import subprocess
 
-from trader import ROOT, TZ
+from trader import ROOT, TZ, now_iso
 
 changed = []
 
 
-def old_json(commit, name):
+def old_text(commit, name):
     out = subprocess.run(["git", "show", f"{commit}:{name}"], cwd=ROOT, capture_output=True, text=True)
-    return json.loads(out.stdout) if out.returncode == 0 else None
+    return out.stdout if out.returncode == 0 else None
+
+
+def old_json(commit, name):
+    text = old_text(commit, name)
+    return json.loads(text) if text else None
+
+
+def fix_journal(commit):
+    """Journal lines the cloud wrote before this fix carry UTC times; show them in Madrid time.
+
+    Converted lines get a "(Madrid)" marker after the time, so a second run skips them."""
+    path = ROOT / "journal.md"
+    if not path.exists():
+        return
+    mac_lines = set((old_text(commit, "journal.md") or "").splitlines())
+    out = []
+    for line in path.read_text().splitlines():
+        m = re.match(r"^- (\d{4}-\d{2}-\d{2} \d{2}:\d{2}) (?!\(Madrid\))(.*)$", line)
+        if m and line not in mac_lines:
+            t = dt.datetime.strptime(m.group(1), "%Y-%m-%d %H:%M").replace(tzinfo=dt.timezone.utc).astimezone(TZ)
+            line = f"- {t:%Y-%m-%d %H:%M} (Madrid) {m.group(2)}"
+            changed.append(f"journal: {m.group(1)} (cloud, UTC) -> {t:%Y-%m-%d %H:%M}")
+        out.append(line)
+    path.write_text("\n".join(out) + "\n")
 
 
 def fix(value, from_mac, where):
@@ -48,6 +73,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mac-commit", default="f84ffae")
     commit = ap.parse_args().mac_commit
+    account_file = ROOT / "paper_account.json"
+    if json.loads(account_file.read_text()).get("timestamps_migrated"):
+        print("Already migrated; nothing to do.")
+        return
     old = {name: old_json(commit, name) or {} for name in [
         "paper_account.json", "smart_money_traders.json", "smart_money_latest.json", "last_scan.json", "state.json"]}
     old_moves = old_json(commit, "smart_money_moves.json") or []
@@ -88,6 +117,8 @@ def main():
     update("last_scan.json", field("last_scan.json", "at"))
     update("state.json", state)
     update("smart_money_moves.json", moves)
+    fix_journal(commit)
+    update("paper_account.json", lambda a: a.update(timestamps_migrated=now_iso()))
     print(f"{len(changed)} timestamps given an offset")
     for line in changed:
         print("  " + line)
