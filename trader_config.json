@@ -1,0 +1,47 @@
+{
+  "starting_equity": 10000,
+  "dexes": ["", "xyz"],
+  "min_volume_usd": 10000000,
+  "min_volume_usd_manual": 1000000,
+  "max_markets": 40,
+
+  "breakout_lookback_hours": 24,
+  "min_atr_pct": 0.0015,
+  "max_atr_pct": 0.06,
+  "max_breakout_atr": 3,
+
+  "risk_per_trade": 0.01,
+  "atr_stop_mult": 2.0,
+  "breakeven_atr": 1.0,
+  "trail_atr_mult": 3.0,
+  "max_hold_hours": 168,
+
+  "max_positions": 8,
+  "max_new_per_run": 3,
+  "max_position_leverage": 1.0,
+  "max_gross_leverage": 3.0,
+  "max_correlation": 0.7,
+  "min_notional": 10,
+
+  "daily_loss_limit": 0.03,
+  "max_drawdown": 0.2,
+
+  "liquid_fee": 0.0005,
+  "exchange_taker_fee": {"core": 0.00045, "xyz": 0.0009},
+  "slippage": 0.0005,
+
+  "smart_money": {
+    "traders": 40,
+    "min_account_value": 250000,
+    "min_all_time_pnl": 500000,
+    "min_turnover": 1,
+    "max_turnover": 100,
+    "max_month_roi": 3,
+    "refresh_hours": 24,
+    "min_traders": 3,
+    "min_consensus_share": 0.75,
+    "min_net_notional": 250000,
+    "score_agree": 0.5,
+    "score_oppose": 1.0
+  }
+}

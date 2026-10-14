@@ -1,0 +1,939 @@
+<style>
+  /* Trading desk: a status header, then four tabs (Overview, Markets, Trades, Top traders). */
+  #dash-root { --pd-long: var(--color-ok); --pd-short: var(--color-bad); }
+  #desk [hidden] { display: none !important; }
+  .pd { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); font-variant-numeric: tabular-nums; }
+  .pd-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--cds-gap-sm) var(--cds-gap-lg); }
+  .pd-title { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); text-wrap: balance; }
+  .pd-takeaway { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 65ch; }
+  .pd-asof { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); display: flex; align-items: center; gap: var(--cds-gap-xs); }
+  .pd-dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--color-ok); flex: none; }
+  .pd-dot.pd-stale { background: var(--color-warn); }
+
+  .pd-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .pd-tab { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg-muted); cursor: pointer; display: flex; gap: var(--cds-gap-xs); align-items: baseline; }
+  .pd-tab:hover { color: var(--color-fg); }
+  .pd-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .pd-tab:focus-visible, .pd-chip:focus-visible, .pd-sort:focus-visible, .pd-seg button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .pd-count { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: 400; }
+
+  .pd-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: var(--cds-gap-md); }
+  .pd-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); min-width: 0; }
+  .pd-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .pd-kpi-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.15; min-height: 1.15em; }
+  .pd-kpi-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); min-height: 1.2em; }
+
+  .pd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+  .pd-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .pd-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .pd-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .pd-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-md) 0; }
+  .pd-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: 6rem; }
+  .pd-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+
+  .pd-chart { position: relative; min-height: 15rem; }
+  .pd-chart svg { display: block; overflow: visible; }
+  .pd-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .pd-tip-head { color: var(--cds-text-secondary); }
+  .pd-tip b { font-weight: var(--cds-font-weight-medium); }
+
+  .pd-table-wrap { overflow: auto; max-height: 34rem; }
+  .pd-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); }
+  .pd-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); border-bottom: 1px solid var(--color-border-line); padding: 0; white-space: nowrap; z-index: 1; }
+  .pd-table th.pd-num, .pd-table td.pd-num { text-align: right; }
+  .pd-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .pd-table tbody tr { cursor: default; }
+  .pd-table.pd-clickable tbody tr { cursor: pointer; }
+  .pd-table.pd-clickable tbody tr:hover td { background: var(--color-bg); }
+  .pd-table tr.pd-picked td { background: var(--color-bg); }
+  .pd-sort { appearance: none; background: none; border: 0; font: inherit; color: inherit; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; width: 100%; text-align: inherit; }
+  .pd-sort::after { content: ""; display: inline-block; width: 0.8em; }
+  th[aria-sort="ascending"] .pd-sort::after { content: " ↑"; }
+  th[aria-sort="descending"] .pd-sort::after { content: " ↓"; }
+  .pd-reason { color: var(--color-fg-muted); min-width: 16rem; max-width: 34rem; white-space: normal; }
+  .pd-sym { font-weight: var(--cds-font-weight-medium); white-space: nowrap; }
+  .pd-up { color: var(--color-ok); }
+  .pd-down { color: var(--color-bad); }
+  .pd-muted { color: var(--color-fg-muted); }
+  @media (max-width: 700px) { .pd-hide-narrow { display: none; } }
+
+  .pd-pill { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: 999px; border: 1px solid currentColor; font-size: var(--cds-font-size-caption); line-height: 1.5; white-space: nowrap; }
+  .pd-pill.pd-long { color: var(--pd-long); }
+  .pd-pill.pd-short { color: var(--pd-short); }
+  .pd-pill.pd-flat { color: var(--color-fg-muted); }
+
+  .pd-split { display: flex; align-items: center; gap: var(--cds-gap-xs); white-space: nowrap; }
+  .pd-split-bar { display: flex; width: 4rem; height: 0.4rem; border-radius: 999px; overflow: hidden; background: var(--color-border-line); flex: none; }
+  .pd-split-bar span:first-child { background: var(--pd-long); }
+  .pd-split-bar span:last-child { background: var(--pd-short); }
+
+  .pd-room { display: flex; align-items: center; gap: var(--cds-gap-xs); white-space: nowrap; }
+  .pd-room-bar { width: 4rem; height: 0.4rem; border-radius: 999px; background: var(--color-border-line); overflow: hidden; flex: none; }
+  .pd-room-bar span { display: block; height: 100%; border-radius: 999px; background: var(--color-fg-muted); }
+
+  .pd-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+  .pd-chip { appearance: none; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg); border-radius: 999px; padding: var(--cds-pad-xs) var(--cds-pad-md); font: inherit; font-size: var(--cds-font-size-caption); cursor: pointer; display: inline-flex; gap: var(--cds-gap-xs); }
+  .pd-chip[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+  .pd-chip[aria-pressed="true"] .pd-count { color: inherit; opacity: .75; }
+  .pd-search { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-md); border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-panel); color: var(--color-fg); min-width: 0; width: 12rem; max-width: 100%; }
+  .pd-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: 999px; overflow: hidden; margin-left: auto; }
+  .pd-seg button { appearance: none; border: 0; background: var(--color-panel); color: var(--color-fg-muted); font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-md); cursor: pointer; }
+  .pd-seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+
+  .pd-market-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem); gap: var(--cds-gap-md); align-items: start; }
+  @media (max-width: 900px) { .pd-market-layout { grid-template-columns: minmax(0, 1fr); } }
+  .pd-heatmap { position: relative; min-height: 22rem; }
+  .pd-heatmap svg { display: block; }
+  .pd-tile { cursor: pointer; }
+  .pd-tile:hover rect { stroke: var(--color-fg); stroke-width: 1.5; }
+  .pd-legend { display: flex; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); flex-wrap: wrap; }
+  .pd-legend-ramp { width: 8rem; height: 0.5rem; border-radius: 999px; }
+
+  .pd-detail { position: sticky; top: var(--cds-gap-md); }
+  .pd-detail-name { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); font-weight: 400; margin: 0; }
+  .pd-detail-price { font-size: var(--cds-font-size-heading); }
+  .pd-dl { display: grid; grid-template-columns: auto 1fr; gap: var(--cds-gap-xs) var(--cds-gap-md); margin: 0; font-size: var(--cds-font-size-caption); }
+  .pd-dl dt { color: var(--color-fg-muted); }
+  .pd-dl dd { margin: 0; text-align: right; }
+  .pd-detail-section { border-top: 1px solid var(--color-border-line); padding-top: var(--cds-pad-sm); display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .pd-detail-section h3 { margin: 0; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); }
+  .pd-bigsplit { display: flex; height: 0.6rem; border-radius: 999px; overflow: hidden; background: var(--color-border-line); }
+  .pd-bigsplit span:first-child { background: var(--pd-long); }
+  .pd-bigsplit span:last-child { background: var(--pd-short); }
+  .pd-link { color: var(--color-fg); font-size: var(--cds-font-size-caption); }
+
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  @media (prefers-reduced-motion: no-preference) {
+    .pd-anim { animation: pd-rise var(--cds-dur-slow) var(--cds-ease-out) both; }
+    @keyframes pd-rise { from { opacity: .3; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  }
+</style>
+
+<div class="pd" id="desk">
+  <header class="pd-head">
+    <div>
+      <h1 class="pd-title">Liquid Paper Desk</h1>
+      <p class="pd-takeaway" id="takeaway">—</p>
+    </div>
+    <div class="pd-asof"><span class="pd-dot" id="asof-dot"></span><span>Snapshot</span><span id="asof" data-source="account" data-field="as_of" data-row="0">—</span></div>
+  </header>
+
+  <nav class="pd-tabs" role="tablist" aria-label="Sections">
+    <button class="pd-tab" role="tab" id="tab-overview" data-tab="overview" aria-selected="true">Overview</button>
+    <button class="pd-tab" role="tab" id="tab-markets" data-tab="markets" aria-selected="false">Markets <span class="pd-count" id="count-markets"></span></button>
+    <button class="pd-tab" role="tab" id="tab-trades" data-tab="trades" aria-selected="false">Trades <span class="pd-count" id="count-trades"></span></button>
+    <button class="pd-tab" role="tab" id="tab-traders" data-tab="traders" aria-selected="false">Top traders</button>
+  </nav>
+
+  <!-- Overview -->
+  <section class="pd" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+    <div class="pd-kpis">
+      <div class="pd-kpi" id="kpi-equity"><span class="pd-kpi-label">Equity</span><span class="pd-kpi-value dash-skeleton" data-source="account" data-field="equity" data-row="0">—</span><span class="pd-kpi-note" id="kpi-equity-note"></span></div>
+      <div class="pd-kpi" id="kpi-return"><span class="pd-kpi-label">Return since start</span><span class="pd-kpi-value dash-skeleton" data-source="account" data-field="total_return" data-row="0">—</span><span class="pd-kpi-note">Paper account, started at $10,000</span></div>
+      <div class="pd-kpi" id="kpi-today"><span class="pd-kpi-label">Today</span><span class="pd-kpi-value dash-skeleton" data-source="account" data-field="today_pnl" data-row="0">—</span><span class="pd-kpi-note">Since local midnight</span></div>
+      <div class="pd-kpi" id="kpi-risk"><span class="pd-kpi-label">At risk if every stop hits</span><span class="pd-kpi-value dash-skeleton" data-source="account" data-field="open_risk" data-row="0">—</span><span class="pd-kpi-note" id="kpi-risk-note"></span></div>
+      <div class="pd-kpi" id="kpi-winrate"><span class="pd-kpi-label">Win rate</span><span class="pd-kpi-value dash-skeleton" data-source="account" data-field="win_rate" data-row="0">—</span><span class="pd-kpi-note" id="kpi-winrate-note"></span></div>
+      <div class="pd-kpi" id="kpi-dd"><span class="pd-kpi-label">Worst drop from peak</span><span class="pd-kpi-value dash-skeleton" data-source="account" data-field="max_drawdown" data-row="0">—</span><span class="pd-kpi-note">Bot stops trading at 20%</span></div>
+    </div>
+
+    <div class="pd-card" id="equity-card">
+      <h2>Equity curve</h2>
+      <p class="pd-note">Account value after every hourly run, against the $10,000 start.</p>
+      <div class="pd-chart dash-skeleton" id="equity-chart" data-source="equity_curve"></div>
+    </div>
+
+    <div class="pd-card" id="positions-card">
+      <h2>Open positions</h2>
+      <p class="pd-note">P&amp;L is after fees and funding. "Room to stop" shows how much of the original distance to the stop-loss is left.</p>
+      <div class="pd-table-wrap">
+        <table class="pd-table pd-clickable" id="positions-table" data-source="open_trades" data-row-key="id">
+          <thead><tr>
+            <th data-field="symbol"><button class="pd-sort" data-key="symbol">Market</button></th>
+            <th data-field="side"><button class="pd-sort" data-key="side">Side</button></th>
+            <th class="pd-num" data-field="entry"><button class="pd-sort" data-key="entry">Entry</button></th>
+            <th class="pd-num" data-field="price"><button class="pd-sort" data-key="price">Price</button></th>
+            <th class="pd-num pd-hide-narrow" data-field="stop"><button class="pd-sort" data-key="stop">Stop</button></th>
+            <th class="pd-num" data-field="pnl"><button class="pd-sort" data-key="pnl">P&amp;L</button></th>
+            <th class="pd-hide-narrow" data-field="room_to_stop"><button class="pd-sort" data-key="room_to_stop">Room to stop</button></th>
+            <th class="pd-hide-narrow" data-field="opened"><button class="pd-sort" data-key="opened">Opened</button></th>
+            <th class="pd-hide-narrow" data-field="reason"><button class="pd-sort" data-key="reason">Why the bot took it</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pd-empty" id="positions-empty" hidden>No open positions. The bot is waiting for a setup.</div>
+    </div>
+  </section>
+
+  <!-- Markets -->
+  <section class="pd" id="markets" role="tabpanel" aria-labelledby="tab-markets" hidden>
+    <div class="pd-controls" id="market-controls">
+      <div class="pd-controls" id="category-chips" role="group" aria-label="Category"></div>
+      <div class="pd-controls" id="flag-chips" role="group" aria-label="Show only">
+        <button class="pd-chip" data-flag="held" aria-pressed="false">Bot holds</button>
+        <button class="pd-chip" data-flag="signal" aria-pressed="false">Bot signal</button>
+        <button class="pd-chip" data-flag="crowd" aria-pressed="false">Top traders agree</button>
+      </div>
+      <input class="pd-search" id="market-search" type="search" placeholder="Search markets" aria-label="Search markets">
+      <div class="pd-seg" role="group" aria-label="View">
+        <button id="view-heatmap" aria-pressed="true">Heatmap</button>
+        <button id="view-table" aria-pressed="false">Table</button>
+      </div>
+    </div>
+    <p class="pd-note" id="market-summary">—</p>
+
+    <div class="pd-market-layout">
+      <div class="pd-card" id="market-view-card">
+        <div id="heatmap-wrap">
+          <div class="pd-legend" id="heatmap-legend">
+            <span>24h change</span><span id="legend-low">−6%</span><span class="pd-legend-ramp" id="legend-ramp"></span><span id="legend-high">+6%</span>
+            <span>· tile size: 24h volume · outlined: bot holds it</span>
+          </div>
+          <div class="pd-heatmap dash-skeleton" id="heatmap" data-source="markets"></div>
+        </div>
+        <div id="market-table-wrap" hidden>
+          <div class="pd-table-wrap">
+            <table class="pd-table pd-clickable" id="market-table" data-source="markets" data-row-key="symbol">
+              <thead><tr>
+                <th data-field="name"><button class="pd-sort" data-key="name">Market</button></th>
+                <th class="pd-hide-narrow" data-field="category"><button class="pd-sort" data-key="category">Type</button></th>
+                <th class="pd-num" data-field="price"><button class="pd-sort" data-key="price">Price</button></th>
+                <th class="pd-num" data-field="change_24h"><button class="pd-sort" data-key="change_24h">24h</button></th>
+                <th class="pd-num" data-field="volume_24h"><button class="pd-sort" data-key="volume_24h">Volume 24h</button></th>
+                <th class="pd-num pd-hide-narrow" data-field="open_interest"><button class="pd-sort" data-key="open_interest">Open interest</button></th>
+                <th class="pd-num pd-hide-narrow" data-field="funding_apr"><button class="pd-sort" data-key="funding_apr">Funding / yr</button></th>
+                <th class="pd-hide-narrow" data-field="top_net"><button class="pd-sort" data-key="top_net">Top traders</button></th>
+                <th data-field="bot"><button class="pd-sort" data-key="bot">Bot</button></th>
+              </tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <aside class="pd-card pd-detail" id="market-detail" aria-live="polite">
+        <p class="pd-note" id="detail-hint">Click a tile or a row to see a market.</p>
+        <div id="detail-body" hidden>
+          <div class="pd-note" id="detail-category"></div>
+          <h2 class="pd-detail-name" id="detail-name"></h2>
+          <div class="pd-detail-price"><span id="detail-price" data-source="markets" data-field="price"></span> <span id="detail-change" data-source="markets" data-field="change_24h"></span></div>
+          <dl class="pd-dl">
+            <dt>Volume 24h</dt><dd id="detail-volume" data-source="markets" data-field="volume_24h"></dd>
+            <dt>Open interest</dt><dd id="detail-oi" data-source="markets" data-field="open_interest"></dd>
+            <dt>Funding per year</dt><dd id="detail-funding" data-source="markets" data-field="funding_apr"></dd>
+          </dl>
+          <div class="pd-detail-section">
+            <h3>Top traders</h3>
+            <div class="pd-bigsplit" id="detail-split"><span></span><span></span></div>
+            <div class="pd-note" id="detail-split-text"></div>
+          </div>
+          <div class="pd-detail-section">
+            <h3>Bot</h3>
+            <div class="pd-note" id="detail-bot"></div>
+          </div>
+          <a class="pd-link" id="detail-link" href="https://app.liquid.trade" target="_blank" rel="noopener">Open on Liquid ↗</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Trades -->
+  <section class="pd" id="trades" role="tabpanel" aria-labelledby="tab-trades" hidden>
+    <div class="pd-card" id="pnl-card">
+      <h2>Result of each closed trade</h2>
+      <p class="pd-note">Net P&amp;L after fees and funding, oldest first.</p>
+      <div class="pd-chart" id="pnl-chart" data-source="closed_trades"></div>
+    </div>
+    <div class="pd-card" id="closed-card">
+      <h2>Closed trades</h2>
+      <p class="pd-note">R is the result measured in the trade's own risk: −1R means the full stop-loss was hit.</p>
+      <div class="pd-table-wrap">
+        <table class="pd-table" id="closed-table" data-source="closed_trades" data-row-key="id">
+          <thead><tr>
+            <th data-field="symbol"><button class="pd-sort" data-key="symbol">Market</button></th>
+            <th data-field="side"><button class="pd-sort" data-key="side">Side</button></th>
+            <th class="pd-num" data-field="entry"><button class="pd-sort" data-key="entry">Entry</button></th>
+            <th class="pd-num" data-field="price"><button class="pd-sort" data-key="price">Exit</button></th>
+            <th class="pd-num" data-field="pnl"><button class="pd-sort" data-key="pnl">Net P&amp;L</button></th>
+            <th class="pd-num" data-field="r"><button class="pd-sort" data-key="r">R</button></th>
+            <th class="pd-hide-narrow" data-field="closed"><button class="pd-sort" data-key="closed">Closed</button></th>
+            <th class="pd-hide-narrow" data-field="exit_reason"><button class="pd-sort" data-key="exit_reason">How it ended</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pd-empty" id="closed-empty" hidden>No closed trades yet. They appear when a stop, a trailing stop or an exit triggers.</div>
+    </div>
+  </section>
+
+  <!-- Top traders -->
+  <section class="pd" id="traders" role="tabpanel" aria-labelledby="tab-traders" hidden>
+    <div class="pd-card" id="consensus-card">
+      <h2>Where the top traders agree</h2>
+      <p class="pd-note" id="consensus-note">Net long or short dollars of the followed traders, in markets where at least three of them hold a position and most lean one way. Click a bar to open the market.</p>
+      <div class="pd-chart dash-skeleton" id="consensus-chart" data-source="markets"></div>
+    </div>
+    <div class="pd-card" id="moves-card">
+      <h2>What they just did</h2>
+      <p class="pd-note">Positions the followed traders opened, added to, cut, closed or flipped between hourly snapshots.</p>
+      <div class="pd-table-wrap">
+        <table class="pd-table" id="moves-table" data-source="moves" data-row-key="id">
+          <thead><tr>
+            <th data-field="at"><button class="pd-sort" data-key="at">When</button></th>
+            <th data-field="trader"><button class="pd-sort" data-key="trader">Trader</button></th>
+            <th data-field="action"><button class="pd-sort" data-key="action">Did</button></th>
+            <th data-field="symbol"><button class="pd-sort" data-key="symbol">Market</button></th>
+            <th class="pd-num" data-field="notional"><button class="pd-sort" data-key="notional">Size</button></th>
+            <th class="pd-num pd-hide-narrow" data-field="pct_of_account"><button class="pd-sort" data-key="pct_of_account">Of their account</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pd-empty" id="moves-empty" hidden>No moves recorded yet. They show up from the second hourly snapshot on.</div>
+    </div>
+  </section>
+</div>
+
+<script>
+  // Everything comes from one hourly snapshot file; these calculations split it by kind.
+  dash.calc('account', {
+    inputs: ['snapshot'], title: 'Account headline numbers',
+    description: 'The snapshot row with the paper account\'s equity, return, risk and win rate.',
+    fn: (snapshot) => snapshot.filter((r) => r.kind === 'meta').map((r) => ({
+      as_of: r.as_of, equity: r.equity, starting_equity: r.starting_equity, total_return: r.total_return,
+      today_pnl: r.today_pnl, open_risk: r.open_risk, open_positions: r.open_positions, gross_exposure: r.gross_exposure,
+      win_rate: r.win_rate, wins: r.wins, closed_trades: r.closed_trades, realized_pnl: r.realized_pnl,
+      max_drawdown: r.max_drawdown, trading_halted: r.trading_halted, traders_followed: r.traders_followed,
+      top_traders_as_of: r.top_traders_as_of, markets: r.markets,
+    })),
+  });
+  dash.calc('equity_curve', {
+    inputs: ['snapshot'], title: 'Equity curve',
+    description: 'Account value at each hourly run, from the snapshot.',
+    fn: (snapshot) => snapshot.filter((r) => r.kind === 'equity').map((r) => ({ t: r.t, equity: r.equity })),
+  });
+  dash.calc('open_trades', {
+    inputs: ['snapshot'], title: 'Open positions',
+    description: 'Open paper trades; room_to_stop is the share of the original stop distance still left.',
+    fn: (snapshot) => snapshot.filter((r) => r.kind === 'trade' && r.status === 'open').map((r) => ({
+      id: r.id, symbol: r.symbol, side: r.side, entry: r.entry, price: r.price, stop: r.stop,
+      pnl: r.pnl, r: r.r, risk: r.risk, notional: r.notional, opened: r.opened, reason: r.reason,
+      room_to_stop: r.initial_stop === r.entry ? null
+        : Math.max(0, Math.min(1.5, (r.price - r.stop) / (r.entry - r.initial_stop))),
+    })),
+  });
+  dash.calc('closed_trades', {
+    inputs: ['snapshot'], title: 'Closed trades',
+    description: 'Finished paper trades with net P&L after fees and funding.',
+    fn: (snapshot) => snapshot.filter((r) => r.kind === 'trade' && r.status === 'closed').map((r) => ({
+      id: r.id, symbol: r.symbol, side: r.side, entry: r.entry, price: r.price, pnl: r.pnl, r: r.r,
+      opened: r.opened, closed: r.closed, reason: r.reason, exit_reason: r.exit_reason,
+    })),
+  });
+  dash.calc('markets', {
+    inputs: ['snapshot'], title: 'All markets',
+    description: 'Every live market on Liquid, with the top traders\' split and the bot\'s signal.',
+    fn: (snapshot) => snapshot.filter((r) => r.kind === 'market').map((r) => ({
+      symbol: r.symbol, name: r.name, category: r.category, price: r.price, change_24h: r.change_24h,
+      volume_24h: r.volume_24h, open_interest: r.open_interest, funding_apr: r.funding_apr,
+      top_long: r.top_long, top_short: r.top_short, top_net: r.top_net, top_view: r.top_view,
+      signal: r.signal, held: r.held, bot: r.held ? `holds ${r.held}` : r.signal,
+    })),
+  });
+  dash.calc('moves', {
+    inputs: ['snapshot'], title: 'Top trader moves',
+    description: 'Recent position changes by the followed Hyperliquid traders.',
+    fn: (snapshot) => snapshot.filter((r) => r.kind === 'move').map((r) => ({
+      id: r.id, at: r.at, trader: r.trader, action: r.action, side: r.side, symbol: r.symbol,
+      notional: r.notional, pct_of_account: r.pct_of_account,
+    })),
+  });
+</script>
+
+<script>
+  // Formatting and colour helpers shared by the drawing script.
+  const compact = new Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 1 });
+  const minus = (s) => s.replace('-', '−');
+  window.pdFmt = {
+    usd: (v) => (v == null ? '—' : minus(d3.format('$,.2f')(v))),
+    signedUsd: (v) => (v == null ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + d3.format('$,.2f')(Math.abs(v))),
+    usdCompact: (v) => (v == null ? '—' : (v < 0 ? '−' : '') + '$' + compact.format(Math.abs(v))),
+    signedUsdCompact: (v) => (v == null ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + '$' + compact.format(Math.abs(v))),
+    pct: (v) => (v == null ? '—' : minus(d3.format('.1%')(v))),
+    signedPct: (v) => (v == null ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + d3.format('.2%')(Math.abs(v))),
+    price: (v) => {
+      if (v == null) return '—';
+      const a = Math.abs(v);
+      return a >= 1000 ? d3.format(',.2f')(v) : a >= 1 ? d3.format(',.4~f')(v) : d3.format('.4~r')(v);
+    },
+    r: (v) => (v == null ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + d3.format('.2f')(Math.abs(v)) + 'R'),
+    when: (iso) => (iso ? d3.timeFormat('%b %-d, %H:%M')(new Date(iso)) : '—'),
+    name: (symbol) => String(symbol || '').replace(/^xyz:/, ''),
+  };
+
+  // Theme colours as RGB, read through the page so they follow light and dark.
+  window.pdColor = (token) => {
+    const probe = document.createElement('span');
+    probe.style.color = `var(${token})`;
+    document.getElementById('desk').appendChild(probe);
+    const resolved = getComputedStyle(probe).color;
+    probe.remove();
+    const canvas = document.createElement('canvas');
+    canvas.width = 1; canvas.height = 1;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#808080';
+    ctx.fillStyle = resolved;
+    ctx.fillRect(0, 0, 1, 1);
+    const [r, g, b] = ctx.getImageData(0, 0, 1, 1).data;
+    return d3.rgb(r, g, b);
+  };
+  window.pdLuminance = (c) => {
+    const ch = [c.r, c.g, c.b].map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; });
+    return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2];
+  };
+  window.pdContrastText = (fill, a, b) => {
+    const ratio = (x, y) => { const [h, l] = [pdLuminance(x), pdLuminance(y)].sort((m, n) => n - m); return (h + 0.05) / (l + 0.05); };
+    return ratio(fill, a) >= ratio(fill, b) ? a : b;
+  };
+</script>
+
+<script>
+  const F = window.pdFmt;
+  const state = window.pdState = {
+    tab: 'overview', category: 'All', flags: new Set(), query: '', view: 'heatmap', picked: null,
+    sorts: { positions: ['pnl', 'descending'], markets: ['volume_24h', 'descending'], closed: ['closed', 'descending'], moves: ['at', 'descending'] },
+  };
+  const $ = (id) => document.getElementById(id);
+  const tip = (host) => {
+    let el = host.querySelector('.pd-tip');
+    if (!el) { el = document.createElement('div'); el.className = 'pd-tip'; el.hidden = true; host.appendChild(el); }
+    return el;
+  };
+  const placeTip = (el, host, x, y) => {
+    el.hidden = false;
+    const w = el.offsetWidth, h = el.offsetHeight, hw = host.clientWidth;
+    el.style.left = `${Math.max(0, Math.min(hw - w, x + 12))}px`;
+    el.style.top = `${Math.max(0, y - h - 10)}px`;
+  };
+  const tipLines = (el, head, lines) => {
+    el.replaceChildren();
+    const h = document.createElement('div'); h.className = 'pd-tip-head'; h.textContent = head; el.appendChild(h);
+    for (const [label, value, cls] of lines) {
+      const row = document.createElement('div');
+      const b = document.createElement('b'); b.textContent = value; if (cls) b.className = cls;
+      row.append(`${label} `, b);
+      el.appendChild(row);
+    }
+  };
+  const cell = (tr, text, cls) => { const td = document.createElement('td'); td.textContent = text; if (cls) td.className = cls; tr.appendChild(td); return td; };
+  const sideCell = (tr, side) => {
+    const td = document.createElement('td'); const s = document.createElement('span');
+    s.className = `pd-pill ${side === 'long' ? 'pd-long' : side === 'short' ? 'pd-short' : 'pd-flat'}`;
+    s.textContent = side || '—'; td.appendChild(s); tr.appendChild(td); return td;
+  };
+  const tone = (v) => (v > 0 ? 'pd-up' : v < 0 ? 'pd-down' : '');
+  const statusOf = (...ids) => {
+    const st = ids.map((id) => dash.data(id).status);
+    return st.includes('error') || st.includes('declined') || st.includes('connect') || st.includes('missing') ? 'error'
+      : st.every((s) => s === 'ok') ? 'ok' : 'loading';
+  };
+  const failLine = (el) => { el.classList.remove('dash-skeleton'); el.replaceChildren(); const d = document.createElement('div'); d.className = 'pd-fail'; d.textContent = 'Failed to load'; el.appendChild(d); };
+
+  // Sortable tables: header buttons set the sort, the draw function applies it.
+  const sortRows = (rows, [key, dir]) => {
+    const m = dir === 'ascending' ? 1 : -1;
+    return rows.slice().sort((a, b) => {
+      const x = a[key], y = b[key];
+      if (x == null && y == null) return 0;
+      if (x == null) return 1;
+      if (y == null) return -1;
+      return (typeof x === 'number' && typeof y === 'number' ? x - y : String(x).localeCompare(String(y))) * m;
+    });
+  };
+  const wireSort = (tableId, sortName, redraw) => {
+    const table = $(tableId);
+    table.querySelector('thead').addEventListener('click', (e) => {
+      const btn = e.target.closest('.pd-sort'); if (!btn) return;
+      const [key, dir] = state.sorts[sortName];
+      state.sorts[sortName] = [btn.dataset.key, key === btn.dataset.key && dir === 'descending' ? 'ascending' : 'descending'];
+      redraw();
+    });
+  };
+  const markSort = (tableId, [key, dir]) => {
+    for (const th of $(tableId).querySelectorAll('th')) {
+      const btn = th.querySelector('.pd-sort');
+      if (btn && btn.dataset.key === key) th.setAttribute('aria-sort', dir); else th.removeAttribute('aria-sort');
+    }
+  };
+
+  // ---- Header and headline figures ----
+  function drawHeader() {
+    const st = statusOf('account');
+    const a = st === 'ok' ? dash.data('account').data[0] : null;
+    const set = (sel, text, cls) => {
+      const el = $('desk').querySelector(sel); if (!el) return;
+      el.classList.remove('dash-skeleton', 'pd-up', 'pd-down');
+      el.textContent = text; if (cls) el.classList.add(cls);
+    };
+    if (!a) {
+      for (const el of document.querySelectorAll('.pd-kpi-value')) { if (st === 'error') { el.classList.remove('dash-skeleton'); el.textContent = '—'; } }
+      $('takeaway').textContent = st === 'error' ? 'The bot snapshot failed to load.' : '—';
+      return;
+    }
+    set('[data-field="equity"][data-source="account"]', F.usd(a.equity));
+    set('[data-field="total_return"]', F.signedPct(a.total_return), tone(a.total_return));
+    set('[data-field="today_pnl"]', F.signedUsd(a.today_pnl), tone(a.today_pnl));
+    set('[data-field="open_risk"]', F.usd(a.open_risk));
+    set('[data-field="win_rate"]', a.win_rate == null ? '—' : F.pct(a.win_rate));
+    set('[data-field="max_drawdown"]', F.pct(a.max_drawdown), a.max_drawdown > 0.1 ? 'pd-down' : '');
+    $('kpi-equity-note').textContent = `${a.open_positions} open · ${F.usdCompact(a.gross_exposure)} exposure`;
+    $('kpi-risk-note').textContent = a.equity ? `${F.pct(a.open_risk / a.equity)} of equity` : '';
+    $('kpi-winrate-note').textContent = a.closed_trades ? `${a.wins} of ${a.closed_trades} closed trades` : 'No closed trades yet';
+    const asof = $('asof'); asof.textContent = F.when(a.as_of);
+    const stale = Date.now() - new Date(a.as_of).getTime() > 2 * 3600 * 1000;
+    $('asof-dot').classList.toggle('pd-stale', stale);
+    asof.title = stale ? 'Older than two hours: the bot has not run since (Mac asleep or app closed?)' : 'The bot updates this every hour';
+    const move = a.total_return > 0 ? `up ${F.pct(a.total_return)}` : a.total_return < 0 ? `down ${F.pct(-a.total_return)}` : 'flat';
+    const halted = a.trading_halted ? ` New trades are paused: ${a.trading_halted}.` : '';
+    $('takeaway').textContent = `The paper account is ${move} since it started, `
+      + `with ${a.open_positions} open position${a.open_positions === 1 ? '' : 's'} and ${F.usd(a.open_risk)} at risk.${halted}`;
+    $('count-trades').textContent = `${a.open_positions} open`;
+    $('count-markets').textContent = a.markets ?? '';
+  }
+
+  // ---- Equity curve ----
+  function drawEquity() {
+    const host = $('equity-chart');
+    if (state.tab !== 'overview') return;
+    const st = statusOf('equity_curve', 'account');
+    if (st === 'error') return failLine(host);
+    if (st !== 'ok') return;
+    host.classList.remove('dash-skeleton');
+    const rows = dash.data('equity_curve').data.map((d) => ({ date: new Date(d.t), equity: d.equity })).filter((d) => !isNaN(d.date));
+    const start = dash.data('account').data[0]?.starting_equity ?? rows[0]?.equity;
+    host.replaceChildren();
+    if (rows.length < 2) { const p = document.createElement('div'); p.className = 'pd-empty'; p.textContent = 'The curve starts after the first hourly run.'; host.appendChild(p); return; }
+    const W = host.clientWidth, H = 240;
+    const svg = d3.select(host).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const lo = d3.min(rows, (d) => d.equity), hi = d3.max(rows, (d) => d.equity);
+    let y0 = Math.min(lo, start), y1 = Math.max(hi, start);
+    const pad = Math.max((y1 - y0) * 0.15, start * 0.002);
+    const y = d3.scaleLinear([y0 - pad, y1 + pad], [H - 26, 10]).nice(5);
+    const yTicks = y.ticks(5);
+    const probe = svg.append('text').attr('font-size', 12).text(d3.format('$,.0f')(yTicks[yTicks.length - 1]));
+    const left = Math.ceil(probe.node().getComputedTextLength()) + 10; probe.remove();
+    const endLabel = F.usd(rows[rows.length - 1].equity);
+    const probe2 = svg.append('text').attr('font-size', 12).text(endLabel);
+    const right = Math.ceil(probe2.node().getComputedTextLength()) + 14; probe2.remove();
+    const x = d3.scaleUtc(d3.extent(rows, (d) => d.date), [left, W - right]);
+    const c0 = dash.colors[0];
+
+    svg.append('g').selectAll('line').data(yTicks).join('line')
+      .attr('x1', left).attr('x2', W - right).attr('y1', (d) => y(d)).attr('y2', (d) => y(d))
+      .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    svg.append('g').selectAll('text').data(yTicks).join('text')
+      .attr('x', left - 8).attr('y', (d) => y(d)).attr('dy', '0.32em').attr('text-anchor', 'end')
+      .attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text((d) => d3.format('$,.0f')(d));
+    const xAxis = svg.append('g').attr('transform', `translate(0,${H - 26})`)
+      .call(d3.axisBottom(x).ticks(Math.max(2, Math.floor((W - left - right) / 110))).tickSizeOuter(0));
+    xAxis.attr('font-size', null).attr('font-family', null);
+    xAxis.selectAll('text').attr('font-size', 12).attr('fill', 'var(--color-fg-muted)');
+    xAxis.selectAll('line,path').attr('stroke', 'var(--cds-chart-axis)');
+
+    // Start line
+    svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', y(start)).attr('y2', y(start))
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+    svg.append('text').attr('x', left + 4).attr('y', y(start) - 6).attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text(`Start ${F.usd(start)}`);
+
+    const gid = 'pd-eq-grad';
+    const grad = svg.append('defs').append('linearGradient').attr('id', gid).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+    [[0, .26], [.25, .16], [.5, .08], [.75, .03], [1, 0]].forEach(([o, a]) => grad.append('stop').attr('offset', o).attr('style', `stop-color:${c0};stop-opacity:${a}`));
+    svg.append('path').datum(rows).attr('fill', `url(#${gid})`)
+      .attr('d', d3.area().x((d) => x(d.date)).y0(H - 26).y1((d) => y(d.equity)));
+    svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', c0).attr('stroke-width', 2)
+      .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round')
+      .attr('d', d3.line().x((d) => x(d.date)).y((d) => y(d.equity)));
+    const last = rows[rows.length - 1];
+    svg.append('circle').attr('cx', x(last.date)).attr('cy', y(last.equity)).attr('r', 4).attr('fill', c0);
+    svg.append('text').attr('x', x(last.date) + 8).attr('y', y(last.equity)).attr('dy', '0.32em')
+      .attr('font-size', 12).attr('fill', 'var(--color-fg)').text(endLabel);
+
+    const hover = svg.append('circle').attr('r', 4).attr('fill', c0).attr('stroke', 'var(--color-panel)').attr('stroke-width', 2).attr('visibility', 'hidden');
+    const t = tip(host);
+    const bis = d3.bisector((d) => d.date).center;
+    svg.append('rect').attr('x', left).attr('y', 0).attr('width', Math.max(0, W - left - right)).attr('height', H - 26)
+      .attr('fill', 'transparent')
+      .on('pointermove', (event) => {
+        const [mx] = d3.pointer(event);
+        const d = rows[bis(rows, x.invert(mx))];
+        hover.attr('cx', x(d.date)).attr('cy', y(d.equity)).attr('visibility', 'visible');
+        tipLines(t, F.when(d.date.toISOString()), [['Equity', F.usd(d.equity)], ['vs start', F.signedUsd(d.equity - start), tone(d.equity - start)]]);
+        placeTip(t, host, x(d.date) * host.clientWidth / W, y(d.equity));
+      })
+      .on('pointerleave', () => { hover.attr('visibility', 'hidden'); t.hidden = true; });
+  }
+
+  // ---- Open positions ----
+  function drawPositions() {
+    const st = statusOf('open_trades');
+    const tbody = $('positions-table').querySelector('tbody');
+    if (st !== 'ok') { if (st === 'error') { tbody.replaceChildren(); $('positions-empty').hidden = false; $('positions-empty').textContent = 'Failed to load'; } return; }
+    const rows = sortRows(dash.data('open_trades').data, state.sorts.positions);
+    markSort('positions-table', state.sorts.positions);
+    $('positions-empty').hidden = rows.length > 0;
+    tbody.replaceChildren();
+    for (const r of rows) {
+      const tr = document.createElement('tr'); tr.dataset.key = r.id;
+      cell(tr, F.name(r.symbol), 'pd-sym');
+      sideCell(tr, r.side);
+      cell(tr, F.price(r.entry), 'pd-num');
+      cell(tr, F.price(r.price), 'pd-num');
+      cell(tr, F.price(r.stop), 'pd-num pd-hide-narrow');
+      cell(tr, `${F.signedUsd(r.pnl)} (${F.r(r.r)})`, `pd-num ${tone(r.pnl)}`);
+      const room = document.createElement('td'); room.className = 'pd-hide-narrow';
+      const wrap = document.createElement('div'); wrap.className = 'pd-room';
+      const bar = document.createElement('div'); bar.className = 'pd-room-bar';
+      const fill = document.createElement('span');
+      const share = r.room_to_stop == null ? null : Math.min(1, r.room_to_stop);
+      fill.style.width = `${(share ?? 0) * 100}%`;
+      fill.style.background = share == null ? '' : share < 0.35 ? 'var(--color-bad)' : share < 0.7 ? 'var(--color-warn)' : 'var(--color-ok)';
+      bar.appendChild(fill);
+      const lbl = document.createElement('span'); lbl.textContent = r.room_to_stop == null ? 'at breakeven' : F.pct(r.room_to_stop);
+      wrap.append(bar, lbl); room.appendChild(wrap); tr.appendChild(room);
+      cell(tr, F.when(r.opened), 'pd-hide-narrow pd-muted');
+      cell(tr, r.reason || '', 'pd-hide-narrow pd-reason');
+      tbody.appendChild(tr);
+    }
+  }
+  $('positions-table').querySelector('tbody').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr[data-key]'); if (!tr) return;
+    const row = (dash.data('open_trades').data || []).find((r) => r.id === tr.dataset.key);
+    if (row) { state.picked = row.symbol; showTab('markets'); }
+  });
+
+  // ---- Markets: filters ----
+  const CATEGORIES = ['All', 'Crypto', 'Stocks', 'Indices & ETFs', 'Commodities', 'FX'];
+  function filteredMarkets() {
+    const all = dash.data('markets').data || [];
+    const q = state.query.trim().toLowerCase();
+    return all.filter((m) => (state.category === 'All' || m.category === state.category)
+      && (!state.flags.has('held') || m.held)
+      && (!state.flags.has('signal') || m.signal)
+      && (!state.flags.has('crowd') || m.top_view)
+      && (!q || m.name.toLowerCase().includes(q) || m.symbol.toLowerCase().includes(q)));
+  }
+  function drawChips() {
+    const all = dash.data('markets').data || [];
+    const box = $('category-chips');
+    box.replaceChildren(...CATEGORIES.map((c) => {
+      const b = document.createElement('button'); b.className = 'pd-chip'; b.dataset.category = c;
+      b.setAttribute('aria-pressed', String(state.category === c));
+      const n = c === 'All' ? all.length : all.filter((m) => m.category === c).length;
+      const count = document.createElement('span'); count.className = 'pd-count'; count.textContent = n;
+      b.append(c, count); return b;
+    }));
+    for (const b of $('flag-chips').querySelectorAll('.pd-chip')) b.setAttribute('aria-pressed', String(state.flags.has(b.dataset.flag)));
+  }
+  $('category-chips').addEventListener('click', (e) => { const b = e.target.closest('.pd-chip'); if (!b) return; state.category = b.dataset.category; drawMarkets(); });
+  $('flag-chips').addEventListener('click', (e) => {
+    const b = e.target.closest('.pd-chip'); if (!b) return;
+    const f = b.dataset.flag; if (state.flags.has(f)) state.flags.delete(f); else state.flags.add(f);
+    drawMarkets();
+  });
+  $('market-search').addEventListener('input', (e) => { state.query = e.target.value; drawMarkets(); });
+  const setView = (v) => {
+    state.view = v;
+    $('view-heatmap').setAttribute('aria-pressed', String(v === 'heatmap'));
+    $('view-table').setAttribute('aria-pressed', String(v === 'table'));
+    $('heatmap-wrap').hidden = v !== 'heatmap';
+    $('market-table-wrap').hidden = v !== 'table';
+    drawMarkets();
+  };
+  $('view-heatmap').addEventListener('click', () => setView('heatmap'));
+  $('view-table').addEventListener('click', () => setView('table'));
+
+  // ---- Markets: heatmap ----
+  function drawHeatmap(rows) {
+    const host = $('heatmap');
+    host.classList.remove('dash-skeleton');
+    host.replaceChildren();
+    if (!rows.length) { const p = document.createElement('div'); p.className = 'pd-empty'; p.textContent = 'No market matches these filters.'; host.appendChild(p); return; }
+    const W = host.clientWidth, H = Math.max(340, Math.min(640, Math.round(W * 0.62)));
+    const panel = pdColor('--color-panel'), ok = pdColor('--color-ok'), bad = pdColor('--color-bad');
+    const fg = pdColor('--color-fg'), bg = pdColor('--color-bg');
+    const fill = (chg) => (chg == null ? panel : d3.rgb(d3.interpolateRgb(panel, chg >= 0 ? ok : bad)(Math.min(Math.abs(chg) / 0.06, 1) * 0.9)));
+    $('legend-ramp').style.background = `linear-gradient(90deg, ${fill(-0.06)}, ${fill(0)}, ${fill(0.06)})`;
+
+    const groups = d3.groups(rows, (d) => d.category).map(([name, children]) => ({ name, children }));
+    const root = d3.hierarchy({ name: 'all', children: groups }, (d) => d.children)
+      .sum((d) => (d.symbol ? Math.sqrt(Math.max(d.volume_24h || 0, 1)) : 0))
+      .sort((a, b) => b.value - a.value);
+    d3.treemap().size([W, H]).paddingOuter(2).paddingTop((d) => (d.depth === 1 ? 18 : 0)).paddingInner(1).round(true)(root);
+
+    const svg = d3.select(host).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    svg.append('g').selectAll('text').data(root.children || []).join('text')
+      .attr('x', (d) => d.x0 + 3).attr('y', (d) => d.y0 + 13).attr('font-size', 12)
+      .attr('fill', 'var(--color-fg-muted)')
+      .text((d) => ((d.x1 - d.x0) > 70 ? `${d.data.name} · ${d.children.length}` : ''));
+
+    const leaves = svg.append('g').selectAll('g').data(root.leaves()).join('g')
+      .attr('class', 'pd-tile').attr('transform', (d) => `translate(${d.x0},${d.y0})`)
+      .attr('tabindex', 0).attr('role', 'button')
+      .attr('aria-label', (d) => `${d.data.name}, ${F.signedPct(d.data.change_24h)}`);
+    leaves.append('rect')
+      .attr('width', (d) => Math.max(0, d.x1 - d.x0)).attr('height', (d) => Math.max(0, d.y1 - d.y0)).attr('rx', 2)
+      .attr('fill', (d) => fill(d.data.change_24h))
+      .attr('stroke', (d) => (d.data.symbol === state.picked ? 'var(--color-fg)' : d.data.held ? 'var(--color-fg)' : 'none'))
+      .attr('stroke-width', (d) => (d.data.symbol === state.picked ? 2.5 : d.data.held ? 1.5 : 0))
+      .attr('stroke-dasharray', (d) => (d.data.held && d.data.symbol !== state.picked ? '3 2' : null));
+    leaves.each(function (d) {
+      const w = d.x1 - d.x0, h = d.y1 - d.y0;
+      if (w < 34 || h < 18) return;
+      const ink = pdContrastText(fill(d.data.change_24h), fg, bg).formatHex();
+      const g = d3.select(this);
+      const big = w > 70 && h > 40;
+      g.append('text').attr('x', 4).attr('y', big ? 16 : 13).attr('font-size', big ? 13 : 11)
+        .attr('font-weight', 500).attr('fill', ink).text(d.data.name.length * 7 > w ? d.data.name.slice(0, Math.max(2, Math.floor(w / 7))) : d.data.name);
+      if (h >= 32 && w >= 44) g.append('text').attr('x', 4).attr('y', big ? 32 : 26).attr('font-size', 11).attr('fill', ink).text(F.signedPct(d.data.change_24h));
+    });
+
+    const t = tip(host);
+    leaves.on('pointermove', (event, d) => {
+      const [mx, my] = d3.pointer(event, host);
+      const m = d.data;
+      const lines = [['Price', F.price(m.price)], ['24h', F.signedPct(m.change_24h), tone(m.change_24h)], ['Volume', F.usdCompact(m.volume_24h)]];
+      if (m.top_long || m.top_short) lines.push(['Top traders', `${m.top_long} long / ${m.top_short} short`]);
+      if (m.held) lines.push(['Bot', `holds ${m.held}`]);
+      else if (m.signal) lines.push(['Bot', m.signal]);
+      tipLines(t, `${m.name} · ${m.category}`, lines);
+      placeTip(t, host, mx, my);
+    }).on('pointerleave', () => { t.hidden = true; })
+      .on('click', (event, d) => { state.picked = d.data.symbol; drawMarkets(); })
+      .on('keydown', (event, d) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); state.picked = d.data.symbol; drawMarkets(); } });
+  }
+
+  // ---- Markets: table ----
+  function splitCell(tr, m) {
+    const td = document.createElement('td'); td.className = 'pd-hide-narrow';
+    if (!m.top_long && !m.top_short) { td.textContent = '—'; td.classList.add('pd-muted'); tr.appendChild(td); return; }
+    const wrap = document.createElement('div'); wrap.className = 'pd-split';
+    const bar = document.createElement('div'); bar.className = 'pd-split-bar';
+    const l = document.createElement('span'), s = document.createElement('span');
+    const n = m.top_long + m.top_short;
+    l.style.width = `${(m.top_long / n) * 100}%`; s.style.width = `${(m.top_short / n) * 100}%`;
+    bar.append(l, s);
+    const lbl = document.createElement('span'); lbl.textContent = F.signedUsdCompact(m.top_net);
+    lbl.className = m.top_view === 'long' ? 'pd-up' : m.top_view === 'short' ? 'pd-down' : 'pd-muted';
+    wrap.append(bar, lbl); td.appendChild(wrap); tr.appendChild(td);
+  }
+  function drawMarketTable(rows) {
+    const sorted = sortRows(rows, state.sorts.markets);
+    markSort('market-table', state.sorts.markets);
+    const tbody = $('market-table').querySelector('tbody');
+    tbody.replaceChildren();
+    for (const m of sorted) {
+      const tr = document.createElement('tr'); tr.dataset.key = m.symbol;
+      if (m.symbol === state.picked) tr.className = 'pd-picked';
+      cell(tr, m.name, 'pd-sym');
+      cell(tr, m.category, 'pd-hide-narrow pd-muted');
+      cell(tr, F.price(m.price), 'pd-num');
+      cell(tr, F.signedPct(m.change_24h), `pd-num ${tone(m.change_24h)}`);
+      cell(tr, F.usdCompact(m.volume_24h), 'pd-num');
+      cell(tr, F.usdCompact(m.open_interest), 'pd-num pd-hide-narrow');
+      cell(tr, F.pct(m.funding_apr), 'pd-num pd-hide-narrow pd-muted');
+      splitCell(tr, m);
+      const bot = document.createElement('td');
+      if (m.held) { const s = document.createElement('span'); s.className = `pd-pill ${m.held === 'long' ? 'pd-long' : 'pd-short'}`; s.textContent = `holds ${m.held}`; bot.appendChild(s); }
+      else if (m.bot) { const s = document.createElement('span'); s.className = 'pd-pill pd-flat'; s.textContent = m.bot; bot.appendChild(s); }
+      tr.appendChild(bot);
+      tbody.appendChild(tr);
+    }
+  }
+  $('market-table').querySelector('tbody').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr[data-key]'); if (!tr) return;
+    state.picked = tr.dataset.key; drawMarkets();
+  });
+
+  // ---- Markets: detail panel ----
+  function drawDetail() {
+    const all = dash.data('markets').data || [];
+    const m = all.find((r) => r.symbol === state.picked);
+    $('detail-hint').hidden = !!m; $('detail-body').hidden = !m;
+    if (!m) return;
+    const where = `symbol=${encodeURIComponent(m.symbol)}`;
+    for (const id of ['detail-price', 'detail-change', 'detail-volume', 'detail-oi', 'detail-funding']) $(id).setAttribute('data-where', where);
+    $('detail-category').textContent = m.category;
+    $('detail-name').textContent = m.name;
+    $('detail-price').textContent = F.price(m.price);
+    const ch = $('detail-change'); ch.textContent = F.signedPct(m.change_24h); ch.className = tone(m.change_24h);
+    $('detail-volume').textContent = F.usdCompact(m.volume_24h);
+    $('detail-oi').textContent = F.usdCompact(m.open_interest);
+    $('detail-funding').textContent = F.pct(m.funding_apr);
+    const n = m.top_long + m.top_short;
+    const [l, s] = $('detail-split').children;
+    l.style.width = n ? `${(m.top_long / n) * 100}%` : '0'; s.style.width = n ? `${(m.top_short / n) * 100}%` : '0';
+    $('detail-split-text').textContent = n
+      ? `${m.top_long} long, ${m.top_short} short among the followed traders; net ${F.signedUsdCompact(m.top_net)}${m.top_view ? `. They lean ${m.top_view}.` : '. No clear lean.'}`
+      : 'None of the followed traders holds it.';
+    const pos = (dash.data('open_trades').data || []).find((r) => r.symbol === m.symbol);
+    $('detail-bot').textContent = pos
+      ? `Holds a ${pos.side} from ${F.price(pos.entry)}, P&L ${F.signedUsd(pos.pnl)} (${F.r(pos.r)}), stop ${F.price(pos.stop)}.`
+      : m.signal ? `Latest scan flagged a ${m.signal} setup.` : 'No position and no signal in the latest scan.';
+    $('detail-link').href = `https://app.liquid.trade/trade/${encodeURIComponent(m.symbol)}`;
+  }
+
+  function drawMarkets() {
+    if (state.tab !== 'markets') return;
+    const st = statusOf('markets');
+    if (st === 'error') return failLine($('heatmap'));
+    if (st !== 'ok') return;
+    drawChips();
+    const rows = filteredMarkets();
+    const all = dash.data('markets').data;
+    const up = rows.filter((m) => m.change_24h > 0).length;
+    $('market-summary').textContent = `${rows.length} of ${all.length} markets shown · ${up} up and ${rows.length - up} down or flat over 24 hours.`;
+    if (state.view === 'heatmap') drawHeatmap(rows); else drawMarketTable(rows);
+    drawDetail();
+  }
+  wireSort('market-table', 'markets', drawMarkets);
+  wireSort('positions-table', 'positions', drawPositions);
+
+  // ---- Trades ----
+  function drawTrades() {
+    if (state.tab !== 'trades') return;
+    const st = statusOf('closed_trades');
+    const host = $('pnl-chart');
+    if (st === 'error') { failLine(host); return; }
+    if (st !== 'ok') return;
+    const rows = dash.data('closed_trades').data;
+    // Table
+    const sorted = sortRows(rows, state.sorts.closed);
+    markSort('closed-table', state.sorts.closed);
+    const tbody = $('closed-table').querySelector('tbody');
+    tbody.replaceChildren();
+    $('closed-empty').hidden = rows.length > 0;
+    for (const r of sorted) {
+      const tr = document.createElement('tr'); tr.dataset.key = r.id;
+      cell(tr, F.name(r.symbol), 'pd-sym');
+      sideCell(tr, r.side);
+      cell(tr, F.price(r.entry), 'pd-num');
+      cell(tr, F.price(r.price), 'pd-num');
+      cell(tr, F.signedUsd(r.pnl), `pd-num ${tone(r.pnl)}`);
+      cell(tr, F.r(r.r), `pd-num ${tone(r.r)}`);
+      cell(tr, F.when(r.closed), 'pd-hide-narrow pd-muted');
+      cell(tr, r.exit_reason || '', 'pd-hide-narrow pd-reason');
+      tbody.appendChild(tr);
+    }
+    // Chart
+    host.replaceChildren();
+    if (!rows.length) { const p = document.createElement('div'); p.className = 'pd-empty'; p.textContent = 'Bars appear as trades close.'; host.appendChild(p); return; }
+    const ordered = rows.slice().sort((a, b) => String(a.closed).localeCompare(String(b.closed)));
+    const W = host.clientWidth, H = 220;
+    const svg = d3.select(host).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const ext = d3.extent(ordered, (d) => d.pnl);
+    const y = d3.scaleLinear([Math.min(0, ext[0]), Math.max(0, ext[1])], [H - 12, 12]).nice(4);
+    const ticks = y.ticks(4);
+    const probe = svg.append('text').attr('font-size', 12).text(F.signedUsd(ticks[0]));
+    const left = Math.max(48, Math.ceil(probe.node().getComputedTextLength()) + 10); probe.remove();
+    const x = d3.scaleBand(ordered.map((d) => d.id), [left, W - 4]).padding(0.25);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', left).attr('x2', W - 4)
+      .attr('y1', (d) => y(d)).attr('y2', (d) => y(d)).attr('stroke', (d) => (d === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)'));
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', left - 8).attr('y', (d) => y(d)).attr('dy', '0.32em')
+      .attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text((d) => (d === 0 ? '$0' : F.signedUsd(d)));
+    const okC = pdColor('--color-ok').formatHex(), badC = pdColor('--color-bad').formatHex();
+    const bw = Math.min(32, x.bandwidth());
+    const t = tip(host);
+    svg.append('g').selectAll('rect').data(ordered).join('rect')
+      .attr('x', (d) => x(d.id) + (x.bandwidth() - bw) / 2).attr('width', bw)
+      .attr('y', (d) => Math.min(y(d.pnl), y(0))).attr('height', (d) => Math.max(1, Math.abs(y(d.pnl) - y(0))))
+      .attr('rx', 4).attr('fill', (d) => (d.pnl >= 0 ? okC : badC))
+      .on('pointermove', (event, d) => {
+        const [mx, my] = d3.pointer(event, host);
+        tipLines(t, `${F.name(d.symbol)} ${d.side} · ${F.when(d.closed)}`, [['Net', F.signedUsd(d.pnl), tone(d.pnl)], ['R', F.r(d.r)], ['Exit', d.exit_reason || '']]);
+        placeTip(t, host, mx, my);
+      })
+      .on('pointerleave', () => { t.hidden = true; });
+  }
+  wireSort('closed-table', 'closed', drawTrades);
+
+  // ---- Top traders ----
+  function drawTraders() {
+    if (state.tab !== 'traders') return;
+    const host = $('consensus-chart');
+    const st = statusOf('markets', 'moves', 'account');
+    if (st === 'error') { failLine(host); return; }
+    if (st !== 'ok') return;
+    host.classList.remove('dash-skeleton');
+    const a = dash.data('account').data[0];
+    if (a?.traders_followed) $('consensus-note').textContent = `Net dollars of the ${a.traders_followed} followed Hyperliquid traders, in markets where at least three hold a position and most lean one way. Snapshot ${F.when(a.top_traders_as_of)}. Click a bar to open the market.`;
+    const rows = (dash.data('markets').data || []).filter((m) => m.top_view).sort((p, q) => Math.abs(q.top_net) - Math.abs(p.top_net)).slice(0, 16);
+    host.replaceChildren();
+    if (!rows.length) { const p = document.createElement('div'); p.className = 'pd-empty'; p.textContent = 'No market has a clear top-trader lean right now.'; host.appendChild(p); }
+    else {
+      const W = host.clientWidth, rowH = 24, H = rows.length * rowH + 24;
+      const svg = d3.select(host).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+      const measure = (text) => { const t = svg.append('text').attr('font-size', 12).text(text); const w = t.node().getComputedTextLength(); t.remove(); return Math.ceil(w); };
+      const left = d3.max(rows, (r) => measure(r.name)) + 12;
+      const wide = W >= 520;
+      const label = (r) => (wide ? `${F.signedUsdCompact(r.top_net)} · ${r.top_long}L/${r.top_short}S` : F.signedUsdCompact(r.top_net));
+      const lw = d3.max(rows, (r) => measure(label(r))) + 8;
+      const maxAbs = d3.max(rows, (r) => Math.abs(r.top_net)) || 1;
+      const x = d3.scaleLinear([-maxAbs, maxAbs], [left + lw, Math.max(left + lw + 40, W - lw)]);
+      const y = d3.scaleBand(rows.map((r) => r.symbol), [0, rows.length * rowH]).padding(0.25);
+      const longC = pdColor('--color-ok').formatHex(), shortC = pdColor('--color-bad').formatHex();
+      svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', rows.length * rowH).attr('stroke', 'var(--cds-chart-axis)');
+      svg.append('text').attr('x', x(0) - 6).attr('y', H - 6).attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text('← net short');
+      svg.append('text').attr('x', x(0) + 6).attr('y', H - 6).attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text('net long →');
+      const g = svg.append('g').selectAll('g').data(rows).join('g').attr('class', 'pd-tile').attr('transform', (r) => `translate(0,${y(r.symbol)})`);
+      g.append('text').attr('x', left - 8).attr('y', y.bandwidth() / 2).attr('dy', '0.32em').attr('text-anchor', 'end').attr('font-size', 12).attr('fill', 'var(--color-fg)').text((r) => r.name);
+      g.append('rect').attr('x', (r) => Math.min(x(0), x(r.top_net))).attr('width', (r) => Math.max(2, Math.abs(x(r.top_net) - x(0))))
+        .attr('height', y.bandwidth()).attr('rx', 4).attr('fill', (r) => (r.top_net >= 0 ? longC : shortC));
+      g.append('text').attr('x', (r) => (r.top_net >= 0 ? x(r.top_net) + 6 : x(r.top_net) - 6)).attr('y', y.bandwidth() / 2).attr('dy', '0.32em')
+        .attr('text-anchor', (r) => (r.top_net >= 0 ? 'start' : 'end')).attr('font-size', 12).attr('fill', 'var(--color-fg-muted)')
+        .text(label);
+      g.on('click', (event, r) => { state.picked = r.symbol; showTab('markets'); });
+    }
+
+    const moves = sortRows(dash.data('moves').data || [], state.sorts.moves);
+    markSort('moves-table', state.sorts.moves);
+    const tbody = $('moves-table').querySelector('tbody');
+    tbody.replaceChildren();
+    $('moves-empty').hidden = moves.length > 0;
+    for (const m of moves) {
+      const tr = document.createElement('tr'); tr.dataset.key = m.id;
+      cell(tr, F.when(m.at), 'pd-muted');
+      cell(tr, m.trader, 'pd-sym');
+      const did = document.createElement('td'); const s = document.createElement('span');
+      s.className = `pd-pill ${m.side === 'long' ? 'pd-long' : 'pd-short'}`; s.textContent = `${m.action} ${m.side}`;
+      did.appendChild(s); tr.appendChild(did);
+      cell(tr, F.name(m.symbol));
+      cell(tr, F.usdCompact(m.notional), 'pd-num');
+      cell(tr, m.pct_of_account == null ? '—' : `${d3.format('.1f')(m.pct_of_account)}%`, 'pd-num pd-hide-narrow pd-muted');
+      tbody.appendChild(tr);
+    }
+  }
+  wireSort('moves-table', 'moves', drawTraders);
+
+  // ---- Tabs ----
+  function showTab(name) {
+    state.tab = name;
+    for (const b of document.querySelectorAll('.pd-tab')) b.setAttribute('aria-selected', String(b.dataset.tab === name));
+    for (const id of ['overview', 'markets', 'trades', 'traders']) $(id).hidden = id !== name;
+    dash.setLink(name);
+    drawAll();
+  }
+  document.querySelector('.pd-tabs').addEventListener('click', (e) => { const b = e.target.closest('.pd-tab'); if (b) showTab(b.dataset.tab); });
+
+  function drawAll() {
+    drawHeader();
+    drawPositions();
+    drawEquity();
+    drawMarkets();
+    drawTrades();
+    drawTraders();
+  }
+  dash.onData(drawAll);
+  const initialTab = location.hash.slice(1);
+  if (['markets', 'trades', 'traders'].includes(initialTab)) showTab(initialTab);
+</script>

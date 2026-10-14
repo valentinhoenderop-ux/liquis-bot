@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.tmp
+.lock
+.trader.lock
+.claude/
+
+# Re-downloaded or regenerated on demand
+filings/
+logs/
+dashboard/snapshot.json
+dashboard/page_doc.json
+
+# Mac-only background job, not used in the cloud
+com.liquidbot.disclosure-watcher.plist
