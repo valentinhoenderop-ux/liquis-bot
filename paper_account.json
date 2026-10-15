@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9744.064090484952,
+  "cash": 9744.222897762613,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.329,
       "dex": "core",
       "fees": 1.8730124429635793,
-      "funding": -0.12413346996365003,
-      "checked_ms": 1792095000000,
-      "funding_ms": 1792095015211.935,
+      "funding": -0.14810187468758335,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news."
     },
     "xyz:CL": {
@@ -34,9 +34,9 @@
       "extreme": 96.667,
       "dex": "xyz",
       "fees": 10.180012637598884,
-      "funding": -0.4209038201317437,
-      "checked_ms": 1792095000000,
-      "funding_ms": 1792095015211.935,
+      "funding": -0.6226809906794432,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Breakout long; top traders mixed 4L/2S net +$1.2M, US-Iran/Hormuz escalation news supportive, Liquid crowd short-heavy."
     },
     "PAXG": {
@@ -51,9 +51,9 @@
       "extreme": 4176.9,
       "dex": "core",
       "fees": 7.176534125844261,
-      "funding": 0.3236739127965726,
-      "checked_ms": 1792095000000,
-      "funding_ms": 1792095015211.935,
+      "funding": 0.4156683653748632,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Smart-money candidate: top traders 3L/1S (net +$0.7M), above 50h EMA, gold climbing on hot PPI/Middle East news; Liquid positioning balanced."
     },
     "AAVE": {
@@ -65,12 +65,12 @@
       "stop": 151.24787009224295,
       "initial_stop": 151.24787009224295,
       "atr": 2.36754120387852,
-      "extreme": 157.19,
+      "extreme": 157.4,
       "dex": "core",
       "fees": 1.5486241894953703,
-      "funding": 0.060756215052782975,
-      "checked_ms": 1792095000000,
-      "funding_ms": 1792095015211.935,
+      "funding": 0.08061993386075482,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Smart-money candidate: top traders 4L/1S (net +$11.3M), price above 50h EMA; no contrary news, Liquid positioning mildly short-heavy (38% long)."
     },
     "xyz:MU": {
@@ -85,9 +85,9 @@
       "extreme": 903.94,
       "dex": "xyz",
       "fees": 2.384491015528539,
-      "funding": -0.07396289925028786,
-      "checked_ms": 1792095000000,
-      "funding_ms": 1792095015211.935,
+      "funding": -0.08442777596494641,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$19M), below 50h EMA; news says tech shaky/AI trade unwinding, Liquid positioning balanced."
     },
     "xyz:TSLA": {
@@ -99,12 +99,12 @@
       "stop": 367.1557361336695,
       "initial_stop": 367.1557361336695,
       "atr": 2.573415566834735,
-      "extreme": 362.008905,
+      "extreme": 361.55,
       "dex": "xyz",
       "fees": 4.835713481116643,
-      "funding": -0.08707205066665476,
-      "checked_ms": 1792095000000,
-      "funding_ms": 1792095015211.935,
+      "funding": -0.13722792598961908,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Smart-money candidate: top traders 1L/3S (net -$1.6M), price below 50h EMA; no contrary news (Roadster reveal minor), no scheduled event noted."
     },
     "xyz:CRCL": {
@@ -119,9 +119,9 @@
       "extreme": 86.8544055,
       "dex": "xyz",
       "fees": 3.6632669858476894,
-      "funding": 6.270351587968801e-06,
-      "checked_ms": 1792095013455,
-      "funding_ms": 1792095015211.935,
+      "funding": 0.015707148613337413,
+      "checked_ms": 1792098300000,
+      "funding_ms": 1792098504304.4622,
       "reason": "Breakout long (score 0.82); top traders 4L/1S agree, Liquid positioning short-heavy (29% long) with no contrary news."
     }
   },
@@ -532,6 +532,10 @@
     {
       "t": "2026-10-15T22:10:17+02:00",
       "equity": 9800.23
+    },
+    {
+      "t": "2026-10-15T23:08:26+02:00",
+      "equity": 9790.05
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
