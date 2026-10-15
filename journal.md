@@ -16,3 +16,5 @@
 - 2026-10-15 06:09 OPEN SHORT xyz:META 12.5161 @ 726.61 ($9,094 notional, stop 734.68, risk $101): Breakout short, top traders agree (1L/3S, net -$4.2M); META -5% in a global tech sell-off after hot CPI, no contrary news or crowded-long fade in positioning.
 - 2026-10-15 09:08 CLOSE SHORT DOGE @ 0.080048: net -10.04 USD (-0.10R, fees 8.12, funding -0.21). trailing stop hit
 - 2026-10-15 09:09 OPEN SHORT XRP 1587.95 @ 1.3028 ($2,069 notional, stop 1.3348, risk $51): Smart-money candidate: top traders 1L/5S (net -$43M), price below 50h EMA, 24h -4.7%; Liquid positioning balanced, no contrary news; half size.
+- 2026-10-15 13:08 CLOSE SHORT xyz:BRENTOIL @ 102.36: net -16.83 USD (-0.34R, fees 14.55, funding -0.32). trailing stop hit
+- 2026-10-15 13:09 OPEN SHORT xyz:SPCX 21.3015 @ 147.50 ($3,142 notional, stop 149.89, risk $51): Breakout short (-6% 24h), top traders mixed 2L/3S net -$13.8M, Liquid positioning balanced, no contrary news; half size on mixed evidence.
