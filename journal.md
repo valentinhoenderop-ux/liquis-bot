@@ -41,3 +41,4 @@
 - 2026-10-15 20:10 OPEN SHORT xyz:MU 1.87376 @ 908.98 ($1,703 notional, stop 935.24, risk $49): Smart-money candidate: top traders 1L/4S (net -$19M), below 50h EMA; news says tech shaky/AI trade unwinding, Liquid positioning balanced.
 - 2026-10-15 21:10 OPEN SHORT xyz:TSLA 9.54143 @ 362.01 ($3,454 notional, stop 367.16, risk $49): Smart-money candidate: top traders 1L/3S (net -$1.6M), price below 50h EMA; no contrary news (Roadster reveal minor), no scheduled event noted.
 - 2026-10-15 22:10 OPEN LONG xyz:CRCL 30.1265 @ 86.8544 ($2,617 notional, stop 83.5998, risk $98): Breakout long (score 0.82); top traders 4L/1S agree, Liquid positioning short-heavy (29% long) with no contrary news.
+- 2026-10-16 00:09 OPEN SHORT xyz:SKHX 2.96738 @ 984.24 ($2,921 notional, stop 1,013.91, risk $88): Smart-money candidate (score 1.6): top traders 2L/6S net -$94.9M, below 50h EMA; AI-spending doubt/tech selloff news supportive, Liquid positioning 33% long, no scheduled event.
