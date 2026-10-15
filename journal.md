@@ -10,3 +10,6 @@
 - 2026-10-15 03:08 CLOSE LONG xyz:CL @ 92.9462: net -65.15 USD (-1.30R, fees 12.83, funding +0.10). stop-loss hit
 - 2026-10-15 03:10 OPEN SHORT xyz:BRENTOIL 50.7891 @ 102.31 ($5,196 notional, stop 103.30, risk $50): Smart-money candidate: top traders 1L/3S (net -$3.9M), price below 50h EMA; Liquid positioning balanced, risk-off tape, no contrary news; half size.
 - 2026-10-15 03:10 OPEN SHORT xyz:RKLB 18.9931 @ 54.4018 ($1,033 notional, stop 57.0381, risk $50): Smart-money candidate: top traders 0L/3S, price far below 50h EMA, tech sell-off in news; no positioning data, half size.
+- 2026-10-15 05:08 CLOSE SHORT ETH @ 2,377.43: net +107.17 USD (+1.07R, fees 11.07, funding +0.12). trailing stop hit
+- 2026-10-15 05:08 CLOSE SHORT xyz:CRCL @ 76.8210: net -5.91 USD (-0.12R, fees 5.05, funding -0.04). trailing stop hit
+- 2026-10-15 05:09 OPEN SHORT DOGE 53378.7 @ 0.080008 ($4,271 notional, stop 0.0819183, risk $102): Breakout short, top traders agree (1L/5S, net -$10.1M); hot CPI crypto slide in news, no contrary catalyst or crowded-long fade in positioning.
