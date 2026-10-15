@@ -34,3 +34,4 @@
 - 2026-10-15 17:09 OPEN SHORT XRP 1479.64 @ 1.3325 ($1,972 notional, stop 1.3659, risk $49): Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news.
 - 2026-10-15 17:09 OPEN LONG xyz:CL 76.2224 @ 95.3977 ($7,271 notional, stop 94.0998, risk $99): Breakout long; top traders mixed 4L/2S net +$1.2M, US-Iran/Hormuz escalation news supportive, Liquid crowd short-heavy.
 - 2026-10-15 17:09 OPEN SHORT xyz:META 5.03926 @ 733.31 ($3,695 notional, stop 743.12, risk $49): Smart-money candidate: top traders 1L/3S net -$4M, below 50h EMA, Nasdaq tumbling on AI sell-off news.
+- 2026-10-15 18:09 OPEN LONG PAXG 1.82029 @ 4,150.02 ($7,554 notional, stop 4,122.83, risk $50): Smart-money candidate: top traders 3L/1S (net +$0.7M), above 50h EMA, gold climbing on hot PPI/Middle East news; Liquid positioning balanced.
