@@ -39,3 +39,4 @@
 - 2026-10-15 20:08 CLOSE SHORT xyz:AMD @ 554.63: net -113.26 USD (-1.13R, fees 10.86, funding -0.14). stop-loss hit
 - 2026-10-15 20:08 CLOSE SHORT xyz:META @ 743.49: net -61.58 USD (-1.25R, fees 10.42, funding -0.11). stop-loss hit
 - 2026-10-15 20:10 OPEN SHORT xyz:MU 1.87376 @ 908.98 ($1,703 notional, stop 935.24, risk $49): Smart-money candidate: top traders 1L/4S (net -$19M), below 50h EMA; news says tech shaky/AI trade unwinding, Liquid positioning balanced.
+- 2026-10-15 21:10 OPEN SHORT xyz:TSLA 9.54143 @ 362.01 ($3,454 notional, stop 367.16, risk $49): Smart-money candidate: top traders 1L/3S (net -$1.6M), price below 50h EMA; no contrary news (Roadster reveal minor), no scheduled event noted.
