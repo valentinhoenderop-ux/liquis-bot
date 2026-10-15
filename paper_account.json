@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9995.45271600994,
+  "cash": 9987.470509613766,
   "peak_equity": 10225.004594367334,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 46.722,
       "dex": "xyz",
       "fees": 3.085996210146039,
-      "funding": -0.5007157892506382,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": -0.5138538985648479,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Breakout short with top traders agreeing (1L/4S, net -$10.9M) and AI/chip sell-off in news after hot CPI; half size because TSMC earnings are due and could move memory names."
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 340.59,
       "dex": "xyz",
       "fees": 6.582201711918853,
-      "funding": -0.20153892518098945,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": -0.23063189082327712,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$10.4M) with price below 50h EMA, AI sell-off after hot CPI in news; Liquid big-cohort already 29% long so half size, no fresh building this hour."
     },
     "xyz:CRWV": {
@@ -51,9 +51,9 @@
       "extreme": 61.648,
       "dex": "xyz",
       "fees": 1.5022183860557365,
-      "funding": 0.4273280963922561,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": 0.4660714799061078,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Breakout short after -19% on Gartner neocloud warning and bond-yield surge in news; top traders mixed (2L/0S) and Liquid positioning shows no crowded long, so half size."
     },
     "xyz:NATGAS": {
@@ -68,9 +68,9 @@
       "extreme": 3.6042,
       "dex": "xyz",
       "fees": 4.659289431415196,
-      "funding": 0.05525644231573437,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": 0.027785868995817673,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Smart-money candidate: top traders 3L/0S (+$1.3M) with price above 50h EMA; nothing in news or positioning contradicts, no fresh building so half size."
     },
     "xyz:BRENTOIL": {
@@ -85,9 +85,9 @@
       "extreme": 101.49,
       "dex": "xyz",
       "fees": 7.27499560569948,
-      "funding": -0.16057847686774027,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": -0.19309900240221645,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Smart-money candidate: top traders 1L/3S (net -$3.9M), price below 50h EMA; Liquid positioning balanced, risk-off tape, no contrary news; half size."
     },
     "xyz:RKLB": {
@@ -102,27 +102,10 @@
       "extreme": 54.283,
       "dex": "xyz",
       "fees": 1.4465618869741559,
-      "funding": -0.032295188801628974,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": -0.03879892136368637,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Smart-money candidate: top traders 0L/3S, price far below 50h EMA, tech sell-off in news; no positioning data, half size."
-    },
-    "DOGE": {
-      "side": "short",
-      "qty": 53378.65728528894,
-      "entry_px": 0.080007976,
-      "entry_time": "2026-10-15T05:09:14+02:00",
-      "entry_ms": 1792033754320,
-      "stop": 0.080007976,
-      "initial_stop": 0.08191829026029433,
-      "atr": 0.0009551571301471665,
-      "extreme": 0.0788,
-      "dex": "core",
-      "fees": 4.057182414443941,
-      "funding": -0.1588622433057506,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
-      "reason": "Breakout short, top traders agree (1L/5S, net -$10.1M); hot CPI crypto slide in news, no contrary catalyst or crowded-long fade in positioning."
     },
     "xyz:META": {
       "side": "short",
@@ -133,13 +116,30 @@
       "stop": 734.6769120538105,
       "initial_stop": 734.6769120538105,
       "atr": 4.032699776905175,
-      "extreme": 726.22,
+      "extreme": 725.43,
       "dex": "xyz",
       "fees": 12.732067531277098,
-      "funding": -0.11320911768344197,
-      "checked_ms": 1792044300000,
-      "funding_ms": 1792044489752.9814,
+      "funding": -0.17027363734987377,
+      "checked_ms": 1792047900000,
+      "funding_ms": 1792048108788.343,
       "reason": "Breakout short, top traders agree (1L/3S, net -$4.2M); META -5% in a global tech sell-off after hot CPI, no contrary news or crowded-long fade in positioning."
+    },
+    "XRP": {
+      "side": "short",
+      "qty": 1587.9548247697328,
+      "entry_px": 1.302798275,
+      "entry_time": "2026-10-15T09:09:41+02:00",
+      "entry_ms": 1792048181544,
+      "stop": 1.334823895098209,
+      "initial_stop": 1.334823895098209,
+      "atr": 0.016012810049104473,
+      "extreme": 1.302798275,
+      "dex": "core",
+      "fees": 1.9653455661635386,
+      "funding": 0.0,
+      "checked_ms": 1792048181544,
+      "funding_ms": 1792048181544,
+      "reason": "Smart-money candidate: top traders 1L/5S (net -$43M), price below 50h EMA, 24h -4.7%; Liquid positioning balanced, no contrary news; half size."
     }
   },
   "closed": [
@@ -189,6 +189,22 @@
       "net_pnl": -5.905650314039708,
       "return_on_risk": -0.11750043923817607,
       "entry_reason": "Breakout short (-8.6% 24h, trend 1.6 ATR); top traders mixed 2L/3S net -$12.5M, Liquid positioning balanced, no contrary news; half size.",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "DOGE",
+      "side": "short",
+      "qty": 53378.65728528894,
+      "entry_px": 0.080007976,
+      "exit_px": 0.08004797998799999,
+      "entry_time": "2026-10-15T05:09:14+02:00",
+      "exit_time": "2026-10-15T09:08:31+02:00",
+      "gross_pnl": -2.135359165496707,
+      "fees": 8.116393420095104,
+      "funding": -0.20952454191741926,
+      "net_pnl": -10.04222804367439,
+      "return_on_risk": -0.09848217160363223,
+      "entry_reason": "Breakout short, top traders agree (1L/5S, net -$10.1M); hot CPI crypto slide in news, no contrary catalyst or crowded-long fade in positioning.",
       "exit_reason": "trailing stop hit"
     }
   ],
@@ -249,6 +265,10 @@
     {
       "t": "2026-10-15T08:08:12+02:00",
       "equity": 10170.17
+    },
+    {
+      "t": "2026-10-15T09:08:31+02:00",
+      "equity": 10193.5
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

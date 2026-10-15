@@ -14,3 +14,5 @@
 - 2026-10-15 05:08 CLOSE SHORT xyz:CRCL @ 76.8210: net -5.91 USD (-0.12R, fees 5.05, funding -0.04). trailing stop hit
 - 2026-10-15 05:09 OPEN SHORT DOGE 53378.7 @ 0.080008 ($4,271 notional, stop 0.0819183, risk $102): Breakout short, top traders agree (1L/5S, net -$10.1M); hot CPI crypto slide in news, no contrary catalyst or crowded-long fade in positioning.
 - 2026-10-15 06:09 OPEN SHORT xyz:META 12.5161 @ 726.61 ($9,094 notional, stop 734.68, risk $101): Breakout short, top traders agree (1L/3S, net -$4.2M); META -5% in a global tech sell-off after hot CPI, no contrary news or crowded-long fade in positioning.
+- 2026-10-15 09:08 CLOSE SHORT DOGE @ 0.080048: net -10.04 USD (-0.10R, fees 8.12, funding -0.21). trailing stop hit
+- 2026-10-15 09:09 OPEN SHORT XRP 1587.95 @ 1.3028 ($2,069 notional, stop 1.3348, risk $51): Smart-money candidate: top traders 1L/5S (net -$43M), price below 50h EMA, 24h -4.7%; Liquid positioning balanced, no contrary news; half size.
