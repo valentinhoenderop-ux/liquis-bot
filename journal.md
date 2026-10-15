@@ -7,3 +7,6 @@
 - 2026-10-15 00:31 (Madrid) OPEN SHORT xyz:CRWV 17.0397 @ 62.9715 ($1,073 notional, stop 65.9114, risk $50): Breakout short after -19% on Gartner neocloud warning and bond-yield surge in news; top traders mixed (2L/0S) and Liquid positioning shows no crowded long, so half size.
 - 2026-10-15 00:31 (Madrid) OPEN LONG xyz:NATGAS 924.681 @ 3.5991 ($3,328 notional, stop 3.5450, risk $50): Smart-money candidate: top traders 3L/0S (+$1.3M) with price above 50h EMA; nothing in news or positioning contradicts, no fresh building so half size.
 - 2026-10-15 01:09 OPEN SHORT xyz:CRCL 23.4798 @ 76.7826 ($1,803 notional, stop 78.9232, risk $50): Breakout short (-8.6% 24h, trend 1.6 ATR); top traders mixed 2L/3S net -$12.5M, Liquid positioning balanced, no contrary news; half size.
+- 2026-10-15 03:08 CLOSE LONG xyz:CL @ 92.9462: net -65.15 USD (-1.30R, fees 12.83, funding +0.10). stop-loss hit
+- 2026-10-15 03:10 OPEN SHORT xyz:BRENTOIL 50.7891 @ 102.31 ($5,196 notional, stop 103.30, risk $50): Smart-money candidate: top traders 1L/3S (net -$3.9M), price below 50h EMA; Liquid positioning balanced, risk-off tape, no contrary news; half size.
+- 2026-10-15 03:10 OPEN SHORT xyz:RKLB 18.9931 @ 54.4018 ($1,033 notional, stop 57.0381, risk $50): Smart-money candidate: top traders 0L/3S, price far below 50h EMA, tech sell-off in news; no positioning data, half size.
