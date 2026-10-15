@@ -36,3 +36,6 @@
 - 2026-10-15 17:09 OPEN SHORT xyz:META 5.03926 @ 733.31 ($3,695 notional, stop 743.12, risk $49): Smart-money candidate: top traders 1L/3S net -$4M, below 50h EMA, Nasdaq tumbling on AI sell-off news.
 - 2026-10-15 18:09 OPEN LONG PAXG 1.82029 @ 4,150.02 ($7,554 notional, stop 4,122.83, risk $50): Smart-money candidate: top traders 3L/1S (net +$0.7M), above 50h EMA, gold climbing on hot PPI/Middle East news; Liquid positioning balanced.
 - 2026-10-15 19:11 OPEN LONG AAVE 10.4507 @ 155.98 ($1,630 notional, stop 151.25, risk $49): Smart-money candidate: top traders 4L/1S (net +$11.3M), price above 50h EMA; no contrary news, Liquid positioning mildly short-heavy (38% long).
+- 2026-10-15 20:08 CLOSE SHORT xyz:AMD @ 554.63: net -113.26 USD (-1.13R, fees 10.86, funding -0.14). stop-loss hit
+- 2026-10-15 20:08 CLOSE SHORT xyz:META @ 743.49: net -61.58 USD (-1.25R, fees 10.42, funding -0.11). stop-loss hit
+- 2026-10-15 20:10 OPEN SHORT xyz:MU 1.87376 @ 908.98 ($1,703 notional, stop 935.24, risk $49): Smart-money candidate: top traders 1L/4S (net -$19M), below 50h EMA; news says tech shaky/AI trade unwinding, Liquid positioning balanced.

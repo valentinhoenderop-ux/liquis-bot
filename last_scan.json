@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-15T19:10:21+02:00",
+  "at": "2026-10-15T20:10:01+02:00",
   "markets_scanned": 57,
   "smart_money_snapshot": true,
   "candidates": [],
@@ -7,79 +7,57 @@
     {
       "symbol": "xyz:MU",
       "side": "short",
-      "price": 911.965,
+      "price": 909.37,
       "score": 1.4,
       "smart_money": "1L/4S top traders, net $-19.3M",
-      "atr_pct": 1.486,
-      "trend": "close 910.66 vs 50h EMA 917.23",
-      "funding_hourly_pct": 0.00159,
-      "volume_24h": 221275722
+      "atr_pct": 1.435,
+      "trend": "close 914.95 vs 50h EMA 917.16",
+      "funding_hourly_pct": 0.00176,
+      "volume_24h": 220035647
     },
     {
-      "symbol": "AAVE",
-      "side": "long",
-      "price": 155.465,
-      "score": 1.4,
-      "smart_money": "4L/1S top traders, net $+11.3M",
-      "atr_pct": 1.524,
-      "trend": "close 155.36 vs 50h EMA 155.23",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 12714727
-    },
-    {
-      "symbol": "xyz:GOOGL",
+      "symbol": "xyz:AMD",
       "side": "short",
-      "price": 348.85,
-      "score": 0.816,
-      "smart_money": "1L/4S top traders, net $-4.2M",
-      "atr_pct": 0.682,
-      "trend": "close 347.93 vs 50h EMA 348.62",
+      "price": 551.74,
+      "score": 0.653,
+      "smart_money": "1L/3S top traders, net $-3.5M",
+      "atr_pct": 1.393,
+      "trend": "close 554.71 vs 50h EMA 570.82",
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 145893520
+      "volume_24h": 57579018
     },
     {
       "symbol": "xyz:CXMT",
       "side": "short",
-      "price": 6.72005,
-      "score": 0.627,
+      "price": 6.7256,
+      "score": 0.628,
       "smart_money": "0L/3S top traders, net $-3.3M",
-      "atr_pct": 1.237,
-      "trend": "close 6.7076 vs 50h EMA 6.7763",
-      "funding_hourly_pct": -0.00232,
-      "volume_24h": 19339439
+      "atr_pct": 1.224,
+      "trend": "close 6.7680 vs 50h EMA 6.7761",
+      "funding_hourly_pct": -0.00509,
+      "volume_24h": 19506082
     },
     {
       "symbol": "xyz:TSLA",
       "side": "short",
-      "price": 360.89,
-      "score": 0.43,
-      "smart_money": "1L/3S top traders, net $-1.3M",
-      "atr_pct": 0.743,
-      "trend": "close 360.57 vs 50h EMA 367.24",
-      "funding_hourly_pct": 0.00223,
-      "volume_24h": 53549558
+      "price": 360.785,
+      "score": 0.444,
+      "smart_money": "1L/3S top traders, net $-1.4M",
+      "atr_pct": 0.728,
+      "trend": "close 361.73 vs 50h EMA 367.03",
+      "funding_hourly_pct": 0.00261,
+      "volume_24h": 54404388
     },
     {
       "symbol": "xyz:RKLB",
       "side": "short",
-      "price": 52.724,
-      "score": 0.367,
+      "price": 53.3075,
+      "score": 0.368,
       "smart_money": "0L/3S top traders, net $-0.7M",
-      "atr_pct": 2.77,
-      "trend": "close 52.6700 vs 50h EMA 58.0572",
-      "funding_hourly_pct": 0.00266,
-      "volume_24h": 24648202
-    },
-    {
-      "symbol": "xyz:AMZN",
-      "side": "short",
-      "price": 253.655,
-      "score": 0.327,
-      "smart_money": "0L/3S top traders, net $-0.3M",
-      "atr_pct": 0.584,
-      "trend": "close 253.67 vs 50h EMA 254.37",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 30154540
+      "atr_pct": 2.683,
+      "trend": "close 53.6250 vs 50h EMA 57.8845",
+      "funding_hourly_pct": 0.00244,
+      "volume_24h": 25077793
     }
   ],
   "skipped_as_correlated": [
@@ -92,19 +70,10 @@
       ]
     },
     {
-      "symbol": "LINK",
-      "side": "short",
-      "score": 1.3,
-      "moves_with": [
-        "XRP (corr 0.92)"
-      ]
-    },
-    {
       "symbol": "xyz:INTC",
       "side": "short",
-      "score": 1.185,
+      "score": 1.184,
       "moves_with": [
-        "xyz:AMD (corr 0.89)",
         "xyz:MU (corr 0.74)"
       ]
     },
@@ -113,11 +82,17 @@
       "side": "short",
       "score": 0.346,
       "moves_with": [
-        "xyz:AMD (corr 0.84)",
-        "xyz:MU (corr 0.72)"
+        "xyz:MU (corr 0.72)",
+        "xyz:AMD (corr 0.85)"
       ]
     }
   ],
-  "exit_suggestions": [],
+  "exit_suggestions": [
+    {
+      "symbol": "XRP",
+      "side": "short",
+      "why": "last close 1.3411 is through the 50h EMA 1.3367"
+    }
+  ],
   "errors": []
 }
