@@ -29,3 +29,8 @@
 - 2026-10-15 16:10 OPEN SHORT xyz:TSLA 10.9236 @ 357.46 ($3,905 notional, stop 362.06, risk $50): Breakout short; top traders agree (1L/3S, small net), broad Nasdaq/AI weakness in news; half size as smart-money net is only -$0.9M.
 - 2026-10-15 16:10 CLOSE SHORT XRP @ 1.3034: net -4.88 USD (-0.10R, fees 3.93, funding -0.09). trailing stop hit
 - 2026-10-15 16:10 CLOSE SHORT xyz:SPCX @ 144.44: net +56.64 USD (+1.11R, fees 8.71, funding -0.14). trailing stop hit
+- 2026-10-15 17:08 CLOSE SHORT xyz:DRAM @ 48.0656: net +69.22 USD (+1.38R, fees 6.07, funding -0.85). trailing stop hit
+- 2026-10-15 17:08 CLOSE SHORT xyz:TSLA @ 362.24: net -63.14 USD (-1.26R, fees 11.01, funding -0.06). stop-loss hit
+- 2026-10-15 17:09 OPEN SHORT XRP 1479.64 @ 1.3325 ($1,972 notional, stop 1.3659, risk $49): Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news.
+- 2026-10-15 17:09 OPEN LONG xyz:CL 76.2224 @ 95.3977 ($7,271 notional, stop 94.0998, risk $99): Breakout long; top traders mixed 4L/2S net +$1.2M, US-Iran/Hormuz escalation news supportive, Liquid crowd short-heavy.
+- 2026-10-15 17:09 OPEN SHORT xyz:META 5.03926 @ 733.31 ($3,695 notional, stop 743.12, risk $49): Smart-money candidate: top traders 1L/3S net -$4M, below 50h EMA, Nasdaq tumbling on AI sell-off news.

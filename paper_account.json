@@ -1,27 +1,10 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9931.060815693034,
+  "cash": 9927.714809642088,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
-    "xyz:DRAM": {
-      "side": "short",
-      "qty": 44.31110195994051,
-      "entry_px": 49.74561475,
-      "entry_time": "2026-10-14T23:32:21+02:00",
-      "entry_ms": 1792013541342,
-      "stop": 48.041578082752345,
-      "initial_stop": 50.87400013850157,
-      "atr": 0.5641926942507833,
-      "extreme": 46.349,
-      "dex": "xyz",
-      "fees": 3.085996210146039,
-      "funding": -0.8133930750790114,
-      "checked_ms": 1792073400000,
-      "funding_ms": 1792073409005.1619,
-      "reason": "Breakout short with top traders agreeing (1L/4S, net -$10.9M) and AI/chip sell-off in news after hot CPI; half size because TSMC earnings are due and could move memory names."
-    },
     "xyz:AMD": {
       "side": "short",
       "qty": 7.08512456652887,
@@ -31,30 +14,64 @@
       "stop": 554.3496048720149,
       "initial_stop": 554.3496048720149,
       "atr": 7.097408686007435,
-      "extreme": 540.1547875,
+      "extreme": 535.32,
       "dex": "xyz",
       "fees": 5.357889536502204,
-      "funding": -7.800278895829556e-05,
-      "checked_ms": 1792073400785,
-      "funding_ms": 1792073409005.1619,
+      "funding": -0.06410098820967075,
+      "checked_ms": 1792076700000,
+      "funding_ms": 1792076996735.8362,
       "reason": "Breakout short; top traders agree (1L/3S), AI/chip sell-off in news (Nvidia/AMD/Micron falling on AI financing worries), no scheduled event flagged."
     },
-    "xyz:TSLA": {
+    "XRP": {
       "side": "short",
-      "qty": 10.923564437927947,
-      "entry_px": 357.46118,
-      "entry_time": "2026-10-15T16:10:02+02:00",
-      "entry_ms": 1792073402380,
-      "stop": 362.0590385198874,
-      "initial_stop": 362.0590385198874,
-      "atr": 2.2989292599436935,
-      "extreme": 357.46118,
+      "qty": 1479.6372009091372,
+      "entry_px": 1.3324834250000002,
+      "entry_time": "2026-10-15T17:09:47+02:00",
+      "entry_ms": 1792076987876,
+      "stop": 1.3659267401687412,
+      "initial_stop": 1.3659267401687412,
+      "atr": 0.016721657584370473,
+      "extreme": 1.3324834250000002,
+      "dex": "core",
+      "fees": 1.8730124429635793,
+      "funding": -6.070354202295322e-05,
+      "checked_ms": 1792076987876,
+      "funding_ms": 1792076996735.8362,
+      "reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news."
+    },
+    "xyz:CL": {
+      "side": "long",
+      "qty": 76.22237751900052,
+      "entry_px": 95.39767499999999,
+      "entry_time": "2026-10-15T17:09:49+02:00",
+      "entry_ms": 1792076989395,
+      "stop": 94.099778498814,
+      "initial_stop": 94.099778498814,
+      "atr": 0.6489482505929941,
+      "extreme": 95.39767499999999,
       "dex": "xyz",
-      "fees": 5.466650327302865,
-      "funding": -4.494251013353378e-05,
-      "checked_ms": 1792073402380,
-      "funding_ms": 1792073409005.1619,
-      "reason": "Breakout short; top traders agree (1L/3S, small net), broad Nasdaq/AI weakness in news; half size as smart-money net is only -$0.9M."
+      "fees": 10.180012637598884,
+      "funding": -0.00013045074442079644,
+      "checked_ms": 1792076989395,
+      "funding_ms": 1792076996735.8362,
+      "reason": "Breakout long; top traders mixed 4L/2S net +$1.2M, US-Iran/Hormuz escalation news supportive, Liquid crowd short-heavy."
+    },
+    "xyz:META": {
+      "side": "short",
+      "qty": 5.03926392247658,
+      "entry_px": 733.31316,
+      "entry_time": "2026-10-15T17:09:50+02:00",
+      "entry_ms": 1792076990763,
+      "stop": 743.1151769270232,
+      "initial_stop": 743.1151769270232,
+      "atr": 4.901008463511546,
+      "extreme": 733.31316,
+      "dex": "xyz",
+      "fees": 5.173501971491413,
+      "funding": -6.745072594830035e-05,
+      "checked_ms": 1792076990763,
+      "funding_ms": 1792076996735.8362,
+      "reason": "Smart-money candidate: top traders 1L/3S net -$4M, below 50h EMA, Nasdaq tumbling on AI sell-off news."
     }
   },
   "closed": [
@@ -265,6 +282,38 @@
       "return_on_risk": 1.114689457542515,
       "entry_reason": "Breakout short (-6% 24h), top traders mixed 2L/3S net -$13.8M, Liquid positioning balanced, no contrary news; half size on mixed evidence.",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:DRAM",
+      "side": "short",
+      "qty": 44.31110195994051,
+      "entry_px": 49.74561475,
+      "exit_px": 48.06559887179372,
+      "entry_time": "2026-10-14T23:32:21+02:00",
+      "exit_time": "2026-10-15T17:08:31+02:00",
+      "gross_pnl": 74.44335487351763,
+      "fees": 6.0677717234691535,
+      "funding": -0.8454133657312011,
+      "net_pnl": 69.22099651577969,
+      "return_on_risk": 1.3844199303155893,
+      "entry_reason": "Breakout short with top traders agreeing (1L/4S, net -$10.9M) and AI/chip sell-off in news after hot CPI; half size because TSMC earnings are due and could move memory names.",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:TSLA",
+      "side": "short",
+      "qty": 10.923564437927947,
+      "entry_px": 357.46118,
+      "exit_px": 362.24006803914733,
+      "entry_time": "2026-10-15T16:10:02+02:00",
+      "exit_time": "2026-10-15T17:08:32+02:00",
+      "gross_pnl": -52.20249143726887,
+      "fees": 11.006384142617907,
+      "funding": -0.06490995492092472,
+      "net_pnl": -63.143965624965844,
+      "return_on_risk": -1.2572217187517705,
+      "entry_reason": "Breakout short; top traders agree (1L/3S, small net), broad Nasdaq/AI weakness in news; half size as smart-money net is only -$0.9M.",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -360,6 +409,14 @@
     {
       "t": "2026-10-15T16:10:11+02:00",
       "equity": 10029.63
+    },
+    {
+      "t": "2026-10-15T17:08:32+02:00",
+      "equity": 9914.15
+    },
+    {
+      "t": "2026-10-15T17:09:58+02:00",
+      "equity": 9872.26
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
