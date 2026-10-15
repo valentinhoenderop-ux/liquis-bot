@@ -20,3 +20,12 @@
 - 2026-10-15 13:09 OPEN SHORT xyz:SPCX 21.3015 @ 147.50 ($3,142 notional, stop 149.89, risk $51): Breakout short (-6% 24h), top traders mixed 2L/3S net -$13.8M, Liquid positioning balanced, no contrary news; half size on mixed evidence.
 - 2026-10-15 14:08 CLOSE SHORT xyz:CRWV @ 63.0030: net -4.26 USD (-0.09R, fees 3.01, funding +0.72). trailing stop hit
 - 2026-10-15 14:10 OPEN SHORT xyz:BRENTOIL 41.3357 @ 102.30 ($4,229 notional, stop 103.52, risk $51): Smart-money candidate: top traders 1L/3S (net -$3.2M), price below 50h EMA, Liquid positioning balanced, no contrary news; other candidates duplicate held tech/crypto shorts; half size.
+- 2026-10-15 16:08 CLOSE SHORT xyz:GOOGL @ 346.30: net -5.10 USD (-0.10R, fees 13.15, funding -0.40). trailing stop hit
+- 2026-10-15 16:08 CLOSE LONG xyz:NATGAS @ 3.5432: net -60.85 USD (-1.22R, fees 9.25, funding -0.12). stop-loss hit
+- 2026-10-15 16:08 CLOSE SHORT xyz:RKLB @ 54.4290: net -3.30 USD (-0.07R, fees 2.89, funding -0.11). trailing stop hit
+- 2026-10-15 16:08 CLOSE SHORT xyz:META @ 726.97: net -29.44 USD (-0.29R, fees 25.47, funding -0.58). trailing stop hit
+- 2026-10-15 16:08 CLOSE SHORT xyz:BRENTOIL @ 102.35: net -13.91 USD (-0.27R, fees 11.84, funding -0.05). trailing stop hit
+- 2026-10-15 16:10 OPEN SHORT xyz:AMD 7.08512 @ 540.15 ($3,827 notional, stop 554.35, risk $101): Breakout short; top traders agree (1L/3S), AI/chip sell-off in news (Nvidia/AMD/Micron falling on AI financing worries), no scheduled event flagged.
+- 2026-10-15 16:10 OPEN SHORT xyz:TSLA 10.9236 @ 357.46 ($3,905 notional, stop 362.06, risk $50): Breakout short; top traders agree (1L/3S, small net), broad Nasdaq/AI weakness in news; half size as smart-money net is only -$0.9M.
+- 2026-10-15 16:10 CLOSE SHORT XRP @ 1.3034: net -4.88 USD (-0.10R, fees 3.93, funding -0.09). trailing stop hit
+- 2026-10-15 16:10 CLOSE SHORT xyz:SPCX @ 144.44: net +56.64 USD (+1.11R, fees 8.71, funding -0.14). trailing stop hit
