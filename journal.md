@@ -59,3 +59,5 @@
 - 2026-10-16 18:09 CLOSE LONG PAXG @ 4,175.81: net -18.94 USD (-0.45R, fees 13.55, funding +1.07). trailing stop hit (gapped through)
 - 2026-10-16 18:11 OPEN SHORT xyz:RKLB 56.5833 @ 51.8146 ($2,932 notional, stop 53.5293, risk $97): Breakout short (score 1.98); top traders 0L/4S agree, no contrary news, Nasdaq/tech selloff backdrop, no scheduled event.
 - 2026-10-16 19:08 CLOSE LONG xyz:CRCL @ 83.5580: net -106.78 USD (-1.09R, fees 7.19, funding +0.28). stop-loss hit
+- 2026-10-16 20:08 CLOSE LONG AAVE @ 154.78: net -52.84 USD (-1.09R, fees 3.59, funding -0.04). stop-loss hit
+- 2026-10-16 20:10 OPEN SHORT WLD 1829.69 @ 0.49918 ($913 notional, stop 0.526039, risk $49): Smart-money candidate: top traders 1L/3S (net -$9.7M), price below 50h EMA; no contrary news, no scheduled event; half size.
