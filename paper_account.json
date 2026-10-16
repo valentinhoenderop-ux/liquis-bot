@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9740.949008666184,
+  "cash": 9665.988144423422,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.329,
       "dex": "core",
       "fees": 1.8730124429635793,
-      "funding": -0.24697821088916255,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
+      "funding": -0.27202267779772626,
+      "checked_ms": 1792116300000,
+      "funding_ms": 1792116559119.3108,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news."
     },
     "xyz:CL": {
@@ -34,27 +34,10 @@
       "extreme": 96.667,
       "dex": "xyz",
       "fees": 10.180012637598884,
-      "funding": -0.7058456309827974,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
+      "funding": -0.6841583316973209,
+      "checked_ms": 1792116300000,
+      "funding_ms": 1792116559119.3108,
       "reason": "Breakout long; top traders mixed 4L/2S net +$1.2M, US-Iran/Hormuz escalation news supportive, Liquid crowd short-heavy."
-    },
-    "PAXG": {
-      "side": "long",
-      "qty": 1.8202898329658732,
-      "entry_px": 4150.023974999999,
-      "entry_time": "2026-10-15T18:09:55+02:00",
-      "entry_ms": 1792080595488,
-      "stop": 4150.023974999999,
-      "initial_stop": 4122.828571475024,
-      "atr": 13.59770176248755,
-      "extreme": 4176.9,
-      "dex": "core",
-      "fees": 7.176534125844261,
-      "funding": 0.7943038118702432,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
-      "reason": "Smart-money candidate: top traders 3L/1S (net +$0.7M), above 50h EMA, gold climbing on hot PPI/Middle East news; Liquid positioning balanced."
     },
     "AAVE": {
       "side": "long",
@@ -68,9 +51,9 @@
       "extreme": 159.18,
       "dex": "core",
       "fees": 1.5486241894953703,
-      "funding": 0.15812502514105667,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
+      "funding": 0.1788044321725099,
+      "checked_ms": 1792116300000,
+      "funding_ms": 1792116559119.3108,
       "reason": "Smart-money candidate: top traders 4L/1S (net +$11.3M), price above 50h EMA; no contrary news, Liquid positioning mildly short-heavy (38% long)."
     },
     "xyz:MU": {
@@ -85,27 +68,10 @@
       "extreme": 903.94,
       "dex": "xyz",
       "fees": 2.384491015528539,
-      "funding": -0.16588230930753164,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
+      "funding": -0.17688547451242215,
+      "checked_ms": 1792116300000,
+      "funding_ms": 1792116559119.3108,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$19M), below 50h EMA; news says tech shaky/AI trade unwinding, Liquid positioning balanced."
-    },
-    "xyz:TSLA": {
-      "side": "short",
-      "qty": 9.541425667251083,
-      "entry_px": 362.008905,
-      "entry_time": "2026-10-15T21:10:12+02:00",
-      "entry_ms": 1792091412891,
-      "stop": 367.1557361336695,
-      "initial_stop": 367.1557361336695,
-      "atr": 2.573415566834735,
-      "extreme": 361.55,
-      "dex": "xyz",
-      "fees": 4.835713481116643,
-      "funding": -0.5728083499861588,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
-      "reason": "Smart-money candidate: top traders 1L/3S (net -$1.6M), price below 50h EMA; no contrary news (Roadster reveal minor), no scheduled event noted."
     },
     "xyz:CRCL": {
       "side": "long",
@@ -119,9 +85,9 @@
       "extreme": 86.8544055,
       "dex": "xyz",
       "fees": 3.6632669858476894,
-      "funding": 0.09545928569644803,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
+      "funding": 0.1117670973093102,
+      "checked_ms": 1792116300000,
+      "funding_ms": 1792116559119.3108,
       "reason": "Breakout long (score 0.82); top traders 4L/1S agree, Liquid positioning short-heavy (29% long) with no contrary news."
     },
     "xyz:SKHX": {
@@ -136,10 +102,44 @@
       "extreme": 935.69,
       "dex": "xyz",
       "fees": 4.088867514065023,
-      "funding": -0.6517951586463385,
-      "checked_ms": 1792112700000,
-      "funding_ms": 1792112897201.4922,
+      "funding": -1.2430162057030165,
+      "checked_ms": 1792116300000,
+      "funding_ms": 1792116559119.3108,
       "reason": "Smart-money candidate (score 1.6): top traders 2L/6S net -$94.9M, below 50h EMA; AI-spending doubt/tech selloff news supportive, Liquid positioning 33% long, no scheduled event."
+    },
+    "xyz:ZHIPU": {
+      "side": "short",
+      "qty": 27.222260110219004,
+      "entry_px": 66.428769,
+      "entry_time": "2026-10-16T04:09:11+02:00",
+      "entry_ms": 1792116551169,
+      "stop": 68.21944985964106,
+      "initial_stop": 68.21944985964106,
+      "atr": 0.8953404298205295,
+      "extreme": 66.428769,
+      "dex": "xyz",
+      "fees": 2.531677719927514,
+      "funding": -0.0004361100016142665,
+      "checked_ms": 1792116551169,
+      "funding_ms": 1792116559119.3108,
+      "reason": "Smart-money candidate: top traders 0L/3S (net -$4.6M), price well below 50h EMA; AI/semis selloff news supportive, no contrary catalyst."
+    },
+    "xyz:GOOGL": {
+      "side": "short",
+      "qty": 13.242154421734886,
+      "entry_px": 348.52565,
+      "entry_time": "2026-10-16T04:09:12+02:00",
+      "entry_ms": 1792116552546,
+      "stop": 352.2056790173656,
+      "initial_stop": 352.2056790173656,
+      "atr": 1.840014508682801,
+      "extreme": 348.52565,
+      "dex": "xyz",
+      "fees": 6.4613226681297355,
+      "funding": -5.268930341571852e-05,
+      "checked_ms": 1792116552546,
+      "funding_ms": 1792116559119.3108,
+      "reason": "Smart-money candidate: top traders 1L/4S (net -$4.2M), at 50h EMA; AI-doubt selloff news supportive, no scheduled event."
     }
   },
   "closed": [
@@ -414,6 +414,38 @@
       "return_on_risk": -1.2465911387712185,
       "entry_reason": "Smart-money candidate: top traders 1L/3S net -$4M, below 50h EMA, Nasdaq tumbling on AI sell-off news.",
       "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "PAXG",
+      "side": "long",
+      "qty": 1.8202898329658732,
+      "entry_px": 4150.023974999999,
+      "exit_px": 4147.948963012499,
+      "entry_time": "2026-10-15T18:09:55+02:00",
+      "exit_time": "2026-10-16T04:07:59+02:00",
+      "gross_pnl": -3.777123224128828,
+      "fees": 14.349479984625601,
+      "funding": 0.8883827228878821,
+      "net_pnl": -19.01498593164231,
+      "return_on_risk": -0.38411384201988075,
+      "entry_reason": "Smart-money candidate: top traders 3L/1S (net +$0.7M), above 50h EMA, gold climbing on hot PPI/Middle East news; Liquid positioning balanced.",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:TSLA",
+      "side": "short",
+      "qty": 9.541425667251083,
+      "entry_px": 362.008905,
+      "exit_px": 367.33931400173634,
+      "entry_time": "2026-10-15T21:10:12+02:00",
+      "exit_time": "2026-10-16T04:08:00+02:00",
+      "gross_pnl": -50.859701266113085,
+      "fees": 9.742630544005845,
+      "funding": -0.8466278576638335,
+      "net_pnl": -59.75570395245509,
+      "return_on_risk": -1.2168195434047633,
+      "entry_reason": "Smart-money candidate: top traders 1L/3S (net -$1.6M), price below 50h EMA; no contrary news (Roadster reveal minor), no scheduled event noted.",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -581,6 +613,14 @@
     {
       "t": "2026-10-16T03:08:19+02:00",
       "equity": 9765.23
+    },
+    {
+      "t": "2026-10-16T04:08:01+02:00",
+      "equity": 9744.99
+    },
+    {
+      "t": "2026-10-16T04:09:22+02:00",
+      "equity": 9737.81
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

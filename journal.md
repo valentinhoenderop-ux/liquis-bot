@@ -42,3 +42,7 @@
 - 2026-10-15 21:10 OPEN SHORT xyz:TSLA 9.54143 @ 362.01 ($3,454 notional, stop 367.16, risk $49): Smart-money candidate: top traders 1L/3S (net -$1.6M), price below 50h EMA; no contrary news (Roadster reveal minor), no scheduled event noted.
 - 2026-10-15 22:10 OPEN LONG xyz:CRCL 30.1265 @ 86.8544 ($2,617 notional, stop 83.5998, risk $98): Breakout long (score 0.82); top traders 4L/1S agree, Liquid positioning short-heavy (29% long) with no contrary news.
 - 2026-10-16 00:09 OPEN SHORT xyz:SKHX 2.96738 @ 984.24 ($2,921 notional, stop 1,013.91, risk $88): Smart-money candidate (score 1.6): top traders 2L/6S net -$94.9M, below 50h EMA; AI-spending doubt/tech selloff news supportive, Liquid positioning 33% long, no scheduled event.
+- 2026-10-16 04:07 CLOSE LONG PAXG @ 4,147.95: net -19.01 USD (-0.38R, fees 14.35, funding +0.89). trailing stop hit
+- 2026-10-16 04:08 CLOSE SHORT xyz:TSLA @ 367.34: net -59.76 USD (-1.22R, fees 9.74, funding -0.85). stop-loss hit
+- 2026-10-16 04:09 OPEN SHORT xyz:ZHIPU 27.2223 @ 66.4288 ($1,808 notional, stop 68.2194, risk $49): Smart-money candidate: top traders 0L/3S (net -$4.6M), price well below 50h EMA; AI/semis selloff news supportive, no contrary catalyst.
+- 2026-10-16 04:09 OPEN SHORT xyz:GOOGL 13.2422 @ 348.53 ($4,615 notional, stop 352.21, risk $49): Smart-money candidate: top traders 1L/4S (net -$4.2M), at 50h EMA; AI-doubt selloff news supportive, no scheduled event.
