@@ -48,3 +48,4 @@
 - 2026-10-16 04:09 OPEN SHORT xyz:GOOGL 13.2422 @ 348.53 ($4,615 notional, stop 352.21, risk $49): Smart-money candidate: top traders 1L/4S (net -$4.2M), at 50h EMA; AI-doubt selloff news supportive, no scheduled event.
 - 2026-10-16 06:08 CLOSE SHORT xyz:SKHX @ 980.68: net +4.35 USD (+0.05R, fees 8.16, funding -1.94). trailing stop hit
 - 2026-10-16 06:09 OPEN LONG PAXG 1.70781 @ 4,178.34 ($7,136 notional, stop 4,153.76, risk $42): Breakout long (score 1.03); top traders 3L/1S agree, gold rallying on US inflation surge news, Liquid positioning balanced.
+- 2026-10-16 07:08 CLOSE SHORT xyz:MU @ 935.70: net -54.61 USD (-1.11R, fees 4.84, funding -0.30). stop-loss hit
