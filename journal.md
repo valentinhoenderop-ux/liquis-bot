@@ -50,3 +50,4 @@
 - 2026-10-16 06:09 OPEN LONG PAXG 1.70781 @ 4,178.34 ($7,136 notional, stop 4,153.76, risk $42): Breakout long (score 1.03); top traders 3L/1S agree, gold rallying on US inflation surge news, Liquid positioning balanced.
 - 2026-10-16 07:08 CLOSE SHORT xyz:MU @ 935.70: net -54.61 USD (-1.11R, fees 4.84, funding -0.30). stop-loss hit
 - 2026-10-16 08:11 OPEN SHORT xyz:SKHX 1.35847 @ 960.82 ($1,305 notional, stop 996.19, risk $48): Smart-money candidate: top traders 2L/6S (net -$92M), price below 50h EMA, Liquid positioning short-heavy but funding favors shorts; semis selloff news, no scheduled event.
+- 2026-10-16 11:08 CLOSE LONG xyz:CL @ 95.3500: net -23.43 USD (-0.24R, fees 20.35, funding -0.56). trailing stop hit
