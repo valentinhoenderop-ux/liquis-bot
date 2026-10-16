@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "NEAR",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 45352,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T00:09:10+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XPL",
+    "action": "cut",
+    "side": "long",
+    "notional": 684,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T00:09:10+02:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "NEAR",
     "action": "added to",
@@ -2978,25 +2998,5 @@
     "pct_of_account": 0.6,
     "trader_month_pnl": 5912897,
     "at": "2026-10-16T01:08:47+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "LIT",
-    "action": "added to",
-    "side": "long",
-    "notional": 41528,
-    "pct_of_account": 0.4,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T01:08:47+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "NEAR",
-    "action": "added to",
-    "side": "short",
-    "notional": 623007,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T00:08:49+02:00"
   }
 ]

@@ -61,3 +61,4 @@
 - 2026-10-16 19:08 CLOSE LONG xyz:CRCL @ 83.5580: net -106.78 USD (-1.09R, fees 7.19, funding +0.28). stop-loss hit
 - 2026-10-16 20:08 CLOSE LONG AAVE @ 154.78: net -52.84 USD (-1.09R, fees 3.59, funding -0.04). stop-loss hit
 - 2026-10-16 20:10 OPEN SHORT WLD 1829.69 @ 0.49918 ($913 notional, stop 0.526039, risk $49): Smart-money candidate: top traders 1L/3S (net -$9.7M), price below 50h EMA; no contrary news, no scheduled event; half size.
+- 2026-10-17 00:11 OPEN SHORT xyz:INTC 22.3507 @ 89.1839 ($1,993 notional, stop 91.3842, risk $49): Smart-money candidate: top traders 0L/4S (net -$9.2M), price well below 50h EMA; Nasdaq/semis slump news supportive, no scheduled event; half size.
