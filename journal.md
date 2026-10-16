@@ -54,3 +54,5 @@
 - 2026-10-16 12:10 OPEN LONG xyz:CL 51.1188 @ 95.9149 ($4,903 notional, stop 94.9762, risk $48): Smart-money candidate: top traders 4L/1S (net +$9.5M), price above 50h EMA; Liquid positioning short-heavy (38% long), Iran pressure news supportive, no scheduled event.
 - 2026-10-16 15:10 CLOSE LONG xyz:CL @ 95.8670: net -16.06 USD (-0.33R, fees 13.73, funding -0.12). trailing stop hit
 - 2026-10-16 15:11 OPEN LONG xyz:CL 46.2949 @ 95.9409 ($4,442 notional, stop 94.9048, risk $48): Smart-money candidate: top traders 4L/1S (net +$10.7M), price above 50h EMA; oil heading for weekly gains on Middle East supply focus, Liquid positioning short-heavy (33% long), no scheduled event.
+- 2026-10-16 17:10 CLOSE LONG AAVE @ 158.67: net +24.63 USD (+0.50R, fees 3.12, funding +0.31). trailing stop hit
+- 2026-10-16 17:12 OPEN LONG AAVE 12.0442 @ 158.87 ($1,913 notional, stop 154.85, risk $48): Smart-money candidate: top traders 5L/1S (net +$13.5M), price above 50h EMA; Liquid positioning balanced, no contrary news (skipped META short as duplicate AI-selloff theme).
