@@ -56,3 +56,5 @@
 - 2026-10-16 15:11 OPEN LONG xyz:CL 46.2949 @ 95.9409 ($4,442 notional, stop 94.9048, risk $48): Smart-money candidate: top traders 4L/1S (net +$10.7M), price above 50h EMA; oil heading for weekly gains on Middle East supply focus, Liquid positioning short-heavy (33% long), no scheduled event.
 - 2026-10-16 17:10 CLOSE LONG AAVE @ 158.67: net +24.63 USD (+0.50R, fees 3.12, funding +0.31). trailing stop hit
 - 2026-10-16 17:12 OPEN LONG AAVE 12.0442 @ 158.87 ($1,913 notional, stop 154.85, risk $48): Smart-money candidate: top traders 5L/1S (net +$13.5M), price above 50h EMA; Liquid positioning balanced, no contrary news (skipped META short as duplicate AI-selloff theme).
+- 2026-10-16 18:09 CLOSE LONG PAXG @ 4,175.81: net -18.94 USD (-0.45R, fees 13.55, funding +1.07). trailing stop hit (gapped through)
+- 2026-10-16 18:11 OPEN SHORT xyz:RKLB 56.5833 @ 51.8146 ($2,932 notional, stop 53.5293, risk $97): Breakout short (score 1.98); top traders 0L/4S agree, no contrary news, Nasdaq/tech selloff backdrop, no scheduled event.
