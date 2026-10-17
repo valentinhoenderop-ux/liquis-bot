@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 8801,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T19:09:11+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "GRAM",
+    "action": "added to",
+    "side": "short",
+    "notional": 1906,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T19:09:11+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "JTO",
+    "action": "cut",
+    "side": "short",
+    "notional": 437,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T19:09:11+02:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "SOL",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 1737,
     "pct_of_account": 0.0,
     "trader_month_pnl": 6435037,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "MON",
-    "action": "cut",
-    "side": "short",
-    "notional": 1495,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "EIGEN",
-    "action": "cut",
-    "side": "short",
-    "notional": 731,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "NEAR",
-    "action": "cut",
-    "side": "short",
-    "notional": 290,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 9115150,
     "at": "2026-10-16T06:08:34+02:00"
   }
 ]
