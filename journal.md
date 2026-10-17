@@ -67,3 +67,4 @@
 - 2026-10-17 06:07 CLOSE SHORT WLD @ 0.526302: net -51.30 USD (-1.04R, fees 1.78, funding -0.11). stop-loss hit
 - 2026-10-17 06:09 OPEN LONG TIA 1010.95 @ 0.731926 ($740 notional, stop 0.683391, risk $49): Breakout long (score 1.23, 3.1x unusual volume); no followed trader holds it, news neutral, uncorrelated to book; half size since +20% 24h and no smart-money confirmation.
 - 2026-10-17 09:08 CLOSE LONG TIA @ 0.73156: net -1.78 USD (-0.04R, fees 1.41, funding +0.01). trailing stop hit
+- 2026-10-17 10:09 OPEN SHORT xyz:BABA 62.7614 @ 108.71 ($6,823 notional, stop 109.48, risk $49): Smart-money candidate: top traders 1L/4S (net -$2.6M), price below 50h EMA; Nasdaq/tech selloff news supportive, no scheduled event, positioning unknown; half size.

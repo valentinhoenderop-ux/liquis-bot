@@ -2,6 +2,16 @@
   {
     "trader": "0xfc667adb",
     "symbol": "HYPE",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 117055,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T10:09:01+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "HYPE",
     "action": "cut",
     "side": "short",
     "notional": 93345,
@@ -2986,16 +2996,6 @@
     "side": "short",
     "notional": 4355736,
     "pct_of_account": 4.0,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T03:08:50+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "short",
-    "notional": 2400480,
-    "pct_of_account": 2.2,
     "trader_month_pnl": 9115150,
     "at": "2026-10-16T03:08:50+02:00"
   }
