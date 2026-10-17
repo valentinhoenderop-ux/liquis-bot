@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "short",
+    "notional": 47525,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T18:08:54+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "added to",
+    "side": "short",
+    "notional": 28105,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T18:08:54+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "LIT",
+    "action": "added to",
+    "side": "long",
+    "notional": 17215,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T18:08:54+02:00"
+  },
+  {
     "trader": "0xf818fa41",
     "symbol": "UNI",
     "action": "added to",
@@ -2968,35 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 9115150,
     "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "NEAR",
-    "action": "opened",
-    "side": "short",
-    "notional": 261,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 1413906,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "short",
-    "notional": 6151232,
-    "pct_of_account": 47.6,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x58b27998",
-    "symbol": "ETH",
-    "action": "added to",
-    "side": "short",
-    "notional": 4881000,
-    "pct_of_account": 576.6,
-    "trader_month_pnl": 2307528,
-    "at": "2026-10-16T05:08:28+02:00"
   }
 ]
