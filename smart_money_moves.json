@@ -1,6 +1,26 @@
 [
   {
     "trader": "0xfc667adb",
+    "symbol": "ZEC",
+    "action": "added to",
+    "side": "short",
+    "notional": 3161408,
+    "pct_of_account": 2.8,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T21:09:02+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 7599,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T21:09:02+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
     "symbol": "SOL",
     "action": "added to",
     "side": "short",
@@ -2976,26 +2996,6 @@
     "side": "long",
     "notional": 28419,
     "pct_of_account": 0.3,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:MSFT",
-    "action": "cut",
-    "side": "long",
-    "notional": 2288,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "WLD",
-    "action": "cut",
-    "side": "short",
-    "notional": 2047,
-    "pct_of_account": 0.0,
     "trader_month_pnl": 5912897,
     "at": "2026-10-16T06:08:34+02:00"
   }
