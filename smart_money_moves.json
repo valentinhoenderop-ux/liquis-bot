@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "VVV",
+    "action": "added to",
+    "side": "long",
+    "notional": 154236,
+    "pct_of_account": 1.4,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T02:08:59+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:TSLA",
+    "action": "cut",
+    "side": "long",
+    "notional": 40657,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T02:08:59+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XPL",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 169,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T02:08:59+02:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "xyz:SOXL",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 97677,
     "pct_of_account": 0.1,
     "trader_month_pnl": 9115150,
-    "at": "2026-10-16T02:09:27+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "short",
-    "notional": 96548,
-    "pct_of_account": 0.8,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T02:09:27+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:NVDA",
-    "action": "cut",
-    "side": "long",
-    "notional": 78750,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T02:09:27+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CBRS",
-    "action": "added to",
-    "side": "long",
-    "notional": 45027,
-    "pct_of_account": 0.4,
-    "trader_month_pnl": 6435037,
     "at": "2026-10-16T02:09:27+02:00"
   }
 ]
