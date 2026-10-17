@@ -1,6 +1,16 @@
 [
   {
     "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "short",
+    "notional": 26436,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T05:08:34+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
     "symbol": "xyz:TSLA",
     "action": "added to",
     "side": "long",
@@ -2987,16 +2997,6 @@
     "notional": 398,
     "pct_of_account": 0.0,
     "trader_month_pnl": 1413906,
-    "at": "2026-10-16T03:08:50+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "EIGEN",
-    "action": "cut",
-    "side": "long",
-    "notional": 203,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
     "at": "2026-10-16T03:08:50+02:00"
   }
 ]
