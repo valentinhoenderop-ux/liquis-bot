@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-17T12:09:43+02:00",
+  "at": "2026-10-17T13:10:48+02:00",
   "markets_scanned": 57,
   "smart_money_snapshot": true,
   "candidates": [],
@@ -7,35 +7,35 @@
     {
       "symbol": "xyz:CXMT",
       "side": "short",
-      "price": 6.5312,
-      "score": 1.078,
+      "price": 6.54325,
+      "score": 1.079,
       "smart_money": "0L/4S top traders, net $-6.8M",
-      "atr_pct": 0.727,
-      "trend": "close 6.5310 vs 50h EMA 6.6198",
-      "funding_hourly_pct": -0.00072,
-      "volume_24h": 4083827
+      "atr_pct": 0.689,
+      "trend": "close 6.5305 vs 50h EMA 6.6163",
+      "funding_hourly_pct": 0.00527,
+      "volume_24h": 4043100
     },
     {
       "symbol": "xyz:META",
       "side": "short",
-      "price": 708.07,
-      "score": 0.704,
+      "price": 709.52,
+      "score": 0.705,
       "smart_money": "1L/3S top traders, net $-4.0M",
-      "atr_pct": 0.344,
-      "trend": "close 708.17 vs 50h EMA 722.03",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 30716877
+      "atr_pct": 0.339,
+      "trend": "close 709.65 vs 50h EMA 721.53",
+      "funding_hourly_pct": 0.00514,
+      "volume_24h": 29370481
     },
     {
       "symbol": "xyz:CBRS",
       "side": "short",
-      "price": 127.655,
+      "price": 127.625,
       "score": 0.632,
       "smart_money": "0L/5S top traders, net $-1.3M",
-      "atr_pct": 0.845,
-      "trend": "close 127.79 vs 50h EMA 133.78",
-      "funding_hourly_pct": -0.00011,
-      "volume_24h": 12139303
+      "atr_pct": 0.799,
+      "trend": "close 127.71 vs 50h EMA 133.54",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 11446488
     }
   ],
   "skipped_as_correlated": [
@@ -74,9 +74,9 @@
     {
       "symbol": "FARTCOIN",
       "side": "short",
-      "score": 1.027,
+      "score": 1.028,
       "moves_with": [
-        "XRP (corr 0.83)"
+        "XRP (corr 0.84)"
       ]
     },
     {
@@ -90,7 +90,7 @@
     {
       "symbol": "xyz:NBIS",
       "side": "short",
-      "score": 0.648,
+      "score": 0.65,
       "moves_with": [
         "xyz:INTC (corr 0.76)"
       ]
@@ -98,7 +98,7 @@
     {
       "symbol": "xyz:AMD",
       "side": "short",
-      "score": 0.566,
+      "score": 0.568,
       "moves_with": [
         "xyz:INTC (corr 0.85)"
       ]

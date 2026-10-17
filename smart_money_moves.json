@@ -4,6 +4,36 @@
     "symbol": "HYPE",
     "action": "added to",
     "side": "long",
+    "notional": 338362,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T13:09:47+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "short",
+    "notional": 57955,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T13:09:47+02:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "NEAR",
+    "action": "opened",
+    "side": "short",
+    "notional": 259,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 1384174,
+    "at": "2026-10-17T13:09:47+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "HYPE",
+    "action": "added to",
+    "side": "long",
     "notional": 214047,
     "pct_of_account": 0.2,
     "trader_month_pnl": 13155093,
@@ -2968,35 +2998,5 @@
     "pct_of_account": 0.1,
     "trader_month_pnl": 1920227,
     "at": "2026-10-16T04:08:30+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:AMZN",
-    "action": "cut",
-    "side": "short",
-    "notional": 946,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T04:08:30+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "W",
-    "action": "closed",
-    "side": "short",
-    "notional": 400,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 1413906,
-    "at": "2026-10-16T04:08:30+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "short",
-    "notional": 237099,
-    "pct_of_account": 1.9,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T03:09:41+02:00"
   }
 ]
