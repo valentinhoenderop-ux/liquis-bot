@@ -1,80 +1,63 @@
 {
-  "at": "2026-10-17T03:09:37+02:00",
+  "at": "2026-10-17T04:09:23+02:00",
   "markets_scanned": 57,
   "smart_money_snapshot": true,
-  "candidates": [
-    {
-      "symbol": "xyz:BRENTOIL",
-      "side": "long",
-      "score": 1.307,
-      "price": 107.205,
-      "atr": 0.861245846801052,
-      "atr_pct": 0.805,
-      "stop": 105.48250830639789,
-      "breakout_level": 106.89,
-      "trend_atr": 1.27,
-      "breakout_atr": 0.17,
-      "funding_hourly_pct": -0.00139,
-      "volume_24h": 221550088,
-      "smart_money_view": "agrees",
-      "smart_money": "4L/0S top traders, net $+6.7M"
-    }
-  ],
+  "candidates": [],
   "smart_money_candidates": [
     {
       "symbol": "xyz:CXMT",
       "side": "short",
-      "price": 6.5154,
+      "price": 6.5124,
       "score": 1.076,
       "smart_money": "0L/4S top traders, net $-6.8M",
-      "atr_pct": 1.067,
-      "trend": "close 6.5180 vs 50h EMA 6.6610",
-      "funding_hourly_pct": 0.01745,
-      "volume_24h": 13339696
+      "atr_pct": 1.03,
+      "trend": "close 6.5031 vs 50h EMA 6.6546",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 9920471
     },
     {
       "symbol": "xyz:META",
       "side": "short",
-      "price": 705.635,
-      "score": 0.702,
+      "price": 706.7,
+      "score": 0.703,
       "smart_money": "1L/3S top traders, net $-4.0M",
-      "atr_pct": 0.555,
-      "trend": "close 705.44 vs 50h EMA 728.08",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 34827734
+      "atr_pct": 0.526,
+      "trend": "close 706.20 vs 50h EMA 727.22",
+      "funding_hourly_pct": 0.00338,
+      "volume_24h": 34334191
     },
     {
       "symbol": "xyz:BABA",
       "side": "short",
-      "price": 109.375,
+      "price": 109.16,
       "score": 0.662,
       "smart_money": "1L/4S top traders, net $-2.6M",
-      "atr_pct": 0.489,
-      "trend": "close 109.39 vs 50h EMA 110.39",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 2751710
+      "atr_pct": 0.466,
+      "trend": "close 109.25 vs 50h EMA 110.34",
+      "funding_hourly_pct": -0.00349,
+      "volume_24h": 2396860
     },
     {
       "symbol": "xyz:CBRS",
       "side": "short",
-      "price": 127.125,
+      "price": 127.675,
       "score": 0.631,
       "smart_money": "0L/5S top traders, net $-1.3M",
-      "atr_pct": 1.334,
-      "trend": "close 127.08 vs 50h EMA 136.61",
-      "funding_hourly_pct": 0.01472,
-      "volume_24h": 13192206
+      "atr_pct": 1.307,
+      "trend": "close 127.39 vs 50h EMA 136.25",
+      "funding_hourly_pct": 0.00802,
+      "volume_24h": 13322894
     },
     {
       "symbol": "PAXG",
       "side": "long",
-      "price": 4163.75,
+      "price": 4162.85,
       "score": 0.367,
       "smart_money": "3L/1S top traders, net $+0.7M",
-      "atr_pct": 0.244,
-      "trend": "close 4,164.40 vs 50h EMA 4,162.35",
+      "atr_pct": 0.23,
+      "trend": "close 4,163.10 vs 50h EMA 4,162.35",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3125775
+      "volume_24h": 3119679
     }
   ],
   "skipped_as_correlated": [
@@ -91,7 +74,7 @@
       "side": "short",
       "score": 1.7,
       "moves_with": [
-        "XRP (corr 0.77)"
+        "XRP (corr 0.76)"
       ]
     },
     {
@@ -115,13 +98,13 @@
       "side": "short",
       "score": 1.3,
       "moves_with": [
-        "xyz:INTC (corr 0.78)"
+        "xyz:INTC (corr 0.79)"
       ]
     },
     {
       "symbol": "LINK",
       "side": "short",
-      "score": 1.137,
+      "score": 1.139,
       "moves_with": [
         "XRP (corr 0.91)"
       ]
@@ -129,7 +112,7 @@
     {
       "symbol": "FARTCOIN",
       "side": "short",
-      "score": 1.038,
+      "score": 1.037,
       "moves_with": [
         "XRP (corr 0.84)",
         "WLD (corr 0.71)"
@@ -138,7 +121,7 @@
     {
       "symbol": "xyz:MSTR",
       "side": "short",
-      "score": 0.732,
+      "score": 0.733,
       "moves_with": [
         "XRP (corr 0.81)"
       ]
@@ -146,9 +129,9 @@
     {
       "symbol": "xyz:NBIS",
       "side": "short",
-      "score": 0.647,
+      "score": 0.649,
       "moves_with": [
-        "xyz:INTC (corr 0.77)"
+        "xyz:INTC (corr 0.76)"
       ]
     },
     {
@@ -206,7 +189,7 @@
     {
       "symbol": "WLD",
       "side": "short",
-      "why": "last close 0.51459 is through the 50h EMA 0.506795"
+      "why": "last close 0.51069 is through the 50h EMA 0.506917"
     }
   ],
   "errors": []

@@ -2,6 +2,46 @@
   {
     "trader": "0xfc667adb",
     "symbol": "xyz:TSLA",
+    "action": "added to",
+    "side": "long",
+    "notional": 398294,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T04:08:26+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "ZRO",
+    "action": "added to",
+    "side": "long",
+    "notional": 94704,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T04:08:26+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "cut",
+    "side": "short",
+    "notional": 16012,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T04:08:26+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XPL",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1190,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T04:08:26+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:TSLA",
     "action": "flipped to",
     "side": "long",
     "notional": 15628,
@@ -2958,45 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 5912897,
     "at": "2026-10-16T03:08:50+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "XMR",
-    "action": "cut",
-    "side": "short",
-    "notional": 1498,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T02:10:22+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SILVER",
-    "action": "added to",
-    "side": "short",
-    "notional": 5055865,
-    "pct_of_account": 4.6,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T02:09:27+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SP500",
-    "action": "added to",
-    "side": "long",
-    "notional": 4494766,
-    "pct_of_account": 4.1,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T02:09:27+02:00"
-  },
-  {
-    "trader": "NMTD -Thank you Jeff",
-    "symbol": "BTC",
-    "action": "closed",
-    "side": "short",
-    "notional": 1097610,
-    "pct_of_account": 13.3,
-    "trader_month_pnl": 1589864,
-    "at": "2026-10-16T02:09:27+02:00"
   }
 ]
