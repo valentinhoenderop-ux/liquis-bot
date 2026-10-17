@@ -1,5 +1,15 @@
 [
   {
+    "trader": "0x7a6d5fc5",
+    "symbol": "NEAR",
+    "action": "cut",
+    "side": "short",
+    "notional": 254,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 1384174,
+    "at": "2026-10-17T08:09:06+02:00"
+  },
+  {
     "trader": "0x58b27998",
     "symbol": "xyz:XYZ100",
     "action": "added to",
@@ -2987,16 +2997,6 @@
     "notional": 598348,
     "pct_of_account": 6.0,
     "trader_month_pnl": 3723720,
-    "at": "2026-10-16T03:08:50+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "NEAR",
-    "action": "added to",
-    "side": "short",
-    "notional": 189096,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 9115150,
     "at": "2026-10-16T03:08:50+02:00"
   }
 ]
