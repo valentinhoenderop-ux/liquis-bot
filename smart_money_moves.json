@@ -1,5 +1,15 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "short",
+    "notional": 49754,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T20:08:43+02:00"
+  },
+  {
     "trader": "0x936cf4fb",
     "symbol": "MON",
     "action": "flipped to",
@@ -2987,16 +2997,6 @@
     "notional": 2047,
     "pct_of_account": 0.0,
     "trader_month_pnl": 5912897,
-    "at": "2026-10-16T06:08:34+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CBRS",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 1737,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6435037,
     "at": "2026-10-16T06:08:34+02:00"
   }
 ]
