@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "NEAR",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 77126,
+    "pct_of_account": 0.7,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T16:09:16+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "added to",
+    "side": "short",
+    "notional": 4296,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T16:09:16+02:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:MSTR",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 254,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5274666,
+    "at": "2026-10-17T16:09:16+02:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "HYPE",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 1134884,
     "pct_of_account": 1.0,
     "trader_month_pnl": 9115150,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0xaf0fdd39",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "long",
-    "notional": 149847,
-    "pct_of_account": 15.7,
-    "trader_month_pnl": 1920227,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CBRS",
-    "action": "cut",
-    "side": "long",
-    "notional": 7231,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "MON",
-    "action": "added to",
-    "side": "short",
-    "notional": 4995,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
     "at": "2026-10-16T05:08:28+02:00"
   }
 ]
