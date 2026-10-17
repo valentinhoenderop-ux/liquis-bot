@@ -62,3 +62,5 @@
 - 2026-10-16 20:08 CLOSE LONG AAVE @ 154.78: net -52.84 USD (-1.09R, fees 3.59, funding -0.04). stop-loss hit
 - 2026-10-16 20:10 OPEN SHORT WLD 1829.69 @ 0.49918 ($913 notional, stop 0.526039, risk $49): Smart-money candidate: top traders 1L/3S (net -$9.7M), price below 50h EMA; no contrary news, no scheduled event; half size.
 - 2026-10-17 00:11 OPEN SHORT xyz:INTC 22.3507 @ 89.1839 ($1,993 notional, stop 91.3842, risk $49): Smart-money candidate: top traders 0L/4S (net -$9.2M), price well below 50h EMA; Nasdaq/semis slump news supportive, no scheduled event; half size.
+- 2026-10-17 03:08 CLOSE LONG xyz:CL @ 99.4161: net +148.75 USD (+3.10R, fees 12.66, funding -0.53). trailing stop hit
+- 2026-10-17 03:10 OPEN LONG xyz:BRENTOIL 57.1134 @ 107.35 ($6,131 notional, stop 105.63, risk $98): Breakout long (score 1.31); top traders 4L/0S agree, oil surge to $110 news supportive, Liquid positioning balanced, no scheduled event.
