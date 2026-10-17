@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xf818fa41",
+    "symbol": "UNI",
+    "action": "added to",
+    "side": "short",
+    "notional": 17929,
+    "pct_of_account": 6.9,
+    "trader_month_pnl": 5177118,
+    "at": "2026-10-17T17:09:23+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "LIT",
+    "action": "added to",
+    "side": "long",
+    "notional": 12858,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T17:09:23+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "added to",
+    "side": "short",
+    "notional": 9173,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T17:09:23+02:00"
+  },
+  {
     "trader": "0x936cf4fb",
     "symbol": "NEAR",
     "action": "flipped to",
@@ -2967,36 +2997,6 @@
     "notional": 4881000,
     "pct_of_account": 576.6,
     "trader_month_pnl": 2307528,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x58b27998",
-    "symbol": "ZEC",
-    "action": "closed",
-    "side": "long",
-    "notional": 2444000,
-    "pct_of_account": 288.7,
-    "trader_month_pnl": 2307528,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SP500",
-    "action": "cut",
-    "side": "long",
-    "notional": 1556523,
-    "pct_of_account": 1.4,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "HYPE",
-    "action": "added to",
-    "side": "long",
-    "notional": 1134884,
-    "pct_of_account": 1.0,
-    "trader_month_pnl": 9115150,
     "at": "2026-10-16T05:08:28+02:00"
   }
 ]
