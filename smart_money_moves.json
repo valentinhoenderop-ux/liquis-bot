@@ -1,5 +1,65 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "HYPE",
+    "action": "added to",
+    "side": "long",
+    "notional": 2143882,
+    "pct_of_account": 1.9,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T15:09:03+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "NEAR",
+    "action": "cut",
+    "side": "short",
+    "notional": 27260,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T15:09:03+02:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:NVDA",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1718,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5274666,
+    "at": "2026-10-17T15:09:03+02:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:MSTR",
+    "action": "cut",
+    "side": "short",
+    "notional": 1497,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5274666,
+    "at": "2026-10-17T15:09:03+02:00"
+  },
+  {
+    "trader": "0xf818fa41",
+    "symbol": "UNI",
+    "action": "opened",
+    "side": "short",
+    "notional": 820,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 5177118,
+    "at": "2026-10-17T15:09:03+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XMR",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 219,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5284480,
+    "at": "2026-10-17T15:09:03+02:00"
+  },
+  {
     "trader": "NMTD -Thank you Jeff",
     "symbol": "xyz:XYZ100",
     "action": "opened",
@@ -2938,65 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 5912897,
     "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "VVV",
-    "action": "cut",
-    "side": "long",
-    "notional": 2499,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:MRVL",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1086,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T05:08:28+02:00"
-  },
-  {
-    "trader": "0x58b27998",
-    "symbol": "ETH",
-    "action": "added to",
-    "side": "short",
-    "notional": 3649500,
-    "pct_of_account": 341.9,
-    "trader_month_pnl": 2307528,
-    "at": "2026-10-16T04:08:30+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "short",
-    "notional": 2865326,
-    "pct_of_account": 22.7,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T04:08:30+02:00"
-  },
-  {
-    "trader": "0x58b27998",
-    "symbol": "ZEC",
-    "action": "cut",
-    "side": "long",
-    "notional": 2444000,
-    "pct_of_account": 228.9,
-    "trader_month_pnl": 2307528,
-    "at": "2026-10-16T04:08:30+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:NVDA",
-    "action": "added to",
-    "side": "short",
-    "notional": 1582416,
-    "pct_of_account": 1.5,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T04:08:30+02:00"
   }
 ]
