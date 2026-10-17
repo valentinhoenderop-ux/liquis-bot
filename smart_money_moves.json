@@ -1,6 +1,26 @@
 [
   {
     "trader": "0xfc667adb",
+    "symbol": "HYPE",
+    "action": "cut",
+    "side": "short",
+    "notional": 334551,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 13155093,
+    "at": "2026-10-17T06:08:27+02:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "NEAR",
+    "action": "closed",
+    "side": "short",
+    "notional": 758,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 1384174,
+    "at": "2026-10-17T06:08:27+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
     "symbol": "SOL",
     "action": "added to",
     "side": "short",
@@ -2977,26 +2997,6 @@
     "notional": 2315,
     "pct_of_account": 0.0,
     "trader_month_pnl": 6435037,
-    "at": "2026-10-16T03:08:50+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "XMR",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 558,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T03:08:50+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "W",
-    "action": "opened",
-    "side": "short",
-    "notional": 398,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 1413906,
     "at": "2026-10-16T03:08:50+02:00"
   }
 ]

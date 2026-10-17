@@ -64,3 +64,5 @@
 - 2026-10-17 00:11 OPEN SHORT xyz:INTC 22.3507 @ 89.1839 ($1,993 notional, stop 91.3842, risk $49): Smart-money candidate: top traders 0L/4S (net -$9.2M), price well below 50h EMA; Nasdaq/semis slump news supportive, no scheduled event; half size.
 - 2026-10-17 03:08 CLOSE LONG xyz:CL @ 99.4161: net +148.75 USD (+3.10R, fees 12.66, funding -0.53). trailing stop hit
 - 2026-10-17 03:10 OPEN LONG xyz:BRENTOIL 57.1134 @ 107.35 ($6,131 notional, stop 105.63, risk $98): Breakout long (score 1.31); top traders 4L/0S agree, oil surge to $110 news supportive, Liquid positioning balanced, no scheduled event.
+- 2026-10-17 06:07 CLOSE SHORT WLD @ 0.526302: net -51.30 USD (-1.04R, fees 1.78, funding -0.11). stop-loss hit
+- 2026-10-17 06:09 OPEN LONG TIA 1010.95 @ 0.731926 ($740 notional, stop 0.683391, risk $49): Breakout long (score 1.23, 3.1x unusual volume); no followed trader holds it, news neutral, uncorrelated to book; half size since +20% 24h and no smart-money confirmation.
