@@ -1,80 +1,63 @@
 {
-  "at": "2026-10-17T06:08:54+02:00",
+  "at": "2026-10-17T07:09:36+02:00",
   "markets_scanned": 57,
   "smart_money_snapshot": true,
-  "candidates": [
-    {
-      "symbol": "TIA",
-      "side": "long",
-      "score": 1.233,
-      "price": 0.72408,
-      "atr": 0.024267330178846355,
-      "atr_pct": 3.306,
-      "stop": 0.6755453396423072,
-      "breakout_level": 0.7224,
-      "trend_atr": 1.63,
-      "breakout_atr": 0.48,
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 28126405,
-      "smart_money_view": null,
-      "smart_money": "no followed trader holds it"
-    }
-  ],
+  "candidates": [],
   "smart_money_candidates": [
     {
       "symbol": "xyz:CXMT",
       "side": "short",
-      "price": 6.54375,
-      "score": 1.079,
+      "price": 6.53235,
+      "score": 1.078,
       "smart_money": "0L/4S top traders, net $-6.8M",
-      "atr_pct": 0.944,
-      "trend": "close 6.5242 vs 50h EMA 6.6438",
-      "funding_hourly_pct": 0.00768,
-      "volume_24h": 6683887
+      "atr_pct": 0.901,
+      "trend": "close 6.5247 vs 50h EMA 6.6396",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 5925538
     },
     {
       "symbol": "xyz:META",
       "side": "short",
-      "price": 708.415,
+      "price": 707.71,
       "score": 0.704,
       "smart_money": "1L/3S top traders, net $-4.0M",
-      "atr_pct": 0.478,
-      "trend": "close 708.35 vs 50h EMA 725.94",
+      "atr_pct": 0.46,
+      "trend": "close 707.48 vs 50h EMA 725.25",
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 33326534
+      "volume_24h": 33055312
     },
     {
       "symbol": "xyz:BABA",
       "side": "short",
-      "price": 108.82,
+      "price": 108.735,
       "score": 0.661,
       "smart_money": "1L/4S top traders, net $-2.6M",
-      "atr_pct": 0.427,
-      "trend": "close 108.89 vs 50h EMA 110.25",
-      "funding_hourly_pct": -0.0037,
-      "volume_24h": 2013319
+      "atr_pct": 0.405,
+      "trend": "close 108.77 vs 50h EMA 110.19",
+      "funding_hourly_pct": -0.00167,
+      "volume_24h": 1837297
     },
     {
       "symbol": "xyz:CBRS",
       "side": "short",
-      "price": 127.78,
+      "price": 127.835,
       "score": 0.632,
       "smart_money": "0L/5S top traders, net $-1.3M",
-      "atr_pct": 1.17,
-      "trend": "close 127.40 vs 50h EMA 135.46",
-      "funding_hourly_pct": 0.00726,
-      "volume_24h": 12920095
+      "atr_pct": 1.107,
+      "trend": "close 127.70 vs 50h EMA 135.11",
+      "funding_hourly_pct": 0.00653,
+      "volume_24h": 12774455
     },
     {
       "symbol": "PAXG",
       "side": "long",
-      "price": 4165.65,
+      "price": 4165.85,
       "score": 0.367,
       "smart_money": "3L/1S top traders, net $+0.7M",
-      "atr_pct": 0.203,
-      "trend": "close 4,165.50 vs 50h EMA 4,162.53",
+      "atr_pct": 0.19,
+      "trend": "close 4,165.80 vs 50h EMA 4,162.68",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3055131
+      "volume_24h": 2958726
     }
   ],
   "skipped_as_correlated": [
@@ -89,7 +72,7 @@
     {
       "symbol": "NEAR",
       "side": "short",
-      "score": 1.6,
+      "score": 1.7,
       "moves_with": [
         "XRP (corr 0.77)"
       ]
@@ -121,7 +104,7 @@
     {
       "symbol": "LINK",
       "side": "short",
-      "score": 1.137,
+      "score": 1.138,
       "moves_with": [
         "XRP (corr 0.91)"
       ]
@@ -129,7 +112,7 @@
     {
       "symbol": "FARTCOIN",
       "side": "short",
-      "score": 1.037,
+      "score": 1.04,
       "moves_with": [
         "XRP (corr 0.84)"
       ]
@@ -145,7 +128,7 @@
     {
       "symbol": "xyz:NBIS",
       "side": "short",
-      "score": 0.648,
+      "score": 0.649,
       "moves_with": [
         "xyz:INTC (corr 0.76)"
       ]
@@ -197,7 +180,7 @@
       "side": "short",
       "score": 0.333,
       "moves_with": [
-        "xyz:INTC (corr 0.78)"
+        "xyz:INTC (corr 0.79)"
       ]
     }
   ],
