@@ -68,3 +68,5 @@
 - 2026-10-17 06:09 OPEN LONG TIA 1010.95 @ 0.731926 ($740 notional, stop 0.683391, risk $49): Breakout long (score 1.23, 3.1x unusual volume); no followed trader holds it, news neutral, uncorrelated to book; half size since +20% 24h and no smart-money confirmation.
 - 2026-10-17 09:08 CLOSE LONG TIA @ 0.73156: net -1.78 USD (-0.04R, fees 1.41, funding +0.01). trailing stop hit
 - 2026-10-17 10:09 OPEN SHORT xyz:BABA 62.7614 @ 108.71 ($6,823 notional, stop 109.48, risk $49): Smart-money candidate: top traders 1L/4S (net -$2.6M), price below 50h EMA; Nasdaq/tech selloff news supportive, no scheduled event, positioning unknown; half size.
+- 2026-10-18 00:08 CLOSE SHORT xyz:ZHIPU @ 62.2551: net +108.03 USD (+2.22R, fees 4.90, funding +0.68). trailing stop hit
+- 2026-10-18 00:09 OPEN SHORT WLD 2516.68 @ 0.486347 ($1,224 notional, stop 0.506361, risk $50): Breakout short (score 0.94); top traders 1L/3S (net -$9.5M) agree, fresh trend weak so half size; no contrary news, no scheduled event, Liquid pulse shows nothing against.
