@@ -74,3 +74,5 @@
 - 2026-10-18 02:11 OPEN SHORT xyz:ZHIPU 47.1732 @ 62.6587 ($2,956 notional, stop 63.7153, risk $50): Smart-money candidate: top traders 0L/4S (net -$5.0M), price below 50h EMA; China Star50 AI-unraveling news supportive, no scheduled event, positioning unknown; half size.
 - 2026-10-18 06:08 CLOSE SHORT xyz:INTC @ 89.1630: net -4.18 USD (-0.08R, fees 5.58, funding -0.94). trailing stop hit
 - 2026-10-18 06:10 OPEN LONG XMR 3.40293 @ 605.68 ($2,061 notional, stop 591.10, risk $50): Breakout long (score 1.14); top traders 4L/3S mixed but one added long (~90% of account), Liquid crowd 79% short, 24h +7.9%, no contrary news or scheduled event; half size.
+- 2026-10-18 08:08 CLOSE LONG XMR @ 590.81: net -54.52 USD (-1.10R, fees 3.87, funding +0.05). stop-loss hit
+- 2026-10-18 08:09 OPEN SHORT LIT 912.159 @ 3.0277 ($2,762 notional, stop 3.1363, risk $99): Breakout short (score 1.38); top traders 2L/7S (net -$8.5M) agree, Liquid shows short-heavy but no contrary news or scheduled event; crypto risk-off headlines supportive.
