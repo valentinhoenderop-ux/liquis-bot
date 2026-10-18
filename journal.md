@@ -80,3 +80,8 @@
 - 2026-10-18 11:09 OPEN SHORT xyz:CXMT 463.852 @ 6.4314 ($2,983 notional, stop 6.5298, risk $46): Smart-money candidate: top traders 0L/4S (net -$6.7M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning unknown; half size.
 - 2026-10-18 12:08 CLOSE SHORT WLD @ 0.506614: net -53.55 USD (-1.06R, fees 2.37, funding +0.17). stop-loss hit
 - 2026-10-18 14:10 OPEN SHORT xyz:NBIS 7.76016 @ 164.41 ($1,276 notional, stop 167.56, risk $24): Smart-money candidate: top traders 1L/4S (net -$3.7M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning unknown; half size.
+- 2026-10-19 00:08 CLOSE SHORT xyz:BABA @ 108.76: net -20.37 USD (-0.42R, fees 19.11, funding -2.15). trailing stop hit
+- 2026-10-19 00:08 CLOSE SHORT xyz:CXMT @ 6.4346: net -8.80 USD (-0.19R, fees 8.36, funding -1.05). trailing stop hit
+- 2026-10-19 00:08 CLOSE SHORT xyz:NBIS @ 164.49: net -3.88 USD (-0.16R, fees 3.57, funding -0.34). trailing stop hit
+- 2026-10-19 00:11 OPEN SHORT xyz:DRAM 74.0703 @ 46.2339 ($3,425 notional, stop 46.8964, risk $49): Smart-money candidate: top traders 1L/7S (net -$13.8M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning short-heavy; half size.
+- 2026-10-19 00:11 OPEN SHORT WLD 2778.47 @ 0.473723 ($1,316 notional, stop 0.491372, risk $49): Smart-money candidate: top traders 1L/5S (net -$15.9M) with a trader adding to the short this hour, price below 50h EMA; no contrary news; half size.
