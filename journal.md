@@ -70,3 +70,5 @@
 - 2026-10-17 10:09 OPEN SHORT xyz:BABA 62.7614 @ 108.71 ($6,823 notional, stop 109.48, risk $49): Smart-money candidate: top traders 1L/4S (net -$2.6M), price below 50h EMA; Nasdaq/tech selloff news supportive, no scheduled event, positioning unknown; half size.
 - 2026-10-18 00:08 CLOSE SHORT xyz:ZHIPU @ 62.2551: net +108.03 USD (+2.22R, fees 4.90, funding +0.68). trailing stop hit
 - 2026-10-18 00:09 OPEN SHORT WLD 2516.68 @ 0.486347 ($1,224 notional, stop 0.506361, risk $50): Breakout short (score 0.94); top traders 1L/3S (net -$9.5M) agree, fresh trend weak so half size; no contrary news, no scheduled event, Liquid pulse shows nothing against.
+- 2026-10-18 02:08 CLOSE SHORT xyz:RKLB @ 50.0911: net +91.19 USD (+0.94R, fees 8.07, funding -1.74). trailing stop hit
+- 2026-10-18 02:11 OPEN SHORT xyz:ZHIPU 47.1732 @ 62.6587 ($2,956 notional, stop 63.7153, risk $50): Smart-money candidate: top traders 0L/4S (net -$5.0M), price below 50h EMA; China Star50 AI-unraveling news supportive, no scheduled event, positioning unknown; half size.
