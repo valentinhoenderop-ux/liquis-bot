@@ -1,32 +1,26 @@
 {
-  "at": "2026-10-18T14:09:55+02:00",
-  "markets_scanned": 57,
+  "at": "2026-10-18T15:10:07+02:00",
+  "markets_scanned": 56,
   "smart_money_snapshot": true,
-  "candidates": [],
-  "smart_money_candidates": [
-    {
-      "symbol": "xyz:NBIS",
-      "side": "short",
-      "price": 164.44,
-      "score": 0.771,
-      "smart_money": "1L/4S top traders, net $-3.7M",
-      "atr_pct": 0.958,
-      "trend": "close 164.40 vs 50h EMA 169.20",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 7599911
-    },
+  "candidates": [
     {
       "symbol": "INJ",
       "side": "short",
-      "price": 8.417,
-      "score": 0.432,
-      "smart_money": "0L/3S top traders, net $-1.3M",
-      "atr_pct": 1.563,
-      "trend": "close 8.4189 vs 50h EMA 8.5740",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 10350484
+      "score": 1.246,
+      "price": 8.25595,
+      "atr": 0.1337452995875454,
+      "atr_pct": 1.613,
+      "stop": 8.52344059917509,
+      "breakout_level": 8.3735,
+      "trend_atr": 0.28,
+      "breakout_atr": 0.63,
+      "funding_hourly_pct": -0.00036,
+      "volume_24h": 11254142,
+      "smart_money_view": "agrees",
+      "smart_money": "0L/3S top traders, net $-1.3M"
     }
   ],
+  "smart_money_candidates": [],
   "skipped_as_correlated": [
     {
       "symbol": "ETH",
@@ -90,13 +84,14 @@
       "side": "short",
       "score": 1.5,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.76)"
+        "xyz:ZHIPU (corr 0.76)",
+        "xyz:NBIS (corr 0.88)"
       ]
     },
     {
       "symbol": "LINK",
       "side": "short",
-      "score": 1.344,
+      "score": 1.326,
       "moves_with": [
         "XRP (corr 0.91)"
       ]
@@ -107,13 +102,14 @@
       "score": 1.3,
       "moves_with": [
         "XRP (corr 0.73)",
-        "xyz:CXMT (corr 0.71)"
+        "xyz:CXMT (corr 0.71)",
+        "xyz:NBIS (corr 0.76)"
       ]
     },
     {
       "symbol": "VVV",
       "side": "short",
-      "score": 1.174,
+      "score": 1.172,
       "moves_with": [
         "XRP (corr 0.75)"
       ]
@@ -121,31 +117,24 @@
     {
       "symbol": "FARTCOIN",
       "side": "short",
-      "score": 1.114,
+      "score": 1.111,
       "moves_with": [
-        "XRP (corr 0.88)"
+        "XRP (corr 0.87)"
       ]
     },
     {
       "symbol": "TAO",
       "side": "short",
-      "score": 1.093,
+      "score": 1.091,
       "moves_with": [
-        "XRP (corr 0.83)"
-      ]
-    },
-    {
-      "symbol": "UNI",
-      "side": "short",
-      "score": 0.965,
-      "moves_with": [
-        "XRP (corr 0.8)"
+        "XRP (corr 0.82)",
+        "INJ (corr 0.71)"
       ]
     },
     {
       "symbol": "xyz:SMSN",
       "side": "short",
-      "score": 0.814,
+      "score": 0.813,
       "moves_with": [
         "xyz:ZHIPU (corr 0.78)",
         "xyz:CXMT (corr 0.76)"
@@ -154,15 +143,15 @@
     {
       "symbol": "ONDO",
       "side": "short",
-      "score": 0.757,
+      "score": 0.756,
       "moves_with": [
-        "XRP (corr 0.88)"
+        "XRP (corr 0.87)"
       ]
     },
     {
       "symbol": "GRAM",
       "side": "short",
-      "score": 0.75,
+      "score": 0.749,
       "moves_with": [
         "XRP (corr 0.79)"
       ]
@@ -179,7 +168,7 @@
     {
       "symbol": "xyz:CBRS",
       "side": "short",
-      "score": 0.629,
+      "score": 0.628,
       "moves_with": [
         "xyz:CXMT (corr 0.72)"
       ]
@@ -196,7 +185,7 @@
     {
       "symbol": "MON",
       "side": "short",
-      "score": 0.599,
+      "score": 0.597,
       "moves_with": [
         "XRP (corr 0.83)"
       ]
@@ -216,7 +205,7 @@
       "side": "short",
       "score": 0.448,
       "moves_with": [
-        "XRP (corr 0.82)",
+        "XRP (corr 0.81)",
         "xyz:NBIS (corr 0.77)"
       ]
     },
@@ -233,9 +222,9 @@
       "side": "short",
       "score": 0.336,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.74)",
+        "xyz:ZHIPU (corr 0.75)",
         "xyz:CXMT (corr 0.73)",
-        "xyz:NBIS (corr 0.77)"
+        "xyz:NBIS (corr 0.79)"
       ]
     }
   ],

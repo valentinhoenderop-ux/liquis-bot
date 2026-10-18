@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "long",
+    "notional": 485639,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 15751623,
+    "at": "2026-10-18T15:09:11+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "cut",
+    "side": "long",
+    "notional": 719,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T15:09:11+02:00"
+  },
+  {
     "trader": "0x9aa58935",
     "symbol": "BTC",
     "action": "flipped to",
@@ -2977,26 +2997,6 @@
     "notional": 295431,
     "pct_of_account": 3.0,
     "trader_month_pnl": 5912897,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SP500",
-    "action": "cut",
-    "side": "long",
-    "notional": 55157,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CBRS",
-    "action": "added to",
-    "side": "short",
-    "notional": 26851,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 6435037,
     "at": "2026-10-16T14:10:29+02:00"
   }
 ]
