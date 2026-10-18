@@ -85,3 +85,9 @@
 - 2026-10-19 00:08 CLOSE SHORT xyz:NBIS @ 164.49: net -3.88 USD (-0.16R, fees 3.57, funding -0.34). trailing stop hit
 - 2026-10-19 00:11 OPEN SHORT xyz:DRAM 74.0703 @ 46.2339 ($3,425 notional, stop 46.8964, risk $49): Smart-money candidate: top traders 1L/7S (net -$13.8M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning short-heavy; half size.
 - 2026-10-19 00:11 OPEN SHORT WLD 2778.47 @ 0.473723 ($1,316 notional, stop 0.491372, risk $49): Smart-money candidate: top traders 1L/5S (net -$15.9M) with a trader adding to the short this hour, price below 50h EMA; no contrary news; half size.
+- 2026-10-19 01:08 CLOSE SHORT xyz:GOOGL @ 343.21: net +61.09 USD (+1.25R, fees 12.82, funding -3.54). trailing stop hit
+- 2026-10-19 01:08 CLOSE SHORT xyz:ZHIPU @ 62.6900: net -10.39 USD (-0.21R, fees 8.28, funding +0.63). trailing stop hit
+- 2026-10-19 01:08 CLOSE SHORT LIT @ 2.9874: net +30.80 USD (+0.31R, fees 5.21, funding +0.78). trailing stop hit
+- 2026-10-19 01:10 CLOSE LONG xyz:BRENTOIL @ 105.86: net -102.50 USD (-1.04R, fees 17.05, funding +0.55). Exit suggestion (price through 50h EMA) plus adverse news: oil slips as US waives Russia sanctions; Liquid positioning balanced.
+- 2026-10-19 01:10 OPEN LONG xyz:SKHY 20.3898 @ 133.53 ($2,723 notional, stop 131.16, risk $48): Smart-money candidate: top traders 6L/2S (net +$59.9M), price above 50h EMA, negative funding; semis news supportive, no contrary event; half size.
+- 2026-10-19 01:10 OPEN LONG xyz:AAPL 27.9978 @ 345.75 ($9,680 notional, stop 344.53, risk $34): Smart-money candidate: top traders 4L/0S (net +$6.6M), price above 50h EMA; no AAPL-specific event in news; half size.
