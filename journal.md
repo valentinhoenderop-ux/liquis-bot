@@ -79,3 +79,4 @@
 - 2026-10-18 11:08 CLOSE SHORT xyz:SKHX @ 908.20: net +67.76 USD (+1.41R, fees 3.55, funding +0.18). trailing stop hit
 - 2026-10-18 11:09 OPEN SHORT xyz:CXMT 463.852 @ 6.4314 ($2,983 notional, stop 6.5298, risk $46): Smart-money candidate: top traders 0L/4S (net -$6.7M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning unknown; half size.
 - 2026-10-18 12:08 CLOSE SHORT WLD @ 0.506614: net -53.55 USD (-1.06R, fees 2.37, funding +0.17). stop-loss hit
+- 2026-10-18 14:10 OPEN SHORT xyz:NBIS 7.76016 @ 164.41 ($1,276 notional, stop 167.56, risk $24): Smart-money candidate: top traders 1L/4S (net -$3.7M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning unknown; half size.

@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0x9aa58935",
+    "symbol": "BTC",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 25624,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 1866431,
+    "at": "2026-10-18T14:08:35+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:HOOD",
+    "action": "cut",
+    "side": "short",
+    "notional": 10097,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15751623,
+    "at": "2026-10-18T14:08:35+02:00"
+  },
+  {
     "trader": "NMTD -Thank you Jeff",
     "symbol": "xyz:XYZ100",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 26851,
     "pct_of_account": 0.2,
     "trader_month_pnl": 6435037,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CRCL",
-    "action": "cut",
-    "side": "short",
-    "notional": 17332,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "EIGEN",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 1705,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
     "at": "2026-10-16T14:10:29+02:00"
   }
 ]
