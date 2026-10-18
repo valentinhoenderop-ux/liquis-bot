@@ -72,3 +72,5 @@
 - 2026-10-18 00:09 OPEN SHORT WLD 2516.68 @ 0.486347 ($1,224 notional, stop 0.506361, risk $50): Breakout short (score 0.94); top traders 1L/3S (net -$9.5M) agree, fresh trend weak so half size; no contrary news, no scheduled event, Liquid pulse shows nothing against.
 - 2026-10-18 02:08 CLOSE SHORT xyz:RKLB @ 50.0911: net +91.19 USD (+0.94R, fees 8.07, funding -1.74). trailing stop hit
 - 2026-10-18 02:11 OPEN SHORT xyz:ZHIPU 47.1732 @ 62.6587 ($2,956 notional, stop 63.7153, risk $50): Smart-money candidate: top traders 0L/4S (net -$5.0M), price below 50h EMA; China Star50 AI-unraveling news supportive, no scheduled event, positioning unknown; half size.
+- 2026-10-18 06:08 CLOSE SHORT xyz:INTC @ 89.1630: net -4.18 USD (-0.08R, fees 5.58, funding -0.94). trailing stop hit
+- 2026-10-18 06:10 OPEN LONG XMR 3.40293 @ 605.68 ($2,061 notional, stop 591.10, risk $50): Breakout long (score 1.14); top traders 4L/3S mixed but one added long (~90% of account), Liquid crowd 79% short, 24h +7.9%, no contrary news or scheduled event; half size.

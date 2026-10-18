@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "HYPE",
+    "action": "added to",
+    "side": "short",
+    "notional": 1031577,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 15751623,
+    "at": "2026-10-18T06:08:53+02:00"
+  },
+  {
+    "trader": "0x4c6d679e",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "long",
+    "notional": 508167,
+    "pct_of_account": 89.8,
+    "trader_month_pnl": 3724693,
+    "at": "2026-10-18T06:08:53+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:ARM",
+    "action": "added to",
+    "side": "long",
+    "notional": 50140,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15751623,
+    "at": "2026-10-18T06:08:53+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XMR",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1093,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T06:08:53+02:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:RKLB",
+    "action": "cut",
+    "side": "short",
+    "notional": 158,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5847511,
+    "at": "2026-10-18T06:08:53+02:00"
+  },
+  {
     "trader": "0x4c6d679e",
     "symbol": "XMR",
     "action": "flipped to",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 5912897,
     "at": "2026-10-16T12:10:25+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:QCOM",
-    "action": "cut",
-    "side": "long",
-    "notional": 323,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T12:10:25+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "NEAR",
-    "action": "added to",
-    "side": "short",
-    "notional": 1644203,
-    "pct_of_account": 1.5,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T11:09:08+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SP500",
-    "action": "added to",
-    "side": "long",
-    "notional": 575905,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T11:09:08+02:00"
-  },
-  {
-    "trader": "NMTD -Thank you Jeff",
-    "symbol": "xyz:CRWV",
-    "action": "opened",
-    "side": "long",
-    "notional": 464051,
-    "pct_of_account": 5.8,
-    "trader_month_pnl": 1589864,
-    "at": "2026-10-16T11:09:08+02:00"
-  },
-  {
-    "trader": "0x654016a8",
-    "symbol": "FIL",
-    "action": "opened",
-    "side": "long",
-    "notional": 309690,
-    "pct_of_account": 4.5,
-    "trader_month_pnl": 1691944,
-    "at": "2026-10-16T11:09:08+02:00"
   }
 ]

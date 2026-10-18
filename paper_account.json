@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9713.804591540216,
+  "cash": 9710.018992955609,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.2697,
       "dex": "core",
       "fees": 1.8730124429635793,
-      "funding": -0.823597045074068,
-      "checked_ms": 1792292700000,
-      "funding_ms": 1792292868540.8862,
+      "funding": -0.8373147142682138,
+      "checked_ms": 1792296300000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news."
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 337.52,
       "dex": "xyz",
       "fees": 6.4613226681297355,
-      "funding": -1.3325099724658458,
-      "checked_ms": 1792292700000,
-      "funding_ms": 1792292868540.8862,
+      "funding": -1.3607789670991397,
+      "checked_ms": 1792296300000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$4.2M), at 50h EMA; AI-doubt selloff news supportive, no scheduled event."
     },
     "xyz:SKHX": {
@@ -51,27 +51,10 @@
       "extreme": 854.69,
       "dex": "xyz",
       "fees": 1.8273442853494493,
-      "funding": 1.0138648607974354,
-      "checked_ms": 1792292700000,
-      "funding_ms": 1792292868540.8862,
+      "funding": 0.7760988798029096,
+      "checked_ms": 1792296300000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Smart-money candidate: top traders 2L/6S (net -$92M), price below 50h EMA, Liquid positioning short-heavy but funding favors shorts; semis selloff news, no scheduled event."
-    },
-    "xyz:INTC": {
-      "side": "short",
-      "qty": 22.35072192781995,
-      "entry_px": 89.18388575,
-      "entry_time": "2026-10-17T00:11:06+02:00",
-      "entry_ms": 1792188666183,
-      "stop": 89.11846490758919,
-      "initial_stop": 91.3841956883928,
-      "atr": 1.1001549691963943,
-      "extreme": 85.818,
-      "dex": "xyz",
-      "fees": 2.790653923177,
-      "funding": -0.7430995519946877,
-      "checked_ms": 1792292700000,
-      "funding_ms": 1792292868540.8862,
-      "reason": "Smart-money candidate: top traders 0L/4S (net -$9.2M), price well below 50h EMA; Nasdaq/semis slump news supportive, no scheduled event; half size."
     },
     "xyz:BRENTOIL": {
       "side": "long",
@@ -85,9 +68,9 @@
       "extreme": 107.55,
       "dex": "xyz",
       "fees": 8.58346640502181,
-      "funding": -0.3292420287479134,
-      "checked_ms": 1792292700000,
-      "funding_ms": 1792292868540.8862,
+      "funding": -0.29081355742047504,
+      "checked_ms": 1792296300000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Breakout long (score 1.31); top traders 4L/0S agree, oil surge to $110 news supportive, Liquid positioning balanced, no scheduled event."
     },
     "xyz:BABA": {
@@ -102,9 +85,9 @@
       "extreme": 108.39,
       "dex": "xyz",
       "fees": 9.551527191916046,
-      "funding": -0.04788242158116296,
-      "checked_ms": 1792292100000,
-      "funding_ms": 1792292868540.8862,
+      "funding": -0.09083511799844232,
+      "checked_ms": 1792296300000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$2.6M), price below 50h EMA; Nasdaq/tech selloff news supportive, no scheduled event, positioning unknown; half size."
     },
     "WLD": {
@@ -119,9 +102,9 @@
       "extreme": 0.48409,
       "dex": "core",
       "fees": 1.1627803166645065,
-      "funding": 0.06962784239089619,
-      "checked_ms": 1792292700000,
-      "funding_ms": 1792292868540.8862,
+      "funding": 0.09475563226212022,
+      "checked_ms": 1792296300000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Breakout short (score 0.94); top traders 1L/3S (net -$9.5M) agree, fresh trend weak so half size; no contrary news, no scheduled event, Liquid pulse shows nothing against."
     },
     "xyz:ZHIPU": {
@@ -136,10 +119,27 @@
       "extreme": 62.455,
       "dex": "xyz",
       "fees": 4.138129494341805,
-      "funding": -0.15995703146401777,
-      "checked_ms": 1792290300000,
-      "funding_ms": 1792292868540.8862,
+      "funding": -0.20160746791447207,
+      "checked_ms": 1792295700000,
+      "funding_ms": 1792296499407.5007,
       "reason": "Smart-money candidate: top traders 0L/4S (net -$5.0M), price below 50h EMA; China Star50 AI-unraveling news supportive, no scheduled event, positioning unknown; half size."
+    },
+    "XMR": {
+      "side": "long",
+      "qty": 3.4029349253298453,
+      "entry_px": 605.6776874999999,
+      "entry_time": "2026-10-18T06:10:25+02:00",
+      "entry_ms": 1792296625714,
+      "stop": 591.1023818580447,
+      "initial_stop": 591.1023818580447,
+      "atr": 7.287652820977619,
+      "extreme": 605.6776874999999,
+      "dex": "core",
+      "fees": 1.9580276684724272,
+      "funding": 0.0,
+      "checked_ms": 1792296625714,
+      "funding_ms": 1792296625714,
+      "reason": "Breakout long (score 1.14); top traders 4L/3S mixed but one added long (~90% of account), Liquid crowd 79% short, 24h +7.9%, no contrary news or scheduled event; half size."
     }
   },
   "closed": [
@@ -654,6 +654,22 @@
       "return_on_risk": 0.9399184110817618,
       "entry_reason": "Breakout short (score 1.98); top traders 0L/4S agree, no contrary news, Nasdaq/tech selloff backdrop, no scheduled event.",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:INTC",
+      "side": "short",
+      "qty": 22.35072192781995,
+      "entry_px": 89.18388575,
+      "exit_px": 89.16302414004298,
+      "entry_time": "2026-10-17T00:11:06+02:00",
+      "exit_time": "2026-10-18T06:08:20+02:00",
+      "gross_pnl": 0.46627204311607384,
+      "fees": 5.580655065493637,
+      "funding": -0.9384582185681631,
+      "net_pnl": -4.1759248038094,
+      "return_on_risk": -0.08491360005232268,
+      "entry_reason": "Smart-money candidate: top traders 0L/4S (net -$9.2M), price well below 50h EMA; Nasdaq/semis slump news supportive, no scheduled event; half size.",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -1061,6 +1077,10 @@
     {
       "t": "2026-10-18T05:07:52+02:00",
       "equity": 9943.75
+    },
+    {
+      "t": "2026-10-18T06:08:22+02:00",
+      "equity": 9918.68
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
