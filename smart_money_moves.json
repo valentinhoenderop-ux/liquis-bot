@@ -2,6 +2,46 @@
   {
     "trader": "0xfc667adb",
     "symbol": "HYPE",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 97963,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 15751623,
+    "at": "2026-10-18T03:08:53+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "cut",
+    "side": "short",
+    "notional": 7771,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T03:08:53+02:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "ETH",
+    "action": "opened",
+    "side": "short",
+    "notional": 7221,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 5847511,
+    "at": "2026-10-18T03:08:53+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "W",
+    "action": "added to",
+    "side": "short",
+    "notional": 3707,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T03:08:53+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "HYPE",
     "action": "added to",
     "side": "long",
     "notional": 1563749,
@@ -2958,45 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 6435037,
     "at": "2026-10-16T10:09:29+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:QCOM",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 884,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6435037,
-    "at": "2026-10-16T10:09:29+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "EIGEN",
-    "action": "cut",
-    "side": "long",
-    "notional": 236,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T10:09:29+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "NEAR",
-    "action": "added to",
-    "side": "short",
-    "notional": 1035443,
-    "pct_of_account": 1.0,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T09:09:34+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "short",
-    "notional": 788216,
-    "pct_of_account": 7.9,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T09:09:34+02:00"
   }
 ]

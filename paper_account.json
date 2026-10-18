@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9713.75124125441,
+  "cash": 9714.760401227426,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.2697,
       "dex": "core",
       "fees": 1.8730124429635793,
-      "funding": -0.8039923165288527,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": -0.7961606482809405,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news."
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 337.52,
       "dex": "xyz",
       "fees": 6.4613226681297355,
-      "funding": -1.2259749619759501,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": -1.2767343559915612,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$4.2M), at 50h EMA; AI-doubt selloff news supportive, no scheduled event."
     },
     "xyz:SKHX": {
@@ -51,9 +51,9 @@
       "extreme": 854.69,
       "dex": "xyz",
       "fees": 1.8273442853494493,
-      "funding": 1.0746004469380093,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": 0.6438827901859385,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Smart-money candidate: top traders 2L/6S (net -$92M), price below 50h EMA, Liquid positioning short-heavy but funding favors shorts; semis selloff news, no scheduled event."
     },
     "xyz:INTC": {
@@ -68,9 +68,9 @@
       "extreme": 85.818,
       "dex": "xyz",
       "fees": 2.790653923177,
-      "funding": -0.4060503186865263,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": -0.8033423062356465,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Smart-money candidate: top traders 0L/4S (net -$9.2M), price well below 50h EMA; Nasdaq/semis slump news supportive, no scheduled event; half size."
     },
     "xyz:BRENTOIL": {
@@ -85,9 +85,9 @@
       "extreme": 107.55,
       "dex": "xyz",
       "fees": 8.58346640502181,
-      "funding": -0.6545014139609322,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": -0.6507988705827672,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Breakout long (score 1.31); top traders 4L/0S agree, oil surge to $110 news supportive, Liquid positioning balanced, no scheduled event."
     },
     "xyz:BABA": {
@@ -102,9 +102,9 @@
       "extreme": 108.5,
       "dex": "xyz",
       "fees": 9.551527191916046,
-      "funding": -0.3079146424464227,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": -0.3504386344053135,
+      "checked_ms": 1792284900000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$2.6M), price below 50h EMA; Nasdaq/tech selloff news supportive, no scheduled event, positioning unknown; half size."
     },
     "WLD": {
@@ -119,9 +119,9 @@
       "extreme": 0.48409,
       "dex": "core",
       "fees": 1.1627803166645065,
-      "funding": 0.024388144326379688,
-      "checked_ms": 1792281900000,
-      "funding_ms": 1792282108788.9426,
+      "funding": 0.01638586481276248,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Breakout short (score 0.94); top traders 1L/3S (net -$9.5M) agree, fresh trend weak so half size; no contrary news, no scheduled event, Liquid pulse shows nothing against."
     },
     "xyz:ZHIPU": {
@@ -133,12 +133,12 @@
       "stop": 63.71527622691704,
       "initial_stop": 63.71527622691704,
       "atr": 0.5283106134585178,
-      "extreme": 62.658655,
+      "extreme": 62.455,
       "dex": "xyz",
       "fees": 4.138129494341805,
-      "funding": 0.0,
-      "checked_ms": 1792282278653,
-      "funding_ms": 1792282278653,
+      "funding": -0.09139887485165027,
+      "checked_ms": 1792285500000,
+      "funding_ms": 1792285700769.6614,
       "reason": "Smart-money candidate: top traders 0L/4S (net -$5.0M), price below 50h EMA; China Star50 AI-unraveling news supportive, no scheduled event, positioning unknown; half size."
     }
   },
@@ -1045,6 +1045,10 @@
     {
       "t": "2026-10-18T02:08:31+02:00",
       "equity": 9966.5
+    },
+    {
+      "t": "2026-10-18T03:08:23+02:00",
+      "equity": 9921.28
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
