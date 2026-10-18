@@ -78,3 +78,4 @@
 - 2026-10-18 08:09 OPEN SHORT LIT 912.159 @ 3.0277 ($2,762 notional, stop 3.1363, risk $99): Breakout short (score 1.38); top traders 2L/7S (net -$8.5M) agree, Liquid shows short-heavy but no contrary news or scheduled event; crypto risk-off headlines supportive.
 - 2026-10-18 11:08 CLOSE SHORT xyz:SKHX @ 908.20: net +67.76 USD (+1.41R, fees 3.55, funding +0.18). trailing stop hit
 - 2026-10-18 11:09 OPEN SHORT xyz:CXMT 463.852 @ 6.4314 ($2,983 notional, stop 6.5298, risk $46): Smart-money candidate: top traders 0L/4S (net -$6.7M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning unknown; half size.
+- 2026-10-18 12:08 CLOSE SHORT WLD @ 0.506614: net -53.55 USD (-1.06R, fees 2.37, funding +0.17). stop-loss hit
