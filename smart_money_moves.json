@@ -1,5 +1,35 @@
 [
   {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SNDK",
+    "action": "cut",
+    "side": "short",
+    "notional": 973305,
+    "pct_of_account": 2.7,
+    "trader_month_pnl": 3985222,
+    "at": "2026-10-18T16:08:45+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "short",
+    "notional": 77808,
+    "pct_of_account": 0.7,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T16:08:45+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "JTO",
+    "action": "added to",
+    "side": "short",
+    "notional": 805,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T16:08:45+02:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "SOL",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 450594,
     "pct_of_account": 5.4,
     "trader_month_pnl": 1589864,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:BRENTOIL",
-    "action": "added to",
-    "side": "short",
-    "notional": 333382,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 9115150,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "WLD",
-    "action": "added to",
-    "side": "short",
-    "notional": 295594,
-    "pct_of_account": 3.0,
-    "trader_month_pnl": 5912897,
-    "at": "2026-10-16T14:10:29+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ENA",
-    "action": "added to",
-    "side": "short",
-    "notional": 295431,
-    "pct_of_account": 3.0,
-    "trader_month_pnl": 5912897,
     "at": "2026-10-16T14:10:29+02:00"
   }
 ]

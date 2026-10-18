@@ -1,33 +1,73 @@
 {
-  "at": "2026-10-18T15:10:07+02:00",
-  "markets_scanned": 56,
+  "at": "2026-10-18T16:09:43+02:00",
+  "markets_scanned": 57,
   "smart_money_snapshot": true,
   "candidates": [
     {
       "symbol": "INJ",
       "side": "short",
-      "score": 1.246,
-      "price": 8.25595,
-      "atr": 0.1337452995875454,
-      "atr_pct": 1.613,
-      "stop": 8.52344059917509,
-      "breakout_level": 8.3735,
-      "trend_atr": 0.28,
-      "breakout_atr": 0.63,
-      "funding_hourly_pct": -0.00036,
-      "volume_24h": 11254142,
+      "score": 1.837,
+      "price": 8.0371,
+      "atr": 0.13994795547255487,
+      "atr_pct": 1.732,
+      "stop": 8.31699591094511,
+      "breakout_level": 8.2761,
+      "trend_atr": 0.44,
+      "breakout_atr": 1.41,
+      "funding_hourly_pct": -0.00576,
+      "volume_24h": 12680855,
       "smart_money_view": "agrees",
       "smart_money": "0L/3S top traders, net $-1.3M"
+    },
+    {
+      "symbol": "STRK",
+      "side": "short",
+      "score": 1.508,
+      "price": 0.06078,
+      "atr": 0.00155513913020352,
+      "atr_pct": 2.551,
+      "stop": 0.06389027826040704,
+      "breakout_level": 0.06119,
+      "trend_atr": 2.73,
+      "breakout_atr": 0.14,
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 17850187,
+      "smart_money_view": "mixed",
+      "smart_money": "1L/2S top traders, net $+0.3M"
+    },
+    {
+      "symbol": "TIA",
+      "side": "short",
+      "score": 0.405,
+      "price": 0.60618,
+      "atr": 0.016757278282688866,
+      "atr_pct": 2.708,
+      "stop": 0.6396945565653778,
+      "breakout_level": 0.62299,
+      "trend_atr": 0.3,
+      "breakout_atr": 0.25,
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 15096928,
+      "smart_money_view": null,
+      "smart_money": "no followed trader holds it"
     }
   ],
   "smart_money_candidates": [],
   "skipped_as_correlated": [
     {
+      "symbol": "ZRO",
+      "side": "short",
+      "score": 1.332,
+      "moves_with": [
+        "XRP (corr 0.73)"
+      ]
+    },
+    {
       "symbol": "ETH",
       "side": "short",
       "score": 2.5,
       "moves_with": [
-        "XRP (corr 0.9)"
+        "XRP (corr 0.91)"
       ]
     },
     {
@@ -35,7 +75,7 @@
       "side": "short",
       "score": 2.0,
       "moves_with": [
-        "XRP (corr 0.84)"
+        "XRP (corr 0.86)"
       ]
     },
     {
@@ -43,8 +83,9 @@
       "side": "short",
       "score": 1.7,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.76)",
-        "xyz:CXMT (corr 0.79)"
+        "xyz:ZHIPU (corr 0.77)",
+        "xyz:CXMT (corr 0.78)",
+        "xyz:NBIS (corr 0.81)"
       ]
     },
     {
@@ -52,7 +93,7 @@
       "side": "short",
       "score": 1.6,
       "moves_with": [
-        "XRP (corr 0.74)"
+        "XRP (corr 0.75)"
       ]
     },
     {
@@ -60,7 +101,7 @@
       "side": "short",
       "score": 1.6,
       "moves_with": [
-        "XRP (corr 0.81)"
+        "XRP (corr 0.84)"
       ]
     },
     {
@@ -76,7 +117,7 @@
       "side": "short",
       "score": 1.5,
       "moves_with": [
-        "XRP (corr 0.71)"
+        "XRP (corr 0.73)"
       ]
     },
     {
@@ -84,16 +125,8 @@
       "side": "short",
       "score": 1.5,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.76)",
-        "xyz:NBIS (corr 0.88)"
-      ]
-    },
-    {
-      "symbol": "LINK",
-      "side": "short",
-      "score": 1.326,
-      "moves_with": [
-        "XRP (corr 0.91)"
+        "xyz:ZHIPU (corr 0.75)",
+        "xyz:NBIS (corr 0.83)"
       ]
     },
     {
@@ -101,68 +134,87 @@
       "side": "short",
       "score": 1.3,
       "moves_with": [
-        "XRP (corr 0.73)",
+        "XRP (corr 0.72)",
         "xyz:CXMT (corr 0.71)",
-        "xyz:NBIS (corr 0.76)"
+        "xyz:NBIS (corr 0.83)"
+      ]
+    },
+    {
+      "symbol": "LINK",
+      "side": "short",
+      "score": 1.28,
+      "moves_with": [
+        "XRP (corr 0.92)"
       ]
     },
     {
       "symbol": "VVV",
       "side": "short",
-      "score": 1.172,
-      "moves_with": [
-        "XRP (corr 0.75)"
-      ]
-    },
-    {
-      "symbol": "FARTCOIN",
-      "side": "short",
-      "score": 1.111,
-      "moves_with": [
-        "XRP (corr 0.87)"
-      ]
-    },
-    {
-      "symbol": "TAO",
-      "side": "short",
-      "score": 1.091,
-      "moves_with": [
-        "XRP (corr 0.82)",
-        "INJ (corr 0.71)"
-      ]
-    },
-    {
-      "symbol": "xyz:SMSN",
-      "side": "short",
-      "score": 0.813,
-      "moves_with": [
-        "xyz:ZHIPU (corr 0.78)",
-        "xyz:CXMT (corr 0.76)"
-      ]
-    },
-    {
-      "symbol": "ONDO",
-      "side": "short",
-      "score": 0.756,
-      "moves_with": [
-        "XRP (corr 0.87)"
-      ]
-    },
-    {
-      "symbol": "GRAM",
-      "side": "short",
-      "score": 0.749,
+      "score": 1.16,
       "moves_with": [
         "XRP (corr 0.79)"
       ]
     },
     {
-      "symbol": "xyz:MSTR",
+      "symbol": "FARTCOIN",
       "side": "short",
-      "score": 0.635,
+      "score": 1.097,
+      "moves_with": [
+        "XRP (corr 0.88)"
+      ]
+    },
+    {
+      "symbol": "TAO",
+      "side": "short",
+      "score": 1.076,
       "moves_with": [
         "XRP (corr 0.83)",
-        "xyz:NBIS (corr 0.72)"
+        "INJ (corr 0.72)"
+      ]
+    },
+    {
+      "symbol": "UNI",
+      "side": "short",
+      "score": 0.956,
+      "moves_with": [
+        "XRP (corr 0.88)",
+        "STRK (corr 0.71)"
+      ]
+    },
+    {
+      "symbol": "xyz:SMSN",
+      "side": "short",
+      "score": 0.809,
+      "moves_with": [
+        "xyz:ZHIPU (corr 0.79)",
+        "xyz:CXMT (corr 0.76)",
+        "xyz:NBIS (corr 0.76)"
+      ]
+    },
+    {
+      "symbol": "ONDO",
+      "side": "short",
+      "score": 0.751,
+      "moves_with": [
+        "XRP (corr 0.89)",
+        "INJ (corr 0.71)"
+      ]
+    },
+    {
+      "symbol": "GRAM",
+      "side": "short",
+      "score": 0.747,
+      "moves_with": [
+        "XRP (corr 0.81)"
+      ]
+    },
+    {
+      "symbol": "xyz:MSTR",
+      "side": "short",
+      "score": 0.632,
+      "moves_with": [
+        "XRP (corr 0.83)",
+        "xyz:NBIS (corr 0.73)"
       ]
     },
     {
@@ -170,61 +222,79 @@
       "side": "short",
       "score": 0.628,
       "moves_with": [
-        "xyz:CXMT (corr 0.72)"
+        "xyz:CXMT (corr 0.72)",
+        "xyz:NBIS (corr 0.8)"
       ]
     },
     {
       "symbol": "xyz:AMD",
       "side": "short",
-      "score": 0.604,
+      "score": 0.601,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.73)",
-        "xyz:NBIS (corr 0.84)"
+        "xyz:CXMT (corr 0.73)",
+        "xyz:NBIS (corr 0.81)"
       ]
     },
     {
       "symbol": "MON",
       "side": "short",
-      "score": 0.597,
+      "score": 0.594,
       "moves_with": [
-        "XRP (corr 0.83)"
+        "XRP (corr 0.84)"
+      ]
+    },
+    {
+      "symbol": "ASTER",
+      "side": "short",
+      "score": 0.567,
+      "moves_with": [
+        "XRP (corr 0.78)"
+      ]
+    },
+    {
+      "symbol": "BNB",
+      "side": "short",
+      "score": 0.532,
+      "moves_with": [
+        "XRP (corr 0.91)"
       ]
     },
     {
       "symbol": "xyz:RKLB",
       "side": "short",
-      "score": 0.477,
+      "score": 0.476,
       "moves_with": [
-        "XRP (corr 0.75)",
-        "xyz:ZHIPU (corr 0.74)",
-        "xyz:NBIS (corr 0.89)"
+        "XRP (corr 0.76)",
+        "xyz:ZHIPU (corr 0.72)",
+        "xyz:CXMT (corr 0.71)",
+        "xyz:NBIS (corr 0.87)"
       ]
     },
     {
       "symbol": "xyz:HOOD",
       "side": "short",
-      "score": 0.448,
+      "score": 0.447,
       "moves_with": [
-        "XRP (corr 0.81)",
-        "xyz:NBIS (corr 0.77)"
+        "XRP (corr 0.82)",
+        "xyz:NBIS (corr 0.72)"
       ]
     },
     {
       "symbol": "AVAX",
       "side": "short",
-      "score": 0.348,
+      "score": 0.347,
       "moves_with": [
-        "XRP (corr 0.77)"
+        "XRP (corr 0.8)"
       ]
     },
     {
       "symbol": "xyz:MRVL",
       "side": "short",
-      "score": 0.336,
+      "score": 0.335,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.75)",
-        "xyz:CXMT (corr 0.73)",
-        "xyz:NBIS (corr 0.79)"
+        "xyz:ZHIPU (corr 0.73)",
+        "xyz:CXMT (corr 0.76)",
+        "xyz:NBIS (corr 0.77)"
       ]
     }
   ],
