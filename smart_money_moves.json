@@ -1,6 +1,16 @@
 [
   {
     "trader": "0x936cf4fb",
+    "symbol": "GRAM",
+    "action": "added to",
+    "side": "short",
+    "notional": 1437,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5301140,
+    "at": "2026-10-18T18:09:27+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
     "symbol": "XMR",
     "action": "added to",
     "side": "short",
@@ -2987,16 +2997,6 @@
     "notional": 195874,
     "pct_of_account": 0.2,
     "trader_month_pnl": 9115150,
-    "at": "2026-10-16T15:11:01+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CRCL",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 20282,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 6435037,
     "at": "2026-10-16T15:11:01+02:00"
   }
 ]
