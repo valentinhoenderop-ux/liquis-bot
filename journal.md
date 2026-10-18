@@ -76,3 +76,5 @@
 - 2026-10-18 06:10 OPEN LONG XMR 3.40293 @ 605.68 ($2,061 notional, stop 591.10, risk $50): Breakout long (score 1.14); top traders 4L/3S mixed but one added long (~90% of account), Liquid crowd 79% short, 24h +7.9%, no contrary news or scheduled event; half size.
 - 2026-10-18 08:08 CLOSE LONG XMR @ 590.81: net -54.52 USD (-1.10R, fees 3.87, funding +0.05). stop-loss hit
 - 2026-10-18 08:09 OPEN SHORT LIT 912.159 @ 3.0277 ($2,762 notional, stop 3.1363, risk $99): Breakout short (score 1.38); top traders 2L/7S (net -$8.5M) agree, Liquid shows short-heavy but no contrary news or scheduled event; crypto risk-off headlines supportive.
+- 2026-10-18 11:08 CLOSE SHORT xyz:SKHX @ 908.20: net +67.76 USD (+1.41R, fees 3.55, funding +0.18). trailing stop hit
+- 2026-10-18 11:09 OPEN SHORT xyz:CXMT 463.852 @ 6.4314 ($2,983 notional, stop 6.5298, risk $46): Smart-money candidate: top traders 0L/4S (net -$6.7M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning unknown; half size.
