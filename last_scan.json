@@ -1,61 +1,58 @@
 {
-  "at": "2026-10-19T11:09:41+02:00",
+  "at": "2026-10-19T12:10:10+02:00",
   "markets_scanned": 64,
   "smart_money_snapshot": true,
   "candidates": [],
   "smart_money_candidates": [
     {
+      "symbol": "xyz:PLTR",
+      "side": "long",
+      "price": 187.13,
+      "score": 0.474,
+      "smart_money": "3L/0S top traders, net $+1.7M",
+      "atr_pct": 0.419,
+      "trend": "close 187.42 vs 50h EMA 186.98",
+      "funding_hourly_pct": -0.00129,
+      "volume_24h": 4623577
+    },
+    {
       "symbol": "xyz:MSFT",
       "side": "long",
-      "price": 530.615,
-      "score": 0.457,
+      "price": 530.52,
+      "score": 0.455,
       "smart_money": "3L/1S top traders, net $+1.6M",
-      "atr_pct": 0.23,
-      "trend": "close 530.57 vs 50h EMA 529.50",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 14772801
+      "atr_pct": 0.222,
+      "trend": "close 530.71 vs 50h EMA 529.54",
+      "funding_hourly_pct": 0.00048,
+      "volume_24h": 14963177
     }
   ],
   "skipped_as_correlated": [
     {
-      "symbol": "xyz:SKHX",
+      "symbol": "xyz:AVGO",
       "side": "long",
-      "score": 0.483,
+      "score": -0.175,
       "moves_with": [
-        "xyz:SKHY (corr 0.95)"
-      ]
-    },
-    {
-      "symbol": "xyz:EWY",
-      "side": "long",
-      "score": -0.278,
-      "moves_with": [
-        "xyz:SKHY (corr 0.9)"
-      ]
-    },
-    {
-      "symbol": "xyz:SMSN",
-      "side": "long",
-      "score": -0.304,
-      "moves_with": [
-        "xyz:SKHY (corr 0.89)"
+        "xyz:SKHY (corr 0.8)"
       ]
     },
     {
       "symbol": "FARTCOIN",
       "side": "short",
-      "score": 1.336,
+      "score": 1.334,
+      "moves_with": [
+        "XPL (corr 0.77)"
+      ]
+    },
+    {
+      "symbol": "GRAM",
+      "side": "short",
+      "score": 0.749,
       "moves_with": [
         "XPL (corr 0.77)"
       ]
     }
   ],
-  "exit_suggestions": [
-    {
-      "symbol": "ZRO",
-      "side": "short",
-      "why": "last close 1.8857 is through the 50h EMA 1.8810"
-    }
-  ],
+  "exit_suggestions": [],
   "errors": []
 }

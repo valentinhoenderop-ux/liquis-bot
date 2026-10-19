@@ -109,3 +109,4 @@
 - 2026-10-19 10:09 OPEN LONG xyz:PLTR 34.1154 @ 188.53 ($6,432 notional, stop 187.13, risk $48): Smart-money candidate: top traders 3L/0S (net +$1.8M), close above 50h EMA, negative funding; AI dip-buying news supportive, no scheduled event flagged; half size.
 - 2026-10-19 10:09 OPEN LONG xyz:NATGAS 1124.61 @ 3.3955 ($3,819 notional, stop 3.3706, risk $28): Smart-money candidate: top traders 4L/1S (net +$0.9M) with fresh adds, close above 50h EMA; no contrary news or event; half size.
 - 2026-10-19 11:08 CLOSE LONG xyz:SP500 @ 7,692.87: net -62.28 USD (-2.02R, fees 26.97, funding -0.35). stop-loss hit
+- 2026-10-19 12:09 CLOSE LONG xyz:PLTR @ 187.03: net -69.07 USD (-1.44R, fees 17.94, funding -0.13). stop-loss hit
