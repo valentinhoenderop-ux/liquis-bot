@@ -116,3 +116,8 @@
 - 2026-10-19 16:08 CLOSE LONG xyz:NATGAS @ 3.3668: net -65.11 USD (-1.36R, fees 14.59, funding +0.03). stop-loss hit
 - 2026-10-19 16:10 OPEN LONG xyz:PLTR 38.2596 @ 191.41 ($7,323 notional, stop 188.91, risk $96): Breakout above 190.16 with top traders 3L/0S agreeing; AI stocks rebounding in news, no PLTR-specific event.
 - 2026-10-19 16:10 OPEN LONG xyz:AAPL 19.675 @ 344.96 ($6,787 notional, stop 342.53, risk $48): Smart-money candidate: top traders 4L/0S (net +$8.5M), price above 50h EMA, negative funding; no contrary news; half size.
+- 2026-10-19 17:14 CLOSE SHORT XPL @ 0.077219: net -3.81 USD (-0.08R, fees 3.28, funding -0.33). trailing stop hit
+- 2026-10-19 17:14 CLOSE SHORT ZRO @ 1.8840: net -2.76 USD (-0.06R, fees 2.34, funding -0.20). trailing stop hit
+- 2026-10-19 17:16 CLOSE SHORT INJ @ 8.6319: net -24.66 USD (-0.52R, fees 2.44, funding +0.00). Exit suggestion: price back through 50h EMA, +6.5% 24h against short; stop out before stop-loss.
+- 2026-10-19 17:16 OPEN SHORT ZEC 1.17848 @ 1,128.89 ($1,330 notional, stop 1,169.57, risk $48): Smart-money candidate: top traders 3L/10S (net -$119.5M), close below 50h EMA; no contrary news; half size.
+- 2026-10-19 17:16 OPEN SHORT xyz:CBRS 13.2663 @ 123.52 ($1,639 notional, stop 127.14, risk $48): Smart-money candidate: top traders 0L/6S, below 50h EMA; Liquid crowd 99% long while smart money only 25% long (fading crowd); half size.
