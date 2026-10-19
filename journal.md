@@ -99,3 +99,6 @@
 - 2026-10-19 03:09 OPEN SHORT ZRO 653.853 @ 1.8831 ($1,231 notional, stop 1.9569, risk $48): Smart-money candidate: top traders 2L/6S (net -$3.7M), close below 50h EMA; no contrary news; half size.
 - 2026-10-19 04:09 OPEN SHORT xyz:CXMT 284.599 @ 6.2893 ($1,790 notional, stop 6.4582, risk $48): Breakout candidate: short breakout with top traders 0L/3S agreeing (net -$6.1M); Korean chip stocks falling on DeepSeek news; positioning pulse unavailable so half size.
 - 2026-10-19 04:09 OPEN SHORT MON 71512.4 @ 0.0215382 ($1,540 notional, stop 0.0222104, risk $48): Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size.
+- 2026-10-19 05:08 CLOSE SHORT WLD @ 0.491618: net -52.25 USD (-1.07R, fees 2.55, funding -0.02). stop-loss hit
+- 2026-10-19 05:09 OPEN LONG xyz:SP500 1.24972 @ 7,721.41 ($9,650 notional, stop 7,696.72, risk $31): Breakout candidate: S&P500 long breakout, top traders mixed (1L/0S), positioning balanced, Nasdaq futures buying the dip, no scheduled event flagged.
+- 2026-10-19 05:09 OPEN SHORT PONS 1494.87 @ 0.264038 ($395 notional, stop 0.276895, risk $19): Smart-money candidate: top traders 1L/4S (net -$0.6M), close below 50h EMA, 24h -7.8%; no contrary news; half size.
