@@ -95,3 +95,5 @@
 - 2026-10-19 02:08 CLOSE SHORT xyz:DRAM @ 46.2581: net -10.35 USD (-0.21R, fees 9.59, funding -1.04). trailing stop hit (gapped through)
 - 2026-10-19 02:08 CLOSE LONG xyz:AAPL @ 344.35: net -65.53 USD (-1.92R, fees 27.05, funding -0.55). stop-loss hit
 - 2026-10-19 02:10 OPEN SHORT XPL 22357.4 @ 0.0771804 ($1,726 notional, stop 0.0793441, risk $48): Smart-money candidate: top traders 1L/9S (net -$9.3M), close below 50h EMA; no contrary news or scheduled event; half size.
+- 2026-10-19 03:09 OPEN LONG xyz:AAPL 28.0906 @ 344.16 ($9,668 notional, stop 342.35, risk $51): Smart-money candidate: top traders 4L/0S (net +$7.5M), one adding 11.8% of account long this hour, price above 50h EMA; no contrary news or scheduled event.
+- 2026-10-19 03:09 OPEN SHORT ZRO 653.853 @ 1.8831 ($1,231 notional, stop 1.9569, risk $48): Smart-money candidate: top traders 2L/6S (net -$3.7M), close below 50h EMA; no contrary news; half size.
