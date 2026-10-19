@@ -113,3 +113,6 @@
 - 2026-10-19 14:17 CLOSE LONG xyz:NATGAS @ 3.3938: net -12.63 USD (-0.45R, fees 10.69, funding +0.03). trailing stop hit
 - 2026-10-19 14:19 OPEN SHORT INJ 150.084 @ 8.4838 ($1,273 notional, stop 8.8028, risk $48): Smart-money candidate: top traders 0L/3S (net -$1.3M), Liquid positioning short-heavy, price at 50h EMA, no contrary news; half size, positioning pulse not checked.
 - 2026-10-19 15:09 OPEN LONG xyz:NATGAS 1540.67 @ 3.3995 ($5,238 notional, stop 3.3685, risk $48): Smart-money candidate: top traders 4L/1S (net +$1.1M), fresh add by a top trader, close above 50h EMA; no contrary news or event; half size.
+- 2026-10-19 16:08 CLOSE LONG xyz:NATGAS @ 3.3668: net -65.11 USD (-1.36R, fees 14.59, funding +0.03). stop-loss hit
+- 2026-10-19 16:10 OPEN LONG xyz:PLTR 38.2596 @ 191.41 ($7,323 notional, stop 188.91, risk $96): Breakout above 190.16 with top traders 3L/0S agreeing; AI stocks rebounding in news, no PLTR-specific event.
+- 2026-10-19 16:10 OPEN LONG xyz:AAPL 19.675 @ 344.96 ($6,787 notional, stop 342.53, risk $48): Smart-money candidate: top traders 4L/0S (net +$8.5M), price above 50h EMA, negative funding; no contrary news; half size.
