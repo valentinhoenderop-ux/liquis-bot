@@ -106,3 +106,5 @@
 - 2026-10-19 08:09 CLOSE SHORT xyz:CXMT @ 6.2924: net -4.01 USD (-0.08R, fees 5.01, funding -1.90). trailing stop hit
 - 2026-10-19 09:14 CLOSE SHORT PONS @ 0.26417: net -0.93 USD (-0.05R, fees 0.75, funding -0.02). trailing stop hit
 - 2026-10-19 09:17 OPEN SHORT xyz:CXMT 244.073 @ 6.1802 ($1,508 notional, stop 6.3770, risk $48): Smart-money candidate: top traders 0L/3S (net -$6.5M), close below 50h EMA, -3.7% 24h; no contrary news or scheduled event; half size.
+- 2026-10-19 10:09 OPEN LONG xyz:PLTR 34.1154 @ 188.53 ($6,432 notional, stop 187.13, risk $48): Smart-money candidate: top traders 3L/0S (net +$1.8M), close above 50h EMA, negative funding; AI dip-buying news supportive, no scheduled event flagged; half size.
+- 2026-10-19 10:09 OPEN LONG xyz:NATGAS 1124.61 @ 3.3955 ($3,819 notional, stop 3.3706, risk $28): Smart-money candidate: top traders 4L/1S (net +$0.9M) with fresh adds, close above 50h EMA; no contrary news or event; half size.
