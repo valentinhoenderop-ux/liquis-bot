@@ -121,3 +121,6 @@
 - 2026-10-19 17:16 CLOSE SHORT INJ @ 8.6319: net -24.66 USD (-0.52R, fees 2.44, funding +0.00). Exit suggestion: price back through 50h EMA, +6.5% 24h against short; stop out before stop-loss.
 - 2026-10-19 17:16 OPEN SHORT ZEC 1.17848 @ 1,128.89 ($1,330 notional, stop 1,169.57, risk $48): Smart-money candidate: top traders 3L/10S (net -$119.5M), close below 50h EMA; no contrary news; half size.
 - 2026-10-19 17:16 OPEN SHORT xyz:CBRS 13.2663 @ 123.52 ($1,639 notional, stop 127.14, risk $48): Smart-money candidate: top traders 0L/6S, below 50h EMA; Liquid crowd 99% long while smart money only 25% long (fading crowd); half size.
+- 2026-10-19 18:08 CLOSE LONG xyz:AAPL @ 342.32: net -70.91 USD (-1.48R, fees 18.93, funding +0.06). stop-loss hit (gapped through)
+- 2026-10-19 18:10 OPEN SHORT BTC 0.108638 @ 81,878.54 ($8,895 notional, stop 82,761.58, risk $96): Smart-money candidate: top traders 3L/13S (net -$506M), fresh $5.2M short add by 0x936cf4fb, close below 50h EMA; ETF outflows in news, Liquid cohort balanced, no contrary event.
+- 2026-10-19 18:10 OPEN LONG xyz:TSLA 8.69593 @ 367.98 ($3,200 notional, stop 362.47, risk $48): Breakout above 367.38, +5.5% 24h with AI/tech rebound in news; top traders mixed 3L/5S so half size; no TSLA-specific event.
