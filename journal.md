@@ -124,3 +124,5 @@
 - 2026-10-19 18:08 CLOSE LONG xyz:AAPL @ 342.32: net -70.91 USD (-1.48R, fees 18.93, funding +0.06). stop-loss hit (gapped through)
 - 2026-10-19 18:10 OPEN SHORT BTC 0.108638 @ 81,878.54 ($8,895 notional, stop 82,761.58, risk $96): Smart-money candidate: top traders 3L/13S (net -$506M), fresh $5.2M short add by 0x936cf4fb, close below 50h EMA; ETF outflows in news, Liquid cohort balanced, no contrary event.
 - 2026-10-19 18:10 OPEN LONG xyz:TSLA 8.69593 @ 367.98 ($3,200 notional, stop 362.47, risk $48): Breakout above 367.38, +5.5% 24h with AI/tech rebound in news; top traders mixed 3L/5S so half size; no TSLA-specific event.
+- 2026-10-19 22:08 CLOSE SHORT xyz:CXMT @ 6.3802: net -52.53 USD (-1.09R, fees 4.29, funding -0.58). stop-loss hit
+- 2026-10-19 22:11 OPEN SHORT PUMP 267214 @ 0.00434083 ($1,160 notional, stop 0.00451917, risk $48): Smart-money candidate: top traders 2L/7S (net -$24M), close below 50h EMA; no PUMP news event, Liquid cohort short-heavy so half size.
