@@ -97,3 +97,5 @@
 - 2026-10-19 02:10 OPEN SHORT XPL 22357.4 @ 0.0771804 ($1,726 notional, stop 0.0793441, risk $48): Smart-money candidate: top traders 1L/9S (net -$9.3M), close below 50h EMA; no contrary news or scheduled event; half size.
 - 2026-10-19 03:09 OPEN LONG xyz:AAPL 28.0906 @ 344.16 ($9,668 notional, stop 342.35, risk $51): Smart-money candidate: top traders 4L/0S (net +$7.5M), one adding 11.8% of account long this hour, price above 50h EMA; no contrary news or scheduled event.
 - 2026-10-19 03:09 OPEN SHORT ZRO 653.853 @ 1.8831 ($1,231 notional, stop 1.9569, risk $48): Smart-money candidate: top traders 2L/6S (net -$3.7M), close below 50h EMA; no contrary news; half size.
+- 2026-10-19 04:09 OPEN SHORT xyz:CXMT 284.599 @ 6.2893 ($1,790 notional, stop 6.4582, risk $48): Breakout candidate: short breakout with top traders 0L/3S agreeing (net -$6.1M); Korean chip stocks falling on DeepSeek news; positioning pulse unavailable so half size.
+- 2026-10-19 04:09 OPEN SHORT MON 71512.4 @ 0.0215382 ($1,540 notional, stop 0.0222104, risk $48): Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size.
