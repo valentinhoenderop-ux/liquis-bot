@@ -102,3 +102,5 @@
 - 2026-10-19 05:08 CLOSE SHORT WLD @ 0.491618: net -52.25 USD (-1.07R, fees 2.55, funding -0.02). stop-loss hit
 - 2026-10-19 05:09 OPEN LONG xyz:SP500 1.24972 @ 7,721.41 ($9,650 notional, stop 7,696.72, risk $31): Breakout candidate: S&P500 long breakout, top traders mixed (1L/0S), positioning balanced, Nasdaq futures buying the dip, no scheduled event flagged.
 - 2026-10-19 05:09 OPEN SHORT PONS 1494.87 @ 0.264038 ($395 notional, stop 0.276895, risk $19): Smart-money candidate: top traders 1L/4S (net -$0.6M), close below 50h EMA, 24h -7.8%; no contrary news; half size.
+- 2026-10-19 08:09 CLOSE LONG xyz:AAPL @ 343.99: net -31.26 USD (-0.61R, fees 27.06, funding -0.70). trailing stop hit (gapped through)
+- 2026-10-19 08:09 CLOSE SHORT xyz:CXMT @ 6.2924: net -4.01 USD (-0.08R, fees 5.01, funding -1.90). trailing stop hit

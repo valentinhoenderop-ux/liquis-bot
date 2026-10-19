@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9519.77648466584,
+  "cash": 9498.591982814445,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 133.5317325,
       "entry_time": "2026-10-19T01:10:20+02:00",
       "entry_ms": 1792365020015,
-      "stop": 137.28747762671367,
+      "stop": 137.58747762671368,
       "initial_stop": 131.15671758447579,
       "atr": 1.1875074577621092,
-      "extreme": 140.85,
+      "extreme": 141.15,
       "dex": "xyz",
       "fees": 3.8117654200843254,
-      "funding": 1.9242953895280144,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
+      "funding": 1.942577116485891,
+      "checked_ms": 1792389900000,
+      "funding_ms": 1792390162265.2449,
       "reason": "Smart-money candidate: top traders 6L/2S (net +$59.9M), price above 50h EMA, negative funding; semis news supportive, no contrary event; half size."
     },
     "XPL": {
@@ -34,27 +34,10 @@
       "extreme": 0.076514,
       "dex": "core",
       "fees": 1.6392725114037547,
-      "funding": -0.10838138220640939,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
+      "funding": -0.13052308566325602,
+      "checked_ms": 1792389900000,
+      "funding_ms": 1792390162265.2449,
       "reason": "Smart-money candidate: top traders 1L/9S (net -$9.3M), close below 50h EMA; no contrary news or scheduled event; half size."
-    },
-    "xyz:AAPL": {
-      "side": "long",
-      "qty": 28.090561287629903,
-      "entry_px": 344.161995,
-      "entry_time": "2026-10-19T03:09:38+02:00",
-      "entry_ms": 1792372178423,
-      "stop": 344.161995,
-      "initial_stop": 342.35224112723165,
-      "atr": 0.9048769363841578,
-      "extreme": 345.07,
-      "dex": "xyz",
-      "fees": 13.534785058788666,
-      "funding": -0.564004813530428,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
-      "reason": "Smart-money candidate: top traders 4L/0S (net +$7.5M), one adding 11.8% of account long this hour, price above 50h EMA; no contrary news or scheduled event."
     },
     "ZRO": {
       "side": "short",
@@ -65,30 +48,13 @@
       "stop": 1.9569031016779979,
       "initial_stop": 1.9569031016779979,
       "atr": 0.036897563338998886,
-      "extreme": 1.8831079750000002,
+      "extreme": 1.8759,
       "dex": "core",
       "fees": 1.1697113057514121,
-      "funding": -0.04648563693676497,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
+      "funding": -0.0623287512130154,
+      "checked_ms": 1792389900000,
+      "funding_ms": 1792390162265.2449,
       "reason": "Smart-money candidate: top traders 2L/6S (net -$3.7M), close below 50h EMA; no contrary news; half size."
-    },
-    "xyz:CXMT": {
-      "side": "short",
-      "qty": 284.5992665193303,
-      "entry_px": 6.2892538,
-      "entry_time": "2026-10-19T04:09:38+02:00",
-      "entry_ms": 1792375778868,
-      "stop": 6.2892538,
-      "initial_stop": 6.458179768403845,
-      "atr": 0.08446298420192237,
-      "extreme": 6.1769,
-      "dex": "xyz",
-      "fees": 2.505883825807475,
-      "funding": -1.4108433353203649,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
-      "reason": "Breakout candidate: short breakout with top traders 0L/3S agreeing (net -$6.1M); Korean chip stocks falling on DeepSeek news; positioning pulse unavailable so half size."
     },
     "MON": {
       "side": "short",
@@ -102,9 +68,9 @@
       "extreme": 0.021288,
       "dex": "core",
       "fees": 1.4632370005901119,
-      "funding": 0.09424490124705573,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
+      "funding": 0.15942141789998215,
+      "checked_ms": 1792389900000,
+      "funding_ms": 1792390162265.2449,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size."
     },
     "xyz:SP500": {
@@ -119,9 +85,9 @@
       "extreme": 7721.408775,
       "dex": "xyz",
       "fees": 13.509401699140618,
-      "funding": -0.24155088792860524,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
+      "funding": -0.2936346859908601,
+      "checked_ms": 1792389900000,
+      "funding_ms": 1792390162265.2449,
       "reason": "Breakout candidate: S&P500 long breakout, top traders mixed (1L/0S), positioning balanced, Nasdaq futures buying the dip, no scheduled event flagged."
     },
     "PONS": {
@@ -130,15 +96,15 @@
       "entry_px": 0.264037915,
       "entry_time": "2026-10-19T05:09:29+02:00",
       "entry_ms": 1792379369489,
-      "stop": 0.27689546770861556,
+      "stop": 0.264037915,
       "initial_stop": 0.27689546770861556,
       "atr": 0.006428776354307772,
-      "extreme": 0.25824,
+      "extreme": 0.25746,
       "dex": "core",
       "fees": 0.3749678637479068,
-      "funding": -0.009655802607869832,
-      "checked_ms": 1792386300000,
-      "funding_ms": 1792386510395.973,
+      "funding": -0.014649532940275874,
+      "checked_ms": 1792389900000,
+      "funding_ms": 1792390162265.2449,
       "reason": "Smart-money candidate: top traders 1L/4S (net -$0.6M), close below 50h EMA, 24h -7.8%; no contrary news; half size."
     }
   },
@@ -894,6 +860,38 @@
       "return_on_risk": -1.0655311215150742,
       "entry_reason": "Smart-money candidate: top traders 1L/5S (net -$15.9M) with a trader adding to the short this hour, price below 50h EMA; no contrary news; half size.",
       "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "xyz:AAPL",
+      "side": "long",
+      "qty": 28.090561287629903,
+      "entry_px": 344.161995,
+      "exit_px": 343.98792000000003,
+      "entry_time": "2026-10-19T03:09:38+02:00",
+      "exit_time": "2026-10-19T08:09:23+02:00",
+      "gross_pnl": -4.889864456143034,
+      "fees": 27.062724307338733,
+      "funding": -0.6974691526779182,
+      "net_pnl": -31.25511961080385,
+      "return_on_risk": -0.614810439894274,
+      "entry_reason": "Smart-money candidate: top traders 4L/0S (net +$7.5M), one adding 11.8% of account long this hour, price above 50h EMA; no contrary news or scheduled event.",
+      "exit_reason": "trailing stop hit (gapped through)"
+    },
+    {
+      "symbol": "xyz:CXMT",
+      "side": "short",
+      "qty": 284.5992665193303,
+      "entry_px": 6.2892538,
+      "exit_px": 6.292398426899999,
+      "entry_time": "2026-10-19T04:09:38+02:00",
+      "exit_time": "2026-10-19T08:09:23+02:00",
+      "gross_pnl": -0.8949585092167508,
+      "fees": 5.013020593527854,
+      "funding": -1.9011720238927017,
+      "net_pnl": -4.006807078851903,
+      "return_on_risk": -0.08334282909502194,
+      "entry_reason": "Breakout candidate: short breakout with top traders 0L/3S agreeing (net -$6.1M); Korean chip stocks falling on DeepSeek news; positioning pulse unavailable so half size.",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -1433,6 +1431,10 @@
     {
       "t": "2026-10-19T07:08:33+02:00",
       "equity": 9675.71
+    },
+    {
+      "t": "2026-10-19T08:09:24+02:00",
+      "equity": 9622.17
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
