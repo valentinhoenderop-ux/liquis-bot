@@ -104,3 +104,5 @@
 - 2026-10-19 05:09 OPEN SHORT PONS 1494.87 @ 0.264038 ($395 notional, stop 0.276895, risk $19): Smart-money candidate: top traders 1L/4S (net -$0.6M), close below 50h EMA, 24h -7.8%; no contrary news; half size.
 - 2026-10-19 08:09 CLOSE LONG xyz:AAPL @ 343.99: net -31.26 USD (-0.61R, fees 27.06, funding -0.70). trailing stop hit (gapped through)
 - 2026-10-19 08:09 CLOSE SHORT xyz:CXMT @ 6.2924: net -4.01 USD (-0.08R, fees 5.01, funding -1.90). trailing stop hit
+- 2026-10-19 09:14 CLOSE SHORT PONS @ 0.26417: net -0.93 USD (-0.05R, fees 0.75, funding -0.02). trailing stop hit
+- 2026-10-19 09:17 OPEN SHORT xyz:CXMT 244.073 @ 6.1802 ($1,508 notional, stop 6.3770, risk $48): Smart-money candidate: top traders 0L/3S (net -$6.5M), close below 50h EMA, -3.7% 24h; no contrary news or scheduled event; half size.
