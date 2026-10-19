@@ -91,3 +91,7 @@
 - 2026-10-19 01:10 CLOSE LONG xyz:BRENTOIL @ 105.86: net -102.50 USD (-1.04R, fees 17.05, funding +0.55). Exit suggestion (price through 50h EMA) plus adverse news: oil slips as US waives Russia sanctions; Liquid positioning balanced.
 - 2026-10-19 01:10 OPEN LONG xyz:SKHY 20.3898 @ 133.53 ($2,723 notional, stop 131.16, risk $48): Smart-money candidate: top traders 6L/2S (net +$59.9M), price above 50h EMA, negative funding; semis news supportive, no contrary event; half size.
 - 2026-10-19 01:10 OPEN LONG xyz:AAPL 27.9978 @ 345.75 ($9,680 notional, stop 344.53, risk $34): Smart-money candidate: top traders 4L/0S (net +$6.6M), price above 50h EMA; no AAPL-specific event in news; half size.
+- 2026-10-19 02:08 CLOSE SHORT XRP @ 1.3062: net +36.26 USD (+0.73R, fees 3.71, funding -1.10). trailing stop hit
+- 2026-10-19 02:08 CLOSE SHORT xyz:DRAM @ 46.2581: net -10.35 USD (-0.21R, fees 9.59, funding -1.04). trailing stop hit (gapped through)
+- 2026-10-19 02:08 CLOSE LONG xyz:AAPL @ 344.35: net -65.53 USD (-1.92R, fees 27.05, funding -0.55). stop-loss hit
+- 2026-10-19 02:10 OPEN SHORT XPL 22357.4 @ 0.0771804 ($1,726 notional, stop 0.0793441, risk $48): Smart-money candidate: top traders 1L/9S (net -$9.3M), close below 50h EMA; no contrary news or scheduled event; half size.

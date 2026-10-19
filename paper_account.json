@@ -1,44 +1,10 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9623.973827426677,
+  "cash": 9601.102621514168,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
-    "XRP": {
-      "side": "short",
-      "qty": 1479.6372009091372,
-      "entry_px": 1.3324834250000002,
-      "entry_time": "2026-10-15T17:09:47+02:00",
-      "entry_ms": 1792076987876,
-      "stop": 1.3055649727531116,
-      "initial_stop": 1.3659267401687412,
-      "atr": 0.016721657584370473,
-      "extreme": 1.2554,
-      "dex": "core",
-      "fees": 1.8730124429635793,
-      "funding": -1.0799595771508494,
-      "checked_ms": 1792365000000,
-      "funding_ms": 1792365022370.9485,
-      "reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news."
-    },
-    "xyz:DRAM": {
-      "side": "short",
-      "qty": 74.07030422027857,
-      "entry_px": 46.2338715,
-      "entry_time": "2026-10-19T00:11:05+02:00",
-      "entry_ms": 1792361465455,
-      "stop": 46.2338715,
-      "initial_stop": 46.896358563186624,
-      "atr": 0.33124353159331044,
-      "extreme": 45.894,
-      "dex": "xyz",
-      "fees": 4.794379698200774,
-      "funding": 1.122719589041394,
-      "checked_ms": 1792365000000,
-      "funding_ms": 1792365022370.9485,
-      "reason": "Smart-money candidate: top traders 1L/7S (net -$13.8M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning short-heavy; half size."
-    },
     "WLD": {
       "side": "short",
       "qty": 2778.466905324559,
@@ -51,9 +17,9 @@
       "extreme": 0.47372302,
       "dex": "core",
       "fees": 1.2504125466923839,
-      "funding": -0.0011183555828480959,
-      "checked_ms": 1792365000000,
-      "funding_ms": 1792365022370.9485,
+      "funding": -0.0181582636838746,
+      "checked_ms": 1792368600000,
+      "funding_ms": 1792368627047.999,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$15.9M) with a trader adding to the short this hour, price below 50h EMA; no contrary news; half size."
     },
     "xyz:SKHY": {
@@ -62,33 +28,33 @@
       "entry_px": 133.5317325,
       "entry_time": "2026-10-19T01:10:20+02:00",
       "entry_ms": 1792365020015,
-      "stop": 131.15671758447579,
+      "stop": 136.07747762671366,
       "initial_stop": 131.15671758447579,
       "atr": 1.1875074577621092,
-      "extreme": 133.5317325,
+      "extreme": 139.64,
       "dex": "xyz",
       "fees": 3.8117654200843254,
-      "funding": -0.0011150151494864478,
-      "checked_ms": 1792365020015,
-      "funding_ms": 1792365022370.9485,
+      "funding": 1.8888398556067467,
+      "checked_ms": 1792368600000,
+      "funding_ms": 1792368627047.999,
       "reason": "Smart-money candidate: top traders 6L/2S (net +$59.9M), price above 50h EMA, negative funding; semis news supportive, no contrary event; half size."
     },
-    "xyz:AAPL": {
-      "side": "long",
-      "qty": 27.997751166857938,
-      "entry_px": 345.74778749999996,
-      "entry_time": "2026-10-19T01:10:21+02:00",
-      "entry_ms": 1792365021362,
-      "stop": 344.52614749426914,
-      "initial_stop": 344.52614749426914,
-      "atr": 0.6108200028654031,
-      "extreme": 345.74778749999996,
-      "dex": "xyz",
-      "fees": 13.552224729283344,
-      "funding": 0.00032946892814363456,
-      "checked_ms": 1792365021362,
-      "funding_ms": 1792365022370.9485,
-      "reason": "Smart-money candidate: top traders 4L/0S (net +$6.6M), price above 50h EMA; no AAPL-specific event in news; half size."
+    "XPL": {
+      "side": "short",
+      "qty": 22357.36306625648,
+      "entry_px": 0.0771803905,
+      "entry_time": "2026-10-19T02:10:22+02:00",
+      "entry_ms": 1792368622939,
+      "stop": 0.07934409705635795,
+      "initial_stop": 0.07934409705635795,
+      "atr": 0.001081853278178971,
+      "extreme": 0.0771803905,
+      "dex": "core",
+      "fees": 1.6392725114037547,
+      "funding": -2.4634544767921987e-05,
+      "checked_ms": 1792368622939,
+      "funding_ms": 1792368627047.999,
+      "reason": "Smart-money candidate: top traders 1L/9S (net -$9.3M), close below 50h EMA; no contrary news or scheduled event; half size."
     }
   },
   "closed": [
@@ -779,6 +745,54 @@
       "return_on_risk": -1.0418937711983072,
       "entry_reason": "Breakout long (score 1.31); top traders 4L/0S agree, oil surge to $110 news supportive, Liquid positioning balanced, no scheduled event.",
       "exit_reason": "Exit suggestion (price through 50h EMA) plus adverse news: oil slips as US waives Russia sanctions; Liquid positioning balanced."
+    },
+    {
+      "symbol": "XRP",
+      "side": "short",
+      "qty": 1479.6372009091372,
+      "entry_px": 1.3324834250000002,
+      "exit_px": 1.306217755239488,
+      "entry_time": "2026-10-15T17:09:47+02:00",
+      "exit_time": "2026-10-19T02:08:10+02:00",
+      "gross_pnl": 38.86366208444796,
+      "fees": 3.709104406946933,
+      "funding": -1.1032566316919825,
+      "net_pnl": 36.25781430919301,
+      "return_on_risk": 0.7327183314360265,
+      "entry_reason": "Smart-money candidate: top traders 1L/5S (net -$39M), price below 50h EMA; Liquid positioning balanced, no contrary news.",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:DRAM",
+      "side": "short",
+      "qty": 74.07030422027857,
+      "entry_px": 46.2338715,
+      "exit_px": 46.2581175,
+      "entry_time": "2026-10-19T00:11:05+02:00",
+      "exit_time": "2026-10-19T02:08:10+02:00",
+      "gross_pnl": -1.7959085961247254,
+      "fees": 9.591273668436124,
+      "funding": -1.037147867179327,
+      "net_pnl": -10.350034397381522,
+      "return_on_risk": -0.21092121422895327,
+      "entry_reason": "Smart-money candidate: top traders 1L/7S (net -$13.8M), price below 50h EMA; no contrary news or scheduled event, Liquid positioning short-heavy; half size.",
+      "exit_reason": "trailing stop hit (gapped through)"
+    },
+    {
+      "symbol": "xyz:AAPL",
+      "side": "long",
+      "qty": 27.997751166857938,
+      "entry_px": 345.74778749999996,
+      "exit_px": 344.35388442052204,
+      "entry_time": "2026-10-19T01:10:21+02:00",
+      "exit_time": "2026-10-19T02:08:12+02:00",
+      "gross_pnl": -39.026151569939884,
+      "fees": 27.049812846368773,
+      "funding": -0.5464350802361734,
+      "net_pnl": -65.52952933607249,
+      "return_on_risk": -1.915890363021538,
+      "entry_reason": "Smart-money candidate: top traders 4L/0S (net +$6.6M), price above 50h EMA; no AAPL-specific event in news; half size.",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -1282,6 +1296,14 @@
     {
       "t": "2026-10-19T01:10:23+02:00",
       "equity": 9663.14
+    },
+    {
+      "t": "2026-10-19T02:08:12+02:00",
+      "equity": 9679.52
+    },
+    {
+      "t": "2026-10-19T02:10:27+02:00",
+      "equity": 9669.62
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
