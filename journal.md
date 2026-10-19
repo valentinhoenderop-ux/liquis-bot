@@ -126,3 +126,7 @@
 - 2026-10-19 18:10 OPEN LONG xyz:TSLA 8.69593 @ 367.98 ($3,200 notional, stop 362.47, risk $48): Breakout above 367.38, +5.5% 24h with AI/tech rebound in news; top traders mixed 3L/5S so half size; no TSLA-specific event.
 - 2026-10-19 22:08 CLOSE SHORT xyz:CXMT @ 6.3802: net -52.53 USD (-1.09R, fees 4.29, funding -0.58). stop-loss hit
 - 2026-10-19 22:11 OPEN SHORT PUMP 267214 @ 0.00434083 ($1,160 notional, stop 0.00451917, risk $48): Smart-money candidate: top traders 2L/7S (net -$24M), close below 50h EMA; no PUMP news event, Liquid cohort short-heavy so half size.
+- 2026-10-20 01:08 CLOSE SHORT ZEC @ 1,170.15: net -51.08 USD (-1.07R, fees 2.57, funding -0.13). stop-loss hit
+- 2026-10-20 01:08 CLOSE SHORT PUMP @ 0.00452143: net -50.51 USD (-1.06R, fees 2.25, funding +0.00). stop-loss hit
+- 2026-10-20 01:10 OPEN SHORT FARTCOIN 11877.8 @ 0.142899 ($1,697 notional, stop 0.146864, risk $47): Smart-money candidate: top traders 1L/7S (net -$7.3M), below 50h EMA; no contrary news, meme coin unusual-activity list absent; half size.
+- 2026-10-20 01:10 OPEN SHORT xyz:HOOD 10.0134 @ 96.7666 ($969 notional, stop 98.1888, risk $14): Smart-money candidate: top traders 0L/3S (net -$1.6M), well below 50h EMA, -2.2% 24h; no HOOD event in news; half size.

@@ -10,3 +10,7 @@
 - 2026-07-24 **purchase** Intel Corporation - Common Stock (INTC, call options), $250,001 - $500,000: Purchased 50 call options with a strike price of $50 and an expiration date of 6/17/27.
 - 2026-07-24 **purchase** Intel Corporation - Common Stock (INTC, ST), $500,001 - $1,000,000: Purchased 10,000 shares.
 - 2026-07-27 **purchase** REOF XXV, LLC (no ticker, AB), $500,001 - $1,000,000: Additional investment in LLC which is acquiring and restoring a luxury hotel property in San Francisco, CA.
+
+## Laurel Lee: filing 20035490, filed 2026-10-16 (found 2026-10-20 01:09)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035490.pdf)
+- 2026-08-24 **sale** Bank of America Corporation Common Stock (BAC, ST), $50,001 - $100,000
