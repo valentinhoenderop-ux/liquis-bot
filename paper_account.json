@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9372.644156346714,
+  "cash": 9372.70408484907,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 133.5317325,
       "entry_time": "2026-10-19T01:10:20+02:00",
       "entry_ms": 1792365020015,
-      "stop": 138.95747762671368,
+      "stop": 139.59747762671367,
       "initial_stop": 131.15671758447579,
       "atr": 1.1875074577621092,
-      "extreme": 142.52,
+      "extreme": 143.16,
       "dex": "xyz",
       "fees": 3.8117654200843254,
-      "funding": 2.018845624716327,
-      "checked_ms": 1792404300000,
-      "funding_ms": 1792404543338.1172,
+      "funding": 1.9658663555322387,
+      "checked_ms": 1792408500000,
+      "funding_ms": 1792408588662.7642,
       "reason": "Smart-money candidate: top traders 6L/2S (net +$59.9M), price above 50h EMA, negative funding; semis news supportive, no contrary event; half size."
     },
     "XPL": {
@@ -34,9 +34,9 @@
       "extreme": 0.076514,
       "dex": "core",
       "fees": 1.6392725114037547,
-      "funding": -0.2175065080788404,
-      "checked_ms": 1792404300000,
-      "funding_ms": 1792404543338.1172,
+      "funding": -0.24162081745671143,
+      "checked_ms": 1792408500000,
+      "funding_ms": 1792408588662.7642,
       "reason": "Smart-money candidate: top traders 1L/9S (net -$9.3M), close below 50h EMA; no contrary news or scheduled event; half size."
     },
     "ZRO": {
@@ -45,15 +45,15 @@
       "entry_px": 1.8831079750000002,
       "entry_time": "2026-10-19T03:09:39+02:00",
       "entry_ms": 1792372179782,
-      "stop": 1.9569031016779979,
+      "stop": 1.8831079750000002,
       "initial_stop": 1.9569031016779979,
       "atr": 0.036897563338998886,
-      "extreme": 1.8573,
+      "extreme": 1.8348,
       "dex": "core",
       "fees": 1.1697113057514121,
-      "funding": -0.12384586055174275,
-      "checked_ms": 1792404300000,
-      "funding_ms": 1792404543338.1172,
+      "funding": -0.1406722108936494,
+      "checked_ms": 1792408500000,
+      "funding_ms": 1792408588662.7642,
       "reason": "Smart-money candidate: top traders 2L/6S (net -$3.7M), close below 50h EMA; no contrary news; half size."
     },
     "MON": {
@@ -65,12 +65,12 @@
       "stop": 0.0215382255,
       "initial_stop": 0.022210379307720414,
       "atr": 0.00033607690386020726,
-      "extreme": 0.021137,
+      "extreme": 0.020775,
       "dex": "core",
       "fees": 1.4632370005901119,
-      "funding": 0.14700583209419904,
-      "checked_ms": 1792404300000,
-      "funding_ms": 1792404543338.1172,
+      "funding": 0.13538127559210392,
+      "checked_ms": 1792408500000,
+      "funding_ms": 1792408588662.7642,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size."
     },
     "xyz:CXMT": {
@@ -85,9 +85,9 @@
       "extreme": 6.1283,
       "dex": "xyz",
       "fees": 2.1117752174192126,
-      "funding": -0.15226336834933546,
-      "checked_ms": 1792404300000,
-      "funding_ms": 1792404543338.1172,
+      "funding": -0.12037920965608291,
+      "checked_ms": 1792408500000,
+      "funding_ms": 1792408588662.7642,
       "reason": "Smart-money candidate: top traders 0L/3S (net -$6.5M), close below 50h EMA, -3.7% 24h; no contrary news or scheduled event; half size."
     },
     "xyz:NATGAS": {
@@ -99,12 +99,12 @@
       "stop": 3.3955469249999997,
       "initial_stop": 3.370562408175707,
       "atr": 0.012492258412146337,
-      "extreme": 3.4112,
+      "extreme": 3.4186,
       "dex": "xyz",
       "fees": 5.346112616645356,
-      "funding": 0.02218409865913954,
-      "checked_ms": 1792404300000,
-      "funding_ms": 1792404543338.1172,
+      "funding": 0.03591592301331343,
+      "checked_ms": 1792408500000,
+      "funding_ms": 1792408588662.7642,
       "reason": "Smart-money candidate: top traders 4L/1S (net +$0.9M) with fresh adds, close above 50h EMA; no contrary news or event; half size."
     }
   },
@@ -1503,6 +1503,10 @@
     {
       "t": "2026-10-19T12:09:05+02:00",
       "equity": 9583.82
+    },
+    {
+      "t": "2026-10-19T13:16:30+02:00",
+      "equity": 9650.78
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
