@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9175.072612983975,
+  "cash": 9175.310504171284,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 145.92,
       "dex": "xyz",
       "fees": 3.8117654200843254,
-      "funding": 1.8098080186399281,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": 1.7654254037645074,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Smart-money candidate: top traders 6L/2S (net +$59.9M), price above 50h EMA, negative funding; semis news supportive, no contrary event; half size."
     },
     "MON": {
@@ -34,9 +34,9 @@
       "extreme": 0.020523,
       "dex": "core",
       "fees": 1.4632370005901119,
-      "funding": 0.15961291489386542,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": 0.156977504881292,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size."
     },
     "xyz:CXMT": {
@@ -51,9 +51,9 @@
       "extreme": 6.1283,
       "dex": "xyz",
       "fees": 2.1117752174192126,
-      "funding": -0.533307832746938,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": -0.550373231567213,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Smart-money candidate: top traders 0L/3S (net -$6.5M), close below 50h EMA, -3.7% 24h; no contrary news or scheduled event; half size."
     },
     "xyz:PLTR": {
@@ -68,9 +68,9 @@
       "extreme": 196.83,
       "dex": "xyz",
       "fees": 10.252607906264082,
-      "funding": -0.3758774112707831,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": -0.43111954692427423,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Breakout above 190.16 with top traders 3L/0S agreeing; AI stocks rebounding in news, no PLTR-specific event."
     },
     "ZEC": {
@@ -82,12 +82,12 @@
       "stop": 1169.5700720088278,
       "initial_stop": 1169.5700720088278,
       "atr": 20.342398504413826,
-      "extreme": 1118.8,
+      "extreme": 1114.0,
       "dex": "core",
       "fees": 1.2638452806702358,
-      "funding": -0.047773314808264904,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": -0.0644621572997636,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Smart-money candidate: top traders 3L/10S (net -$119.5M), close below 50h EMA; no contrary news; half size."
     },
     "xyz:CBRS": {
@@ -99,12 +99,12 @@
       "stop": 123.5232075,
       "initial_stop": 127.1365799116231,
       "atr": 1.8066862058115534,
-      "extreme": 121.04,
+      "extreme": 120.56,
       "dex": "xyz",
       "fees": 2.2941745843340753,
-      "funding": -0.029097235361841237,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": -0.039229647556957896,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Smart-money candidate: top traders 0L/6S, below 50h EMA; Liquid crowd 99% long while smart money only 25% long (fading crowd); half size."
     },
     "BTC": {
@@ -116,12 +116,12 @@
       "stop": 82761.58391790262,
       "initial_stop": 82761.58391790262,
       "atr": 441.52183395131175,
-      "extreme": 81810.0,
+      "extreme": 81765.0,
       "dex": "core",
       "fees": 8.450337582978477,
-      "funding": -0.21964523108952538,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": -0.33155934246962826,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Smart-money candidate: top traders 3L/13S (net -$506M), fresh $5.2M short add by 0x936cf4fb, close below 50h EMA; ETF outflows in news, Liquid cohort balanced, no contrary event."
     },
     "xyz:TSLA": {
@@ -136,9 +136,9 @@
       "extreme": 369.42,
       "dex": "xyz",
       "fees": 4.479885832281956,
-      "funding": 0.03944277593618149,
-      "checked_ms": 1792433100000,
-      "funding_ms": 1792433300000.0076,
+      "funding": 0.05961251405452703,
+      "checked_ms": 1792436700000,
+      "funding_ms": 1792436925314.47,
       "reason": "Breakout above 367.38, +5.5% 24h with AI/tech rebound in news; top traders mixed 3L/5S so half size; no TSLA-specific event."
     }
   },
@@ -1677,6 +1677,10 @@
     {
       "t": "2026-10-19T20:08:22+02:00",
       "equity": 9508.82
+    },
+    {
+      "t": "2026-10-19T21:08:48+02:00",
+      "equity": 9560.43
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
