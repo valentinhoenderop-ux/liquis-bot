@@ -130,3 +130,5 @@
 - 2026-10-20 01:08 CLOSE SHORT PUMP @ 0.00452143: net -50.51 USD (-1.06R, fees 2.25, funding +0.00). stop-loss hit
 - 2026-10-20 01:10 OPEN SHORT FARTCOIN 11877.8 @ 0.142899 ($1,697 notional, stop 0.146864, risk $47): Smart-money candidate: top traders 1L/7S (net -$7.3M), below 50h EMA; no contrary news, meme coin unusual-activity list absent; half size.
 - 2026-10-20 01:10 OPEN SHORT xyz:HOOD 10.0134 @ 96.7666 ($969 notional, stop 98.1888, risk $14): Smart-money candidate: top traders 0L/3S (net -$1.6M), well below 50h EMA, -2.2% 24h; no HOOD event in news; half size.
+- 2026-10-20 02:08 CLOSE LONG xyz:SKHY @ 142.29: net +169.67 USD (+3.50R, fees 7.87, funding +0.96). trailing stop hit
+- 2026-10-20 02:10 OPEN SHORT STRK 20483.7 @ 0.0573313 ($1,174 notional, stop 0.0596248, risk $47): Smart-money candidate: top traders 0L/3S (net -$5.3M), close well below 50h EMA, -4.7% 24h; no STRK news or event, positioning pulse neutral; half size.
