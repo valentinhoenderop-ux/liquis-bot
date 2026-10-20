@@ -142,3 +142,9 @@
 - 2026-10-20 06:11 OPEN SHORT xyz:CXMT 249.332 @ 6.1689 ($1,538 notional, stop 6.3535, risk $46): Smart-money candidate: top traders 0L/4S (net -$6.5M), close 6.16 well below 50h EMA 6.35, -1.9% 24h; no CXMT news or event, funding favors shorts; half size.
 - 2026-10-20 11:12 CLOSE LONG xyz:SKHY @ 136.06: net -49.85 USD (-1.08R, fees 4.62, funding -0.07). Trend broke below 50h EMA while news flags AI jitters hammering Korean chipmakers; exit suggestion aligned with adverse news.
 - 2026-10-20 11:12 OPEN SHORT xyz:INTC 25.9159 @ 90.1814 ($2,337 notional, stop 91.9881, risk $47): Smart-money candidate: top traders 1L/6S (net -$9.1M), close below 50h EMA; no INTC news or scheduled event in headlines; half size.
+- 2026-10-20 16:08 CLOSE SHORT xyz:CBRS @ 121.57: net +21.59 USD (+0.45R, fees 4.55, funding -0.24). trailing stop hit
+- 2026-10-20 16:08 CLOSE LONG xyz:TSLA @ 367.79: net -10.88 USD (-0.23R, fees 8.96, funding +0.32). trailing stop hit
+- 2026-10-20 16:08 CLOSE SHORT xyz:HOOD @ 96.5506: net -0.42 USD (-0.03R, fees 2.71, funding -0.12). trailing stop hit
+- 2026-10-20 16:08 CLOSE SHORT STRK @ 0.05736: net -2.62 USD (-0.06R, fees 2.23, funding -0.20). trailing stop hit
+- 2026-10-20 16:08 CLOSE SHORT BTC @ 81,935.48: net -10.82 USD (-0.23R, fees 9.08, funding -0.66). trailing stop hit
+- 2026-10-20 16:08 CLOSE SHORT xyz:INTC @ 90.2265: net -7.59 USD (-0.16R, fees 6.55, funding -0.12). trailing stop hit
