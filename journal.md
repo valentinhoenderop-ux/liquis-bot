@@ -139,3 +139,4 @@
 - 2026-10-20 05:08 CLOSE SHORT xyz:INTC @ 92.2308: net -55.03 USD (-1.17R, fees 6.68, funding -0.08). stop-loss hit
 - 2026-10-20 05:09 OPEN SHORT BTC 0.0583708 @ 81,894.53 ($4,780 notional, stop 82,686.54, risk $46): Smart-money candidate: top traders 4L/15S (net -$593M), close below 50h EMA; ETF outflows in news, positioning balanced, no scheduled event; half size.
 - 2026-10-20 05:09 OPEN LONG xyz:SKHY 11.9728 @ 139.84 ($1,674 notional, stop 135.98, risk $46): Smart-money candidate: top traders 6L/2S (net +$58M), close above 50h EMA; no SKHY-specific news, AI/semis rebound; half size.
+- 2026-10-20 06:11 OPEN SHORT xyz:CXMT 249.332 @ 6.1689 ($1,538 notional, stop 6.3535, risk $46): Smart-money candidate: top traders 0L/4S (net -$6.5M), close 6.16 well below 50h EMA 6.35, -1.9% 24h; no CXMT news or event, funding favors shorts; half size.
