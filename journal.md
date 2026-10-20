@@ -134,3 +134,8 @@
 - 2026-10-20 02:10 OPEN SHORT STRK 20483.7 @ 0.0573313 ($1,174 notional, stop 0.0596248, risk $47): Smart-money candidate: top traders 0L/3S (net -$5.3M), close well below 50h EMA, -4.7% 24h; no STRK news or event, positioning pulse neutral; half size.
 - 2026-10-20 03:08 CLOSE LONG xyz:PLTR @ 192.98: net +40.14 USD (+0.42R, fees 20.59, funding -0.81). trailing stop hit
 - 2026-10-20 03:11 OPEN SHORT xyz:INTC 26.1206 @ 90.3768 ($2,361 notional, stop 92.1847, risk $47): Smart-money candidate: top traders 1L/6S (net -$9.2M), close below 50h EMA, -1.5% 24h despite chip rebound in news; no INTC event; half size.
+- 2026-10-20 05:08 CLOSE SHORT BTC @ 81,919.48: net -20.13 USD (-0.21R, fees 16.90, funding -1.22). trailing stop hit
+- 2026-10-20 05:08 CLOSE SHORT FARTCOIN @ 0.14297: net -4.03 USD (-0.09R, fees 3.23, funding -0.05). trailing stop hit
+- 2026-10-20 05:08 CLOSE SHORT xyz:INTC @ 92.2308: net -55.03 USD (-1.17R, fees 6.68, funding -0.08). stop-loss hit
+- 2026-10-20 05:09 OPEN SHORT BTC 0.0583708 @ 81,894.53 ($4,780 notional, stop 82,686.54, risk $46): Smart-money candidate: top traders 4L/15S (net -$593M), close below 50h EMA; ETF outflows in news, positioning balanced, no scheduled event; half size.
+- 2026-10-20 05:09 OPEN LONG xyz:SKHY 11.9728 @ 139.84 ($1,674 notional, stop 135.98, risk $46): Smart-money candidate: top traders 6L/2S (net +$58M), close above 50h EMA; no SKHY-specific news, AI/semis rebound; half size.
