@@ -1,45 +1,10 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9123.283264224186,
+  "cash": 9121.567245300965,
   "peak_equity": 10237.87863865582,
   "halted": null,
-  "positions": {
-    "MON": {
-      "side": "short",
-      "qty": 71512.3664345227,
-      "entry_px": 0.0215382255,
-      "entry_time": "2026-10-19T04:09:40+02:00",
-      "entry_ms": 1792375780127,
-      "stop": 0.02149523071158062,
-      "initial_stop": 0.022210379307720414,
-      "atr": 0.00033607690386020726,
-      "extreme": 0.020487,
-      "dex": "core",
-      "fees": 1.4632370005901119,
-      "funding": 0.0014921455900856091,
-      "checked_ms": 1792505100000,
-      "funding_ms": 1792505336248.2378,
-      "reason": "Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size."
-    },
-    "xyz:CXMT": {
-      "side": "short",
-      "qty": 249.33184448477283,
-      "entry_px": 6.168864025,
-      "entry_time": "2026-10-20T06:11:06+02:00",
-      "entry_ms": 1792469466091,
-      "stop": 6.168864025,
-      "initial_stop": 6.35347066176974,
-      "atr": 0.09230331838486987,
-      "extreme": 5.962,
-      "dex": "xyz",
-      "fees": 2.153331944020614,
-      "funding": -0.9907236102020048,
-      "checked_ms": 1792505100000,
-      "funding_ms": 1792505336248.2378,
-      "reason": "Smart-money candidate: top traders 0L/4S (net -$6.5M), close 6.16 well below 50h EMA 6.35, -1.9% 24h; no CXMT news or event, funding favors shorts; half size."
-    }
-  },
+  "positions": {},
   "closed": [
     {
       "symbol": "xyz:CL",
@@ -1208,6 +1173,38 @@
       "return_on_risk": -0.1621881663830217,
       "entry_reason": "Smart-money candidate: top traders 1L/6S (net -$9.1M), close below 50h EMA; no INTC news or scheduled event in headlines; half size.",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "MON",
+      "side": "short",
+      "qty": 71512.3664345227,
+      "entry_px": 0.0215382255,
+      "exit_px": 0.02150597832693641,
+      "entry_time": "2026-10-19T04:09:40+02:00",
+      "exit_time": "2026-10-20T17:10:40+02:00",
+      "gross_pnl": 2.306071656600945,
+      "fees": 2.9242832331064528,
+      "funding": -0.018719179804643615,
+      "net_pnl": -0.5994923967008642,
+      "return_on_risk": -0.012471935796036799,
+      "entry_reason": "Smart-money candidate: top traders 1L/5S (net -$2.2M), close below 50h EMA; no contrary news; half size.",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:CXMT",
+      "side": "short",
+      "qty": 249.33184448477283,
+      "entry_px": 6.168864025,
+      "exit_px": 6.1719484570125,
+      "entry_time": "2026-10-20T06:11:06+02:00",
+      "exit_time": "2026-10-20T17:10:41+02:00",
+      "gross_pnl": -0.7690471228644701,
+      "fees": 4.307740554013238,
+      "funding": -1.3329236703564504,
+      "net_pnl": -3.7438640065212576,
+      "return_on_risk": -0.08133828381223546,
+      "entry_reason": "Smart-money candidate: top traders 0L/4S (net -$6.5M), close 6.16 well below 50h EMA 6.35, -1.9% 24h; no CXMT news or event, funding favors shorts; half size.",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -1919,6 +1916,10 @@
     {
       "t": "2026-10-20T16:08:58+02:00",
       "equity": 9131.37
+    },
+    {
+      "t": "2026-10-20T17:10:41+02:00",
+      "equity": 9121.57
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

@@ -148,3 +148,5 @@
 - 2026-10-20 16:08 CLOSE SHORT STRK @ 0.05736: net -2.62 USD (-0.06R, fees 2.23, funding -0.20). trailing stop hit
 - 2026-10-20 16:08 CLOSE SHORT BTC @ 81,935.48: net -10.82 USD (-0.23R, fees 9.08, funding -0.66). trailing stop hit
 - 2026-10-20 16:08 CLOSE SHORT xyz:INTC @ 90.2265: net -7.59 USD (-0.16R, fees 6.55, funding -0.12). trailing stop hit
+- 2026-10-20 17:10 CLOSE SHORT MON @ 0.021506: net -0.60 USD (-0.01R, fees 2.92, funding -0.02). trailing stop hit
+- 2026-10-20 17:10 CLOSE SHORT xyz:CXMT @ 6.1719: net -3.74 USD (-0.08R, fees 4.31, funding -1.33). trailing stop hit
