@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9107.208129299184,
+  "cash": 9099.062833516457,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 157.8839025,
       "entry_time": "2026-10-21T00:11:18+02:00",
       "entry_ms": 1792534278200,
-      "stop": 153.92294333632995,
+      "stop": 157.8839025,
       "initial_stop": 153.92294333632995,
       "atr": 1.980479581835024,
-      "extreme": 157.8839025,
+      "extreme": 160.33,
       "dex": "xyz",
       "fees": 5.090201649990957,
-      "funding": 0.0,
-      "checked_ms": 1792534278200,
-      "funding_ms": 1792534278200,
+      "funding": -0.08427560599570544,
+      "checked_ms": 1792537800000,
+      "funding_ms": 1792537895317.693,
       "reason": "Breakout long, top traders mixed 6L/3S net +0.2M; SpaceX revenue beat news supports, nothing contradicting"
     },
     "xyz:META": {
@@ -31,12 +31,12 @@
       "stop": 704.2754590310852,
       "initial_stop": 704.2754590310852,
       "atr": 4.361704515542622,
-      "extreme": 695.55205,
+      "extreme": 695.35,
       "dex": "xyz",
       "fees": 5.087300584884085,
-      "funding": 0.0,
-      "checked_ms": 1792534279567,
-      "funding_ms": 1792534279567,
+      "funding": -0.09453068814423772,
+      "checked_ms": 1792537800000,
+      "funding_ms": 1792537895317.693,
       "reason": "Smart-money short: 4S/1L top traders net -$10M, price below 50h EMA; no contrary news"
     },
     "xyz:BRENTOIL": {
@@ -48,13 +48,47 @@
       "stop": 106.95858187084013,
       "initial_stop": 106.95858187084013,
       "atr": 0.8031421854200639,
-      "extreme": 105.3522975,
+      "extreme": 105.23,
       "dex": "xyz",
       "fees": 4.18161376690473,
-      "funding": 0.0,
-      "checked_ms": 1792534280768,
-      "funding_ms": 1792534280768,
+      "funding": -0.01638483686927842,
+      "checked_ms": 1792537800000,
+      "funding_ms": 1792537895317.693,
       "reason": "Smart-money short: 4S/1L top traders, price under 50h EMA, news says oil prices retreating"
+    },
+    "xyz:PLTR": {
+      "side": "long",
+      "qty": 16.85004037919233,
+      "entry_px": 193.5817425,
+      "entry_time": "2026-10-21T01:11:30+02:00",
+      "entry_ms": 1792537890476,
+      "stop": 190.87814184882168,
+      "initial_stop": 190.87814184882168,
+      "atr": 1.3518003255891464,
+      "extreme": 193.5817425,
+      "dex": "xyz",
+      "fees": 4.566604248919177,
+      "funding": -9.549554691068472e-05,
+      "checked_ms": 1792537890476,
+      "funding_ms": 1792537895317.693,
+      "reason": "Smart-money candidate: 3L/0S top traders net +$1.5M, price above 50h EMA; AI earnings news supportive, no contrary catalyst"
+    },
+    "xyz:ZHIPU": {
+      "side": "short",
+      "qty": 42.92177796914422,
+      "entry_px": 62.8075805,
+      "entry_time": "2026-10-21T01:11:31+02:00",
+      "entry_ms": 1792537891834,
+      "stop": 63.8685572096167,
+      "initial_stop": 63.8685572096167,
+      "atr": 0.5304883548083468,
+      "extreme": 62.8075805,
+      "dex": "xyz",
+      "fees": 3.7741382350002133,
+      "funding": -0.0001600746354078676,
+      "checked_ms": 1792537891834,
+      "funding_ms": 1792537895317.693,
+      "reason": "Smart-money candidate: 1L/4S top traders net -$3.9M, price below 50h EMA, 24h -4.5%; no contrary news"
     }
   },
   "closed": [
@@ -2004,6 +2038,14 @@
     {
       "t": "2026-10-21T00:09:07+02:00",
       "equity": 9121.57
+    },
+    {
+      "t": "2026-10-21T01:09:17+02:00",
+      "equity": 9117.21
+    },
+    {
+      "t": "2026-10-21T01:11:36+02:00",
+      "equity": 9101.12
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

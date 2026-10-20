@@ -153,3 +153,5 @@
 - 2026-10-21 00:11 OPEN LONG xyz:SPCX 23.0287 @ 157.88 ($3,636 notional, stop 153.92, risk $91): Breakout long, top traders mixed 6L/3S net +0.2M; SpaceX revenue beat news supports, nothing contradicting
 - 2026-10-21 00:11 OPEN SHORT xyz:META 5.22432 @ 695.55 ($3,634 notional, stop 704.28, risk $46): Smart-money short: 4S/1L top traders net -$10M, price below 50h EMA; no contrary news
 - 2026-10-21 00:11 OPEN SHORT xyz:BRENTOIL 28.3512 @ 105.35 ($2,987 notional, stop 106.96, risk $46): Smart-money short: 4S/1L top traders, price under 50h EMA, news says oil prices retreating
+- 2026-10-21 01:11 OPEN LONG xyz:PLTR 16.85 @ 193.58 ($3,262 notional, stop 190.88, risk $46): Smart-money candidate: 3L/0S top traders net +$1.5M, price above 50h EMA; AI earnings news supportive, no contrary catalyst
+- 2026-10-21 01:11 OPEN SHORT xyz:ZHIPU 42.9218 @ 62.8076 ($2,696 notional, stop 63.8686, risk $46): Smart-money candidate: 1L/4S top traders net -$3.9M, price below 50h EMA, 24h -4.5%; no contrary news
