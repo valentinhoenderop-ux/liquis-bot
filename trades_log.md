@@ -14,3 +14,14 @@
 ## Laurel Lee: filing 20035490, filed 2026-10-16 (found 2026-10-20 01:09)
 [PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035490.pdf)
 - 2026-08-24 **sale** Bank of America Corporation Common Stock (BAC, ST), $50,001 - $100,000
+
+## Jonathan Jackson: filing 20035551, filed 2026-10-19 (found 2026-10-21 00:11)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf)
+- 2026-09-28 **purchase** Datadog, Inc. - Class A Common Stock (DDOG, ST), $50,001 - $100,000
+- 2026-09-28 **purchase** Estee Lauder Companies, Inc. (EL, ST), $50,001 - $100,000
+- 2026-09-28 **sale** ViaSat, Inc. - Common Stock (VSAT, ST), $50,001 - $100,000
+- 2026-09-28 **sale** Walmart Inc. - Common Stock (WMT, ST), $50,001 - $100,000
+
+## Michael Rulli: filing 20035671, filed 2026-10-19 (found 2026-10-21 00:11)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035671.pdf)
+- 2026-10-16 **sale** Alphabet Inc. - Class C Capital Stock (GOOG, ST), $50,001 - $100,000

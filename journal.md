@@ -150,3 +150,6 @@
 - 2026-10-20 16:08 CLOSE SHORT xyz:INTC @ 90.2265: net -7.59 USD (-0.16R, fees 6.55, funding -0.12). trailing stop hit
 - 2026-10-20 17:10 CLOSE SHORT MON @ 0.021506: net -0.60 USD (-0.01R, fees 2.92, funding -0.02). trailing stop hit
 - 2026-10-20 17:10 CLOSE SHORT xyz:CXMT @ 6.1719: net -3.74 USD (-0.08R, fees 4.31, funding -1.33). trailing stop hit
+- 2026-10-21 00:11 OPEN LONG xyz:SPCX 23.0287 @ 157.88 ($3,636 notional, stop 153.92, risk $91): Breakout long, top traders mixed 6L/3S net +0.2M; SpaceX revenue beat news supports, nothing contradicting
+- 2026-10-21 00:11 OPEN SHORT xyz:META 5.22432 @ 695.55 ($3,634 notional, stop 704.28, risk $46): Smart-money short: 4S/1L top traders net -$10M, price below 50h EMA; no contrary news
+- 2026-10-21 00:11 OPEN SHORT xyz:BRENTOIL 28.3512 @ 105.35 ($2,987 notional, stop 106.96, risk $46): Smart-money short: 4S/1L top traders, price under 50h EMA, news says oil prices retreating

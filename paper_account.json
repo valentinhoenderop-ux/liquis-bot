@@ -1,10 +1,62 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9121.567245300965,
+  "cash": 9107.208129299184,
   "peak_equity": 10237.87863865582,
   "halted": null,
-  "positions": {},
+  "positions": {
+    "xyz:SPCX": {
+      "side": "long",
+      "qty": 23.028682872987076,
+      "entry_px": 157.8839025,
+      "entry_time": "2026-10-21T00:11:18+02:00",
+      "entry_ms": 1792534278200,
+      "stop": 153.92294333632995,
+      "initial_stop": 153.92294333632995,
+      "atr": 1.980479581835024,
+      "extreme": 157.8839025,
+      "dex": "xyz",
+      "fees": 5.090201649990957,
+      "funding": 0.0,
+      "checked_ms": 1792534278200,
+      "funding_ms": 1792534278200,
+      "reason": "Breakout long, top traders mixed 6L/3S net +0.2M; SpaceX revenue beat news supports, nothing contradicting"
+    },
+    "xyz:META": {
+      "side": "short",
+      "qty": 5.224319491345128,
+      "entry_px": 695.55205,
+      "entry_time": "2026-10-21T00:11:19+02:00",
+      "entry_ms": 1792534279567,
+      "stop": 704.2754590310852,
+      "initial_stop": 704.2754590310852,
+      "atr": 4.361704515542622,
+      "extreme": 695.55205,
+      "dex": "xyz",
+      "fees": 5.087300584884085,
+      "funding": 0.0,
+      "checked_ms": 1792534279567,
+      "funding_ms": 1792534279567,
+      "reason": "Smart-money short: 4S/1L top traders net -$10M, price below 50h EMA; no contrary news"
+    },
+    "xyz:BRENTOIL": {
+      "side": "short",
+      "qty": 28.351227711579064,
+      "entry_px": 105.3522975,
+      "entry_time": "2026-10-21T00:11:20+02:00",
+      "entry_ms": 1792534280768,
+      "stop": 106.95858187084013,
+      "initial_stop": 106.95858187084013,
+      "atr": 0.8031421854200639,
+      "extreme": 105.3522975,
+      "dex": "xyz",
+      "fees": 4.18161376690473,
+      "funding": 0.0,
+      "checked_ms": 1792534280768,
+      "funding_ms": 1792534280768,
+      "reason": "Smart-money short: 4S/1L top traders, price under 50h EMA, news says oil prices retreating"
+    }
+  },
   "closed": [
     {
       "symbol": "xyz:CL",
@@ -1233,7 +1285,11 @@
       "end_equity": 9438.028539350555
     },
     "2026-10-20": {
-      "start_equity": 9438.028539350555
+      "start_equity": 9438.028539350555,
+      "end_equity": 9121.567245300965
+    },
+    "2026-10-21": {
+      "start_equity": 9121.567245300965
     }
   },
   "equity_history": [
@@ -1943,6 +1999,10 @@
     },
     {
       "t": "2026-10-20T23:09:41+02:00",
+      "equity": 9121.57
+    },
+    {
+      "t": "2026-10-21T00:09:07+02:00",
       "equity": 9121.57
     }
   ],
