@@ -163,3 +163,5 @@
 - 2026-10-21 04:08 CLOSE SHORT XMR @ 589.89: net -6.98 USD (-0.08R, fees 5.58, funding -0.07). trailing stop hit
 - 2026-10-21 04:11 CLOSE SHORT xyz:BRENTOIL @ 106.48: net -40.33 USD (-0.89R, fees 8.41, funding +0.00). Trend turned (close through 50h EMA) and news shows oil at 5-month high, against the short
 - 2026-10-21 04:11 OPEN SHORT XMR 2.03098 @ 579.94 ($1,178 notional, stop 602.14, risk $45): Smart-money short: 1L/7S top traders net -$9.2M, price below 50h EMA; no contrary news, Liquid data neutral
+- 2026-10-21 05:10 OPEN SHORT xyz:CXMT 299.377 @ 6.1570 ($1,843 notional, stop 6.3068, risk $45): Smart-money candidate: 0L/3S top traders net -$6.6M, price below 50h EMA; no contrary news or scheduled event
+- 2026-10-21 05:10 OPEN SHORT xyz:ZHIPU 26.4191 @ 62.5347 ($1,652 notional, stop 64.2320, risk $45): Smart-money candidate: 1L/4S top traders net -$3.8M, price below 50h EMA, 24h -3.4%; no contrary news
