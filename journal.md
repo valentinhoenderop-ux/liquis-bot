@@ -190,3 +190,4 @@
 - 2026-10-21 17:11 OPEN SHORT xyz:CBRS 12.9247 @ 117.17 ($1,514 notional, stop 120.60, risk $44): Smart-money candidate: 1L/4S top traders, price below 50h EMA, -5% day; losing crowd 100% long on Liquid (fade); half size
 - 2026-10-21 20:09 CLOSE LONG xyz:SPCX @ 158.97: net -49.55 USD (-1.11R, fees 4.31, funding +0.03). stop-loss hit
 - 2026-10-21 21:10 OPEN LONG xyz:MRNA 6.0636 @ 252.81 ($1,533 notional, stop 245.48, risk $44): Breakout long (+1.9 ATR trend); top traders 2L/0S net +$5.9M, no contrary news or scheduled event; half size as evidence is mixed
+- 2026-10-21 22:08 CLOSE SHORT xyz:CBRS @ 117.23: net -4.91 USD (-0.11R, fees 4.24, funding -0.09). trailing stop hit
