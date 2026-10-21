@@ -160,3 +160,6 @@
 - 2026-10-21 02:10 OPEN SHORT STRK 19128.7 @ 0.0569515 ($1,089 notional, stop 0.0593223, risk $45): Smart-money short: 0L/3S top traders net -$5.2M, price below 50h EMA; no contrary news
 - 2026-10-21 03:08 CLOSE SHORT xyz:ZHIPU @ 63.9005: net -54.37 USD (-1.19R, fees 7.61, funding -0.15). stop-loss hit
 - 2026-10-21 03:09 OPEN LONG xyz:SKHY 25.0289 @ 145.62 ($3,645 notional, stop 142.02, risk $90): Breakout long: 6L/1S top traders net +$61.9M agree, price above breakout level; no contrary news or scheduled event, Liquid positioning 67% long
+- 2026-10-21 04:08 CLOSE SHORT XMR @ 589.89: net -6.98 USD (-0.08R, fees 5.58, funding -0.07). trailing stop hit
+- 2026-10-21 04:11 CLOSE SHORT xyz:BRENTOIL @ 106.48: net -40.33 USD (-0.89R, fees 8.41, funding +0.00). Trend turned (close through 50h EMA) and news shows oil at 5-month high, against the short
+- 2026-10-21 04:11 OPEN SHORT XMR 2.03098 @ 579.94 ($1,178 notional, stop 602.14, risk $45): Smart-money short: 1L/7S top traders net -$9.2M, price below 50h EMA; no contrary news, Liquid data neutral
