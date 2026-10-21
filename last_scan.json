@@ -1,41 +1,47 @@
 {
-  "at": "2026-10-21T06:09:57+02:00",
+  "at": "2026-10-21T07:09:26+02:00",
   "markets_scanned": 66,
   "smart_money_snapshot": true,
-  "candidates": [],
+  "candidates": [
+    {
+      "symbol": "ASTER",
+      "side": "long",
+      "score": -0.109,
+      "price": 0.721325,
+      "atr": 0.004222009575580864,
+      "atr_pct": 0.585,
+      "stop": 0.7128809808488382,
+      "breakout_level": 0.71999,
+      "trend_atr": 1.05,
+      "breakout_atr": 0.43,
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 2019699,
+      "smart_money_view": "opposes",
+      "smart_money": "1L/4S top traders, net $-2.8M"
+    }
+  ],
   "smart_money_candidates": [
     {
-      "symbol": "xyz:SKHY",
+      "symbol": "xyz:SPCX",
       "side": "long",
-      "price": 144.285,
-      "score": 1.6,
-      "smart_money": "6L/1S top traders, net $+61.3M",
-      "atr_pct": 1.303,
-      "trend": "close 144.73 vs 50h EMA 140.68",
-      "funding_hourly_pct": -0.03006,
-      "volume_24h": 102280133
-    },
-    {
-      "symbol": "xyz:BABA",
-      "side": "short",
-      "price": 107.095,
-      "score": 0.676,
-      "smart_money": "1L/4S top traders, net $-2.8M",
-      "atr_pct": 0.509,
-      "trend": "close 107.08 vs 50h EMA 108.54",
-      "funding_hourly_pct": -0.00352,
-      "volume_24h": 4153741
+      "price": 161.505,
+      "score": 0.803,
+      "smart_money": "6L/1S top traders, net $+2.0M",
+      "atr_pct": 1.19,
+      "trend": "close 161.54 vs 50h EMA 150.93",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 302108350
     },
     {
       "symbol": "xyz:KIOXIA",
       "side": "short",
-      "price": 84.48,
-      "score": 0.415,
+      "price": 84.512,
+      "score": 0.416,
       "smart_money": "0L/3S top traders, net $-1.2M",
-      "atr_pct": 2.043,
-      "trend": "close 84.3600 vs 50h EMA 84.5617",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 5159368
+      "atr_pct": 2.0,
+      "trend": "close 84.3010 vs 50h EMA 84.5462",
+      "funding_hourly_pct": 0.00096,
+      "volume_24h": 5136394
     }
   ],
   "skipped_as_correlated": [

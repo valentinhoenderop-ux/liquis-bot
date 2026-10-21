@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8972.93487208487,
+  "cash": 8972.878415843797,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 694.53,
       "dex": "xyz",
       "fees": 5.087300584884085,
-      "funding": -0.4628778390652943,
-      "checked_ms": 1792555800000,
-      "funding_ms": 1792555813527.4763,
+      "funding": -0.3813550116438027,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money short: 4S/1L top traders net -$10M, price below 50h EMA; no contrary news"
     },
     "xyz:PLTR": {
@@ -34,9 +34,9 @@
       "extreme": 194.38,
       "dex": "xyz",
       "fees": 4.566604248919177,
-      "funding": -0.16939122176455937,
-      "checked_ms": 1792555800000,
-      "funding_ms": 1792555813527.4763,
+      "funding": -0.15840863462242658,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money candidate: 3L/0S top traders net +$1.5M, price above 50h EMA; AI earnings news supportive, no contrary catalyst"
     },
     "STRK": {
@@ -51,9 +51,9 @@
       "extreme": 0.056951510000000004,
       "dex": "core",
       "fees": 1.0349379594495351,
-      "funding": -0.05510993682114016,
-      "checked_ms": 1792555800000,
-      "funding_ms": 1792555813527.4763,
+      "funding": -0.06820049839243708,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money short: 0L/3S top traders net -$5.2M, price below 50h EMA; no contrary news"
     },
     "XMR": {
@@ -68,9 +68,9 @@
       "extreme": 571.73,
       "dex": "core",
       "fees": 1.1189646945431722,
-      "funding": -0.08575501220098827,
-      "checked_ms": 1792555800000,
-      "funding_ms": 1792555813527.4763,
+      "funding": -0.09980612489241497,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money short: 1L/7S top traders net -$9.2M, price below 50h EMA; no contrary news, Liquid data neutral"
     },
     "xyz:CXMT": {
@@ -85,9 +85,9 @@
       "extreme": 6.125,
       "dex": "xyz",
       "fees": 2.5805613259974276,
-      "funding": -0.2809244644329874,
-      "checked_ms": 1792555800000,
-      "funding_ms": 1792555813527.4763,
+      "funding": -0.6430497166029557,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money candidate: 0L/3S top traders net -$6.6M, price below 50h EMA; no contrary news or scheduled event"
     },
     "xyz:ZHIPU": {
@@ -102,9 +102,9 @@
       "extreme": 62.097,
       "dex": "xyz",
       "fees": 2.3129549221218926,
-      "funding": 0.19645417894665376,
-      "checked_ms": 1792555800000,
-      "funding_ms": 1792555813527.4763,
+      "funding": 0.186541936912178,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money candidate: 1L/4S top traders net -$3.8M, price below 50h EMA, 24h -3.4%; no contrary news"
     },
     "xyz:SKHY": {
@@ -116,12 +116,12 @@
       "stop": 140.9563953857417,
       "initial_stop": 140.9563953857417,
       "atr": 1.885466057129151,
-      "extreme": 144.7273275,
+      "extreme": 145.74,
       "dex": "xyz",
       "fees": 2.405843180594608,
-      "funding": -0.0007083889643506016,
-      "checked_ms": 1792555808562,
-      "funding_ms": 1792555813527.4763,
+      "funding": 0.2279963182095649,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money candidate: 6L/1S top traders net +$61M, price above 50h EMA; KOSPI semis rally in news, re-entry after small trailing stop"
     },
     "xyz:BABA": {
@@ -133,12 +133,12 @@
       "stop": 108.1671555491056,
       "initial_stop": 108.1671555491056,
       "atr": 0.545360274552801,
-      "extreme": 107.076435,
+      "extreme": 107.02,
       "dex": "xyz",
       "fees": 6.151616930820057,
-      "funding": 0.00016078173853940824,
-      "checked_ms": 1792555809691,
-      "funding_ms": 1792555813527.4763,
+      "funding": 0.13458606954090924,
+      "checked_ms": 1792559100000,
+      "funding_ms": 1792559273680.5918,
       "reason": "Smart-money candidate: 1L/4S top traders net -$2.8M, price below 50h EMA; no contrary news or scheduled event"
     }
   },
@@ -2221,6 +2221,10 @@
     {
       "t": "2026-10-21T06:10:16+02:00",
       "equity": 8944.41
+    },
+    {
+      "t": "2026-10-21T07:07:56+02:00",
+      "equity": 8978.34
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
