@@ -185,3 +185,6 @@
 - 2026-10-21 16:12 CLOSE LONG xyz:SKHY @ 143.82: net -11.74 USD (-0.13R, fees 9.91, funding +0.06). trailing stop hit
 - 2026-10-21 16:14 OPEN LONG xyz:SPCX 9.55094 @ 163.71 ($1,564 notional, stop 159.05, risk $44): Breakout long; top traders 5L/1S net +$3.8M agree, news SpaceX/Tesla deal talks; already +11% on day so half size
 - 2026-10-21 16:14 OPEN SHORT xyz:INTC 19.16 @ 91.3903 ($1,751 notional, stop 93.7085, risk $44): Smart-money candidate: 0L/6S top traders net -$8.7M, price below 50h EMA; no contrary news
+- 2026-10-21 17:11 OPEN LONG xyz:PLTR 30.5564 @ 199.12 ($6,085 notional, stop 196.22, risk $89): Breakout long; top traders 3L/0S net +$1.5M agree, no contrary news or scheduled event
+- 2026-10-21 17:11 OPEN LONG xyz:SKHY 11.4455 @ 142.45 ($1,630 notional, stop 138.58, risk $44): Smart-money candidate: 6L/1S top traders net +$59M, above 50h EMA; Liquid cohort long-heavy so half size
+- 2026-10-21 17:11 OPEN SHORT xyz:CBRS 12.9247 @ 117.17 ($1,514 notional, stop 120.60, risk $44): Smart-money candidate: 1L/4S top traders, price below 50h EMA, -5% day; losing crowd 100% long on Liquid (fade); half size
