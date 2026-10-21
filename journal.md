@@ -174,3 +174,5 @@
 - 2026-10-21 11:10 OPEN SHORT STRK 19252.8 @ 0.0564817 ($1,087 notional, stop 0.0588238, risk $45): Smart-money candidate: 0L/3S top traders net -$5.2M, price below 50h EMA; no contrary news or positioning
 - 2026-10-21 12:11 CLOSE LONG xyz:SPCX @ 160.67: net -6.92 USD (-0.15R, fees 5.85, funding +0.03). trailing stop hit
 - 2026-10-21 12:12 OPEN LONG xyz:SKHY 24.5994 @ 143.90 ($3,540 notional, stop 140.25, risk $90): Smart-money candidate: 6L/1S top traders net +$60M, price above 50h EMA; Kospi +3% on strong earnings, no contrary news or positioning
+- 2026-10-21 14:13 CLOSE SHORT XMR @ 602.44: net -47.78 USD (-1.06R, fees 2.28, funding -0.20). stop-loss hit
+- 2026-10-21 14:15 OPEN LONG xyz:SPCX 11.4644 @ 159.31 ($1,826 notional, stop 155.41, risk $45): Smart-money candidate: 5L/1S top traders net +$3.3M, price above 50h EMA; SpaceX surge news supportive, no contrary catalyst
