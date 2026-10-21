@@ -165,3 +165,6 @@
 - 2026-10-21 04:11 OPEN SHORT XMR 2.03098 @ 579.94 ($1,178 notional, stop 602.14, risk $45): Smart-money short: 1L/7S top traders net -$9.2M, price below 50h EMA; no contrary news, Liquid data neutral
 - 2026-10-21 05:10 OPEN SHORT xyz:CXMT 299.377 @ 6.1570 ($1,843 notional, stop 6.3068, risk $45): Smart-money candidate: 0L/3S top traders net -$6.6M, price below 50h EMA; no contrary news or scheduled event
 - 2026-10-21 05:10 OPEN SHORT xyz:ZHIPU 26.4191 @ 62.5347 ($1,652 notional, stop 64.2320, risk $45): Smart-money candidate: 1L/4S top traders net -$3.8M, price below 50h EMA, 24h -3.4%; no contrary news
+- 2026-10-21 06:08 CLOSE LONG xyz:SKHY @ 145.55: net -10.93 USD (-0.12R, fees 10.20, funding -1.10). trailing stop hit
+- 2026-10-21 06:10 OPEN LONG xyz:SKHY 11.8738 @ 144.73 ($1,718 notional, stop 140.96, risk $45): Smart-money candidate: 6L/1S top traders net +$61M, price above 50h EMA; KOSPI semis rally in news, re-entry after small trailing stop
+- 2026-10-21 06:10 OPEN SHORT xyz:BABA 41.0362 @ 107.08 ($4,394 notional, stop 108.17, risk $45): Smart-money candidate: 1L/4S top traders net -$2.8M, price below 50h EMA; no contrary news or scheduled event

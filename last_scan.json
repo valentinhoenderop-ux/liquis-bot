@@ -1,41 +1,41 @@
 {
-  "at": "2026-10-21T05:10:00+02:00",
-  "markets_scanned": 67,
+  "at": "2026-10-21T06:09:57+02:00",
+  "markets_scanned": 66,
   "smart_money_snapshot": true,
   "candidates": [],
   "smart_money_candidates": [
     {
-      "symbol": "xyz:CXMT",
-      "side": "short",
-      "price": 6.16645,
-      "score": 0.964,
-      "smart_money": "0L/3S top traders, net $-6.6M",
-      "atr_pct": 1.21,
-      "trend": "close 6.1913 vs 50h EMA 6.2329",
-      "funding_hourly_pct": 0.01913,
-      "volume_24h": 16200150
-    },
-    {
-      "symbol": "xyz:ZHIPU",
-      "side": "short",
-      "price": 62.69,
-      "score": 0.783,
-      "smart_money": "1L/4S top traders, net $-3.8M",
-      "atr_pct": 1.347,
-      "trend": "close 63.0230 vs 50h EMA 63.1069",
-      "funding_hourly_pct": 0.0056,
-      "volume_24h": 16138651
+      "symbol": "xyz:SKHY",
+      "side": "long",
+      "price": 144.285,
+      "score": 1.6,
+      "smart_money": "6L/1S top traders, net $+61.3M",
+      "atr_pct": 1.303,
+      "trend": "close 144.73 vs 50h EMA 140.68",
+      "funding_hourly_pct": -0.03006,
+      "volume_24h": 102280133
     },
     {
       "symbol": "xyz:BABA",
       "side": "short",
-      "price": 107.36,
-      "score": 0.672,
-      "smart_money": "1L/4S top traders, net $-2.7M",
-      "atr_pct": 0.519,
-      "trend": "close 107.18 vs 50h EMA 108.61",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 3643406
+      "price": 107.095,
+      "score": 0.676,
+      "smart_money": "1L/4S top traders, net $-2.8M",
+      "atr_pct": 0.509,
+      "trend": "close 107.08 vs 50h EMA 108.54",
+      "funding_hourly_pct": -0.00352,
+      "volume_24h": 4153741
+    },
+    {
+      "symbol": "xyz:KIOXIA",
+      "side": "short",
+      "price": 84.48,
+      "score": 0.415,
+      "smart_money": "0L/3S top traders, net $-1.2M",
+      "atr_pct": 2.043,
+      "trend": "close 84.3600 vs 50h EMA 84.5617",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 5159368
     }
   ],
   "skipped_as_correlated": [
@@ -48,12 +48,6 @@
       ]
     }
   ],
-  "exit_suggestions": [
-    {
-      "symbol": "STRK",
-      "side": "short",
-      "why": "last close 0.05861 is through the 50h EMA 0.0583736"
-    }
-  ],
+  "exit_suggestions": [],
   "errors": []
 }
