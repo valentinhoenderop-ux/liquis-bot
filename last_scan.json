@@ -1,47 +1,30 @@
 {
-  "at": "2026-10-21T07:09:26+02:00",
+  "at": "2026-10-21T08:12:52+02:00",
   "markets_scanned": 66,
   "smart_money_snapshot": true,
-  "candidates": [
-    {
-      "symbol": "ASTER",
-      "side": "long",
-      "score": -0.109,
-      "price": 0.721325,
-      "atr": 0.004222009575580864,
-      "atr_pct": 0.585,
-      "stop": 0.7128809808488382,
-      "breakout_level": 0.71999,
-      "trend_atr": 1.05,
-      "breakout_atr": 0.43,
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 2019699,
-      "smart_money_view": "opposes",
-      "smart_money": "1L/4S top traders, net $-2.8M"
-    }
-  ],
+  "candidates": [],
   "smart_money_candidates": [
     {
       "symbol": "xyz:SPCX",
       "side": "long",
-      "price": 161.505,
-      "score": 0.803,
-      "smart_money": "6L/1S top traders, net $+2.0M",
-      "atr_pct": 1.19,
-      "trend": "close 161.54 vs 50h EMA 150.93",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 302108350
+      "price": 161.405,
+      "score": 0.882,
+      "smart_money": "6L/1S top traders, net $+2.8M",
+      "atr_pct": 1.125,
+      "trend": "close 161.52 vs 50h EMA 151.35",
+      "funding_hourly_pct": -0.00107,
+      "volume_24h": 304946662
     },
     {
-      "symbol": "xyz:KIOXIA",
+      "symbol": "AVAX",
       "side": "short",
-      "price": 84.512,
-      "score": 0.416,
-      "smart_money": "0L/3S top traders, net $-1.2M",
-      "atr_pct": 2.0,
-      "trend": "close 84.3010 vs 50h EMA 84.5462",
-      "funding_hourly_pct": 0.00096,
-      "volume_24h": 5136394
+      "price": 9.619,
+      "score": 0.341,
+      "smart_money": "0L/3S top traders, net $-0.4M",
+      "atr_pct": 0.999,
+      "trend": "close 9.6291 vs 50h EMA 9.6617",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 4272037
     }
   ],
   "skipped_as_correlated": [
@@ -50,10 +33,16 @@
       "side": "short",
       "score": 0.35,
       "moves_with": [
-        "xyz:ZHIPU (corr 0.72)"
+        "xyz:ZHIPU (corr 0.73)"
       ]
     }
   ],
-  "exit_suggestions": [],
+  "exit_suggestions": [
+    {
+      "symbol": "xyz:ZHIPU",
+      "side": "short",
+      "why": "last close 63.2310 is through the 50h EMA 63.0606"
+    }
+  ],
   "errors": []
 }
