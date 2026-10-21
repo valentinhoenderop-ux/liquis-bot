@@ -1,80 +1,86 @@
 {
-  "at": "2026-10-21T14:14:40+02:00",
-  "markets_scanned": 66,
+  "at": "2026-10-21T15:16:31+02:00",
+  "markets_scanned": 67,
   "smart_money_snapshot": true,
   "candidates": [
     {
-      "symbol": "xyz:CRCL",
+      "symbol": "ZEC",
       "side": "long",
-      "score": 1.412,
-      "price": 87.04,
-      "atr": 0.6761021290088328,
-      "atr_pct": 0.775,
-      "stop": 85.68779574198234,
-      "breakout_level": 86.851,
-      "trend_atr": 1.84,
-      "breakout_atr": 0.52,
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 40121577,
+      "score": 0.939,
+      "price": 1316.45,
+      "atr": 19.922142797103042,
+      "atr_pct": 1.534,
+      "stop": 1276.605714405794,
+      "breakout_level": 1298.2,
+      "trend_atr": 2.15,
+      "breakout_atr": 0.02,
+      "funding_hourly_pct": 0.00297,
+      "volume_24h": 426564999,
       "smart_money_view": "mixed",
-      "smart_money": "5L/3S top traders, net $-0.3M"
-    },
-    {
-      "symbol": "VVV",
-      "side": "long",
-      "score": -0.439,
-      "price": 26.446,
-      "atr": 0.47899132799118277,
-      "atr_pct": 1.808,
-      "stop": 25.488017344017635,
-      "breakout_level": 26.466,
-      "trend_atr": 1.48,
-      "breakout_atr": 0.07,
-      "funding_hourly_pct": 0.00497,
-      "volume_24h": 23866362,
-      "smart_money_view": "opposes",
-      "smart_money": "0L/9S top traders, net $-5.4M"
+      "smart_money": "4L/11S top traders, net $-166.5M"
     }
   ],
   "smart_money_candidates": [
     {
+      "symbol": "XMR",
+      "side": "short",
+      "price": 599.615,
+      "score": 1.6,
+      "smart_money": "1L/6S top traders, net $-12.4M",
+      "atr_pct": 1.55,
+      "trend": "close 595.75 vs 50h EMA 597.39",
+      "funding_hourly_pct": -0.00365,
+      "volume_24h": 85108605
+    },
+    {
+      "symbol": "STRK",
+      "side": "short",
+      "price": 0.05746,
+      "score": 0.826,
+      "smart_money": "0L/3S top traders, net $-5.3M",
+      "atr_pct": 2.061,
+      "trend": "close 0.05719 vs 50h EMA 0.0577713",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 10239615
+    },
+    {
       "symbol": "xyz:SPCX",
       "side": "long",
-      "price": 159.345,
-      "score": 0.829,
-      "smart_money": "5L/1S top traders, net $+3.3M",
-      "atr_pct": 1.226,
-      "trend": "close 159.40 vs 50h EMA 153.36",
+      "price": 159.955,
+      "score": 0.782,
+      "smart_money": "5L/1S top traders, net $+2.8M",
+      "atr_pct": 1.265,
+      "trend": "close 159.53 vs 50h EMA 153.60",
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 363318245
+      "volume_24h": 377567927
     },
     {
       "symbol": "GRAM",
       "side": "short",
-      "price": 1.34345,
+      "price": 1.34335,
       "score": 0.626,
       "smart_money": "0L/4S top traders, net $-2.3M",
-      "atr_pct": 0.559,
-      "trend": "close 1.3444 vs 50h EMA 1.3485",
-      "funding_hourly_pct": -0.00384,
-      "volume_24h": 2461433
+      "atr_pct": 0.623,
+      "trend": "close 1.3316 vs 50h EMA 1.3478",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 3113883
     }
   ],
   "skipped_as_correlated": [
     {
-      "symbol": "ENA",
+      "symbol": "XPL",
       "side": "long",
-      "score": 0.294,
+      "score": 0.117,
       "moves_with": [
-        "xyz:CRCL (corr 0.72)"
+        "ZEC (corr 0.8)"
       ]
     },
     {
-      "symbol": "XPL",
+      "symbol": "ONDO",
       "side": "long",
-      "score": -0.531,
+      "score": -0.339,
       "moves_with": [
-        "xyz:CRCL (corr 0.72)"
+        "ZEC (corr 0.8)"
       ]
     },
     {
@@ -90,7 +96,7 @@
     {
       "symbol": "xyz:ZHIPU",
       "side": "short",
-      "why": "last close 63.5610 is through the 50h EMA 63.0791"
+      "why": "last close 63.4680 is through the 50h EMA 63.0956"
     }
   ],
   "errors": []
