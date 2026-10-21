@@ -192,3 +192,5 @@
 - 2026-10-21 21:10 OPEN LONG xyz:MRNA 6.0636 @ 252.81 ($1,533 notional, stop 245.48, risk $44): Breakout long (+1.9 ATR trend); top traders 2L/0S net +$5.9M, no contrary news or scheduled event; half size as evidence is mixed
 - 2026-10-21 22:08 CLOSE SHORT xyz:CBRS @ 117.23: net -4.91 USD (-0.11R, fees 4.24, funding -0.09). trailing stop hit
 - 2026-10-21 23:08 CLOSE SHORT XMR @ 618.08: net -48.29 USD (-1.08R, fees 2.80, funding -0.03). stop-loss hit
+- 2026-10-22 00:10 OPEN SHORT xyz:CBRS 12.6695 @ 116.92 ($1,481 notional, stop 120.39, risk $44): Smart-money candidate: 0L/5S top traders net -$1.0M, price below 50h EMA, 24h -4.5%; no contrary news or scheduled event; half size
+- 2026-10-22 00:10 OPEN SHORT INJ 148.423 @ 8.6154 ($1,279 notional, stop 8.9115, risk $44): Smart-money candidate: 0L/4S top traders net -$1.3M, Liquid cohort short-heavy, 24h -4.7%; no contrary news; half size

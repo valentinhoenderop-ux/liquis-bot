@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xfe7ce058",
+    "symbol": "GRAM",
+    "action": "opened",
+    "side": "short",
+    "notional": 129261,
+    "pct_of_account": 1.0,
+    "trader_month_pnl": 2126224,
+    "at": "2026-10-22T00:09:41+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "xyz:BRENTOIL",
+    "action": "cut",
+    "side": "short",
+    "notional": 125125,
+    "pct_of_account": 1.2,
+    "trader_month_pnl": 8134188,
+    "at": "2026-10-22T00:09:41+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:BRENTOIL",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 61185,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 15613249,
+    "at": "2026-10-22T00:09:41+02:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "xyz:SP500",
     "action": "added to",
@@ -2966,36 +2996,6 @@
     "side": "short",
     "notional": 433028,
     "pct_of_account": 0.4,
-    "trader_month_pnl": 15613249,
-    "at": "2026-10-21T06:09:29+02:00"
-  },
-  {
-    "trader": "0x4c6d679e",
-    "symbol": "XMR",
-    "action": "added to",
-    "side": "short",
-    "notional": 315231,
-    "pct_of_account": 231.0,
-    "trader_month_pnl": 2030416,
-    "at": "2026-10-21T06:09:29+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:AMZN",
-    "action": "added to",
-    "side": "short",
-    "notional": 82312,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 8077489,
-    "at": "2026-10-21T06:09:29+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SPCX",
-    "action": "cut",
-    "side": "long",
-    "notional": 38201,
-    "pct_of_account": 0.0,
     "trader_month_pnl": 15613249,
     "at": "2026-10-21T06:09:29+02:00"
   }
