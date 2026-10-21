@@ -179,3 +179,9 @@
 - 2026-10-21 15:15 CLOSE SHORT STRK @ 0.05651: net -2.55 USD (-0.06R, fees 2.07, funding -0.06). trailing stop hit
 - 2026-10-21 15:15 CLOSE LONG xyz:SPCX @ 159.23: net -6.04 USD (-0.13R, fees 5.11, funding +0.01). trailing stop hit
 - 2026-10-21 15:16 OPEN SHORT XMR 2.42335 @ 599.30 ($1,452 notional, stop 617.77, risk $45): Smart-money candidate: 1L/6S top traders net -$12.4M and one trader just added $1M short, price below 50h EMA; news shows Monero pulling back, no scheduled event; mixed crypto tape so half size
+- 2026-10-21 16:12 CLOSE SHORT xyz:META @ 695.90: net -11.03 USD (-0.24R, fees 10.18, funding -0.96). trailing stop hit
+- 2026-10-21 16:12 CLOSE LONG xyz:PLTR @ 190.78: net -55.87 USD (-1.23R, fees 9.07, funding -0.36). stop-loss hit
+- 2026-10-21 16:12 CLOSE SHORT xyz:CXMT @ 6.1600: net -4.68 USD (-0.10R, fees 5.16, funding -1.40). trailing stop hit
+- 2026-10-21 16:12 CLOSE LONG xyz:SKHY @ 143.82: net -11.74 USD (-0.13R, fees 9.91, funding +0.06). trailing stop hit
+- 2026-10-21 16:14 OPEN LONG xyz:SPCX 9.55094 @ 163.71 ($1,564 notional, stop 159.05, risk $44): Breakout long; top traders 5L/1S net +$3.8M agree, news SpaceX/Tesla deal talks; already +11% on day so half size
+- 2026-10-21 16:14 OPEN SHORT xyz:INTC 19.16 @ 91.3903 ($1,751 notional, stop 93.7085, risk $44): Smart-money candidate: 0L/6S top traders net -$8.7M, price below 50h EMA; no contrary news
