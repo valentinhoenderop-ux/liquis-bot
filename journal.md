@@ -158,3 +158,5 @@
 - 2026-10-21 02:09 CLOSE LONG xyz:SPCX @ 157.80: net -11.62 USD (-0.13R, fees 10.18, funding -0.38). trailing stop hit
 - 2026-10-21 02:10 OPEN SHORT XMR 4.98347 @ 589.60 ($2,938 notional, stop 607.81, risk $91): Smart-money short: 1L/7S top traders net -$8M, BobbyBigSize added $4M short this hour, price below 50h EMA; no contrary news
 - 2026-10-21 02:10 OPEN SHORT STRK 19128.7 @ 0.0569515 ($1,089 notional, stop 0.0593223, risk $45): Smart-money short: 0L/3S top traders net -$5.2M, price below 50h EMA; no contrary news
+- 2026-10-21 03:08 CLOSE SHORT xyz:ZHIPU @ 63.9005: net -54.37 USD (-1.19R, fees 7.61, funding -0.15). stop-loss hit
+- 2026-10-21 03:09 OPEN LONG xyz:SKHY 25.0289 @ 145.62 ($3,645 notional, stop 142.02, risk $90): Breakout long: 6L/1S top traders net +$61.9M agree, price above breakout level; no contrary news or scheduled event, Liquid positioning 67% long
