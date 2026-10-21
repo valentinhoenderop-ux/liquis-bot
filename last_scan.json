@@ -1,78 +1,94 @@
 {
-  "at": "2026-10-21T19:10:23+02:00",
+  "at": "2026-10-21T20:10:30+02:00",
   "markets_scanned": 68,
   "smart_money_snapshot": true,
   "candidates": [
     {
-      "symbol": "xyz:SP500",
+      "symbol": "xyz:CRCL",
       "side": "long",
-      "score": 0.816,
-      "price": 7763.55,
-      "atr": 15.58664800088288,
-      "atr_pct": 0.201,
-      "stop": 7732.376703998234,
-      "breakout_level": 7753.6,
-      "trend_atr": 1.04,
-      "breakout_atr": 0.33,
+      "score": 1.048,
+      "price": 91.825,
+      "atr": 1.1031485534771377,
+      "atr_pct": 1.202,
+      "stop": 89.61870289304572,
+      "breakout_level": 91.555,
+      "trend_atr": 1.82,
+      "breakout_atr": 0.17,
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 249445083,
+      "volume_24h": 31803919,
       "smart_money_view": "mixed",
-      "smart_money": "0L/1S top traders, net $-1.2M"
+      "smart_money": "6L/2S top traders, net $-0.1M"
     },
     {
-      "symbol": "xyz:MSTR",
+      "symbol": "ZEC",
       "side": "long",
-      "score": 0.238,
-      "price": 154.615,
-      "atr": 1.9891655277497584,
-      "atr_pct": 1.285,
-      "stop": 150.63666894450049,
-      "breakout_level": 154.14,
-      "trend_atr": 1.86,
-      "breakout_atr": 0.34,
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 18708756,
+      "score": 0.829,
+      "price": 1357.85,
+      "atr": 22.38730013961993,
+      "atr_pct": 1.642,
+      "stop": 1313.07539972076,
+      "breakout_level": 1347.4,
+      "trend_atr": 2.36,
+      "breakout_atr": 0.71,
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 386103703,
       "smart_money_view": "opposes",
-      "smart_money": "1L/3S top traders, net $-1.4M"
+      "smart_money": "3L/12S top traders, net $-179.9M"
     }
   ],
   "smart_money_candidates": [
     {
-      "symbol": "xyz:CXMT",
-      "side": "short",
-      "price": 6.19345,
-      "score": 0.967,
-      "smart_money": "0L/3S top traders, net $-6.7M",
-      "atr_pct": 1.094,
-      "trend": "close 6.1896 vs 50h EMA 6.1969",
-      "funding_hourly_pct": 0.00914,
-      "volume_24h": 13373554
+      "symbol": "xyz:SPCX",
+      "side": "long",
+      "price": 157.855,
+      "score": 0.786,
+      "smart_money": "5L/1S top traders, net $+2.9M",
+      "atr_pct": 1.713,
+      "trend": "close 157.79 vs 50h EMA 155.08",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 478465831
     },
     {
       "symbol": "INJ",
       "side": "short",
-      "price": 8.69295,
+      "price": 8.6529,
       "score": 0.53,
       "smart_money": "0L/4S top traders, net $-1.3M",
-      "atr_pct": 1.742,
-      "trend": "close 8.6816 vs 50h EMA 8.7002",
+      "atr_pct": 1.75,
+      "trend": "close 8.6161 vs 50h EMA 8.6965",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 9296471
+      "volume_24h": 9864410
     }
   ],
   "skipped_as_correlated": [
     {
-      "symbol": "xyz:XYZ100",
+      "symbol": "XPL",
       "side": "long",
-      "score": 0.546,
+      "score": 0.145,
       "moves_with": [
-        "xyz:SP500 (corr 0.93)"
+        "ZEC (corr 0.77)"
+      ]
+    },
+    {
+      "symbol": "FARTCOIN",
+      "side": "long",
+      "score": -0.117,
+      "moves_with": [
+        "ZEC (corr 0.76)"
+      ]
+    },
+    {
+      "symbol": "LIT",
+      "side": "long",
+      "score": -0.32,
+      "moves_with": [
+        "ZEC (corr 0.78)"
       ]
     },
     {
       "symbol": "xyz:NBIS",
       "side": "short",
-      "score": 0.731,
+      "score": 0.733,
       "moves_with": [
         "xyz:INTC (corr 0.72)",
         "xyz:CBRS (corr 0.79)"
@@ -81,10 +97,10 @@
     {
       "symbol": "xyz:CRWV",
       "side": "short",
-      "score": 0.566,
+      "score": 0.554,
       "moves_with": [
-        "xyz:INTC (corr 0.75)",
-        "xyz:CBRS (corr 0.76)"
+        "xyz:INTC (corr 0.74)",
+        "xyz:CBRS (corr 0.75)"
       ]
     },
     {
@@ -100,12 +116,12 @@
     {
       "symbol": "XMR",
       "side": "short",
-      "why": "last close 606.46 is through the 50h EMA 598.32"
+      "why": "last close 606.80 is through the 50h EMA 598.70"
     },
     {
       "symbol": "xyz:ZHIPU",
       "side": "short",
-      "why": "last close 63.8520 is through the 50h EMA 63.1797"
+      "why": "last close 63.9190 is through the 50h EMA 63.2088"
     }
   ],
   "errors": []
