@@ -1,90 +1,50 @@
 {
-  "at": "2026-10-21T10:10:25+02:00",
-  "markets_scanned": 67,
+  "at": "2026-10-21T11:09:57+02:00",
+  "markets_scanned": 66,
   "smart_money_snapshot": true,
   "candidates": [
     {
-      "symbol": "BNB",
-      "side": "long",
-      "score": 0.772,
-      "price": 746.385,
-      "atr": 3.0425884146149826,
-      "atr_pct": 0.407,
-      "stop": 740.29982317077,
-      "breakout_level": 744.79,
-      "trend_atr": 1.93,
-      "breakout_atr": 0.87,
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 5383667,
-      "smart_money_view": "opposes",
-      "smart_money": "0L/3S top traders, net $-1.6M"
-    },
-    {
       "symbol": "ASTER",
       "side": "long",
-      "score": -0.425,
-      "price": 0.722015,
-      "atr": 0.004081047372369057,
-      "atr_pct": 0.565,
-      "stop": 0.7138529052552618,
-      "breakout_level": 0.72194,
-      "trend_atr": 1.17,
-      "breakout_atr": 0.05,
+      "score": -0.424,
+      "price": 0.724175,
+      "atr": 0.004077994087019734,
+      "atr_pct": 0.564,
+      "stop": 0.7160190118259605,
+      "breakout_level": 0.72344,
+      "trend_atr": 1.21,
+      "breakout_atr": 0.03,
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 1968081,
+      "volume_24h": 2008619,
       "smart_money_view": "opposes",
       "smart_money": "1L/4S top traders, net $-2.8M"
     }
   ],
   "smart_money_candidates": [
     {
-      "symbol": "xyz:SPCX",
+      "symbol": "xyz:SKHY",
       "side": "long",
-      "price": 160.715,
-      "score": 0.89,
-      "smart_money": "6L/1S top traders, net $+2.9M",
-      "atr_pct": 1.072,
-      "trend": "close 161.48 vs 50h EMA 152.08",
+      "price": 144.015,
+      "score": 1.6,
+      "smart_money": "6L/1S top traders, net $+60.1M",
+      "atr_pct": 1.298,
+      "trend": "close 143.88 vs 50h EMA 141.47",
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 320134444
+      "volume_24h": 115182950
     },
     {
       "symbol": "STRK",
       "side": "short",
-      "price": 0.05712,
-      "score": 0.823,
+      "price": 0.0565,
+      "score": 0.817,
       "smart_money": "0L/3S top traders, net $-5.2M",
-      "atr_pct": 2.072,
-      "trend": "close 0.05725 vs 50h EMA 0.0580568",
+      "atr_pct": 2.076,
+      "trend": "close 0.05641 vs 50h EMA 0.0579927",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 9767936
+      "volume_24h": 9446798
     }
   ],
   "skipped_as_correlated": [
-    {
-      "symbol": "NEAR",
-      "side": "long",
-      "score": -0.08,
-      "moves_with": [
-        "BNB (corr 0.75)"
-      ]
-    },
-    {
-      "symbol": "XPL",
-      "side": "long",
-      "score": -0.235,
-      "moves_with": [
-        "BNB (corr 0.77)"
-      ]
-    },
-    {
-      "symbol": "ENA",
-      "side": "long",
-      "score": -0.274,
-      "moves_with": [
-        "BNB (corr 0.83)"
-      ]
-    },
     {
       "symbol": "xyz:MINIMAX",
       "side": "short",
@@ -94,12 +54,6 @@
       ]
     }
   ],
-  "exit_suggestions": [
-    {
-      "symbol": "xyz:ZHIPU",
-      "side": "short",
-      "why": "last close 63.1350 is through the 50h EMA 63.0378"
-    }
-  ],
+  "exit_suggestions": [],
   "errors": []
 }

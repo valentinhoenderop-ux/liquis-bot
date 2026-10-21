@@ -170,3 +170,5 @@
 - 2026-10-21 06:10 OPEN SHORT xyz:BABA 41.0362 @ 107.08 ($4,394 notional, stop 108.17, risk $45): Smart-money candidate: 1L/4S top traders net -$2.8M, price below 50h EMA; no contrary news or scheduled event
 - 2026-10-21 10:09 CLOSE SHORT STRK @ 0.05698: net -2.51 USD (-0.06R, fees 2.07, funding -0.11). trailing stop hit
 - 2026-10-21 10:10 OPEN LONG xyz:SPCX 13.0069 @ 160.76 ($2,091 notional, stop 157.29, risk $45): Smart-money candidate: 6L/1S top traders net +$2.9M, price above 50h EMA; Tesla-SpaceX merger talks news supportive, no contrary catalyst
+- 2026-10-21 11:08 CLOSE LONG xyz:SKHY @ 144.65: net -6.36 USD (-0.14R, fees 4.81, funding +0.69). trailing stop hit
+- 2026-10-21 11:10 OPEN SHORT STRK 19252.8 @ 0.0564817 ($1,087 notional, stop 0.0588238, risk $45): Smart-money candidate: 0L/3S top traders net -$5.2M, price below 50h EMA; no contrary news or positioning
