@@ -155,3 +155,6 @@
 - 2026-10-21 00:11 OPEN SHORT xyz:BRENTOIL 28.3512 @ 105.35 ($2,987 notional, stop 106.96, risk $46): Smart-money short: 4S/1L top traders, price under 50h EMA, news says oil prices retreating
 - 2026-10-21 01:11 OPEN LONG xyz:PLTR 16.85 @ 193.58 ($3,262 notional, stop 190.88, risk $46): Smart-money candidate: 3L/0S top traders net +$1.5M, price above 50h EMA; AI earnings news supportive, no contrary catalyst
 - 2026-10-21 01:11 OPEN SHORT xyz:ZHIPU 42.9218 @ 62.8076 ($2,696 notional, stop 63.8686, risk $46): Smart-money candidate: 1L/4S top traders net -$3.9M, price below 50h EMA, 24h -4.5%; no contrary news
+- 2026-10-21 02:09 CLOSE LONG xyz:SPCX @ 157.80: net -11.62 USD (-0.13R, fees 10.18, funding -0.38). trailing stop hit
+- 2026-10-21 02:10 OPEN SHORT XMR 4.98347 @ 589.60 ($2,938 notional, stop 607.81, risk $91): Smart-money short: 1L/7S top traders net -$8M, BobbyBigSize added $4M short this hour, price below 50h EMA; no contrary news
+- 2026-10-21 02:10 OPEN SHORT STRK 19128.7 @ 0.0569515 ($1,089 notional, stop 0.0593223, risk $45): Smart-money short: 0L/3S top traders net -$5.2M, price below 50h EMA; no contrary news
