@@ -1,47 +1,58 @@
 {
-  "at": "2026-10-21T11:09:57+02:00",
+  "at": "2026-10-21T12:12:06+02:00",
   "markets_scanned": 66,
   "smart_money_snapshot": true,
   "candidates": [
     {
-      "symbol": "ASTER",
+      "symbol": "XRP",
       "side": "long",
-      "score": -0.424,
-      "price": 0.724175,
-      "atr": 0.004077994087019734,
-      "atr_pct": 0.564,
-      "stop": 0.7160190118259605,
-      "breakout_level": 0.72344,
-      "trend_atr": 1.21,
-      "breakout_atr": 0.03,
+      "score": -0.292,
+      "price": 1.35575,
+      "atr": 0.010533871373216064,
+      "atr_pct": 0.777,
+      "stop": 1.334682257253568,
+      "breakout_level": 1.3547,
+      "trend_atr": 1.26,
+      "breakout_atr": 0.14,
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 2008619,
+      "volume_24h": 79974499,
       "smart_money_view": "opposes",
-      "smart_money": "1L/4S top traders, net $-2.8M"
+      "smart_money": "2L/6S top traders, net $-36.3M"
     }
   ],
   "smart_money_candidates": [
     {
       "symbol": "xyz:SKHY",
       "side": "long",
-      "price": 144.015,
+      "price": 143.8,
       "score": 1.6,
-      "smart_money": "6L/1S top traders, net $+60.1M",
-      "atr_pct": 1.298,
-      "trend": "close 143.88 vs 50h EMA 141.47",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 115182950
+      "smart_money": "6L/1S top traders, net $+60.0M",
+      "atr_pct": 1.265,
+      "trend": "close 144.26 vs 50h EMA 141.58",
+      "funding_hourly_pct": -0.00039,
+      "volume_24h": 113225207
     },
     {
-      "symbol": "STRK",
+      "symbol": "xyz:SPCX",
+      "side": "long",
+      "price": 160.475,
+      "score": 0.826,
+      "smart_money": "5L/1S top traders, net $+3.3M",
+      "atr_pct": 1.161,
+      "trend": "close 160.74 vs 50h EMA 152.85",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 337995446
+    },
+    {
+      "symbol": "GRAM",
       "side": "short",
-      "price": 0.0565,
-      "score": 0.817,
-      "smart_money": "0L/3S top traders, net $-5.2M",
-      "atr_pct": 2.076,
-      "trend": "close 0.05641 vs 50h EMA 0.0579927",
+      "price": 1.34575,
+      "score": 0.627,
+      "smart_money": "0L/4S top traders, net $-2.3M",
+      "atr_pct": 0.558,
+      "trend": "close 1.3470 vs 50h EMA 1.3488",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 9446798
+      "volume_24h": 2208933
     }
   ],
   "skipped_as_correlated": [
@@ -54,6 +65,17 @@
       ]
     }
   ],
-  "exit_suggestions": [],
+  "exit_suggestions": [
+    {
+      "symbol": "XMR",
+      "side": "short",
+      "why": "last close 599.41 is through the 50h EMA 597.12"
+    },
+    {
+      "symbol": "xyz:ZHIPU",
+      "side": "short",
+      "why": "last close 63.2800 is through the 50h EMA 63.0435"
+    }
+  ],
   "errors": []
 }
