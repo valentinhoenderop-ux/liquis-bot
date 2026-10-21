@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8768.031639267288,
+  "cash": 8765.953650878788,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 62.097,
       "dex": "xyz",
       "fees": 2.3129549221218926,
-      "funding": -0.3177879135239844,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": -0.2430290023462628,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Smart-money candidate: 1L/4S top traders net -$3.8M, price below 50h EMA, 24h -3.4%; no contrary news"
     },
     "xyz:BABA": {
@@ -34,9 +34,9 @@
       "extreme": 103.63,
       "dex": "xyz",
       "fees": 6.151616930820057,
-      "funding": -0.28257496593403664,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": -0.3088682137060923,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Smart-money candidate: 1L/4S top traders net -$2.8M, price below 50h EMA; no contrary news or scheduled event"
     },
     "XMR": {
@@ -51,9 +51,9 @@
       "extreme": 595.25,
       "dex": "core",
       "fees": 1.3796966926639012,
-      "funding": 0.029929290868290194,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": 0.01176352702250653,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Smart-money candidate: 1L/6S top traders net -$12.4M and one trader just added $1M short, price below 50h EMA; news shows Monero pulling back, no scheduled event; mixed crypto tape so half size"
     },
     "xyz:INTC": {
@@ -68,9 +68,9 @@
       "extreme": 91.236,
       "dex": "xyz",
       "fees": 2.4514504805315895,
-      "funding": -0.10149478150740163,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": -0.11239308224965751,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Smart-money candidate: 0L/6S top traders net -$8.7M, price below 50h EMA; no contrary news"
     },
     "xyz:PLTR": {
@@ -85,9 +85,9 @@
       "extreme": 200.14,
       "dex": "xyz",
       "fees": 8.518350829890295,
-      "funding": -0.17033269038345755,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": -0.22678353983115046,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Breakout long; top traders 3L/0S net +$1.5M agree, no contrary news or scheduled event"
     },
     "xyz:SKHY": {
@@ -102,9 +102,9 @@
       "extreme": 143.68,
       "dex": "xyz",
       "fees": 2.282592728057169,
-      "funding": -0.028775327894990932,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": -0.05060281118327842,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Smart-money candidate: 6L/1S top traders net +$59M, above 50h EMA; Liquid cohort long-heavy so half size"
     },
     "xyz:CBRS": {
@@ -113,16 +113,33 @@
       "entry_px": 117.17138500000001,
       "entry_time": "2026-10-21T17:11:43+02:00",
       "entry_ms": 1792595503117,
-      "stop": 120.6029720911196,
+      "stop": 117.17138500000001,
       "initial_stop": 120.6029720911196,
       "atr": 1.7157935455597877,
-      "extreme": 116.0,
+      "extreme": 115.14,
       "dex": "xyz",
       "fees": 2.1201726942710026,
-      "funding": -0.07239402929789994,
-      "checked_ms": 1792605900000,
-      "funding_ms": 1792606163462.7493,
+      "funding": -0.08161143481910318,
+      "checked_ms": 1792609500000,
+      "funding_ms": 1792609720001.5916,
       "reason": "Smart-money candidate: 1L/4S top traders, price below 50h EMA, -5% day; losing crowd 100% long on Liquid (fade); half size"
+    },
+    "xyz:MRNA": {
+      "side": "long",
+      "qty": 6.06359829182468,
+      "entry_px": 252.80634,
+      "entry_time": "2026-10-21T21:10:00+02:00",
+      "entry_ms": 1792609800397,
+      "stop": 245.48369469547768,
+      "initial_stop": 245.48369469547768,
+      "atr": 3.6613226522611657,
+      "extreme": 252.80634,
+      "dex": "xyz",
+      "fees": 2.146082527941029,
+      "funding": 0.0,
+      "checked_ms": 1792609800397,
+      "funding_ms": 1792609800397,
+      "reason": "Breakout long (+1.9 ATR trend); top traders 2L/0S net +$5.9M, no contrary news or scheduled event; half size as evidence is mixed"
     }
   },
   "closed": [
@@ -2448,6 +2465,10 @@
     {
       "t": "2026-10-21T20:09:26+02:00",
       "equity": 8803.23
+    },
+    {
+      "t": "2026-10-21T21:08:44+02:00",
+      "equity": 8875.6
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
