@@ -1,5 +1,85 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SOXL",
+    "action": "added to",
+    "side": "short",
+    "notional": 1085526,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 17776780,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SP500",
+    "action": "added to",
+    "side": "short",
+    "notional": 982539,
+    "pct_of_account": 0.8,
+    "trader_month_pnl": 17776780,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "HYPE",
+    "action": "added to",
+    "side": "long",
+    "notional": 131467,
+    "pct_of_account": 2.3,
+    "trader_month_pnl": 3351375,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "PUMP",
+    "action": "added to",
+    "side": "long",
+    "notional": 81573,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 10964167,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:DRAM",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 71430,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 14616625,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:BX",
+    "action": "added to",
+    "side": "long",
+    "notional": 15660,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 14616625,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "AERO",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 1086,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 10964167,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:ASML",
+    "action": "cut",
+    "side": "short",
+    "notional": 394,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 14616625,
+    "at": "2026-10-23T01:09:47+02:00"
+  },
+  {
     "trader": "0xfc27136e",
     "symbol": "xyz:GOLD",
     "action": "added to",
@@ -2916,86 +2996,6 @@
     "side": "short",
     "notional": 54497,
     "pct_of_account": 0.4,
-    "trader_month_pnl": 10964167,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CBRS",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 54340,
-    "pct_of_account": 0.4,
-    "trader_month_pnl": 11008104,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:LITE",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 42189,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 14616625,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "LIT",
-    "action": "added to",
-    "side": "short",
-    "notional": 39134,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 3351375,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:NATGAS",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 32097,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 14616625,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:CRCL",
-    "action": "cut",
-    "side": "long",
-    "notional": 31205,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 14616625,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:NATGAS",
-    "action": "added to",
-    "side": "short",
-    "notional": 26842,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 11008104,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:SNDK",
-    "action": "cut",
-    "side": "long",
-    "notional": 20832,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 14616625,
-    "at": "2026-10-22T10:09:47+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "short",
-    "notional": 13621,
-    "pct_of_account": 0.1,
     "trader_month_pnl": 10964167,
     "at": "2026-10-22T10:09:47+02:00"
   }
