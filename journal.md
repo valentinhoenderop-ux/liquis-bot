@@ -198,3 +198,5 @@
 - 2026-10-22 01:10 OPEN SHORT ZRO 440.673 @ 1.9468 ($858 notional, stop 2.0463, risk $44): Smart-money candidate: 2L/7S top traders net -$4.7M, price below 50h EMA, 24h -4.3%; no contrary news or scheduled event; half size
 - 2026-10-22 05:08 CLOSE LONG xyz:PLTR @ 199.02: net -19.40 USD (-0.22R, fees 17.03, funding -0.68). trailing stop hit
 - 2026-10-22 05:09 OPEN SHORT xyz:SILVER 65.6841 @ 56.6612 ($3,722 notional, stop 57.3584, risk $46): Smart-money candidate: 2L/7S top traders net -$41M, 0xfc667adb just added $9.7M short; price below 50h EMA; no contrary news; half size as Liquid cohort short-heavy
+- 2026-10-22 06:08 CLOSE LONG xyz:SKHY @ 138.51: net -50.01 USD (-1.13R, fees 4.50, funding +0.36). stop-loss hit
+- 2026-10-22 06:09 OPEN SHORT xyz:KIOXIA 14.8674 @ 81.1224 ($1,206 notional, stop 84.2126, risk $46): Breakout short, top traders agree (1L/3S); Korea chip selloff news supports; half size as semis theme overlaps INTC/CBRS shorts
