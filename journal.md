@@ -196,3 +196,5 @@
 - 2026-10-22 00:10 OPEN SHORT INJ 148.423 @ 8.6154 ($1,279 notional, stop 8.9115, risk $44): Smart-money candidate: 0L/4S top traders net -$1.3M, Liquid cohort short-heavy, 24h -4.7%; no contrary news; half size
 - 2026-10-22 01:07 CLOSE LONG xyz:MRNA @ 245.36: net -49.48 USD (-1.11R, fees 4.23, funding +0.11). stop-loss hit
 - 2026-10-22 01:10 OPEN SHORT ZRO 440.673 @ 1.9468 ($858 notional, stop 2.0463, risk $44): Smart-money candidate: 2L/7S top traders net -$4.7M, price below 50h EMA, 24h -4.3%; no contrary news or scheduled event; half size
+- 2026-10-22 05:08 CLOSE LONG xyz:PLTR @ 199.02: net -19.40 USD (-0.22R, fees 17.03, funding -0.68). trailing stop hit
+- 2026-10-22 05:09 OPEN SHORT xyz:SILVER 65.6841 @ 56.6612 ($3,722 notional, stop 57.3584, risk $46): Smart-money candidate: 2L/7S top traders net -$41M, 0xfc667adb just added $9.7M short; price below 50h EMA; no contrary news; half size as Liquid cohort short-heavy
