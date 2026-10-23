@@ -1,27 +1,10 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9136.09256123631,
+  "cash": 9206.909109838261,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
-    "xyz:CBRS": {
-      "side": "short",
-      "qty": 12.669453950919676,
-      "entry_px": 116.92151000000001,
-      "entry_time": "2026-10-22T00:10:22+02:00",
-      "entry_ms": 1792620622566,
-      "stop": 111.91553033258137,
-      "initial_stop": 120.39186355505426,
-      "atr": 1.7351767775271227,
-      "extreme": 106.71,
-      "dex": "xyz",
-      "fees": 2.073864361543792,
-      "funding": -1.1010392547981698,
-      "checked_ms": 1792761300000,
-      "funding_ms": 1792761537778.5427,
-      "reason": "Smart-money candidate: 0L/5S top traders net -$1.0M, price below 50h EMA, 24h -4.5%; no contrary news or scheduled event; half size"
-    },
     "ZRO": {
       "side": "short",
       "qty": 440.6730570642876,
@@ -34,9 +17,9 @@
       "extreme": 1.7518,
       "dex": "core",
       "fees": 0.8150181186065673,
-      "funding": -0.5215460528981549,
-      "checked_ms": 1792761300000,
-      "funding_ms": 1792761537778.5427,
+      "funding": -0.5566660385832833,
+      "checked_ms": 1792764600000,
+      "funding_ms": 1792764773581.9788,
       "reason": "Smart-money candidate: 2L/7S top traders net -$4.7M, price below 50h EMA, 24h -4.3%; no contrary news or scheduled event; half size"
     },
     "BTC": {
@@ -51,27 +34,10 @@
       "extreme": 81197.0,
       "dex": "core",
       "fees": 4.725378656228527,
-      "funding": -0.7577943411897333,
-      "checked_ms": 1792761300000,
-      "funding_ms": 1792761537778.5427,
+      "funding": -0.813883791707303,
+      "checked_ms": 1792764600000,
+      "funding_ms": 1792764773581.9788,
       "reason": "Smart-money candidate: 2L/19S top traders net -$558M, price below 50h EMA, 24h -3.4%; news shows broad crypto/Nasdaq selloff, no scheduled event; half size"
-    },
-    "xyz:AAPL": {
-      "side": "long",
-      "qty": 21.746885949991114,
-      "entry_px": 347.51867250000004,
-      "entry_time": "2026-10-23T03:10:56+02:00",
-      "entry_ms": 1792717856211,
-      "stop": 345.31812340055103,
-      "initial_stop": 345.31812340055103,
-      "atr": 1.1002745497245172,
-      "extreme": 348.37,
-      "dex": "xyz",
-      "fees": 10.580428510889739,
-      "funding": -0.5791306504872749,
-      "checked_ms": 1792761300000,
-      "funding_ms": 1792761537778.5427,
-      "reason": "Smart-money candidate: 7L/0S top traders net +$25M, price above 50h EMA, holding up (+1.1%) in Nasdaq selloff; no contrary news; half size diversifier"
     }
   },
   "closed": [
@@ -1738,6 +1704,38 @@
       "return_on_risk": 1.613774829225571,
       "entry_reason": "Smart-money candidate: 0L/6S top traders net -$8.7M, price below 50h EMA; no contrary news",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:CBRS",
+      "side": "short",
+      "qty": 12.669453950919676,
+      "entry_px": 116.92151000000001,
+      "exit_px": 111.43121809774766,
+      "entry_time": "2026-10-22T00:10:22+02:00",
+      "exit_time": "2026-10-23T16:12:53+02:00",
+      "gross_pnl": 69.55900043269337,
+      "fees": 4.050346122481814,
+      "funding": -1.1400104374027664,
+      "net_pnl": 66.6486647476143,
+      "return_on_risk": 1.5158625838128283,
+      "entry_reason": "Smart-money candidate: 0L/5S top traders net -$1.0M, price below 50h EMA, 24h -4.5%; no contrary news or scheduled event; half size",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:AAPL",
+      "side": "long",
+      "qty": 21.746885949991114,
+      "entry_px": 347.51867250000004,
+      "exit_px": 348.1450167626511,
+      "entry_time": "2026-10-23T03:10:56+02:00",
+      "exit_time": "2026-10-23T16:12:54+02:00",
+      "gross_pnl": 13.62103724530387,
+      "fees": 21.179926473922905,
+      "funding": -0.6614406796049842,
+      "net_pnl": -6.897448549014049,
+      "return_on_risk": -0.14413197231000574,
+      "entry_reason": "Smart-money candidate: 7L/0S top traders net +$25M, price above 50h EMA, holding up (+1.1%) in Nasdaq selloff; no contrary news; half size diversifier",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -2801,6 +2799,10 @@
     {
       "t": "2026-10-23T15:18:59+02:00",
       "equity": 9280.63
+    },
+    {
+      "t": "2026-10-23T16:12:54+02:00",
+      "equity": 9236.93
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

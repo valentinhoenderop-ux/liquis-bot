@@ -212,3 +212,5 @@
 - 2026-10-23 08:09 CLOSE SHORT xyz:SILVER @ 54.5761: net +128.13 USD (+2.80R, fees 10.23, funding -1.41). trailing stop hit
 - 2026-10-23 08:09 CLOSE SHORT xyz:BABA @ 99.5456: net -116.14 USD (-1.22R, fees 18.01, funding -0.44). stop-loss hit
 - 2026-10-23 09:11 CLOSE SHORT xyz:INTC @ 87.4500: net +71.68 USD (+1.61R, fees 4.80, funding -0.98). trailing stop hit
+- 2026-10-23 16:12 CLOSE SHORT xyz:CBRS @ 111.43: net +66.65 USD (+1.52R, fees 4.05, funding -1.14). trailing stop hit
+- 2026-10-23 16:12 CLOSE LONG xyz:AAPL @ 348.15: net -6.90 USD (-0.14R, fees 21.18, funding -0.66). trailing stop hit
