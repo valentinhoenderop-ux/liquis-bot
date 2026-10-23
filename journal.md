@@ -209,3 +209,5 @@
 - 2026-10-23 04:08 CLOSE SHORT xyz:ZHIPU @ 58.4202: net +105.26 USD (+2.35R, fees 4.47, funding -1.03). trailing stop hit
 - 2026-10-23 04:09 OPEN SHORT xyz:BABA 65.1233 @ 98.0320 ($6,384 notional, stop 99.4958, risk $95): Breakout short; top traders 1L/5S net -$2.0M agree, Nasdaq/tech selloff news, no contrary catalyst or scheduled event
 - 2026-10-23 06:08 CLOSE SHORT INJ @ 8.2760: net +48.41 USD (+1.10R, fees 2.38, funding -0.42). trailing stop hit
+- 2026-10-23 08:09 CLOSE SHORT xyz:SILVER @ 54.5761: net +128.13 USD (+2.80R, fees 10.23, funding -1.41). trailing stop hit
+- 2026-10-23 08:09 CLOSE SHORT xyz:BABA @ 99.5456: net -116.14 USD (-1.22R, fees 18.01, funding -0.44). stop-loss hit
