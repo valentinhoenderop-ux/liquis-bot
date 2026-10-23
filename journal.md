@@ -217,3 +217,4 @@
 - 2026-10-24 00:11 OPEN SHORT WLD 4940.07 @ 0.508276 ($2,511 notional, stop 0.527098, risk $93): Breakout short below 0.5138; top traders 2L/9S net -$10.7M agree; news shows broad sell-off, no scheduled event
 - 2026-10-24 00:11 OPEN SHORT LIT 742.507 @ 3.2345 ($2,402 notional, stop 3.3597, risk $93): Breakout short below 3.25; top traders 2L/8S net -$7M agree; broad risk-off, no contrary news
 - 2026-10-24 00:11 OPEN SHORT HYPE 32.2181 @ 77.5577 ($2,499 notional, stop 78.9996, risk $46): Smart-money candidate: 3L/15S top traders net -$178.7M, price below 50h EMA; broad sell-off, no scheduled event; half size
+- 2026-10-24 01:10 OPEN SHORT xyz:META 5.57191 @ 639.68 ($3,564 notional, stop 648.34, risk $48): Smart-money candidate: 1L/7S top traders net -$16.3M, price below 50h EMA; news: Meta down on AI spending fears, no scheduled event; half size
