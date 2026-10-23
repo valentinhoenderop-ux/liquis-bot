@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9207.0740541464,
+  "cash": 9207.150532073538,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.7518,
       "dex": "core",
       "fees": 0.8150181186065673,
-      "funding": -0.5983551507549829,
-      "checked_ms": 1792771800000,
-      "funding_ms": 1792771889163.5444,
+      "funding": -0.614930941979866,
+      "checked_ms": 1792775100000,
+      "funding_ms": 1792775342171.7295,
       "reason": "Smart-money candidate: 2L/7S top traders net -$4.7M, price below 50h EMA, 24h -4.3%; no contrary news or scheduled event; half size"
     },
     "BTC": {
@@ -34,9 +34,9 @@
       "extreme": 81106.0,
       "dex": "core",
       "fees": 4.725378656228527,
-      "funding": -0.9371389876756528,
-      "checked_ms": 1792771800000,
-      "funding_ms": 1792771889163.5444,
+      "funding": -0.9970411235869253,
+      "checked_ms": 1792775100000,
+      "funding_ms": 1792775342171.7295,
       "reason": "Smart-money candidate: 2L/19S top traders net -$558M, price below 50h EMA, 24h -3.4%; news shows broad crypto/Nasdaq selloff, no scheduled event; half size"
     }
   },
@@ -2811,6 +2811,10 @@
     {
       "t": "2026-10-23T18:11:29+02:00",
       "equity": 9251.16
+    },
+    {
+      "t": "2026-10-23T19:09:02+02:00",
+      "equity": 9252.41
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
