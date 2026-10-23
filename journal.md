@@ -206,3 +206,5 @@
 - 2026-10-23 03:08 CLOSE SHORT MON @ 0.021174: net -8.59 USD (-0.09R, fees 6.86, funding -0.08). trailing stop hit
 - 2026-10-23 03:10 OPEN SHORT BTC 0.0611504 @ 81,341.81 ($4,974 notional, stop 82,124.93, risk $48): Smart-money candidate: 2L/19S top traders net -$558M, price below 50h EMA, 24h -3.4%; news shows broad crypto/Nasdaq selloff, no scheduled event; half size
 - 2026-10-23 03:10 OPEN LONG xyz:AAPL 21.7469 @ 347.52 ($7,557 notional, stop 345.32, risk $48): Smart-money candidate: 7L/0S top traders net +$25M, price above 50h EMA, holding up (+1.1%) in Nasdaq selloff; no contrary news; half size diversifier
+- 2026-10-23 04:08 CLOSE SHORT xyz:ZHIPU @ 58.4202: net +105.26 USD (+2.35R, fees 4.47, funding -1.03). trailing stop hit
+- 2026-10-23 04:09 OPEN SHORT xyz:BABA 65.1233 @ 98.0320 ($6,384 notional, stop 99.4958, risk $95): Breakout short; top traders 1L/5S net -$2.0M agree, Nasdaq/tech selloff news, no contrary catalyst or scheduled event
