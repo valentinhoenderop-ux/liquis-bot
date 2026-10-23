@@ -211,3 +211,4 @@
 - 2026-10-23 06:08 CLOSE SHORT INJ @ 8.2760: net +48.41 USD (+1.10R, fees 2.38, funding -0.42). trailing stop hit
 - 2026-10-23 08:09 CLOSE SHORT xyz:SILVER @ 54.5761: net +128.13 USD (+2.80R, fees 10.23, funding -1.41). trailing stop hit
 - 2026-10-23 08:09 CLOSE SHORT xyz:BABA @ 99.5456: net -116.14 USD (-1.22R, fees 18.01, funding -0.44). stop-loss hit
+- 2026-10-23 09:11 CLOSE SHORT xyz:INTC @ 87.4500: net +71.68 USD (+1.61R, fees 4.80, funding -0.98). trailing stop hit
