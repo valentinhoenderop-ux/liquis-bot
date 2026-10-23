@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0x8cc94dc8",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "short",
+    "notional": 167284,
+    "pct_of_account": 3.3,
+    "trader_month_pnl": 3488975,
+    "at": "2026-10-24T00:10:09+02:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "VVV",
+    "action": "cut",
+    "side": "short",
+    "notional": 13480,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 3573380,
+    "at": "2026-10-24T00:10:09+02:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "WLD",
+    "action": "cut",
+    "side": "short",
+    "notional": 13129,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 7036619,
+    "at": "2026-10-24T00:10:09+02:00"
+  },
+  {
+    "trader": "2 freres 2 fauves",
+    "symbol": "xyz:HIMS",
+    "action": "cut",
+    "side": "short",
+    "notional": 7650,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 7013366,
+    "at": "2026-10-24T00:10:09+02:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "XMR",
+    "action": "opened",
+    "side": "long",
+    "notional": 118,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3573380,
+    "at": "2026-10-24T00:10:09+02:00"
+  },
+  {
     "trader": "2 freres 2 fauves",
     "symbol": "xyz:CRWV",
     "action": "added to",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 15456095,
     "at": "2026-10-23T08:10:09+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:CXMT",
-    "action": "cut",
-    "side": "long",
-    "notional": 1964,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19186415,
-    "at": "2026-10-23T08:10:09+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:DELL",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 1159,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 15456095,
-    "at": "2026-10-23T08:10:09+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "XMR",
-    "action": "closed",
-    "side": "long",
-    "notional": 103,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 3573380,
-    "at": "2026-10-23T08:10:09+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:MRNA",
-    "action": "added to",
-    "side": "long",
-    "notional": 697344,
-    "pct_of_account": 2.6,
-    "trader_month_pnl": 19186415,
-    "at": "2026-10-23T07:08:42+02:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:ORCL",
-    "action": "added to",
-    "side": "long",
-    "notional": 278882,
-    "pct_of_account": 2.0,
-    "trader_month_pnl": 15456095,
-    "at": "2026-10-23T07:08:42+02:00"
   }
 ]

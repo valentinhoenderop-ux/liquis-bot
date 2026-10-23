@@ -214,3 +214,6 @@
 - 2026-10-23 09:11 CLOSE SHORT xyz:INTC @ 87.4500: net +71.68 USD (+1.61R, fees 4.80, funding -0.98). trailing stop hit
 - 2026-10-23 16:12 CLOSE SHORT xyz:CBRS @ 111.43: net +66.65 USD (+1.52R, fees 4.05, funding -1.14). trailing stop hit
 - 2026-10-23 16:12 CLOSE LONG xyz:AAPL @ 348.15: net -6.90 USD (-0.14R, fees 21.18, funding -0.66). trailing stop hit
+- 2026-10-24 00:11 OPEN SHORT WLD 4940.07 @ 0.508276 ($2,511 notional, stop 0.527098, risk $93): Breakout short below 0.5138; top traders 2L/9S net -$10.7M agree; news shows broad sell-off, no scheduled event
+- 2026-10-24 00:11 OPEN SHORT LIT 742.507 @ 3.2345 ($2,402 notional, stop 3.3597, risk $93): Breakout short below 3.25; top traders 2L/8S net -$7M agree; broad risk-off, no contrary news
+- 2026-10-24 00:11 OPEN SHORT HYPE 32.2181 @ 77.5577 ($2,499 notional, stop 78.9996, risk $46): Smart-money candidate: 3L/15S top traders net -$178.7M, price below 50h EMA; broad sell-off, no scheduled event; half size

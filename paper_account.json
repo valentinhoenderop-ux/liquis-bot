@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9207.459351804559,
+  "cash": 9200.493360227336,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.7136,
       "dex": "core",
       "fees": 0.8150181186065673,
-      "funding": -0.6747735825281375,
-      "checked_ms": 1792789500000,
-      "funding_ms": 1792789746581.1514,
+      "funding": -0.6847800651296231,
+      "checked_ms": 1792793400000,
+      "funding_ms": 1792793496648.102,
       "reason": "Smart-money candidate: 2L/7S top traders net -$4.7M, price below 50h EMA, 24h -4.3%; no contrary news or scheduled event; half size"
     },
     "BTC": {
@@ -34,10 +34,61 @@
       "extreme": 81106.0,
       "dex": "core",
       "fees": 4.725378656228527,
-      "funding": -1.2460182140585612,
-      "checked_ms": 1792789500000,
-      "funding_ms": 1792789746581.1514,
+      "funding": -1.3107882053513789,
+      "checked_ms": 1792793400000,
+      "funding_ms": 1792793496648.102,
       "reason": "Smart-money candidate: 2L/19S top traders net -$558M, price below 50h EMA, 24h -3.4%; news shows broad crypto/Nasdaq selloff, no scheduled event; half size"
+    },
+    "WLD": {
+      "side": "short",
+      "qty": 4940.0650687245015,
+      "entry_px": 0.5082757350000001,
+      "entry_time": "2026-10-24T00:11:32+02:00",
+      "entry_ms": 1792793492812,
+      "stop": 0.5270977132456386,
+      "initial_stop": 0.5270977132456386,
+      "atr": 0.00941098912281926,
+      "extreme": 0.5082757350000001,
+      "dex": "core",
+      "fees": 2.3853694435660833,
+      "funding": 5.93278088866464e-05,
+      "checked_ms": 1792793492812,
+      "funding_ms": 1792793496648.102,
+      "reason": "Breakout short below 0.5138; top traders 2L/9S net -$10.7M agree; news shows broad sell-off, no scheduled event"
+    },
+    "LIT": {
+      "side": "short",
+      "qty": 742.5065575242368,
+      "entry_px": 3.23448195,
+      "entry_time": "2026-10-24T00:11:34+02:00",
+      "entry_ms": 1792793494111,
+      "stop": 3.359659145751767,
+      "initial_stop": 3.359659145751767,
+      "atr": 0.06258859787588335,
+      "extreme": 3.23448195,
+      "dex": "core",
+      "fees": 2.2815428551653416,
+      "funding": -1.6164761614476316e-05,
+      "checked_ms": 1792793494111,
+      "funding_ms": 1792793496648.102,
+      "reason": "Breakout short below 3.25; top traders 2L/8S net -$7M agree; broad risk-off, no contrary news"
+    },
+    "HYPE": {
+      "side": "short",
+      "qty": 32.21810765935296,
+      "entry_px": 77.55770175,
+      "entry_time": "2026-10-24T00:11:35+02:00",
+      "entry_ms": 1792793495303,
+      "stop": 78.99957963159562,
+      "initial_stop": 78.99957963159562,
+      "atr": 0.7209389407978085,
+      "extreme": 77.55770175,
+      "dex": "core",
+      "fees": 2.3738242655538135,
+      "funding": -1.1676215714501644e-05,
+      "checked_ms": 1792793495303,
+      "funding_ms": 1792793496648.102,
+      "reason": "Smart-money candidate: 3L/15S top traders net -$178.7M, price below 50h EMA; broad sell-off, no scheduled event; half size"
     }
   },
   "closed": [
@@ -1776,7 +1827,11 @@
       "end_equity": 9644.169514291487
     },
     "2026-10-23": {
-      "start_equity": 9644.169514291487
+      "start_equity": 9644.169514291487,
+      "end_equity": 9296.675050296779
+    },
+    "2026-10-24": {
+      "start_equity": 9296.675050296779
     }
   },
   "equity_history": [
@@ -2831,6 +2886,14 @@
     {
       "t": "2026-10-23T23:09:07+02:00",
       "equity": 9288.08
+    },
+    {
+      "t": "2026-10-24T00:09:36+02:00",
+      "equity": 9296.75
+    },
+    {
+      "t": "2026-10-24T00:11:38+02:00",
+      "equity": 9287.31
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
