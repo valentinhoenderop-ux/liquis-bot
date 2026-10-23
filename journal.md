@@ -202,3 +202,7 @@
 - 2026-10-22 06:09 OPEN SHORT xyz:KIOXIA 14.8674 @ 81.1224 ($1,206 notional, stop 84.2126, risk $46): Breakout short, top traders agree (1L/3S); Korea chip selloff news supports; half size as semis theme overlaps INTC/CBRS shorts
 - 2026-10-22 15:11 CLOSE SHORT xyz:BABA @ 100.68: net +251.69 USD (+5.62R, fees 11.94, funding -0.99). trailing stop hit
 - 2026-10-22 15:13 OPEN SHORT MON 170628 @ 0.0211634 ($3,611 notional, stop 0.021708, risk $93): Breakout short, top traders agree (0L/8S, net -$3.0M), 24h -6.7%; no contrary news or positioning
+- 2026-10-23 03:08 CLOSE SHORT xyz:KIOXIA @ 77.4260: net +50.67 USD (+1.10R, fees 3.30, funding +0.98). trailing stop hit
+- 2026-10-23 03:08 CLOSE SHORT MON @ 0.021174: net -8.59 USD (-0.09R, fees 6.86, funding -0.08). trailing stop hit
+- 2026-10-23 03:10 OPEN SHORT BTC 0.0611504 @ 81,341.81 ($4,974 notional, stop 82,124.93, risk $48): Smart-money candidate: 2L/19S top traders net -$558M, price below 50h EMA, 24h -3.4%; news shows broad crypto/Nasdaq selloff, no scheduled event; half size
+- 2026-10-23 03:10 OPEN LONG xyz:AAPL 21.7469 @ 347.52 ($7,557 notional, stop 345.32, risk $48): Smart-money candidate: 7L/0S top traders net +$25M, price above 50h EMA, holding up (+1.1%) in Nasdaq selloff; no contrary news; half size diversifier
