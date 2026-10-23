@@ -208,3 +208,4 @@
 - 2026-10-23 03:10 OPEN LONG xyz:AAPL 21.7469 @ 347.52 ($7,557 notional, stop 345.32, risk $48): Smart-money candidate: 7L/0S top traders net +$25M, price above 50h EMA, holding up (+1.1%) in Nasdaq selloff; no contrary news; half size diversifier
 - 2026-10-23 04:08 CLOSE SHORT xyz:ZHIPU @ 58.4202: net +105.26 USD (+2.35R, fees 4.47, funding -1.03). trailing stop hit
 - 2026-10-23 04:09 OPEN SHORT xyz:BABA 65.1233 @ 98.0320 ($6,384 notional, stop 99.4958, risk $95): Breakout short; top traders 1L/5S net -$2.0M agree, Nasdaq/tech selloff news, no contrary catalyst or scheduled event
+- 2026-10-23 06:08 CLOSE SHORT INJ @ 8.2760: net +48.41 USD (+1.10R, fees 2.38, funding -0.42). trailing stop hit
