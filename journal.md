@@ -225,3 +225,4 @@
 - 2026-10-24 22:08 CLOSE SHORT HYPE @ 76.5581: net +27.57 USD (+0.59R, fees 4.72, funding -0.08). trailing stop hit
 - 2026-10-24 22:09 OPEN SHORT ETH 1.37954 @ 2,343.08 ($3,232 notional, stop 2,377.65, risk $48): Smart-money candidate: 4L/20S top traders net -$268M, price below 50h EMA; news: ETH weak on liquidation risk, no scheduled event; half size
 - 2026-10-24 22:09 OPEN SHORT VVV 64.5265 @ 24.2973 ($1,568 notional, stop 25.0361, risk $48): Smart-money candidate: 0L/10S top traders net -$6.6M, price below 50h EMA, 24h -3.5%; no contrary news; half size
+- 2026-10-25 00:10 OPEN SHORT NEAR 287.232 @ 4.4313 ($1,273 notional, stop 4.5980, risk $48): Smart-money candidate: 2L/9S top traders net -$20.7M, price below 50h EMA, 24h -7.3%; Liquid positioning balanced, no contrary news or scheduled event; half size
