@@ -220,3 +220,4 @@
 - 2026-10-24 01:10 OPEN SHORT xyz:META 5.57191 @ 639.68 ($3,564 notional, stop 648.34, risk $48): Smart-money candidate: 1L/7S top traders net -$16.3M, price below 50h EMA; news: Meta down on AI spending fears, no scheduled event; half size
 - 2026-10-24 02:10 OPEN LONG xyz:CL 31.2754 @ 103.87 ($3,249 notional, stop 102.34, risk $48): Smart-money candidate: 6L/2S top traders net +$19.3M, price above 50h EMA, oil +4.7% on depleted inventories; no scheduled event in news; half size
 - 2026-10-24 02:10 OPEN LONG xyz:AAPL 23.1338 @ 347.73 ($8,044 notional, stop 345.66, risk $48): Smart-money candidate: 7L/0S top traders net +$26.6M, price above 50h EMA, resilient vs risk-off tape; no scheduled event in news; half size
+- 2026-10-24 21:08 CLOSE SHORT BTC @ 80,398.86: net +50.81 USD (+1.06R, fees 9.40, funding -2.54). trailing stop hit
