@@ -218,3 +218,5 @@
 - 2026-10-24 00:11 OPEN SHORT LIT 742.507 @ 3.2345 ($2,402 notional, stop 3.3597, risk $93): Breakout short below 3.25; top traders 2L/8S net -$7M agree; broad risk-off, no contrary news
 - 2026-10-24 00:11 OPEN SHORT HYPE 32.2181 @ 77.5577 ($2,499 notional, stop 78.9996, risk $46): Smart-money candidate: 3L/15S top traders net -$178.7M, price below 50h EMA; broad sell-off, no scheduled event; half size
 - 2026-10-24 01:10 OPEN SHORT xyz:META 5.57191 @ 639.68 ($3,564 notional, stop 648.34, risk $48): Smart-money candidate: 1L/7S top traders net -$16.3M, price below 50h EMA; news: Meta down on AI spending fears, no scheduled event; half size
+- 2026-10-24 02:10 OPEN LONG xyz:CL 31.2754 @ 103.87 ($3,249 notional, stop 102.34, risk $48): Smart-money candidate: 6L/2S top traders net +$19.3M, price above 50h EMA, oil +4.7% on depleted inventories; no scheduled event in news; half size
+- 2026-10-24 02:10 OPEN LONG xyz:AAPL 23.1338 @ 347.73 ($8,044 notional, stop 345.66, risk $48): Smart-money candidate: 7L/0S top traders net +$26.6M, price above 50h EMA, resilient vs risk-off tape; no scheduled event in news; half size
