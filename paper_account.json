@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9180.960331439985,
+  "cash": 9180.945380599926,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 1.6629,
       "dex": "core",
       "fees": 0.8150181186065673,
-      "funding": -0.8147750744841041,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": -0.8240901825029997,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Smart-money candidate: 2L/7S top traders net -$4.7M, price below 50h EMA, 24h -4.3%; no contrary news or scheduled event; half size"
     },
     "BTC": {
@@ -34,9 +34,9 @@
       "extreme": 80431.0,
       "dex": "core",
       "fees": 4.725378656228527,
-      "funding": -2.1716221140101166,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": -2.233540203467344,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Smart-money candidate: 2L/19S top traders net -$558M, price below 50h EMA, 24h -3.4%; news shows broad crypto/Nasdaq selloff, no scheduled event; half size"
     },
     "WLD": {
@@ -51,9 +51,9 @@
       "extreme": 0.46413,
       "dex": "core",
       "fees": 2.3853694435660833,
-      "funding": 0.4920908450749829,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": 0.46887455226319946,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Breakout short below 0.5138; top traders 2L/9S net -$10.7M agree; news shows broad sell-off, no scheduled event"
     },
     "LIT": {
@@ -68,9 +68,9 @@
       "extreme": 3.0574,
       "dex": "core",
       "fees": 2.2815428551653416,
-      "funding": -0.20710374712001298,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": -0.09636467974082093,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Breakout short below 3.25; top traders 2L/8S net -$7M agree; broad risk-off, no contrary news"
     },
     "HYPE": {
@@ -85,9 +85,9 @@
       "extreme": 75.1,
       "dex": "core",
       "fees": 2.3738242655538135,
-      "funding": 0.1506360582810805,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": 0.11998954453869418,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Smart-money candidate: 3L/15S top traders net -$178.7M, price below 50h EMA; broad sell-off, no scheduled event; half size"
     },
     "xyz:META": {
@@ -102,9 +102,9 @@
       "extreme": 639.6849975,
       "dex": "xyz",
       "fees": 4.9899772041977375,
-      "funding": -0.6567774688814263,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": -0.6965437020068089,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Smart-money candidate: 1L/7S top traders net -$16.3M, price below 50h EMA; news: Meta down on AI spending fears, no scheduled event; half size"
     },
     "xyz:CL": {
@@ -119,9 +119,9 @@
       "extreme": 103.93,
       "dex": "xyz",
       "fees": 4.548083249194011,
-      "funding": -0.3388018073056456,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": -0.32000918646090404,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Smart-money candidate: 6L/2S top traders net +$19.3M, price above 50h EMA, oil +4.7% on depleted inventories; no scheduled event in news; half size"
     },
     "xyz:AAPL": {
@@ -136,9 +136,9 @@
       "extreme": 347.7287775,
       "dex": "xyz",
       "fees": 11.261995048607465,
-      "funding": 0.2837898101503076,
-      "checked_ms": 1792843500000,
-      "funding_ms": 1792843689149.3833,
+      "funding": 0.3340711991391919,
+      "checked_ms": 1792847100000,
+      "funding_ms": 1792847299330.953,
       "reason": "Smart-money candidate: 7L/0S top traders net +$26.6M, price above 50h EMA, resilient vs risk-off tape; no scheduled event in news; half size"
     }
   },
@@ -3005,6 +3005,10 @@
     {
       "t": "2026-10-24T14:08:11+02:00",
       "equity": 9672.49
+    },
+    {
+      "t": "2026-10-24T15:08:21+02:00",
+      "equity": 9640.99
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
