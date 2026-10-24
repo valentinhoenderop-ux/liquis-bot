@@ -221,3 +221,7 @@
 - 2026-10-24 02:10 OPEN LONG xyz:CL 31.2754 @ 103.87 ($3,249 notional, stop 102.34, risk $48): Smart-money candidate: 6L/2S top traders net +$19.3M, price above 50h EMA, oil +4.7% on depleted inventories; no scheduled event in news; half size
 - 2026-10-24 02:10 OPEN LONG xyz:AAPL 23.1338 @ 347.73 ($8,044 notional, stop 345.66, risk $48): Smart-money candidate: 7L/0S top traders net +$26.6M, price above 50h EMA, resilient vs risk-off tape; no scheduled event in news; half size
 - 2026-10-24 21:08 CLOSE SHORT BTC @ 80,398.86: net +50.81 USD (+1.06R, fees 9.40, funding -2.54). trailing stop hit
+- 2026-10-24 22:08 CLOSE SHORT LIT @ 3.2113: net +12.67 USD (+0.14R, fees 4.55, funding +0.02). trailing stop hit
+- 2026-10-24 22:08 CLOSE SHORT HYPE @ 76.5581: net +27.57 USD (+0.59R, fees 4.72, funding -0.08). trailing stop hit
+- 2026-10-24 22:09 OPEN SHORT ETH 1.37954 @ 2,343.08 ($3,232 notional, stop 2,377.65, risk $48): Smart-money candidate: 4L/20S top traders net -$268M, price below 50h EMA; news: ETH weak on liquidation risk, no scheduled event; half size
+- 2026-10-24 22:09 OPEN SHORT VVV 64.5265 @ 24.2973 ($1,568 notional, stop 25.0361, risk $48): Smart-money candidate: 0L/10S top traders net -$6.6M, price below 50h EMA, 24h -3.5%; no contrary news; half size
