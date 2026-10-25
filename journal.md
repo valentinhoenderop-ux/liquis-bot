@@ -226,3 +226,5 @@
 - 2026-10-24 22:09 OPEN SHORT ETH 1.37954 @ 2,343.08 ($3,232 notional, stop 2,377.65, risk $48): Smart-money candidate: 4L/20S top traders net -$268M, price below 50h EMA; news: ETH weak on liquidation risk, no scheduled event; half size
 - 2026-10-24 22:09 OPEN SHORT VVV 64.5265 @ 24.2973 ($1,568 notional, stop 25.0361, risk $48): Smart-money candidate: 0L/10S top traders net -$6.6M, price below 50h EMA, 24h -3.5%; no contrary news; half size
 - 2026-10-25 00:10 OPEN SHORT NEAR 287.232 @ 4.4313 ($1,273 notional, stop 4.5980, risk $48): Smart-money candidate: 2L/9S top traders net -$20.7M, price below 50h EMA, 24h -7.3%; Liquid positioning balanced, no contrary news or scheduled event; half size
+- 2026-10-25 16:09 CLOSE SHORT ETH @ 2,344.25: net -7.01 USD (-0.15R, fees 6.14, funding -0.75). trailing stop hit
+- 2026-10-25 16:10 OPEN SHORT ETH 1.6764 @ 2,341.98 ($3,926 notional, stop 2,370.35, risk $48): Smart-money candidate: 4L/18S top traders net -$276M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size
