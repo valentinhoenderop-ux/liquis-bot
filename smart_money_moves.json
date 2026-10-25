@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0x77ee3604",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "short",
+    "notional": 418906,
+    "pct_of_account": 12.7,
+    "trader_month_pnl": 4109185,
+    "at": "2026-10-25T20:09:05+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "STX",
+    "action": "opened",
+    "side": "short",
+    "notional": 9162,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 12434785,
+    "at": "2026-10-25T20:09:05+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:CRWV",
+    "action": "cut",
+    "side": "long",
+    "notional": 4024,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13273112,
+    "at": "2026-10-25T20:09:05+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "NEAR",
+    "action": "closed",
+    "side": "short",
+    "notional": 463,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3164292,
+    "at": "2026-10-25T20:09:05+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "ZRO",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 63,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T20:09:05+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "NEAR",
     "action": "added to",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 11918808,
     "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "AERO",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 188,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0xe86b057f",
-    "symbol": "PENGU",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 64,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 1981401,
-    "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "HYPE",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 74550,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 13669789,
-    "at": "2026-10-24T09:08:38+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "short",
-    "notional": 68216,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 21074979,
-    "at": "2026-10-24T09:08:38+02:00"
-  },
-  {
-    "trader": "0xe86b057f",
-    "symbol": "UNI",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1258,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 1981401,
-    "at": "2026-10-24T09:08:38+02:00"
   }
 ]
