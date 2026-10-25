@@ -240,3 +240,5 @@
 - 2026-10-25 21:10 OPEN SHORT kPEPE 418550 @ 0.00435582 ($1,823 notional, stop 0.00446776, risk $47): Smart-money candidate: 0L/3S top traders net -$3.1M, price below 50h EMA, -2.9% 24h; no contrary news; half size
 - 2026-10-25 23:08 CLOSE SHORT kPEPE @ 0.004358: net -4.38 USD (-0.09R, fees 3.46, funding +0.01). trailing stop hit
 - 2026-10-25 23:09 OPEN SHORT xyz:NATGAS 2107.92 @ 2.9884 ($6,299 notional, stop 3.0029, risk $31): Breakout: scan short, top traders agree (1L/3S), Liquid crowd 88% long (losing crowd) so fade supports it; no NATGAS-specific news or scheduled event
+- 2026-10-26 00:08 CLOSE SHORT xyz:NATGAS @ 2.9898: net -20.72 USD (-0.67R, fees 17.64, funding -0.07). trailing stop hit
+- 2026-10-26 00:10 OPEN LONG xyz:ORCL 49.5231 @ 127.48 ($6,313 notional, stop 126.83, risk $32): Breakout candidate, top traders 4L/1S agree; Liquid data and news show no contrary catalyst or scheduled ORCL event

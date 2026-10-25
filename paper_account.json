@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9398.461528368864,
+  "cash": 9377.857765956745,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 637.59,
       "dex": "xyz",
       "fees": 4.9899772041977375,
-      "funding": -1.4932577793389235,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": -1.5478950284433683,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 1L/7S top traders net -$16.3M, price below 50h EMA; news: Meta down on AI spending fears, no scheduled event; half size"
     },
     "xyz:AAPL": {
@@ -34,9 +34,9 @@
       "extreme": 347.7287775,
       "dex": "xyz",
       "fees": 11.261995048607465,
-      "funding": 2.058939076713139,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": 2.1078781129178723,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 7L/0S top traders net +$26.6M, price above 50h EMA, resilient vs risk-off tape; no scheduled event in news; half size"
     },
     "ETH": {
@@ -51,9 +51,9 @@
       "extreme": 2328.0,
       "dex": "core",
       "fees": 3.7297804747518164,
-      "funding": -0.3282554085976027,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": -0.3570198981599235,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 4L/18S top traders net -$276M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size"
     },
     "WLD": {
@@ -68,9 +68,9 @@
       "extreme": 0.44953,
       "dex": "core",
       "fees": 1.2559832285299606,
-      "funding": 0.010294625144905374,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": -0.0060251714407466555,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size"
     },
     "XMR": {
@@ -79,15 +79,15 @@
       "entry_px": 601.3341825,
       "entry_time": "2026-10-25T19:10:55+01:00",
       "entry_ms": 1792951855777,
-      "stop": 613.9247321004291,
+      "stop": 601.3341825,
       "initial_stop": 613.9247321004291,
       "atr": 6.295274800214559,
-      "extreme": 595.13,
+      "extreme": 592.83,
       "dex": "core",
       "fees": 2.1204373895570447,
-      "funding": -0.5561073615298742,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": -0.610097109422739,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 0L/8S top traders net -$13.8M, price below 50h EMA; no contrary news, Liquid data neutral; half size"
     },
     "STRK": {
@@ -102,9 +102,9 @@
       "extreme": 0.04508,
       "dex": "core",
       "fees": 1.3333829695436485,
-      "funding": -0.06991950547121575,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": -0.08756644140468105,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 0L/5S top traders net -$5.0M, price below 50h EMA, -3.4% 24h; no contrary news; half size"
     },
     "AERO": {
@@ -119,27 +119,27 @@
       "extreme": 0.67573,
       "dex": "core",
       "fees": 1.3920961441132376,
-      "funding": -0.03649027746424824,
-      "checked_ms": 1792965900000,
-      "funding_ms": 1792966194945.1807,
+      "funding": -0.05471033568863278,
+      "checked_ms": 1792969800000,
+      "funding_ms": 1792969806157.266,
       "reason": "Smart-money candidate: 0L/5S top traders, price well below 50h EMA, -1.8% 24h; no contrary news or scheduled event (FOMC later in week); half size"
     },
-    "xyz:NATGAS": {
-      "side": "short",
-      "qty": 2107.92117025578,
-      "entry_px": 2.9883550750000003,
-      "entry_time": "2026-10-25T23:09:54+01:00",
-      "entry_ms": 1792966194067,
-      "stop": 3.002949084409322,
-      "initial_stop": 3.002949084409322,
-      "atr": 0.007297004704660867,
-      "extreme": 2.9883550750000003,
+    "xyz:ORCL": {
+      "side": "long",
+      "qty": 49.523122502509764,
+      "entry_px": 127.4787075,
+      "entry_time": "2026-10-26T00:10:03+01:00",
+      "entry_ms": 1792969803902,
+      "stop": 126.8283941627235,
+      "initial_stop": 126.8283941627235,
+      "atr": 0.3251566686382517,
+      "extreme": 127.4787075,
       "dex": "xyz",
-      "fees": 8.81890369756732,
-      "funding": -9.607586658545937e-06,
-      "checked_ms": 1792966194067,
-      "funding_ms": 1792966194945.1807,
-      "reason": "Breakout: scan short, top traders agree (1L/3S), Liquid crowd 88% long (losing crowd) so fade supports it; no NATGAS-specific news or scheduled event"
+      "fees": 8.838401107177754,
+      "funding": 0.00011921604865727594,
+      "checked_ms": 1792969803902,
+      "funding_ms": 1792969806157.266,
+      "reason": "Breakout candidate, top traders 4L/1S agree; Liquid data and news show no contrary catalyst or scheduled ORCL event"
     }
   },
   "closed": [
@@ -1998,6 +1998,22 @@
       "return_on_risk": -0.09357892152017161,
       "entry_reason": "Smart-money candidate: 0L/3S top traders net -$3.1M, price below 50h EMA, -2.9% 24h; no contrary news; half size",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:NATGAS",
+      "side": "short",
+      "qty": 2107.92117025578,
+      "entry_px": 2.9883550750000003,
+      "exit_px": 2.9898492525375002,
+      "entry_time": "2026-10-25T23:09:54+01:00",
+      "exit_time": "2026-10-26T00:08:33+01:00",
+      "gross_pnl": -3.1496084634167287,
+      "fees": 17.642216846983423,
+      "funding": -0.06704989042887637,
+      "net_pnl": -20.724775419971273,
+      "return_on_risk": -0.6736911552129842,
+      "entry_reason": "Breakout: scan short, top traders agree (1L/3S), Liquid crowd 88% long (losing crowd) so fade supports it; no NATGAS-specific news or scheduled event",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -2046,7 +2062,11 @@
       "end_equity": 9569.630467716774
     },
     "2026-10-25": {
-      "start_equity": 9569.630467716774
+      "start_equity": 9569.630467716774,
+      "end_equity": 9423.017934442976
+    },
+    "2026-10-26": {
+      "start_equity": 9423.017934442976
     }
   },
   "equity_history": [
@@ -3329,6 +3349,14 @@
     {
       "t": "2026-10-25T23:09:57+01:00",
       "equity": 9397.31
+    },
+    {
+      "t": "2026-10-26T00:08:33+01:00",
+      "equity": 9411.55
+    },
+    {
+      "t": "2026-10-26T00:10:08+01:00",
+      "equity": 9396.87
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
