@@ -233,3 +233,6 @@
 - 2026-10-25 18:08 CLOSE SHORT VVV @ 25.0486: net -51.05 USD (-1.07R, fees 3.02, funding -0.45). stop-loss hit
 - 2026-10-25 18:08 CLOSE SHORT NEAR @ 4.6003: net -50.75 USD (-1.06R, fees 2.46, funding -0.26). stop-loss hit
 - 2026-10-25 18:09 OPEN SHORT WLD 2879.8 @ 0.45909 ($1,322 notional, stop 0.475357, risk $47): Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size
+- 2026-10-25 19:08 CLOSE SHORT ZRO @ 1.7868: net +70.04 USD (+1.60R, fees 1.56, funding -1.10). trailing stop hit
+- 2026-10-25 19:10 OPEN SHORT XMR 3.71181 @ 601.33 ($2,232 notional, stop 613.92, risk $47): Smart-money candidate: 0L/8S top traders net -$13.8M, price below 50h EMA; no contrary news, Liquid data neutral; half size
+- 2026-10-25 19:10 OPEN SHORT STRK 30842.6 @ 0.0455072 ($1,404 notional, stop 0.0470219, risk $47): Smart-money candidate: 0L/5S top traders net -$5.0M, price below 50h EMA, -3.4% 24h; no contrary news; half size
