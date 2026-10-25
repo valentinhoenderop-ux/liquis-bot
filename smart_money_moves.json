@@ -1,6 +1,66 @@
 [
   {
     "trader": "0xfc667adb",
+    "symbol": "NEAR",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 202841,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 21570380,
+    "at": "2026-10-25T15:08:59+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "PUMP",
+    "action": "added to",
+    "side": "long",
+    "notional": 53093,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T15:08:59+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "TAO",
+    "action": "added to",
+    "side": "short",
+    "notional": 14451,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T15:08:59+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "short",
+    "notional": 12626,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T15:08:59+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:CRWV",
+    "action": "added to",
+    "side": "long",
+    "notional": 4773,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13273112,
+    "at": "2026-10-25T15:08:59+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "NEAR",
+    "action": "closed",
+    "side": "short",
+    "notional": 446,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3164292,
+    "at": "2026-10-25T15:08:59+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
     "symbol": "SOL",
     "action": "added to",
     "side": "short",
@@ -2938,65 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 13669789,
     "at": "2026-10-24T03:09:23+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "XMR",
-    "action": "added to",
-    "side": "long",
-    "notional": 2058,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 2991934,
-    "at": "2026-10-24T03:09:23+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "HYPE",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1823,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 13669789,
-    "at": "2026-10-24T03:09:23+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "GRAM",
-    "action": "added to",
-    "side": "short",
-    "notional": 947,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T03:09:23+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ONDO",
-    "action": "cut",
-    "side": "short",
-    "notional": 146,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T03:09:23+02:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "HYPE",
-    "action": "added to",
-    "side": "long",
-    "notional": 622055,
-    "pct_of_account": 12.2,
-    "trader_month_pnl": 7036619,
-    "at": "2026-10-24T02:08:54+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "ZEC",
-    "action": "cut",
-    "side": "short",
-    "notional": 541866,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 24539469,
-    "at": "2026-10-24T02:08:54+02:00"
   }
 ]
