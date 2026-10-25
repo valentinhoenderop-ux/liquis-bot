@@ -1,116 +1,148 @@
 {
-  "at": "2026-10-25T17:10:05+01:00",
-  "markets_scanned": 57,
+  "at": "2026-10-25T18:09:03+01:00",
+  "markets_scanned": 58,
   "smart_money_snapshot": true,
   "candidates": [
     {
       "symbol": "xyz:SKHX",
       "side": "long",
-      "score": 0.198,
-      "price": 964.81,
-      "atr": 4.537273325725306,
-      "atr_pct": 0.471,
-      "stop": 955.7354533485493,
-      "breakout_level": 962.31,
-      "trend_atr": 0.9,
-      "breakout_atr": 0.14,
-      "funding_hourly_pct": 0.00786,
-      "volume_24h": 16193084,
+      "score": 0.597,
+      "price": 965.55,
+      "atr": 4.741438746190425,
+      "atr_pct": 0.491,
+      "stop": 956.0671225076192,
+      "breakout_level": 963.33,
+      "trend_atr": 1.01,
+      "breakout_atr": 0.5,
+      "funding_hourly_pct": 0.00824,
+      "volume_24h": 23135579,
       "smart_money_view": "mixed",
-      "smart_money": "6L/10S top traders, net $-46.0M"
+      "smart_money": "6L/10S top traders, net $-46.1M"
+    },
+    {
+      "symbol": "xyz:AMD",
+      "side": "long",
+      "score": -1.054,
+      "price": 523.03,
+      "atr": 1.8557199303299898,
+      "atr_pct": 0.355,
+      "stop": 519.31856013934,
+      "breakout_level": 522.16,
+      "trend_atr": 0.03,
+      "breakout_atr": 0.37,
+      "funding_hourly_pct": 0.00885,
+      "volume_24h": 1656754,
+      "smart_money_view": "opposes",
+      "smart_money": "1L/5S top traders, net $-6.0M"
     }
   ],
   "smart_money_candidates": [
     {
-      "symbol": "GRAM",
+      "symbol": "WLD",
       "side": "short",
-      "price": 1.26365,
-      "score": 1.043,
-      "smart_money": "0L/8S top traders, net $-2.4M",
-      "atr_pct": 0.819,
-      "trend": "close 1.2592 vs 50h EMA 1.2596",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 1329435
+      "price": 0.45959,
+      "score": 1.9,
+      "smart_money": "1L/9S top traders, net $-10.9M",
+      "atr_pct": 1.764,
+      "trend": "close 0.46099 vs 50h EMA 0.477174",
+      "funding_hourly_pct": 0.00098,
+      "volume_24h": 32888817
     },
     {
       "symbol": "STRK",
       "side": "short",
-      "price": 0.04556,
+      "price": 0.04549,
       "score": 1.004,
       "smart_money": "0L/5S top traders, net $-5.0M",
-      "atr_pct": 1.736,
-      "trend": "close 0.04574 vs 50h EMA 0.0480248",
+      "atr_pct": 1.712,
+      "trend": "close 0.04558 vs 50h EMA 0.0479169",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 7288954
+      "volume_24h": 7102698
     },
     {
-      "symbol": "xyz:SOXL",
+      "symbol": "ASTER",
       "side": "short",
-      "price": 85.108,
-      "score": 0.959,
-      "smart_money": "1L/4S top traders, net $-5.6M",
-      "atr_pct": 0.913,
-      "trend": "close 84.9570 vs 50h EMA 84.9836",
-      "funding_hourly_pct": 0.00123,
-      "volume_24h": 5592068
+      "price": 0.704045,
+      "score": 0.774,
+      "smart_money": "1L/5S top traders, net $-2.7M",
+      "atr_pct": 0.6,
+      "trend": "close 0.70388 vs 50h EMA 0.703945",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 1138433
     },
     {
       "symbol": "kPEPE",
       "side": "short",
-      "price": 0.004381,
-      "score": 0.615,
+      "price": 0.004399,
+      "score": 0.617,
       "smart_money": "0L/3S top traders, net $-3.2M",
-      "atr_pct": 1.388,
-      "trend": "close 0.004377 vs 50h EMA 0.0044708",
+      "atr_pct": 1.372,
+      "trend": "close 0.004403 vs 50h EMA 0.00446815",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 20264653
+      "volume_24h": 20268076
     },
     {
       "symbol": "xyz:COIN",
       "side": "short",
-      "price": 164.435,
-      "score": 0.61,
+      "price": 164.985,
+      "score": 0.611,
       "smart_money": "1L/3S top traders, net $-3.1M",
-      "atr_pct": 0.373,
-      "trend": "close 164.34 vs 50h EMA 164.95",
-      "funding_hourly_pct": 0.00183,
-      "volume_24h": 1425024
+      "atr_pct": 0.37,
+      "trend": "close 164.90 vs 50h EMA 164.94",
+      "funding_hourly_pct": 0.01353,
+      "volume_24h": 1117583
     },
     {
       "symbol": "AERO",
       "side": "short",
-      "price": 0.6928,
-      "score": 0.568,
+      "price": 0.700915,
+      "score": 0.569,
       "smart_money": "0L/5S top traders, net $-0.7M",
-      "atr_pct": 1.63,
-      "trend": "close 0.69482 vs 50h EMA 0.713595",
+      "atr_pct": 1.643,
+      "trend": "close 0.70122 vs 50h EMA 0.713049",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3697828
+      "volume_24h": 3391472
     },
     {
       "symbol": "CRV",
       "side": "short",
-      "price": 0.34401,
+      "price": 0.34425,
       "score": 0.374,
       "smart_money": "0L/3S top traders, net $-0.7M",
-      "atr_pct": 1.1,
-      "trend": "close 0.34412 vs 50h EMA 0.352937",
+      "atr_pct": 1.086,
+      "trend": "close 0.34458 vs 50h EMA 0.35265",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3804957
+      "volume_24h": 3644607
     },
     {
-      "symbol": "INJ",
+      "symbol": "CASHCAT",
       "side": "short",
-      "price": 7.66775,
-      "score": 0.329,
-      "smart_money": "0L/3S top traders, net $-0.3M",
-      "atr_pct": 1.299,
-      "trend": "close 7.6992 vs 50h EMA 7.7328",
-      "funding_hourly_pct": 0.00071,
-      "volume_24h": 2305271
+      "price": 0.094295,
+      "score": 0.355,
+      "smart_money": "0L/3S top traders, net $-0.6M",
+      "atr_pct": 1.504,
+      "trend": "close 0.094271 vs 50h EMA 0.0959362",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 2956868
     }
   ],
   "skipped_as_correlated": [
+    {
+      "symbol": "xyz:MU",
+      "side": "long",
+      "score": -0.125,
+      "moves_with": [
+        "xyz:SKHX (corr 0.72)"
+      ]
+    },
+    {
+      "symbol": "xyz:EWY",
+      "side": "long",
+      "score": -0.86,
+      "moves_with": [
+        "xyz:SKHX (corr 0.89)"
+      ]
+    },
     {
       "symbol": "BTC",
       "side": "short",
@@ -125,16 +157,7 @@
       "side": "short",
       "score": 2.0,
       "moves_with": [
-        "NEAR (corr 0.8)",
         "ETH (corr 0.89)"
-      ]
-    },
-    {
-      "symbol": "PUMP",
-      "side": "short",
-      "score": 1.7,
-      "moves_with": [
-        "NEAR (corr 0.83)"
       ]
     },
     {
@@ -142,51 +165,23 @@
       "side": "short",
       "score": 1.6,
       "moves_with": [
-        "NEAR (corr 0.79)",
         "ETH (corr 0.86)"
       ]
     },
     {
       "symbol": "XPL",
       "side": "short",
-      "score": 1.48,
+      "score": 1.484,
       "moves_with": [
-        "NEAR (corr 0.78)",
         "ETH (corr 0.77)"
-      ]
-    },
-    {
-      "symbol": "UNI",
-      "side": "short",
-      "score": 1.396,
-      "moves_with": [
-        "NEAR (corr 0.76)",
-        "ETH (corr 0.87)"
-      ]
-    },
-    {
-      "symbol": "MON",
-      "side": "short",
-      "score": 1.086,
-      "moves_with": [
-        "ETH (corr 0.72)"
       ]
     },
     {
       "symbol": "LINK",
       "side": "short",
-      "score": 0.922,
+      "score": 0.924,
       "moves_with": [
-        "NEAR (corr 0.8)",
         "ETH (corr 0.88)"
-      ]
-    },
-    {
-      "symbol": "xyz:MSTR",
-      "side": "short",
-      "score": 0.708,
-      "moves_with": [
-        "ETH (corr 0.75)"
       ]
     },
     {
@@ -194,38 +189,23 @@
       "side": "short",
       "score": 0.544,
       "moves_with": [
-        "NEAR (corr 0.85)",
         "ETH (corr 0.78)"
       ]
     },
     {
       "symbol": "AAVE",
       "side": "short",
-      "score": 0.538,
+      "score": 0.539,
       "moves_with": [
-        "NEAR (corr 0.76)",
         "ETH (corr 0.81)"
-      ]
-    },
-    {
-      "symbol": "CASHCAT",
-      "side": "short",
-      "score": 0.355,
-      "moves_with": [
-        "NEAR (corr 0.74)"
       ]
     }
   ],
   "exit_suggestions": [
     {
-      "symbol": "xyz:CL",
-      "side": "long",
-      "why": "last close 102.69 is through the 50h EMA 102.74"
-    },
-    {
       "symbol": "ZRO",
       "side": "short",
-      "why": "last close 1.7532 is through the 50h EMA 1.7399"
+      "why": "last close 1.7660 is through the 50h EMA 1.7411"
     }
   ],
   "errors": []

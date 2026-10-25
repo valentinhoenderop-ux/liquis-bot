@@ -228,3 +228,8 @@
 - 2026-10-25 00:10 OPEN SHORT NEAR 287.232 @ 4.4313 ($1,273 notional, stop 4.5980, risk $48): Smart-money candidate: 2L/9S top traders net -$20.7M, price below 50h EMA, 24h -7.3%; Liquid positioning balanced, no contrary news or scheduled event; half size
 - 2026-10-25 16:09 CLOSE SHORT ETH @ 2,344.25: net -7.01 USD (-0.15R, fees 6.14, funding -0.75). trailing stop hit
 - 2026-10-25 16:10 OPEN SHORT ETH 1.6764 @ 2,341.98 ($3,926 notional, stop 2,370.35, risk $48): Smart-money candidate: 4L/18S top traders net -$276M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size
+- 2026-10-25 18:08 CLOSE SHORT WLD @ 0.460283: net +231.87 USD (+2.49R, fees 4.55, funding +0.67). trailing stop hit
+- 2026-10-25 18:08 CLOSE LONG xyz:CL @ 102.29: net -57.89 USD (-1.21R, fees 9.03, funding -0.63). stop-loss hit
+- 2026-10-25 18:08 CLOSE SHORT VVV @ 25.0486: net -51.05 USD (-1.07R, fees 3.02, funding -0.45). stop-loss hit
+- 2026-10-25 18:08 CLOSE SHORT NEAR @ 4.6003: net -50.75 USD (-1.06R, fees 2.46, funding -0.26). stop-loss hit
+- 2026-10-25 18:09 OPEN SHORT WLD 2879.8 @ 0.45909 ($1,322 notional, stop 0.475357, risk $47): Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size
