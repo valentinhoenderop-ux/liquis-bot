@@ -236,3 +236,5 @@
 - 2026-10-25 19:08 CLOSE SHORT ZRO @ 1.7868: net +70.04 USD (+1.60R, fees 1.56, funding -1.10). trailing stop hit
 - 2026-10-25 19:10 OPEN SHORT XMR 3.71181 @ 601.33 ($2,232 notional, stop 613.92, risk $47): Smart-money candidate: 0L/8S top traders net -$13.8M, price below 50h EMA; no contrary news, Liquid data neutral; half size
 - 2026-10-25 19:10 OPEN SHORT STRK 30842.6 @ 0.0455072 ($1,404 notional, stop 0.0470219, risk $47): Smart-money candidate: 0L/5S top traders net -$5.0M, price below 50h EMA, -3.4% 24h; no contrary news; half size
+- 2026-10-25 21:10 OPEN SHORT AERO 2137.46 @ 0.685562 ($1,465 notional, stop 0.707487, risk $47): Smart-money candidate: 0L/5S top traders, price well below 50h EMA, -1.8% 24h; no contrary news or scheduled event (FOMC later in week); half size
+- 2026-10-25 21:10 OPEN SHORT kPEPE 418550 @ 0.00435582 ($1,823 notional, stop 0.00446776, risk $47): Smart-money candidate: 0L/3S top traders net -$3.1M, price below 50h EMA, -2.9% 24h; no contrary news; half size

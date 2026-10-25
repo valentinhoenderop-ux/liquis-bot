@@ -1,5 +1,55 @@
 [
   {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SILVER",
+    "action": "added to",
+    "side": "short",
+    "notional": 83690,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 20001371,
+    "at": "2026-10-25T21:09:19+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "short",
+    "notional": 23784,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T21:09:19+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "ETH",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 12177,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T21:09:19+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "WLD",
+    "action": "cut",
+    "side": "short",
+    "notional": 11655,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T21:09:19+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "ZRO",
+    "action": "added to",
+    "side": "short",
+    "notional": 8282,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T21:09:19+01:00"
+  },
+  {
     "trader": "0x77ee3604",
     "symbol": "xyz:SNDK",
     "action": "added to",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 11918808,
     "at": "2026-10-24T11:09:07+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "NEAR",
-    "action": "cut",
-    "side": "short",
-    "notional": 369432,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 21074979,
-    "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "short",
-    "notional": 87814,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 21074979,
-    "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ENA",
-    "action": "cut",
-    "side": "short",
-    "notional": 38503,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "WLD",
-    "action": "cut",
-    "side": "short",
-    "notional": 17945,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T10:09:10+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ONDO",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1961,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T10:09:10+02:00"
   }
 ]
