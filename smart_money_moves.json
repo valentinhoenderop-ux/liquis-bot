@@ -1,5 +1,75 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "NEAR",
+    "action": "added to",
+    "side": "long",
+    "notional": 67039,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "ANIME",
+    "action": "added to",
+    "side": "short",
+    "notional": 15228,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 3583032,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "ZRO",
+    "action": "added to",
+    "side": "long",
+    "notional": 8682,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:URNM",
+    "action": "added to",
+    "side": "short",
+    "notional": 6976,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13273112,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "XMR",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 5109,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "WLD",
+    "action": "cut",
+    "side": "short",
+    "notional": 3584,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "AERO",
+    "action": "cut",
+    "side": "short",
+    "notional": 256,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T09:09:21+01:00"
+  },
+  {
     "trader": "0xe86b057f",
     "symbol": "SOL",
     "action": "added to",
@@ -2928,75 +2998,5 @@
     "pct_of_account": 0.2,
     "trader_month_pnl": 19186415,
     "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:COPPER",
-    "action": "added to",
-    "side": "long",
-    "notional": 43577,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 7013366,
-    "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "WLD",
-    "action": "cut",
-    "side": "short",
-    "notional": 26984,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 7036619,
-    "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "HYPE",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 13660,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19186415,
-    "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:CRWV",
-    "action": "cut",
-    "side": "long",
-    "notional": 8424,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19186415,
-    "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "XMR",
-    "action": "closed",
-    "side": "long",
-    "notional": 120,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 3573380,
-    "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:AMZN",
-    "action": "cut",
-    "side": "short",
-    "notional": 50,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 7013366,
-    "at": "2026-10-23T23:09:40+02:00"
-  },
-  {
-    "trader": "0xacb66d19",
-    "symbol": "BTC",
-    "action": "added to",
-    "side": "short",
-    "notional": 1870544,
-    "pct_of_account": 48.8,
-    "trader_month_pnl": 3099204,
-    "at": "2026-10-23T22:09:08+02:00"
   }
 ]
