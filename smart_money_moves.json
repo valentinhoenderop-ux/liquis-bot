@@ -4,6 +4,36 @@
     "symbol": "xyz:SILVER",
     "action": "added to",
     "side": "short",
+    "notional": 124274,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 20001371,
+    "at": "2026-10-25T22:09:27+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:NFLX",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 10126,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13273112,
+    "at": "2026-10-25T22:09:27+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:EWZ",
+    "action": "cut",
+    "side": "short",
+    "notional": 9464,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13273112,
+    "at": "2026-10-25T22:09:27+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SILVER",
+    "action": "added to",
+    "side": "short",
     "notional": 83690,
     "pct_of_account": 0.2,
     "trader_month_pnl": 20001371,
@@ -2967,36 +2997,6 @@
     "notional": 24297,
     "pct_of_account": 0.1,
     "trader_month_pnl": 13669789,
-    "at": "2026-10-24T11:09:07+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ENA",
-    "action": "cut",
-    "side": "short",
-    "notional": 15393,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T11:09:07+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "HYPE",
-    "action": "added to",
-    "side": "long",
-    "notional": 11998,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11918808,
-    "at": "2026-10-24T11:09:07+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "WLD",
-    "action": "cut",
-    "side": "short",
-    "notional": 6839,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 11918808,
     "at": "2026-10-24T11:09:07+02:00"
   }
 ]
