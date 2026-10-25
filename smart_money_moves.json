@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0xe86b057f",
+    "symbol": "ETH",
+    "action": "cut",
+    "side": "short",
+    "notional": 20538,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T12:10:02+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:NBIS",
+    "action": "added to",
+    "side": "long",
+    "notional": 151986,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 21570380,
+    "at": "2026-10-25T12:08:34+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "WLD",
+    "action": "added to",
+    "side": "short",
+    "notional": 12928,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T12:08:34+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "USELESS",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 11237,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T12:08:34+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "AERO",
+    "action": "added to",
+    "side": "short",
+    "notional": 3162,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T12:08:34+01:00"
+  },
+  {
     "trader": "0x936cf4fb",
     "symbol": "NEAR",
     "action": "added to",
@@ -2947,56 +2997,6 @@
     "notional": 52351,
     "pct_of_account": 1.0,
     "trader_month_pnl": 7036619,
-    "at": "2026-10-24T01:08:52+02:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:CRWV",
-    "action": "cut",
-    "side": "short",
-    "notional": 49297,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 7013366,
-    "at": "2026-10-24T01:08:52+02:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:ORCL",
-    "action": "added to",
-    "side": "long",
-    "notional": 40943,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 7013366,
-    "at": "2026-10-24T01:08:52+02:00"
-  },
-  {
-    "trader": "0x7a6d5fc5",
-    "symbol": "NEAR",
-    "action": "closed",
-    "side": "short",
-    "notional": 33155,
-    "pct_of_account": 1.4,
-    "trader_month_pnl": 3573380,
-    "at": "2026-10-24T01:08:52+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "LIT",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 25209,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 15690258,
-    "at": "2026-10-24T01:08:52+02:00"
-  },
-  {
-    "trader": "0x418aa6bf",
-    "symbol": "ENA",
-    "action": "added to",
-    "side": "long",
-    "notional": 23811,
-    "pct_of_account": 0.9,
-    "trader_month_pnl": 3512062,
     "at": "2026-10-24T01:08:52+02:00"
   }
 ]
