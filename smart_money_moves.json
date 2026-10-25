@@ -1,6 +1,46 @@
 [
   {
     "trader": "0xe86b057f",
+    "symbol": "UNI",
+    "action": "added to",
+    "side": "short",
+    "notional": 18252,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T06:08:44+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "UNI",
+    "action": "added to",
+    "side": "short",
+    "notional": 1971,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T06:08:44+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "long",
+    "notional": 367,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3164292,
+    "at": "2026-10-25T06:08:44+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "ANIME",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 89,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3583032,
+    "at": "2026-10-25T06:08:44+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
     "symbol": "ETH",
     "action": "added to",
     "side": "short",
@@ -2957,46 +2997,6 @@
     "notional": 77749,
     "pct_of_account": 1.6,
     "trader_month_pnl": 3488975,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:MU",
-    "action": "cut",
-    "side": "short",
-    "notional": 58425,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 24539469,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0x92bbd811",
-    "symbol": "NEAR",
-    "action": "closed",
-    "side": "short",
-    "notional": 26247,
-    "pct_of_account": 3.0,
-    "trader_month_pnl": 3229642,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:NBIS",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 20442,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24539469,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "GRAM",
-    "action": "added to",
-    "side": "short",
-    "notional": 7382,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 15690258,
     "at": "2026-10-23T22:09:08+02:00"
   }
 ]
