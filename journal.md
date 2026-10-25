@@ -238,3 +238,5 @@
 - 2026-10-25 19:10 OPEN SHORT STRK 30842.6 @ 0.0455072 ($1,404 notional, stop 0.0470219, risk $47): Smart-money candidate: 0L/5S top traders net -$5.0M, price below 50h EMA, -3.4% 24h; no contrary news; half size
 - 2026-10-25 21:10 OPEN SHORT AERO 2137.46 @ 0.685562 ($1,465 notional, stop 0.707487, risk $47): Smart-money candidate: 0L/5S top traders, price well below 50h EMA, -1.8% 24h; no contrary news or scheduled event (FOMC later in week); half size
 - 2026-10-25 21:10 OPEN SHORT kPEPE 418550 @ 0.00435582 ($1,823 notional, stop 0.00446776, risk $47): Smart-money candidate: 0L/3S top traders net -$3.1M, price below 50h EMA, -2.9% 24h; no contrary news; half size
+- 2026-10-25 23:08 CLOSE SHORT kPEPE @ 0.004358: net -4.38 USD (-0.09R, fees 3.46, funding +0.01). trailing stop hit
+- 2026-10-25 23:09 OPEN SHORT xyz:NATGAS 2107.92 @ 2.9884 ($6,299 notional, stop 3.0029, risk $31): Breakout: scan short, top traders agree (1L/3S), Liquid crowd 88% long (losing crowd) so fade supports it; no NATGAS-specific news or scheduled event
