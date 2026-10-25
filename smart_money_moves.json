@@ -4,6 +4,46 @@
     "symbol": "ETH",
     "action": "added to",
     "side": "short",
+    "notional": 135432,
+    "pct_of_account": 3.7,
+    "trader_month_pnl": 2159545,
+    "at": "2026-10-25T05:08:28+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "ZRO",
+    "action": "added to",
+    "side": "short",
+    "notional": 6323,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 12573386,
+    "at": "2026-10-25T05:08:28+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "NEAR",
+    "action": "opened",
+    "side": "short",
+    "notional": 225,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3164292,
+    "at": "2026-10-25T05:08:28+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "XMR",
+    "action": "opened",
+    "side": "long",
+    "notional": 122,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3164292,
+    "at": "2026-10-25T05:08:28+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "ETH",
+    "action": "added to",
+    "side": "short",
     "notional": 106839,
     "pct_of_account": 2.9,
     "trader_month_pnl": 2159545,
@@ -2957,46 +2997,6 @@
     "notional": 7382,
     "pct_of_account": 0.0,
     "trader_month_pnl": 15690258,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "DOGE",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 6142,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19186415,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "INIT",
-    "action": "added to",
-    "side": "long",
-    "notional": 3714,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 15040006,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "AERO",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 2606,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 15690258,
-    "at": "2026-10-23T22:09:08+02:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:EBAY",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 2250,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19186415,
     "at": "2026-10-23T22:09:08+02:00"
   }
 ]
