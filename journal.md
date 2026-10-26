@@ -260,3 +260,11 @@
 - 2026-10-26 12:23 OPEN SHORT VVV 54.0997 @ 24.3983 ($1,320 notional, stop 25.2728, risk $47): Smart-money candidate: 0L/11S top traders net -$7.2M, price below 50h EMA; no contrary news, no VVV event; half size
 - 2026-10-26 13:28 CLOSE SHORT xyz:MU @ 897.48: net -57.61 USD (-1.22R, fees 8.97, funding -0.07). stop-loss hit
 - 2026-10-26 14:35 OPEN SHORT xyz:COIN 23.1201 @ 157.87 ($3,650 notional, stop 159.90, risk $47): Breakout short; top traders 1L/4S net -$2.1M agree; no contrary news or COIN event; half size as account is already short-crypto heavy
+- 2026-10-26 16:09 CLOSE SHORT AERO @ 0.683229: net +2.43 USD (+0.05R, fees 2.78, funding -0.22). trailing stop hit
+- 2026-10-26 16:09 CLOSE SHORT NEAR @ 4.6239: net -50.86 USD (-1.06R, fees 2.56, funding -0.16). stop-loss hit
+- 2026-10-26 16:09 CLOSE SHORT VVV @ 25.2854: net -50.46 USD (-1.07R, fees 2.55, funding -0.08). stop-loss hit
+- 2026-10-26 16:09 CLOSE SHORT xyz:COIN @ 157.94: net -12.00 USD (-0.25R, fees 10.22, funding -0.04). trailing stop hit
+- 2026-10-26 16:11 OPEN LONG xyz:AAPL 15.6105 @ 346.91 ($5,415 notional, stop 343.96, risk $46): Smart-money candidate: 8L/0S top traders net +$31.5M, price above 50h EMA; Liquid smart money 65% long vs crowd short; no contrary news; half size
+- 2026-10-26 16:11 OPEN SHORT xyz:NFLX 142.706 @ 64.3268 ($9,180 notional, stop 64.7388, risk $59): Breakout short, top traders agree (1L/3S); no contrary news or NFLX event; thin OI so
+- 2026-10-26 16:11 CLOSE SHORT ZRO @ 1.7537: net -50.08 USD (-1.06R, fees 2.45, funding -0.10). stop-loss hit
+- 2026-10-26 16:11 CLOSE SHORT ETH @ 2,331.65: net -7.20 USD (-0.15R, fees 5.85, funding -0.19). trailing stop hit
