@@ -250,3 +250,7 @@
 - 2026-10-26 05:09 OPEN SHORT NEAR 297.153 @ 4.4608 ($1,326 notional, stop 4.6216, risk $48): Smart-money candidate: 2L/11S top traders net -$24.9M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size
 - 2026-10-26 06:09 CLOSE SHORT xyz:INTC @ 87.2060: net +10.88 USD (+0.23R, fees 14.72, funding -0.60). trailing stop hit
 - 2026-10-26 06:11 OPEN SHORT VVV 58.2949 @ 24.7606 ($1,443 notional, stop 25.5668, risk $47): Smart-money candidate: 0L/11S top traders net -$7.3M, price below 50h EMA; no contrary news or scheduled event, Liquid has no positioning data; half size
+- 2026-10-26 10:09 CLOSE SHORT STRK @ 0.04553: net -3.11 USD (-0.07R, fees 2.67, funding -0.26). trailing stop hit
+- 2026-10-26 10:09 CLOSE SHORT VVV @ 24.7730: net -3.39 USD (-0.07R, fees 2.74, funding -0.07). trailing stop hit
+- 2026-10-26 10:11 OPEN SHORT xyz:MU 3.59673 @ 883.94 ($3,179 notional, stop 897.03, risk $47): Smart-money candidate: 2L/8S top traders net -$23.5M, price below 50h EMA; Liquid cohort short-heavy, no MU-specific event in news; half size
+- 2026-10-26 10:11 OPEN SHORT ZRO 750.195 @ 1.6901 ($1,268 notional, stop 1.7528, risk $47): Smart-money candidate: 1L/9S top traders net -$5.7M, price below 50h EMA; no contrary news (Fed decision macro risk); half size
