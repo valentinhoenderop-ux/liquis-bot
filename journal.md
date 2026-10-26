@@ -269,3 +269,5 @@
 - 2026-10-26 16:11 CLOSE SHORT ZRO @ 1.7537: net -50.08 USD (-1.06R, fees 2.45, funding -0.10). stop-loss hit
 - 2026-10-26 16:11 CLOSE SHORT ETH @ 2,331.65: net -7.20 USD (-0.15R, fees 5.85, funding -0.19). trailing stop hit
 - 2026-10-26 17:12 OPEN SHORT ETH 1.24498 @ 2,321.49 ($2,890 notional, stop 2,358.55, risk $46): Smart-money candidate: 3L/21S top traders net -$279M, price below 50h EMA; no contrary news (Hayes selling ETH); FOMC macro risk so half size
+- 2026-10-26 18:11 CLOSE LONG xyz:AAPL @ 343.79: net -63.66 USD (-1.39R, fees 15.10, funding -0.08). stop-loss hit
+- 2026-10-26 18:14 OPEN SHORT ZRO 646.226 @ 1.6738 ($1,082 notional, stop 1.7454, risk $46): Breakout short, top traders agree (1L/9S net -$5.5M), Liquid shows -4.6% 24h and no contrary news; FOMC week so half size
