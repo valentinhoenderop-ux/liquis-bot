@@ -268,3 +268,4 @@
 - 2026-10-26 16:11 OPEN SHORT xyz:NFLX 142.706 @ 64.3268 ($9,180 notional, stop 64.7388, risk $59): Breakout short, top traders agree (1L/3S); no contrary news or NFLX event; thin OI so
 - 2026-10-26 16:11 CLOSE SHORT ZRO @ 1.7537: net -50.08 USD (-1.06R, fees 2.45, funding -0.10). stop-loss hit
 - 2026-10-26 16:11 CLOSE SHORT ETH @ 2,331.65: net -7.20 USD (-0.15R, fees 5.85, funding -0.19). trailing stop hit
+- 2026-10-26 17:12 OPEN SHORT ETH 1.24498 @ 2,321.49 ($2,890 notional, stop 2,358.55, risk $46): Smart-money candidate: 3L/21S top traders net -$279M, price below 50h EMA; no contrary news (Hayes selling ETH); FOMC macro risk so half size
