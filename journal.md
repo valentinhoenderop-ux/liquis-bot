@@ -242,3 +242,7 @@
 - 2026-10-25 23:09 OPEN SHORT xyz:NATGAS 2107.92 @ 2.9884 ($6,299 notional, stop 3.0029, risk $31): Breakout: scan short, top traders agree (1L/3S), Liquid crowd 88% long (losing crowd) so fade supports it; no NATGAS-specific news or scheduled event
 - 2026-10-26 00:08 CLOSE SHORT xyz:NATGAS @ 2.9898: net -20.72 USD (-0.67R, fees 17.64, funding -0.07). trailing stop hit
 - 2026-10-26 00:10 OPEN LONG xyz:ORCL 49.5231 @ 127.48 ($6,313 notional, stop 126.83, risk $32): Breakout candidate, top traders 4L/1S agree; Liquid data and news show no contrary catalyst or scheduled ORCL event
+- 2026-10-26 01:08 CLOSE LONG xyz:AAPL @ 345.49: net -76.46 USD (-1.60R, fees 22.45, funding +2.16). stop-loss hit
+- 2026-10-26 01:08 CLOSE LONG xyz:ORCL @ 126.76: net -52.31 USD (-1.62R, fees 17.63, funding -0.67). stop-loss hit
+- 2026-10-26 01:10 OPEN SHORT kPEPE 819758 @ 0.00426986 ($3,500 notional, stop 0.00438374, risk $93): Breakout short; top traders 0L/3S agree, kPEPE -5% 24h, no contrary news or positioning
+- 2026-10-26 01:10 OPEN SHORT xyz:INTC 60.1471 @ 87.6217 ($5,270 notional, stop 88.3973, risk $47): Smart-money candidate: 1L/7S top traders net -$15.1M, price below 50h EMA; no INTC news/event; half size
