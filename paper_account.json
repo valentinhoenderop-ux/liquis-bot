@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9032.790880188455,
+  "cash": 9029.121799285576,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 0.43423,
       "dex": "core",
       "fees": 1.2559832285299606,
-      "funding": -0.05726959426158597,
-      "checked_ms": 1793034600000,
-      "funding_ms": 1793034713282.9675,
+      "funding": -0.07323969051718908,
+      "checked_ms": 1793038200000,
+      "funding_ms": 1793038317981.6677,
       "reason": "Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size"
     },
     "XMR": {
@@ -34,9 +34,9 @@
       "extreme": 583.09,
       "dex": "core",
       "fees": 2.1204373895570447,
-      "funding": -1.187547357022143,
-      "checked_ms": 1793034600000,
-      "funding_ms": 1793034713282.9675,
+      "funding": -1.2152000376969048,
+      "checked_ms": 1793038200000,
+      "funding_ms": 1793038317981.6677,
       "reason": "Smart-money candidate: 0L/8S top traders net -$13.8M, price below 50h EMA; no contrary news, Liquid data neutral; half size"
     },
     "xyz:NFLX": {
@@ -51,9 +51,9 @@
       "extreme": 62.878,
       "dex": "xyz",
       "fees": 12.851741994972903,
-      "funding": -0.16492043901805187,
-      "checked_ms": 1793034600000,
-      "funding_ms": 1793034713282.9675,
+      "funding": -0.22132830557190478,
+      "checked_ms": 1793038200000,
+      "funding_ms": 1793038317981.6677,
       "reason": "Breakout short, top traders agree (1L/3S); no contrary news or NFLX event; thin OI so"
     },
     "ETH": {
@@ -68,9 +68,9 @@
       "extreme": 2307.4,
       "dex": "core",
       "fees": 2.7456878508832063,
-      "funding": -0.010928427213942157,
-      "checked_ms": 1793034600000,
-      "funding_ms": 1793034713282.9675,
+      "funding": -0.04718250847724764,
+      "checked_ms": 1793038200000,
+      "funding_ms": 1793038317981.6677,
       "reason": "Smart-money candidate: 3L/21S top traders net -$279M, price below 50h EMA; no contrary news (Hayes selling ETH); FOMC macro risk so half size"
     },
     "ZRO": {
@@ -82,13 +82,47 @@
       "stop": 1.745416371252791,
       "initial_stop": 1.745416371252791,
       "atr": 0.035826835626395416,
-      "extreme": 1.6737627000000002,
+      "extreme": 1.6592,
       "dex": "core",
       "fees": 1.027546907588661,
-      "funding": 0.0,
-      "checked_ms": 1793034864501,
-      "funding_ms": 1793034864501,
+      "funding": -0.013020109631798045,
+      "checked_ms": 1793038200000,
+      "funding_ms": 1793038317981.6677,
       "reason": "Breakout short, top traders agree (1L/9S net -$5.5M), Liquid shows -4.6% 24h and no contrary news; FOMC week so half size"
+    },
+    "xyz:META": {
+      "side": "short",
+      "qty": 2.9302771213181327,
+      "entry_px": 637.191245,
+      "entry_time": "2026-10-26T19:11:52+01:00",
+      "entry_ms": 1793038312435,
+      "stop": 653.0035105033785,
+      "initial_stop": 653.0035105033785,
+      "atr": 7.906132751689256,
+      "extreme": 637.191245,
+      "dex": "xyz",
+      "fees": 2.6140056979788038,
+      "funding": -4.391538103672744e-05,
+      "checked_ms": 1793038312435,
+      "funding_ms": 1793038317981.6677,
+      "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
+    },
+    "STRK": {
+      "side": "short",
+      "qty": 27390.835566794678,
+      "entry_px": 0.046286845,
+      "entry_time": "2026-10-26T19:11:53+01:00",
+      "entry_ms": 1793038313524,
+      "stop": 0.047977651758898086,
+      "initial_stop": 0.047977651758898086,
+      "atr": 0.0008454033794490446,
+      "extreme": 0.046286845,
+      "dex": "core",
+      "fees": 1.2044435922856769,
+      "funding": -1.963762835470279e-05,
+      "checked_ms": 1793038313524,
+      "funding_ms": 1793038317981.6677,
+      "reason": "Smart-money candidate: 0L/7S top traders net -$5.5M, price below 50h EMA; no contrary news, FOMC macro risk so half size"
     }
   },
   "closed": [
@@ -3658,6 +3692,18 @@
     {
       "t": "2026-10-26T18:11:55+01:00",
       "equity": 9287.24
+    },
+    {
+      "t": "2026-10-26T19:09:24+01:00",
+      "equity": 9257.14
+    },
+    {
+      "t": "2026-10-26T19:09:32+01:00",
+      "equity": 9256.44
+    },
+    {
+      "t": "2026-10-26T19:12:00+01:00",
+      "equity": 9262.27
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
