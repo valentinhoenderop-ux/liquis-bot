@@ -275,3 +275,4 @@
 - 2026-10-26 19:11 OPEN SHORT STRK 27390.8 @ 0.0462868 ($1,268 notional, stop 0.0479777, risk $46): Smart-money candidate: 0L/7S top traders net -$5.5M, price below 50h EMA; no contrary news, FOMC macro risk so half size
 - 2026-10-26 20:10 OPEN LONG xyz:SP500 1.09619 @ 7,676.69 ($8,415 notional, stop 7,642.55, risk $37): Smart-money candidate: 3L/0S top traders net +$14.2M, price above 50h EMA; Liquid positioning balanced, stocks rising into Fed week so half size; also offsets short-heavy book
 - 2026-10-26 21:09 CLOSE SHORT xyz:NFLX @ 63.5277: net +88.83 USD (+1.51R, fees 25.54, funding -0.33). trailing stop hit
+- 2026-10-26 22:11 CLOSE SHORT STRK @ 0.0468034: net -16.55 USD (-0.36R, fees 2.42, funding -0.02). Exit suggestion: price through 50h EMA, +3.1% 24h against the short; no supporting news
