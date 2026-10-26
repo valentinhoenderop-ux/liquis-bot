@@ -248,3 +248,5 @@
 - 2026-10-26 01:10 OPEN SHORT xyz:INTC 60.1471 @ 87.6217 ($5,270 notional, stop 88.3973, risk $47): Smart-money candidate: 1L/7S top traders net -$15.1M, price below 50h EMA; no INTC news/event; half size
 - 2026-10-26 04:08 CLOSE SHORT kPEPE @ 0.004272: net -8.36 USD (-0.09R, fees 6.65, funding -0.04). trailing stop hit
 - 2026-10-26 05:09 OPEN SHORT NEAR 297.153 @ 4.4608 ($1,326 notional, stop 4.6216, risk $48): Smart-money candidate: 2L/11S top traders net -$24.9M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size
+- 2026-10-26 06:09 CLOSE SHORT xyz:INTC @ 87.2060: net +10.88 USD (+0.23R, fees 14.72, funding -0.60). trailing stop hit
+- 2026-10-26 06:11 OPEN SHORT VVV 58.2949 @ 24.7606 ($1,443 notional, stop 25.5668, risk $47): Smart-money candidate: 0L/11S top traders net -$7.3M, price below 50h EMA; no contrary news or scheduled event, Liquid has no positioning data; half size
