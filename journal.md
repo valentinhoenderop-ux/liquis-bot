@@ -273,3 +273,4 @@
 - 2026-10-26 18:14 OPEN SHORT ZRO 646.226 @ 1.6738 ($1,082 notional, stop 1.7454, risk $46): Breakout short, top traders agree (1L/9S net -$5.5M), Liquid shows -4.6% 24h and no contrary news; FOMC week so half size
 - 2026-10-26 19:11 OPEN SHORT xyz:META 2.93028 @ 637.19 ($1,867 notional, stop 653.00, risk $46): Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size
 - 2026-10-26 19:11 OPEN SHORT STRK 27390.8 @ 0.0462868 ($1,268 notional, stop 0.0479777, risk $46): Smart-money candidate: 0L/7S top traders net -$5.5M, price below 50h EMA; no contrary news, FOMC macro risk so half size
+- 2026-10-26 20:10 OPEN LONG xyz:SP500 1.09619 @ 7,676.69 ($8,415 notional, stop 7,642.55, risk $37): Smart-money candidate: 3L/0S top traders net +$14.2M, price above 50h EMA; Liquid positioning balanced, stocks rising into Fed week so half size; also offsets short-heavy book
