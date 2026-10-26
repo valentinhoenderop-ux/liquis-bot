@@ -259,3 +259,4 @@
 - 2026-10-26 12:21 CLOSE SHORT xyz:META @ 627.70: net +58.81 USD (+1.22R, fees 9.89, funding -1.92). trailing stop hit
 - 2026-10-26 12:23 OPEN SHORT VVV 54.0997 @ 24.3983 ($1,320 notional, stop 25.2728, risk $47): Smart-money candidate: 0L/11S top traders net -$7.2M, price below 50h EMA; no contrary news, no VVV event; half size
 - 2026-10-26 13:28 CLOSE SHORT xyz:MU @ 897.48: net -57.61 USD (-1.22R, fees 8.97, funding -0.07). stop-loss hit
+- 2026-10-26 14:35 OPEN SHORT xyz:COIN 23.1201 @ 157.87 ($3,650 notional, stop 159.90, risk $47): Breakout short; top traders 1L/4S net -$2.1M agree; no contrary news or COIN event; half size as account is already short-crypto heavy
