@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 9262.455747820606,
+  "cash": 9265.454524025734,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,27 +17,10 @@
       "extreme": 637.48,
       "dex": "xyz",
       "fees": 4.9899772041977375,
-      "funding": -1.872554081741673,
-      "checked_ms": 1793005500000,
-      "funding_ms": 1793005742305.09,
+      "funding": -1.894997889621595,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 1L/7S top traders net -$16.3M, price below 50h EMA; news: Meta down on AI spending fears, no scheduled event; half size"
-    },
-    "ETH": {
-      "side": "short",
-      "qty": 1.6763966176439349,
-      "entry_px": 2341.9784250000002,
-      "entry_time": "2026-10-25T16:10:53+01:00",
-      "entry_ms": 1792941053524,
-      "stop": 2335.1522713612962,
-      "initial_stop": 2370.3466059075313,
-      "atr": 14.184090453765467,
-      "extreme": 2292.6,
-      "dex": "core",
-      "fees": 3.7297804747518164,
-      "funding": -0.4627659780680473,
-      "checked_ms": 1793005500000,
-      "funding_ms": 1793005742305.09,
-      "reason": "Smart-money candidate: 4L/18S top traders net -$276M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size"
     },
     "WLD": {
       "side": "short",
@@ -51,9 +34,9 @@
       "extreme": 0.43423,
       "dex": "core",
       "fees": 1.2559832285299606,
-      "funding": 0.007567934203290371,
-      "checked_ms": 1793005500000,
-      "funding_ms": 1793005742305.09,
+      "funding": -0.008314311042553204,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size"
     },
     "XMR": {
@@ -68,9 +51,9 @@
       "extreme": 583.09,
       "dex": "core",
       "fees": 2.1204373895570447,
-      "funding": -0.8837321407314164,
-      "checked_ms": 1793005500000,
-      "funding_ms": 1793005742305.09,
+      "funding": -0.9112216479752215,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 0L/8S top traders net -$13.8M, price below 50h EMA; no contrary news, Liquid data neutral; half size"
     },
     "AERO": {
@@ -85,9 +68,9 @@
       "extreme": 0.65,
       "dex": "core",
       "fees": 1.3920961441132376,
-      "funding": -0.11433409207106957,
-      "checked_ms": 1793005500000,
-      "funding_ms": 1793005742305.09,
+      "funding": -0.1320825967859877,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 0L/5S top traders, price well below 50h EMA, -1.8% 24h; no contrary news or scheduled event (FOMC later in week); half size"
     },
     "NEAR": {
@@ -102,9 +85,9 @@
       "extreme": 4.4327,
       "dex": "core",
       "fees": 1.2592685909410932,
-      "funding": -0.057803964351431585,
-      "checked_ms": 1793005500000,
-      "funding_ms": 1793005742305.09,
+      "funding": -0.07476484357834219,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 2L/11S top traders net -$24.9M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size"
     },
     "xyz:MU": {
@@ -119,9 +102,9 @@
       "extreme": 883.93781,
       "dex": "xyz",
       "fees": 4.451005550979779,
-      "funding": 0.0,
-      "checked_ms": 1793005872894,
-      "funding_ms": 1793005872894,
+      "funding": -0.019341425570748857,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 2L/8S top traders net -$23.5M, price below 50h EMA; Liquid cohort short-heavy, no MU-specific event in news; half size"
     },
     "ZRO": {
@@ -133,13 +116,30 @@
       "stop": 1.7528360976278343,
       "initial_stop": 1.7528360976278343,
       "atr": 0.03136578631391722,
-      "extreme": 1.690104525,
+      "extreme": 1.6882,
       "dex": "core",
       "fees": 1.2045120279354697,
-      "funding": 0.0,
-      "checked_ms": 1793005873836,
-      "funding_ms": 1793005873836,
+      "funding": -0.015354599419677055,
+      "checked_ms": 1793009100000,
+      "funding_ms": 1793009358487.339,
       "reason": "Smart-money candidate: 1L/9S top traders net -$5.7M, price below 50h EMA; no contrary news (Fed decision macro risk); half size"
+    },
+    "ETH": {
+      "side": "short",
+      "qty": 1.320450829927621,
+      "entry_px": 2330.484175,
+      "entry_time": "2026-10-26T11:11:57+01:00",
+      "entry_ms": 1793009517187,
+      "stop": 2365.946754036101,
+      "initial_stop": 2365.946754036101,
+      "atr": 17.731289518050545,
+      "extreme": 2330.484175,
+      "dex": "core",
+      "fees": 2.9234252748613403,
+      "funding": 0.0,
+      "checked_ms": 1793009517187,
+      "funding_ms": 1793009517187,
+      "reason": "Smart-money candidate: 4L/20S top traders net -$275M, price below 50h EMA; Liquid ETH balanced, no ETH-specific news or event; half size"
     }
   },
   "closed": [
@@ -2110,6 +2110,22 @@
       "return_on_risk": -0.07221678165044551,
       "entry_reason": "Smart-money candidate: 0L/11S top traders net -$7.3M, price below 50h EMA; no contrary news or scheduled event, Liquid has no positioning data; half size",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "ETH",
+      "side": "short",
+      "qty": 1.6763966176439349,
+      "entry_px": 2341.9784250000002,
+      "exit_px": 2336.3198474969768,
+      "entry_time": "2026-10-25T16:10:53+01:00",
+      "exit_time": "2026-10-26T11:09:19+01:00",
+      "gross_pnl": 9.486020186744625,
+      "fees": 7.450549230326226,
+      "funding": -0.4844950575854431,
+      "net_pnl": 2.5199660140038422,
+      "return_on_risk": 0.052989084949387755,
+      "entry_reason": "Smart-money candidate: 4L/18S top traders net -$276M, price below 50h EMA; Liquid positioning balanced, no contrary news; half size",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -3505,6 +3521,10 @@
     {
       "t": "2026-10-26T10:09:04+01:00",
       "equity": 9414.99
+    },
+    {
+      "t": "2026-10-26T11:09:21+01:00",
+      "equity": 9366.17
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

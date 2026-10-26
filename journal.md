@@ -254,3 +254,5 @@
 - 2026-10-26 10:09 CLOSE SHORT VVV @ 24.7730: net -3.39 USD (-0.07R, fees 2.74, funding -0.07). trailing stop hit
 - 2026-10-26 10:11 OPEN SHORT xyz:MU 3.59673 @ 883.94 ($3,179 notional, stop 897.03, risk $47): Smart-money candidate: 2L/8S top traders net -$23.5M, price below 50h EMA; Liquid cohort short-heavy, no MU-specific event in news; half size
 - 2026-10-26 10:11 OPEN SHORT ZRO 750.195 @ 1.6901 ($1,268 notional, stop 1.7528, risk $47): Smart-money candidate: 1L/9S top traders net -$5.7M, price below 50h EMA; no contrary news (Fed decision macro risk); half size
+- 2026-10-26 11:09 CLOSE SHORT ETH @ 2,336.32: net +2.52 USD (+0.05R, fees 7.45, funding -0.48). trailing stop hit
+- 2026-10-26 11:11 OPEN SHORT ETH 1.32045 @ 2,330.48 ($3,077 notional, stop 2,365.95, risk $47): Smart-money candidate: 4L/20S top traders net -$275M, price below 50h EMA; Liquid ETH balanced, no ETH-specific news or event; half size
