@@ -246,3 +246,4 @@
 - 2026-10-26 01:08 CLOSE LONG xyz:ORCL @ 126.76: net -52.31 USD (-1.62R, fees 17.63, funding -0.67). stop-loss hit
 - 2026-10-26 01:10 OPEN SHORT kPEPE 819758 @ 0.00426986 ($3,500 notional, stop 0.00438374, risk $93): Breakout short; top traders 0L/3S agree, kPEPE -5% 24h, no contrary news or positioning
 - 2026-10-26 01:10 OPEN SHORT xyz:INTC 60.1471 @ 87.6217 ($5,270 notional, stop 88.3973, risk $47): Smart-money candidate: 1L/7S top traders net -$15.1M, price below 50h EMA; no INTC news/event; half size
+- 2026-10-26 04:08 CLOSE SHORT kPEPE @ 0.004272: net -8.36 USD (-0.09R, fees 6.65, funding -0.04). trailing stop hit
