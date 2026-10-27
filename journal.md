@@ -294,3 +294,5 @@
 - 2026-10-27 15:15 OPEN LONG xyz:TSLA 8.95105 @ 401.88 ($3,597 notional, stop 396.78, risk $46): Breakout candidate (score 3.05, above 397.5 level), top traders mixed 4L/4S net +1.9M, Liquid positioning short-heavy 39% long, no TSLA news/event; half size
 - 2026-10-27 15:15 OPEN SHORT xyz:NATGAS 875.035 @ 2.9736 ($2,602 notional, stop 3.0256, risk $46): Breakout candidate, top traders agree 0L/4S net -0.9M, no contrary news; weak breakout so half size
 - 2026-10-27 15:16 CLOSE LONG xyz:SP500 @ 7,672.85: net -26.64 USD (-0.71R, fees 23.56, funding -1.12). trailing stop hit
+- 2026-10-27 16:18 OPEN LONG xyz:AAPL 18.0086 @ 347.50 ($6,258 notional, stop 344.98, risk $45): Smart-money candidate: 9L/0S top traders net +$34M, price above 50h EMA; Liquid smart money 63% long vs losing crowd 16% long; no AAPL news, Fed-day macro risk so half size
+- 2026-10-27 16:18 OPEN SHORT xyz:MSTR 14.296 @ 140.21 ($2,004 notional, stop 143.38, risk $45): Smart-money candidate: 1L/6S top traders net -$2.7M, price below 50h EMA; news says Strategy halts BTC purchases; no scheduled event, half size
