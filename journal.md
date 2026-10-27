@@ -278,3 +278,5 @@
 - 2026-10-26 22:11 CLOSE SHORT STRK @ 0.0468034: net -16.55 USD (-0.36R, fees 2.42, funding -0.02). Exit suggestion: price through 50h EMA, +3.1% 24h against the short; no supporting news
 - 2026-10-26 23:12 OPEN SHORT xyz:NBIS 6.60504 @ 155.88 ($1,030 notional, stop 162.88, risk $46): Smart-money candidate: 2L/7S top traders net -$5.9M with a fresh short add this hour, price below 50h EMA; no NBIS news, FOMC week so half size
 - 2026-10-27 00:10 OPEN SHORT NEAR 301.47 @ 4.4495 ($1,341 notional, stop 4.6028, risk $46): Smart-money candidate: 2L/11S top traders net -$25.7M, price below 50h EMA; Liquid positioning balanced, no NEAR news, FOMC week so half size
+- 2026-10-27 01:09 CLOSE SHORT ETH @ 2,322.65: net -6.79 USD (-0.15R, fees 5.49, funding -0.15). trailing stop hit
+- 2026-10-27 01:12 OPEN SHORT xyz:EWZ 27.1129 @ 34.1479 ($926 notional, stop 35.8371, risk $46): Smart-money candidate: 1L/3S top traders net -$5.4M, price well below 50h EMA, -2.9% 24h; no EWZ news or scheduled event, FOMC week so half size
