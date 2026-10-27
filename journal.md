@@ -298,3 +298,5 @@
 - 2026-10-27 16:18 OPEN SHORT xyz:MSTR 14.296 @ 140.21 ($2,004 notional, stop 143.38, risk $45): Smart-money candidate: 1L/6S top traders net -$2.7M, price below 50h EMA; news says Strategy halts BTC purchases; no scheduled event, half size
 - 2026-10-27 17:09 CLOSE SHORT XMR @ 594.47: net -6.43 USD (-0.14R, fees 5.32, funding -0.29). trailing stop hit
 - 2026-10-27 17:11 OPEN LONG xyz:SP500 1.02903 @ 7,728.51 ($7,953 notional, stop 7,694.92, risk $35): Breakout candidate (score 2.1, above 7710), top traders agree 3L/0S net +17.6M, Liquid positioning balanced, no contrary news; half size for macro risk
+- 2026-10-27 21:09 CLOSE SHORT xyz:NATGAS @ 3.0272: net -54.15 USD (-1.19R, fees 7.35, funding -0.10). stop-loss hit
+- 2026-10-27 21:11 OPEN SHORT MON 77344.4 @ 0.0214273 ($1,657 notional, stop 0.0220089, risk $45): Smart-money candidate: 0L/9S top traders net -$2.7M, price below 50h EMA; no MON news, positioning unknown, FOMC macro risk so half size
