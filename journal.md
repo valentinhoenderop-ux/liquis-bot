@@ -286,3 +286,7 @@
 - 2026-10-27 09:16 OPEN SHORT xyz:BABA 48.8998 @ 99.0005 ($4,841 notional, stop 99.9437, risk $46): Breakout short, top traders agree (0L/5S net -$2.1M); no BABA news, Fed decision macro risk so half size
 - 2026-10-27 11:09 CLOSE SHORT xyz:NBIS @ 155.95: net -3.01 USD (-0.07R, fees 2.88, funding -0.38). trailing stop hit
 - 2026-10-27 11:10 OPEN SHORT XMR 4.70797 @ 594.18 ($2,797 notional, stop 604.03, risk $46): Smart-money candidate: 2L/6S top traders net -$16M, price below 50h EMA; no XMR news, balanced positioning unknown, FOMC macro risk so half size
+- 2026-10-27 14:11 CLOSE SHORT ZRO @ 1.6746: net -2.33 USD (-0.05R, fees 2.06, funding -0.26). trailing stop hit
+- 2026-10-27 14:11 CLOSE SHORT NEAR @ 4.6051: net -49.33 USD (-1.07R, fees 2.59, funding -0.16). stop-loss hit
+- 2026-10-27 14:11 CLOSE SHORT ETH @ 2,330.85: net -7.56 USD (-0.16R, fees 6.17, funding -0.23). trailing stop hit
+- 2026-10-27 14:13 OPEN SHORT xyz:EWZ 40.5456 @ 34.6861 ($1,406 notional, stop 35.8126, risk $46): Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size
