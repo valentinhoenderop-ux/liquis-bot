@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8916.270369485886,
+  "cash": 8916.342058408354,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 0.42467,
       "dex": "core",
       "fees": 1.2559832285299606,
-      "funding": 0.16343148801096807,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": 0.1478028212901206,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size"
     },
     "xyz:META": {
@@ -34,9 +34,9 @@
       "extreme": 620.47,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -0.719316016979894,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": -0.7516390345337284,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -51,9 +51,9 @@
       "extreme": 34.226,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.04870723922858861,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": -0.0573565231389388,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:TSLA": {
@@ -65,12 +65,12 @@
       "stop": 401.8758375,
       "initial_stop": 396.78089399540863,
       "atr": 2.547471752295668,
-      "extreme": 407.38,
+      "extreme": 407.62,
       "dex": "xyz",
       "fees": 5.036094672810696,
-      "funding": 0.0726640783327324,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": 0.09525557716277136,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Breakout candidate (score 3.05, above 397.5 level), top traders mixed 4L/4S net +1.9M, Liquid positioning short-heavy 39% long, no TSLA news/event; half size"
     },
     "xyz:NATGAS": {
@@ -85,9 +85,9 @@
       "extreme": 2.973562475,
       "dex": "xyz",
       "fees": 3.642760358314821,
-      "funding": -0.06427502429790993,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": -0.08067497133092044,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Breakout candidate, top traders agree 0L/4S net -0.9M, no contrary news; weak breakout so half size"
     },
     "xyz:AAPL": {
@@ -102,9 +102,9 @@
       "extreme": 347.73,
       "dex": "xyz",
       "fees": 8.761152141244358,
-      "funding": 0.11094896571107368,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": 0.13651777337547844,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Smart-money candidate: 9L/0S top traders net +$34M, price above 50h EMA; Liquid smart money 63% long vs losing crowd 16% long; no AAPL news, Fed-day macro risk so half size"
     },
     "xyz:MSTR": {
@@ -119,9 +119,9 @@
       "extreme": 139.66,
       "dex": "xyz",
       "fees": 2.8062242625842053,
-      "funding": -0.06786941367516136,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": -0.12011996145887213,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Smart-money candidate: 1L/6S top traders net -$2.7M, price below 50h EMA; news says Strategy halts BTC purchases; no scheduled event, half size"
     },
     "xyz:SP500": {
@@ -136,9 +136,9 @@
       "extreme": 7728.512324999999,
       "dex": "xyz",
       "fees": 11.133986860889735,
-      "funding": -0.03348964952138703,
-      "checked_ms": 1793124300000,
-      "funding_ms": 1793124588925.5693,
+      "funding": -0.02808741548077944,
+      "checked_ms": 1793127900000,
+      "funding_ms": 1793128155654.0813,
       "reason": "Breakout candidate (score 2.1, above 7710), top traders agree 3L/0S net +17.6M, Liquid positioning balanced, no contrary news; half size for macro risk"
     }
   },
@@ -4041,6 +4041,10 @@
     {
       "t": "2026-10-27T19:09:52+01:00",
       "equity": 8988.51
+    },
+    {
+      "t": "2026-10-27T20:09:18+01:00",
+      "equity": 9005.99
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
