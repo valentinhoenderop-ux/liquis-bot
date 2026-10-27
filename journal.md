@@ -290,3 +290,7 @@
 - 2026-10-27 14:11 CLOSE SHORT NEAR @ 4.6051: net -49.33 USD (-1.07R, fees 2.59, funding -0.16). stop-loss hit
 - 2026-10-27 14:11 CLOSE SHORT ETH @ 2,330.85: net -7.56 USD (-0.16R, fees 6.17, funding -0.23). trailing stop hit
 - 2026-10-27 14:13 OPEN SHORT xyz:EWZ 40.5456 @ 34.6861 ($1,406 notional, stop 35.8126, risk $46): Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size
+- 2026-10-27 15:13 CLOSE SHORT xyz:BABA @ 100.0000: net -62.07 USD (-1.35R, fees 13.62, funding -0.43). stop-loss hit (gapped through)
+- 2026-10-27 15:15 OPEN LONG xyz:TSLA 8.95105 @ 401.88 ($3,597 notional, stop 396.78, risk $46): Breakout candidate (score 3.05, above 397.5 level), top traders mixed 4L/4S net +1.9M, Liquid positioning short-heavy 39% long, no TSLA news/event; half size
+- 2026-10-27 15:15 OPEN SHORT xyz:NATGAS 875.035 @ 2.9736 ($2,602 notional, stop 3.0256, risk $46): Breakout candidate, top traders agree 0L/4S net -0.9M, no contrary news; weak breakout so half size
+- 2026-10-27 15:16 CLOSE LONG xyz:SP500 @ 7,672.85: net -26.64 USD (-0.71R, fees 23.56, funding -1.12). trailing stop hit
