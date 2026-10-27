@@ -296,3 +296,5 @@
 - 2026-10-27 15:16 CLOSE LONG xyz:SP500 @ 7,672.85: net -26.64 USD (-0.71R, fees 23.56, funding -1.12). trailing stop hit
 - 2026-10-27 16:18 OPEN LONG xyz:AAPL 18.0086 @ 347.50 ($6,258 notional, stop 344.98, risk $45): Smart-money candidate: 9L/0S top traders net +$34M, price above 50h EMA; Liquid smart money 63% long vs losing crowd 16% long; no AAPL news, Fed-day macro risk so half size
 - 2026-10-27 16:18 OPEN SHORT xyz:MSTR 14.296 @ 140.21 ($2,004 notional, stop 143.38, risk $45): Smart-money candidate: 1L/6S top traders net -$2.7M, price below 50h EMA; news says Strategy halts BTC purchases; no scheduled event, half size
+- 2026-10-27 17:09 CLOSE SHORT XMR @ 594.47: net -6.43 USD (-0.14R, fees 5.32, funding -0.29). trailing stop hit
+- 2026-10-27 17:11 OPEN LONG xyz:SP500 1.02903 @ 7,728.51 ($7,953 notional, stop 7,694.92, risk $35): Breakout candidate (score 2.1, above 7710), top traders agree 3L/0S net +17.6M, Liquid positioning balanced, no contrary news; half size for macro risk
