@@ -280,3 +280,5 @@
 - 2026-10-27 00:10 OPEN SHORT NEAR 301.47 @ 4.4495 ($1,341 notional, stop 4.6028, risk $46): Smart-money candidate: 2L/11S top traders net -$25.7M, price below 50h EMA; Liquid positioning balanced, no NEAR news, FOMC week so half size
 - 2026-10-27 01:09 CLOSE SHORT ETH @ 2,322.65: net -6.79 USD (-0.15R, fees 5.49, funding -0.15). trailing stop hit
 - 2026-10-27 01:12 OPEN SHORT xyz:EWZ 27.1129 @ 34.1479 ($926 notional, stop 35.8371, risk $46): Smart-money candidate: 1L/3S top traders net -$5.4M, price well below 50h EMA, -2.9% 24h; no EWZ news or scheduled event, FOMC week so half size
+- 2026-10-27 02:09 CLOSE SHORT XMR @ 601.63: net -3.54 USD (-0.08R, fees 4.24, funding -1.82). trailing stop hit
+- 2026-10-27 02:11 OPEN SHORT ETH 1.3928 @ 2,329.68 ($3,245 notional, stop 2,362.66, risk $46): Smart-money candidate: 3L/21S top traders net -$274M, price below 50h EMA; Liquid positioning balanced, no ETH-specific news, Fed decision macro risk so half size
