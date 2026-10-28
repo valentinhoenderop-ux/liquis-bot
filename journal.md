@@ -306,3 +306,5 @@
 - 2026-10-28 12:15 OPEN LONG xyz:KORU 88.3049 @ 13.2051 ($1,166 notional, stop 12.7002, risk $45): Breakout candidate (score 1.9), top traders agree 3L/1S net +1.1M, no contrary news; half size for FOMC day
 - 2026-10-28 15:15 CLOSE LONG xyz:TSLA @ 404.67: net +14.41 USD (+0.32R, fees 10.11, funding +0.45). trailing stop hit
 - 2026-10-28 15:16 OPEN LONG xyz:MRNA 6.5756 @ 213.67 ($1,405 notional, stop 206.81, risk $45): Breakout candidate (score 2.9), top traders agree 3L/0S net +$5.3M, biotech smart money long (XBI), no contrary news; half size as +14% 24h extended and FOMC day
+- 2026-10-28 16:15 CLOSE LONG xyz:KORU @ 13.1985: net -3.86 USD (-0.09R, fees 3.26, funding +0.02). trailing stop hit
+- 2026-10-28 16:18 OPEN SHORT XMR 3.67501 @ 596.65 ($2,193 notional, stop 608.90, risk $45): Smart-money candidate: 1L/7S top traders net -$18M, price below 50h EMA; no XMR news or scheduled event, Fed-day macro risk so half size
