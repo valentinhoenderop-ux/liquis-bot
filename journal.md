@@ -302,3 +302,5 @@
 - 2026-10-27 21:11 OPEN SHORT MON 77344.4 @ 0.0214273 ($1,657 notional, stop 0.0220089, risk $45): Smart-money candidate: 0L/9S top traders net -$2.7M, price below 50h EMA; no MON news, positioning unknown, FOMC macro risk so half size
 - 2026-10-28 10:10 CLOSE SHORT xyz:MSTR @ 143.45: net -51.49 USD (-1.14R, fees 5.68, funding -0.51). stop-loss hit
 - 2026-10-28 10:12 OPEN SHORT VVV 53.0824 @ 23.8990 ($1,269 notional, stop 24.7428, risk $45): Breakout candidate (score 0.6) with top traders agreeing 1L/9S net -$6.6M, no VVV news, no positioning contradiction; half size for FOMC day
+- 2026-10-28 12:12 CLOSE LONG xyz:AAPL @ 344.81: net -66.24 USD (-1.46R, fees 17.45, funding +0.32). stop-loss hit
+- 2026-10-28 12:15 OPEN LONG xyz:KORU 88.3049 @ 13.2051 ($1,166 notional, stop 12.7002, risk $45): Breakout candidate (score 1.9), top traders agree 3L/1S net +1.1M, no contrary news; half size for FOMC day
