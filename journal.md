@@ -311,3 +311,6 @@
 - 2026-10-28 19:10 CLOSE LONG xyz:SP500 @ 7,724.65: net -25.84 USD (-0.75R, fees 22.26, funding -0.40). trailing stop hit
 - 2026-10-28 19:10 CLOSE LONG xyz:MRNA @ 213.56: net -4.53 USD (-0.10R, fees 3.93, funding -0.10). trailing stop hit
 - 2026-10-28 19:11 OPEN LONG xyz:SKHY 21.4346 @ 164.09 ($3,517 notional, stop 159.90, risk $90): Smart-money candidate: 7L/2S top traders net +$36M, price above 50h EMA, 3 followed traders added this hour; Barron's SK Hynix AI news supportive, no contrary event
+- 2026-10-28 20:08 CLOSE SHORT MON @ 0.021438: net -3.59 USD (-0.08R, fees 3.15, funding -0.39). trailing stop hit
+- 2026-10-28 20:10 OPEN LONG xyz:MRNA 6.37208 @ 213.74 ($1,362 notional, stop 206.76, risk $44): Smart-money candidate: 3L/0S top traders net +$5.3M, price above 50h EMA, no contrary news or scheduled event; half size post-FOMC
+- 2026-10-28 20:10 OPEN SHORT xyz:CBRS 8.28021 @ 108.72 ($900 notional, stop 114.09, risk $44): Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size
