@@ -300,3 +300,5 @@
 - 2026-10-27 17:11 OPEN LONG xyz:SP500 1.02903 @ 7,728.51 ($7,953 notional, stop 7,694.92, risk $35): Breakout candidate (score 2.1, above 7710), top traders agree 3L/0S net +17.6M, Liquid positioning balanced, no contrary news; half size for macro risk
 - 2026-10-27 21:09 CLOSE SHORT xyz:NATGAS @ 3.0272: net -54.15 USD (-1.19R, fees 7.35, funding -0.10). stop-loss hit
 - 2026-10-27 21:11 OPEN SHORT MON 77344.4 @ 0.0214273 ($1,657 notional, stop 0.0220089, risk $45): Smart-money candidate: 0L/9S top traders net -$2.7M, price below 50h EMA; no MON news, positioning unknown, FOMC macro risk so half size
+- 2026-10-28 10:10 CLOSE SHORT xyz:MSTR @ 143.45: net -51.49 USD (-1.14R, fees 5.68, funding -0.51). stop-loss hit
+- 2026-10-28 10:12 OPEN SHORT VVV 53.0824 @ 23.8990 ($1,269 notional, stop 24.7428, risk $45): Breakout candidate (score 0.6) with top traders agreeing 1L/9S net -$6.6M, no VVV news, no positioning contradiction; half size for FOMC day
