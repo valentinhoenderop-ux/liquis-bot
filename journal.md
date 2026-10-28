@@ -304,3 +304,5 @@
 - 2026-10-28 10:12 OPEN SHORT VVV 53.0824 @ 23.8990 ($1,269 notional, stop 24.7428, risk $45): Breakout candidate (score 0.6) with top traders agreeing 1L/9S net -$6.6M, no VVV news, no positioning contradiction; half size for FOMC day
 - 2026-10-28 12:12 CLOSE LONG xyz:AAPL @ 344.81: net -66.24 USD (-1.46R, fees 17.45, funding +0.32). stop-loss hit
 - 2026-10-28 12:15 OPEN LONG xyz:KORU 88.3049 @ 13.2051 ($1,166 notional, stop 12.7002, risk $45): Breakout candidate (score 1.9), top traders agree 3L/1S net +1.1M, no contrary news; half size for FOMC day
+- 2026-10-28 15:15 CLOSE LONG xyz:TSLA @ 404.67: net +14.41 USD (+0.32R, fees 10.11, funding +0.45). trailing stop hit
+- 2026-10-28 15:16 OPEN LONG xyz:MRNA 6.5756 @ 213.67 ($1,405 notional, stop 206.81, risk $45): Breakout candidate (score 2.9), top traders agree 3L/0S net +$5.3M, biotech smart money long (XBI), no contrary news; half size as +14% 24h extended and FOMC day
