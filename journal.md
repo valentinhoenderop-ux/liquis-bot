@@ -318,3 +318,5 @@
 - 2026-10-28 21:08 CLOSE SHORT VVV @ 24.7551: net -47.72 USD (-1.07R, fees 2.45, funding -0.18). stop-loss hit
 - 2026-10-28 21:10 OPEN LONG xyz:SP500 1.1366 @ 7,747.82 ($8,806 notional, stop 7,718.05, risk $34): Smart-money candidate: 5L/0S top traders net +$27.6M, price above 50h EMA; post-Fed steady stocks, no contrary news, half size
 - 2026-10-28 21:10 OPEN LONG PENGU 532476 @ 0.00790695 ($4,210 notional, stop 0.00774189, risk $88): Trend breakout, top traders 3L/0S agree; no contrary news or positioning
+- 2026-10-28 22:08 CLOSE LONG xyz:SKHY @ 159.82: net -101.19 USD (-1.13R, fees 9.72, funding +0.03). stop-loss hit
+- 2026-10-28 22:08 CLOSE LONG xyz:SP500 @ 7,714.19: net -62.80 USD (-1.86R, fees 24.60, funding -0.03). stop-loss hit
