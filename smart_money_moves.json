@@ -1,5 +1,155 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SP500",
+    "action": "added to",
+    "side": "long",
+    "notional": 2683942,
+    "pct_of_account": 3.0,
+    "trader_month_pnl": 18258196,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:CL",
+    "action": "added to",
+    "side": "long",
+    "notional": 1781200,
+    "pct_of_account": 5.9,
+    "trader_month_pnl": 15088833,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "NEAR",
+    "action": "added to",
+    "side": "short",
+    "notional": 524572,
+    "pct_of_account": 2.8,
+    "trader_month_pnl": 15343765,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "HYPE",
+    "action": "added to",
+    "side": "long",
+    "notional": 290281,
+    "pct_of_account": 0.7,
+    "trader_month_pnl": 22956039,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:EWZ",
+    "action": "added to",
+    "side": "short",
+    "notional": 276055,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 15088833,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "XRP",
+    "action": "added to",
+    "side": "long",
+    "notional": 105579,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 22956039,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:AMZN",
+    "action": "added to",
+    "side": "long",
+    "notional": 91341,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 18258196,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:CL",
+    "action": "cut",
+    "side": "short",
+    "notional": 83803,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 18258196,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:USAR",
+    "action": "added to",
+    "side": "long",
+    "notional": 38750,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 15088833,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:GOLD",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 23445,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 22956039,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:GME",
+    "action": "cut",
+    "side": "long",
+    "notional": 8664,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15088833,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "AERO",
+    "action": "added to",
+    "side": "short",
+    "notional": 8415,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15343765,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "VVV",
+    "action": "added to",
+    "side": "short",
+    "notional": 3351,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 3165760,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:AMZN",
+    "action": "opened",
+    "side": "short",
+    "notional": 2542,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 7666984,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:CRWD",
+    "action": "added to",
+    "side": "long",
+    "notional": 2490,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 7666984,
+    "at": "2026-10-28T09:09:19+01:00"
+  },
+  {
     "trader": "0xd1dd6d99",
     "symbol": "xyz:SKHX",
     "action": "added to",
@@ -2848,155 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 15284815,
     "at": "2026-10-27T16:18:14+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CRWD",
-    "action": "cut",
-    "side": "short",
-    "notional": 6946,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 10741747,
-    "at": "2026-10-27T16:18:14+01:00"
-  },
-  {
-    "trader": "0xacb66d19",
-    "symbol": "WIF",
-    "action": "closed",
-    "side": "short",
-    "notional": 4525,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 2571125,
-    "at": "2026-10-27T16:18:14+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:AAPL",
-    "action": "added to",
-    "side": "long",
-    "notional": 6585474,
-    "pct_of_account": 17.2,
-    "trader_month_pnl": 25170124,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xb695651d",
-    "symbol": "xyz:SPCX",
-    "action": "added to",
-    "side": "short",
-    "notional": 2793788,
-    "pct_of_account": 6.7,
-    "trader_month_pnl": 15779819,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xd1dd6d99",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "short",
-    "notional": 2504211,
-    "pct_of_account": 152.2,
-    "trader_month_pnl": 2748203,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "long",
-    "notional": 2434519,
-    "pct_of_account": 7.6,
-    "trader_month_pnl": 16205462,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:SNDK",
-    "action": "added to",
-    "side": "short",
-    "notional": 1216634,
-    "pct_of_account": 3.2,
-    "trader_month_pnl": 25170124,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:AMD",
-    "action": "added to",
-    "side": "long",
-    "notional": 594599,
-    "pct_of_account": 2.7,
-    "trader_month_pnl": 4230140,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:AMD",
-    "action": "cut",
-    "side": "short",
-    "notional": 551108,
-    "pct_of_account": 3.5,
-    "trader_month_pnl": 10741747,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:AMD",
-    "action": "cut",
-    "side": "short",
-    "notional": 539394,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 20319876,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:NBIS",
-    "action": "added to",
-    "side": "long",
-    "notional": 286383,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 20319876,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:DELL",
-    "action": "added to",
-    "side": "long",
-    "notional": 167262,
-    "pct_of_account": 0.8,
-    "trader_month_pnl": 4230140,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:SNDK",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 142792,
-    "pct_of_account": 0.4,
-    "trader_month_pnl": 16205462,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:COPPER",
-    "action": "added to",
-    "side": "short",
-    "notional": 112403,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 4230140,
-    "at": "2026-10-27T16:16:23+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:AMD",
-    "action": "added to",
-    "side": "long",
-    "notional": 87115,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 16205462,
-    "at": "2026-10-27T16:16:23+01:00"
   }
 ]
