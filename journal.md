@@ -320,3 +320,6 @@
 - 2026-10-28 21:10 OPEN LONG PENGU 532476 @ 0.00790695 ($4,210 notional, stop 0.00774189, risk $88): Trend breakout, top traders 3L/0S agree; no contrary news or positioning
 - 2026-10-28 22:08 CLOSE LONG xyz:SKHY @ 159.82: net -101.19 USD (-1.13R, fees 9.72, funding +0.03). stop-loss hit
 - 2026-10-28 22:08 CLOSE LONG xyz:SP500 @ 7,714.19: net -62.80 USD (-1.86R, fees 24.60, funding -0.03). stop-loss hit
+- 2026-10-29 00:08 CLOSE SHORT XMR @ 609.21: net -50.14 USD (-1.11R, fees 4.21, funding -0.24). stop-loss hit
+- 2026-10-29 00:09 OPEN LONG xyz:SKHY 18.2994 @ 160.20 ($2,932 notional, stop 155.46, risk $87): Smart-money candidate: 7L/2S top traders net +$32.7M, price above 50h EMA, 2 followed traders added this hour (0xfc27136e also added big to SKHX); no contrary news
+- 2026-10-29 00:09 OPEN SHORT GRASS 1582.69 @ 0.681239 ($1,078 notional, stop 0.708613, risk $43): Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume
