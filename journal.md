@@ -314,3 +314,7 @@
 - 2026-10-28 20:08 CLOSE SHORT MON @ 0.021438: net -3.59 USD (-0.08R, fees 3.15, funding -0.39). trailing stop hit
 - 2026-10-28 20:10 OPEN LONG xyz:MRNA 6.37208 @ 213.74 ($1,362 notional, stop 206.76, risk $44): Smart-money candidate: 3L/0S top traders net +$5.3M, price above 50h EMA, no contrary news or scheduled event; half size post-FOMC
 - 2026-10-28 20:10 OPEN SHORT xyz:CBRS 8.28021 @ 108.72 ($900 notional, stop 114.09, risk $44): Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size
+- 2026-10-28 21:08 CLOSE SHORT WLD @ 0.441911: net +46.77 USD (+1.00R, fees 2.46, funding +0.24). trailing stop hit
+- 2026-10-28 21:08 CLOSE SHORT VVV @ 24.7551: net -47.72 USD (-1.07R, fees 2.45, funding -0.18). stop-loss hit
+- 2026-10-28 21:10 OPEN LONG xyz:SP500 1.1366 @ 7,747.82 ($8,806 notional, stop 7,718.05, risk $34): Smart-money candidate: 5L/0S top traders net +$27.6M, price above 50h EMA; post-Fed steady stocks, no contrary news, half size
+- 2026-10-28 21:10 OPEN LONG PENGU 532476 @ 0.00790695 ($4,210 notional, stop 0.00774189, risk $88): Trend breakout, top traders 3L/0S agree; no contrary news or positioning
