@@ -308,3 +308,6 @@
 - 2026-10-28 15:16 OPEN LONG xyz:MRNA 6.5756 @ 213.67 ($1,405 notional, stop 206.81, risk $45): Breakout candidate (score 2.9), top traders agree 3L/0S net +$5.3M, biotech smart money long (XBI), no contrary news; half size as +14% 24h extended and FOMC day
 - 2026-10-28 16:15 CLOSE LONG xyz:KORU @ 13.1985: net -3.86 USD (-0.09R, fees 3.26, funding +0.02). trailing stop hit
 - 2026-10-28 16:18 OPEN SHORT XMR 3.67501 @ 596.65 ($2,193 notional, stop 608.90, risk $45): Smart-money candidate: 1L/7S top traders net -$18M, price below 50h EMA; no XMR news or scheduled event, Fed-day macro risk so half size
+- 2026-10-28 19:10 CLOSE LONG xyz:SP500 @ 7,724.65: net -25.84 USD (-0.75R, fees 22.26, funding -0.40). trailing stop hit
+- 2026-10-28 19:10 CLOSE LONG xyz:MRNA @ 213.56: net -4.53 USD (-0.10R, fees 3.93, funding -0.10). trailing stop hit
+- 2026-10-28 19:11 OPEN LONG xyz:SKHY 21.4346 @ 164.09 ($3,517 notional, stop 159.90, risk $90): Smart-money candidate: 7L/2S top traders net +$36M, price above 50h EMA, 3 followed traders added this hour; Barron's SK Hynix AI news supportive, no contrary event
