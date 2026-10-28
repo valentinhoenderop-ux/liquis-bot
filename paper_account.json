@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8769.956886837792,
+  "cash": 8770.101763078203,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 0.42467,
       "dex": "core",
       "fees": 1.2559832285299606,
-      "funding": 0.2699223667487203,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": 0.26616814914467285,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Smart-money candidate: 1L/9S top traders net -$10.9M, price below 50h EMA; no contrary news, no WLD-specific event (FOMC macro risk noted); half size"
     },
     "xyz:META": {
@@ -34,9 +34,9 @@
       "extreme": 611.34,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -1.5524012155738585,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": -1.5857801016728093,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -51,9 +51,9 @@
       "extreme": 33.273,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.1413667577448246,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": -0.15491462749992385,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:SP500": {
@@ -68,9 +68,9 @@
       "extreme": 7739.9,
       "dex": "xyz",
       "fees": 11.133986860889735,
-      "funding": -0.32960723847719114,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": -0.3487651470645524,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Breakout candidate (score 2.1, above 7710), top traders agree 3L/0S net +17.6M, Liquid positioning balanced, no contrary news; half size for macro risk"
     },
     "MON": {
@@ -85,9 +85,9 @@
       "extreme": 0.020703,
       "dex": "core",
       "fees": 1.5744160554828346,
-      "funding": -0.3491688691541031,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": -0.32984313626841333,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Smart-money candidate: 0L/9S top traders net -$2.7M, price below 50h EMA; no MON news, positioning unknown, FOMC macro risk so half size"
     },
     "VVV": {
@@ -99,12 +99,12 @@
       "stop": 24.74277243376304,
       "initial_stop": 24.74277243376304,
       "atr": 0.42186396688151834,
-      "extreme": 23.89,
+      "extreme": 23.778,
       "dex": "core",
       "fees": 1.2051870031086924,
-      "funding": -0.09737076449725987,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": -0.11343007103773572,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Breakout candidate (score 0.6) with top traders agreeing 1L/9S net -$6.6M, no VVV news, no positioning contradiction; half size for FOMC day"
     },
     "xyz:MRNA": {
@@ -119,9 +119,9 @@
       "extreme": 218.18,
       "dex": "xyz",
       "fees": 1.9670287015404606,
-      "funding": 0.008769642080687302,
-      "checked_ms": 1793200500000,
-      "funding_ms": 1793200546657.272,
+      "funding": -0.04269697081355746,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Breakout candidate (score 2.9), top traders agree 3L/0S net +$5.3M, biotech smart money long (XBI), no contrary news; half size as +14% 24h extended and FOMC day"
     },
     "XMR": {
@@ -133,12 +133,12 @@
       "stop": 608.9038448780047,
       "initial_stop": 608.9038448780047,
       "atr": 6.128658689002372,
-      "extreme": 596.6465275,
+      "extreme": 596.63,
       "dex": "core",
       "fees": 2.0830484307580286,
-      "funding": 0.0,
-      "checked_ms": 1793200699587,
-      "funding_ms": 1793200699587,
+      "funding": -0.026837171816004705,
+      "checked_ms": 1793204100000,
+      "funding_ms": 1793204179960.8818,
       "reason": "Smart-money candidate: 1L/7S top traders net -$18M, price below 50h EMA; no XMR news or scheduled event, Fed-day macro risk so half size"
     }
   },
@@ -4221,6 +4221,10 @@
     {
       "t": "2026-10-28T16:15:49+01:00",
       "equity": 9009.37
+    },
+    {
+      "t": "2026-10-28T17:16:22+01:00",
+      "equity": 8980.19
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
