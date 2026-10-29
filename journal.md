@@ -336,3 +336,6 @@
 - 2026-10-29 11:11 OPEN LONG xyz:AAPL 24.647 @ 347.92 ($8,575 notional, stop 346.17, risk $43): Trend breakout long; top traders 10L/0S (+$22M) agree, Liquid smart money 72% long vs losing crowd 85% short; no AAPL-specific news
 - 2026-10-29 12:14 CLOSE SHORT VVV @ 23.9712: net -91.80 USD (-1.05R, fees 3.89, funding -0.21). stop-loss hit
 - 2026-10-29 12:16 OPEN LONG xyz:MRNA 16.8212 @ 219.00 ($3,684 notional, stop 213.95, risk $85): Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines
+- 2026-10-29 14:33 CLOSE SHORT MON @ 0.021052: net -46.43 USD (-1.07R, fees 2.41, funding -0.00). stop-loss hit
+- 2026-10-29 14:36 OPEN SHORT ETH 1.43379 @ 2,322.89 ($3,331 notional, stop 2,352.82, risk $43): Smart-money candidate: 3L/21S top traders net -$341M, price below 50h EMA; news bearish crypto, Fed hold passed, Liquid positioning balanced; half size
+- 2026-10-29 14:36 CLOSE SHORT xyz:CBRS @ 114.15: net -47.20 USD (-1.06R, fees 2.58, funding -0.33). stop-loss hit

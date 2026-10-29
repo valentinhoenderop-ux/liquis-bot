@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8390.155316580109,
+  "cash": 8295.586845476093,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 609.42,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -2.382034983197603,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
+      "funding": -2.415095290568939,
+      "checked_ms": 1793280900000,
+      "funding_ms": 1793280995928.0986,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -34,27 +34,10 @@
       "extreme": 32.985,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.36642951304452176,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
+      "funding": -0.3776626764076813,
+      "checked_ms": 1793280900000,
+      "funding_ms": 1793280995928.0986,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
-    },
-    "xyz:CBRS": {
-      "side": "short",
-      "qty": 8.280214938428168,
-      "entry_px": 108.72061250000002,
-      "entry_time": "2026-10-28T20:10:22+01:00",
-      "entry_ms": 1793214622972,
-      "stop": 114.09187303331228,
-      "initial_stop": 114.09187303331228,
-      "atr": 2.6856302666561356,
-      "extreme": 108.09,
-      "dex": "xyz",
-      "fees": 1.2603220556325845,
-      "funding": -0.2916898625657801,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
-      "reason": "Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size"
     },
     "GRASS": {
       "side": "short",
@@ -68,27 +51,10 @@
       "extreme": 0.63771,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.17111231980785627,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
+      "funding": -0.1882548728755131,
+      "checked_ms": 1793280900000,
+      "funding_ms": 1793280995928.0986,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
-    },
-    "MON": {
-      "side": "short",
-      "qty": 61300.36731250441,
-      "entry_px": 0.020333828,
-      "entry_time": "2026-10-29T03:09:11+01:00",
-      "entry_ms": 1793239751953,
-      "stop": 0.021041436159651854,
-      "initial_stop": 0.021041436159651854,
-      "atr": 0.00035380407982592554,
-      "extreme": 0.020118,
-      "dex": "core",
-      "fees": 1.1841475690058227,
-      "funding": 0.018674473623410136,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
-      "reason": "Trend breakout short, top traders 0L/9S agree, Liquid positioning short-heavy; no news, half size as thin volume"
     },
     "xyz:GOOGL": {
       "side": "short",
@@ -99,12 +65,12 @@
       "stop": 293.0683925,
       "initial_stop": 301.4882928171815,
       "atr": 4.209950158590731,
-      "extreme": 288.3,
+      "extreme": 282.35,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -0.6439639698729815,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
+      "funding": -0.7268713516080414,
+      "checked_ms": 1793280900000,
+      "funding_ms": 1793280995928.0986,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:AAPL": {
@@ -113,15 +79,15 @@
       "entry_px": 347.92387499999995,
       "entry_time": "2026-10-29T11:11:46+01:00",
       "entry_ms": 1793268706483,
-      "stop": 346.1738430546236,
+      "stop": 348.52495208193545,
       "initial_stop": 346.1738430546236,
       "atr": 0.8750159726881789,
-      "extreme": 348.63,
+      "extreme": 351.15,
       "dex": "xyz",
       "fees": 12.005406241623076,
-      "funding": -0.03521578912070485,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
+      "funding": 0.02005781717333075,
+      "checked_ms": 1793280900000,
+      "funding_ms": 1793280995928.0986,
       "reason": "Trend breakout long; top traders 10L/0S (+$22M) agree, Liquid smart money 72% long vs losing crowd 85% short; no AAPL-specific news"
     },
     "xyz:MRNA": {
@@ -133,13 +99,30 @@
       "stop": 213.94579845566955,
       "initial_stop": 213.94579845566955,
       "atr": 2.5268232721652137,
-      "extreme": 218.99944499999998,
+      "extreme": 221.29,
       "dex": "xyz",
       "fees": 5.157353588685043,
-      "funding": 0.005800253503970825,
-      "checked_ms": 1793276100000,
-      "funding_ms": 1793276217296.7363,
+      "funding": 0.03641376650524304,
+      "checked_ms": 1793280900000,
+      "funding_ms": 1793280995928.0986,
       "reason": "Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines"
+    },
+    "ETH": {
+      "side": "short",
+      "qty": 1.4337860563785099,
+      "entry_px": 2322.887975,
+      "entry_time": "2026-10-29T14:36:29+01:00",
+      "entry_ms": 1793280989422,
+      "stop": 2352.8155642334136,
+      "initial_stop": 2352.8155642334136,
+      "atr": 14.963794616706869,
+      "extreme": 2322.887975,
+      "dex": "core",
+      "fees": 3.163998169630097,
+      "funding": -7.527463033566753e-05,
+      "checked_ms": 1793280989422,
+      "funding_ms": 1793280995928.0986,
+      "reason": "Smart-money candidate: 3L/21S top traders net -$341M, price below 50h EMA; news bearish crypto, Fed hold passed, Liquid positioning balanced; half size"
     }
   },
   "closed": [
@@ -2766,6 +2749,38 @@
       "return_on_risk": -1.0542646512957512,
       "entry_reason": "Trend breakout short; top traders 1L/9S (net -$6.5M) agree, -9.6% 24h; no contrary news or scheduled event",
       "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "MON",
+      "side": "short",
+      "qty": 61300.36731250441,
+      "entry_px": 0.020333828,
+      "exit_px": 0.02105195687773168,
+      "entry_time": "2026-10-29T03:09:11+01:00",
+      "exit_time": "2026-10-29T14:33:44+01:00",
+      "gross_pnl": -44.0215639826684,
+      "fees": 2.41011562379518,
+      "funding": -0.001636589396310624,
+      "net_pnl": -46.43004301706726,
+      "return_on_risk": -1.070392794602009,
+      "entry_reason": "Trend breakout short, top traders 0L/9S agree, Liquid positioning short-heavy; no news, half size as thin volume",
+      "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "xyz:CBRS",
+      "side": "short",
+      "qty": 8.280214938428168,
+      "entry_px": 108.72061250000002,
+      "exit_px": 114.14891896982893,
+      "entry_time": "2026-10-28T20:10:22+01:00",
+      "exit_time": "2026-10-29T14:36:37+01:00",
+      "gross_pnl": -44.94754432184362,
+      "fees": 2.58357067331575,
+      "funding": -0.3266992812766204,
+      "net_pnl": -47.20441571388275,
+      "return_on_risk": -1.0613650869859028,
+      "entry_reason": "Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -4557,6 +4572,14 @@
     {
       "t": "2026-10-29T13:17:01+01:00",
       "equity": 8499.47
+    },
+    {
+      "t": "2026-10-29T14:33:45+01:00",
+      "equity": 8525.32
+    },
+    {
+      "t": "2026-10-29T14:36:38+01:00",
+      "equity": 8573.79
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
