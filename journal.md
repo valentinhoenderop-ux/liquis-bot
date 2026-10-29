@@ -324,3 +324,9 @@
 - 2026-10-29 00:09 OPEN LONG xyz:SKHY 18.2994 @ 160.20 ($2,932 notional, stop 155.46, risk $87): Smart-money candidate: 7L/2S top traders net +$32.7M, price above 50h EMA, 2 followed traders added this hour (0xfc27136e also added big to SKHX); no contrary news
 - 2026-10-29 00:09 OPEN SHORT GRASS 1582.69 @ 0.681239 ($1,078 notional, stop 0.708613, risk $43): Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume
 - 2026-10-29 01:10 OPEN SHORT XMR 3.32047 @ 598.27 ($1,987 notional, stop 611.38, risk $44): Smart-money candidate: 0L/8S top traders net -$18.3M, price below 50h EMA; no XMR news, Liquid positioning neutral; half size (skipped GOOGL/AAPL on earnings day)
+- 2026-10-29 03:07 CLOSE LONG xyz:MRNA @ 213.63: net -4.20 USD (-0.09R, fees 3.81, funding -0.29). trailing stop hit
+- 2026-10-29 03:08 CLOSE LONG PENGU @ 0.007903: net -10.42 USD (-0.12R, fees 8.00, funding +0.31). trailing stop hit
+- 2026-10-29 03:08 CLOSE LONG xyz:SKHY @ 160.12: net -10.30 USD (-0.12R, fees 8.21, funding +0.63). trailing stop hit
+- 2026-10-29 03:09 OPEN SHORT CRV 10367.5 @ 0.325987 ($3,380 notional, stop 0.334357, risk $87): Trend breakout short, top traders 0L/3S agree; no contrary news or scheduled event, positioning balanced
+- 2026-10-29 03:09 OPEN SHORT MON 61300.4 @ 0.0203338 ($1,246 notional, stop 0.0210414, risk $43): Trend breakout short, top traders 0L/9S agree, Liquid positioning short-heavy; no news, half size as thin volume
+- 2026-10-29 03:09 OPEN SHORT xyz:GOOGL 5.14964 @ 293.07 ($1,509 notional, stop 301.49, risk $43): Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size
