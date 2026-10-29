@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8280.228817395046,
+  "cash": 8232.548211712017,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 609.42,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -2.4512002128418082,
-      "checked_ms": 1793284200000,
-      "funding_ms": 1793284458866.712,
+      "funding": -2.4756401679217324,
+      "checked_ms": 1793287500000,
+      "funding_ms": 1793287662772.3953,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -28,15 +28,15 @@
       "entry_px": 34.68614825,
       "entry_time": "2026-10-27T14:13:47+01:00",
       "entry_ms": 1793106827289,
-      "stop": 34.674733310984344,
+      "stop": 34.65473331098435,
       "initial_stop": 35.81263712398957,
       "atr": 0.5632444369947824,
-      "extreme": 32.985,
+      "extreme": 32.965,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.38577385063930114,
-      "checked_ms": 1793284200000,
-      "funding_ms": 1793284458866.712,
+      "funding": -0.39323499565332476,
+      "checked_ms": 1793287500000,
+      "funding_ms": 1793287662772.3953,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -51,9 +51,9 @@
       "extreme": 0.63771,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.20081662167704495,
-      "checked_ms": 1793284200000,
-      "funding_ms": 1793284458866.712,
+      "funding": -0.21228907478986267,
+      "checked_ms": 1793287500000,
+      "funding_ms": 1793287662772.3953,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -68,27 +68,10 @@
       "extreme": 280.8,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -0.8010330601672259,
-      "checked_ms": 1793284200000,
-      "funding_ms": 1793284458866.712,
+      "funding": -0.8422896065723219,
+      "checked_ms": 1793287500000,
+      "funding_ms": 1793287662772.3953,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
-    },
-    "ETH": {
-      "side": "short",
-      "qty": 1.4337860563785099,
-      "entry_px": 2322.887975,
-      "entry_time": "2026-10-29T14:36:29+01:00",
-      "entry_ms": 1793280989422,
-      "stop": 2352.8155642334136,
-      "initial_stop": 2352.8155642334136,
-      "atr": 14.963794616706869,
-      "extreme": 2313.3,
-      "dex": "core",
-      "fees": 3.163998169630097,
-      "funding": -0.04041337055489514,
-      "checked_ms": 1793284200000,
-      "funding_ms": 1793284458866.712,
-      "reason": "Smart-money candidate: 3L/21S top traders net -$341M, price below 50h EMA; news bearish crypto, Fed hold passed, Liquid positioning balanced; half size"
     }
   },
   "closed": [
@@ -2779,6 +2762,22 @@
       "return_on_risk": -0.22717661146010434,
       "entry_reason": "Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines",
       "exit_reason": "trailing stop hit (gapped through)"
+    },
+    {
+      "symbol": "ETH",
+      "side": "short",
+      "qty": 1.4337860563785099,
+      "entry_px": 2322.887975,
+      "exit_px": 2353.9919720155303,
+      "entry_time": "2026-10-29T14:36:29+01:00",
+      "exit_time": "2026-10-29T16:27:44+01:00",
+      "gross_pnl": -44.596477218506045,
+      "fees": 6.370362992617775,
+      "funding": -0.07801962941046818,
+      "net_pnl": -50.888820581713354,
+      "return_on_risk": -1.1859497795155403,
+      "entry_reason": "Smart-money candidate: 3L/21S top traders net -$341M, price below 50h EMA; news bearish crypto, Fed hold passed, Liquid positioning balanced; half size",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -4582,6 +4581,10 @@
     {
       "t": "2026-10-29T15:34:20+01:00",
       "equity": 8416.4
+    },
+    {
+      "t": "2026-10-29T16:27:44+01:00",
+      "equity": 8398.24
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

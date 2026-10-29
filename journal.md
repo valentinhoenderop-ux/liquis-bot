@@ -341,3 +341,4 @@
 - 2026-10-29 14:36 CLOSE SHORT xyz:CBRS @ 114.15: net -47.20 USD (-1.06R, fees 2.58, funding -0.33). stop-loss hit
 - 2026-10-29 15:34 CLOSE LONG xyz:AAPL @ 348.35: net -13.44 USD (-0.31R, fees 24.03, funding -0.07). trailing stop hit
 - 2026-10-29 15:34 CLOSE LONG xyz:MRNA @ 218.46: net -19.31 USD (-0.23R, fees 10.30, funding -0.05). trailing stop hit (gapped through)
+- 2026-10-29 16:27 CLOSE SHORT ETH @ 2,353.99: net -50.89 USD (-1.19R, fees 6.37, funding -0.08). stop-loss hit
