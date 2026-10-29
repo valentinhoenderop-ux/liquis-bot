@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8485.027019528354,
+  "cash": 8389.96845724354,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 609.42,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -2.321290446908445,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
+      "funding": -2.3504939624253645,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -34,9 +34,9 @@
       "extreme": 32.985,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.33945518020309323,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
+      "funding": -0.3486392250944047,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:CBRS": {
@@ -51,9 +51,9 @@
       "extreme": 108.09,
       "dex": "xyz",
       "fees": 1.2603220556325845,
-      "funding": -0.27962251228176827,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
+      "funding": -0.28577929053444495,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size"
     },
     "GRASS": {
@@ -68,9 +68,9 @@
       "extreme": 0.63771,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.1435347995441285,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
+      "funding": -0.15770165217783408,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "MON": {
@@ -85,9 +85,9 @@
       "extreme": 0.020118,
       "dex": "core",
       "fees": 1.1841475690058227,
-      "funding": 0.052326777956200235,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
+      "funding": 0.03508048923493544,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Trend breakout short, top traders 0L/9S agree, Liquid positioning short-heavy; no news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -102,27 +102,10 @@
       "extreme": 290.01,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -0.47141864397073474,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
+      "funding": -0.561079945437941,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
-    },
-    "VVV": {
-      "side": "short",
-      "qty": 87.18849464837034,
-      "entry_px": 22.960514000000003,
-      "entry_time": "2026-10-29T04:10:28+01:00",
-      "entry_ms": 1793243428066,
-      "stop": 23.959213179585152,
-      "initial_stop": 23.959213179585152,
-      "atr": 0.499349589792574,
-      "extreme": 22.857,
-      "dex": "core",
-      "fees": 1.9017980194121908,
-      "funding": -0.17894746164238534,
-      "checked_ms": 1793268300000,
-      "funding_ms": 1793268580247.33,
-      "reason": "Trend breakout short; top traders 1L/9S (net -$6.5M) agree, -9.6% 24h; no contrary news or scheduled event"
     },
     "xyz:AAPL": {
       "side": "long",
@@ -133,13 +116,30 @@
       "stop": 346.1738430546236,
       "initial_stop": 346.1738430546236,
       "atr": 0.8750159726881789,
-      "extreme": 347.92387499999995,
+      "extreme": 348.63,
       "dex": "xyz",
       "fees": 12.005406241623076,
-      "funding": 0.0,
-      "checked_ms": 1793268706483,
-      "funding_ms": 1793268706483,
+      "funding": -0.01049878747996956,
+      "checked_ms": 1793272200000,
+      "funding_ms": 1793272471991.9897,
       "reason": "Trend breakout long; top traders 10L/0S (+$22M) agree, Liquid smart money 72% long vs losing crowd 85% short; no AAPL-specific news"
+    },
+    "xyz:MRNA": {
+      "side": "long",
+      "qty": 16.821156747305402,
+      "entry_px": 218.99944499999998,
+      "entry_time": "2026-10-29T12:16:00+01:00",
+      "entry_ms": 1793272560054,
+      "stop": 213.94579845566955,
+      "initial_stop": 213.94579845566955,
+      "atr": 2.5268232721652137,
+      "extreme": 218.99944499999998,
+      "dex": "xyz",
+      "fees": 5.157353588685043,
+      "funding": 0.0,
+      "checked_ms": 1793272560054,
+      "funding_ms": 1793272560054,
+      "reason": "Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines"
     }
   },
   "closed": [
@@ -2750,6 +2750,22 @@
       "return_on_risk": -0.09452667694680444,
       "entry_reason": "Smart-money candidate: 0L/8S top traders net -$18.3M, price below 50h EMA; no XMR news, Liquid positioning neutral; half size (skipped GOOGL/AAPL on earnings day)",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "VVV",
+      "side": "short",
+      "qty": 87.18849464837034,
+      "entry_px": 22.960514000000003,
+      "exit_px": 23.971192786174942,
+      "entry_time": "2026-10-29T04:10:28+01:00",
+      "exit_time": "2026-10-29T12:14:34+01:00",
+      "gross_pnl": -88.11956193963509,
+      "fees": 3.887309622667035,
+      "funding": -0.20669473944251981,
+      "net_pnl": -91.80017682285961,
+      "return_on_risk": -1.0542646512957512,
+      "entry_reason": "Trend breakout short; top traders 1L/9S (net -$6.5M) agree, -9.6% 24h; no contrary news or scheduled event",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -4533,6 +4549,10 @@
     {
       "t": "2026-10-29T11:09:42+01:00",
       "equity": 8569.18
+    },
+    {
+      "t": "2026-10-29T12:14:34+01:00",
+      "equity": 8501.76
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

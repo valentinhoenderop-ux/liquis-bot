@@ -334,3 +334,5 @@
 - 2026-10-29 04:10 OPEN SHORT VVV 87.1885 @ 22.9605 ($2,002 notional, stop 23.9592, risk $87): Trend breakout short; top traders 1L/9S (net -$6.5M) agree, -9.6% 24h; no contrary news or scheduled event
 - 2026-10-29 11:09 CLOSE SHORT XMR @ 598.56: net -4.12 USD (-0.09R, fees 3.78, funding -0.65). trailing stop hit
 - 2026-10-29 11:11 OPEN LONG xyz:AAPL 24.647 @ 347.92 ($8,575 notional, stop 346.17, risk $43): Trend breakout long; top traders 10L/0S (+$22M) agree, Liquid smart money 72% long vs losing crowd 85% short; no AAPL-specific news
+- 2026-10-29 12:14 CLOSE SHORT VVV @ 23.9712: net -91.80 USD (-1.05R, fees 3.89, funding -0.21). stop-loss hit
+- 2026-10-29 12:16 OPEN LONG xyz:MRNA 16.8212 @ 219.00 ($3,684 notional, stop 213.95, risk $85): Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines
