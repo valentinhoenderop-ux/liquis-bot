@@ -330,3 +330,5 @@
 - 2026-10-29 03:09 OPEN SHORT CRV 10367.5 @ 0.325987 ($3,380 notional, stop 0.334357, risk $87): Trend breakout short, top traders 0L/3S agree; no contrary news or scheduled event, positioning balanced
 - 2026-10-29 03:09 OPEN SHORT MON 61300.4 @ 0.0203338 ($1,246 notional, stop 0.0210414, risk $43): Trend breakout short, top traders 0L/9S agree, Liquid positioning short-heavy; no news, half size as thin volume
 - 2026-10-29 03:09 OPEN SHORT xyz:GOOGL 5.14964 @ 293.07 ($1,509 notional, stop 301.49, risk $43): Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size
+- 2026-10-29 04:08 CLOSE SHORT CRV @ 0.32615: net -8.07 USD (-0.09R, fees 6.42, funding -0.04). trailing stop hit
+- 2026-10-29 04:10 OPEN SHORT VVV 87.1885 @ 22.9605 ($2,002 notional, stop 23.9592, risk $87): Trend breakout short; top traders 1L/9S (net -$6.5M) agree, -9.6% 24h; no contrary news or scheduled event
