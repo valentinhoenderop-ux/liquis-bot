@@ -339,3 +339,5 @@
 - 2026-10-29 14:33 CLOSE SHORT MON @ 0.021052: net -46.43 USD (-1.07R, fees 2.41, funding -0.00). stop-loss hit
 - 2026-10-29 14:36 OPEN SHORT ETH 1.43379 @ 2,322.89 ($3,331 notional, stop 2,352.82, risk $43): Smart-money candidate: 3L/21S top traders net -$341M, price below 50h EMA; news bearish crypto, Fed hold passed, Liquid positioning balanced; half size
 - 2026-10-29 14:36 CLOSE SHORT xyz:CBRS @ 114.15: net -47.20 USD (-1.06R, fees 2.58, funding -0.33). stop-loss hit
+- 2026-10-29 15:34 CLOSE LONG xyz:AAPL @ 348.35: net -13.44 USD (-0.31R, fees 24.03, funding -0.07). trailing stop hit
+- 2026-10-29 15:34 CLOSE LONG xyz:MRNA @ 218.46: net -19.31 USD (-0.23R, fees 10.30, funding -0.05). trailing stop hit (gapped through)

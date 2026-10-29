@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8295.586845476093,
+  "cash": 8280.228817395046,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 609.42,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -2.415095290568939,
-      "checked_ms": 1793280900000,
-      "funding_ms": 1793280995928.0986,
+      "funding": -2.4512002128418082,
+      "checked_ms": 1793284200000,
+      "funding_ms": 1793284458866.712,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -34,9 +34,9 @@
       "extreme": 32.985,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.3776626764076813,
-      "checked_ms": 1793280900000,
-      "funding_ms": 1793280995928.0986,
+      "funding": -0.38577385063930114,
+      "checked_ms": 1793284200000,
+      "funding_ms": 1793284458866.712,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -51,9 +51,9 @@
       "extreme": 0.63771,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.1882548728755131,
-      "checked_ms": 1793280900000,
-      "funding_ms": 1793280995928.0986,
+      "funding": -0.20081662167704495,
+      "checked_ms": 1793284200000,
+      "funding_ms": 1793284458866.712,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -65,47 +65,13 @@
       "stop": 293.0683925,
       "initial_stop": 301.4882928171815,
       "atr": 4.209950158590731,
-      "extreme": 282.35,
+      "extreme": 280.8,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -0.7268713516080414,
-      "checked_ms": 1793280900000,
-      "funding_ms": 1793280995928.0986,
+      "funding": -0.8010330601672259,
+      "checked_ms": 1793284200000,
+      "funding_ms": 1793284458866.712,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
-    },
-    "xyz:AAPL": {
-      "side": "long",
-      "qty": 24.647029964781556,
-      "entry_px": 347.92387499999995,
-      "entry_time": "2026-10-29T11:11:46+01:00",
-      "entry_ms": 1793268706483,
-      "stop": 348.52495208193545,
-      "initial_stop": 346.1738430546236,
-      "atr": 0.8750159726881789,
-      "extreme": 351.15,
-      "dex": "xyz",
-      "fees": 12.005406241623076,
-      "funding": 0.02005781717333075,
-      "checked_ms": 1793280900000,
-      "funding_ms": 1793280995928.0986,
-      "reason": "Trend breakout long; top traders 10L/0S (+$22M) agree, Liquid smart money 72% long vs losing crowd 85% short; no AAPL-specific news"
-    },
-    "xyz:MRNA": {
-      "side": "long",
-      "qty": 16.821156747305402,
-      "entry_px": 218.99944499999998,
-      "entry_time": "2026-10-29T12:16:00+01:00",
-      "entry_ms": 1793272560054,
-      "stop": 213.94579845566955,
-      "initial_stop": 213.94579845566955,
-      "atr": 2.5268232721652137,
-      "extreme": 221.29,
-      "dex": "xyz",
-      "fees": 5.157353588685043,
-      "funding": 0.03641376650524304,
-      "checked_ms": 1793280900000,
-      "funding_ms": 1793280995928.0986,
-      "reason": "Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines"
     },
     "ETH": {
       "side": "short",
@@ -116,12 +82,12 @@
       "stop": 2352.8155642334136,
       "initial_stop": 2352.8155642334136,
       "atr": 14.963794616706869,
-      "extreme": 2322.887975,
+      "extreme": 2313.3,
       "dex": "core",
       "fees": 3.163998169630097,
-      "funding": -7.527463033566753e-05,
-      "checked_ms": 1793280989422,
-      "funding_ms": 1793280995928.0986,
+      "funding": -0.04041337055489514,
+      "checked_ms": 1793284200000,
+      "funding_ms": 1793284458866.712,
       "reason": "Smart-money candidate: 3L/21S top traders net -$341M, price below 50h EMA; news bearish crypto, Fed hold passed, Liquid positioning balanced; half size"
     }
   },
@@ -2781,6 +2747,38 @@
       "return_on_risk": -1.0613650869859028,
       "entry_reason": "Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size",
       "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "xyz:AAPL",
+      "side": "long",
+      "qty": 24.647029964781556,
+      "entry_px": 347.92387499999995,
+      "exit_px": 348.3506896058945,
+      "entry_time": "2026-10-29T11:11:46+01:00",
+      "exit_time": "2026-10-29T15:34:20+01:00",
+      "gross_pnl": 10.51971238088938,
+      "fees": 24.025540080579397,
+      "funding": -0.06916098533577125,
+      "net_pnl": -13.436666714354246,
+      "return_on_risk": -0.3115164431202853,
+      "entry_reason": "Trend breakout long; top traders 10L/0S (+$22M) agree, Liquid smart money 72% long vs losing crowd 85% short; no AAPL-specific news",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "xyz:MRNA",
+      "side": "long",
+      "qty": 16.821156747305402,
+      "entry_px": 218.99944499999998,
+      "exit_px": 218.460715,
+      "entry_time": "2026-10-29T12:16:00+01:00",
+      "exit_time": "2026-10-29T15:34:20+01:00",
+      "gross_pnl": -9.062061774475618,
+      "fees": 10.302020290885821,
+      "funding": -0.05221163489397472,
+      "net_pnl": -19.31187043046746,
+      "return_on_risk": -0.22717661146010434,
+      "entry_reason": "Trend breakout long; top traders 3L/0S (+$5.4M) agree; no MRNA-specific news or scheduled event in headlines",
+      "exit_reason": "trailing stop hit (gapped through)"
     }
   ],
   "days": {
@@ -4580,6 +4578,10 @@
     {
       "t": "2026-10-29T14:36:38+01:00",
       "equity": 8573.79
+    },
+    {
+      "t": "2026-10-29T15:34:20+01:00",
+      "equity": 8416.4
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
