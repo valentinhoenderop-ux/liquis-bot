@@ -342,3 +342,4 @@
 - 2026-10-29 15:34 CLOSE LONG xyz:AAPL @ 348.35: net -13.44 USD (-0.31R, fees 24.03, funding -0.07). trailing stop hit
 - 2026-10-29 15:34 CLOSE LONG xyz:MRNA @ 218.46: net -19.31 USD (-0.23R, fees 10.30, funding -0.05). trailing stop hit (gapped through)
 - 2026-10-29 16:27 CLOSE SHORT ETH @ 2,353.99: net -50.89 USD (-1.19R, fees 6.37, funding -0.08). stop-loss hit
+- 2026-10-29 18:13 CLOSE SHORT xyz:META @ 633.45: net +8.24 USD (+0.18R, fees 5.21, funding -2.50). trailing stop hit
