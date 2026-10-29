@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8232.548211712017,
+  "cash": 8232.635837554426,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 609.42,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -2.4756401679217324,
-      "checked_ms": 1793287500000,
-      "funding_ms": 1793287662772.3953,
+      "funding": -2.4851259617717,
+      "checked_ms": 1793290200000,
+      "funding_ms": 1793290289115.9102,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -34,9 +34,9 @@
       "extreme": 32.965,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.39323499565332476,
-      "checked_ms": 1793287500000,
-      "funding_ms": 1793287662772.3953,
+      "funding": -0.399344663277715,
+      "checked_ms": 1793290200000,
+      "funding_ms": 1793290289115.9102,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -51,9 +51,9 @@
       "extreme": 0.63771,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.21228907478986267,
-      "checked_ms": 1793287500000,
-      "funding_ms": 1793287662772.3953,
+      "funding": -0.22191827456505106,
+      "checked_ms": 1793290200000,
+      "funding_ms": 1793290289115.9102,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -68,9 +68,9 @@
       "extreme": 280.8,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -0.8422896065723219,
-      "checked_ms": 1793287500000,
-      "funding_ms": 1793287662772.3953,
+      "funding": -0.9046907877332473,
+      "checked_ms": 1793290200000,
+      "funding_ms": 1793290289115.9102,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     }
   },
@@ -4585,6 +4585,10 @@
     {
       "t": "2026-10-29T16:27:44+01:00",
       "equity": 8398.24
+    },
+    {
+      "t": "2026-10-29T17:11:30+01:00",
+      "equity": 8379.92
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
