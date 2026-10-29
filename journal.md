@@ -349,3 +349,4 @@
 - 2026-10-29 22:12 OPEN SHORT DASH 21.895 @ 48.3763 ($1,059 notional, stop 50.3221, risk $43): Trend breakout short, top traders 1L/3S agree; no contrary news, half size
 - 2026-10-29 23:08 CLOSE SHORT ETH @ 2,282.19: net +31.60 USD (+0.75R, fees 5.14, funding +0.12). trailing stop hit
 - 2026-10-29 23:11 OPEN SHORT CHIP 15090.9 @ 0.0432444 ($653 notional, stop 0.0460664, risk $43): Trend breakout short, top traders 0L/4S agree; Liquid data shows no contrary news, half size after 13% drop and thin liquidity
+- 2026-10-30 00:11 OPEN SHORT xyz:BABA 42.1576 @ 97.6432 ($4,116 notional, stop 98.6602, risk $43): Trend breakout short, top traders 0L/4S (net -$1.9M) agree; no BABA news or scheduled event, Liquid shows no contrary positioning, half size
