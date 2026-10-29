@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8527.791565034977,
+  "cash": 8525.412930319722,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 609.42,
       "dex": "xyz",
       "fees": 2.6140056979788038,
-      "funding": -1.89269987062959,
-      "checked_ms": 1793228700000,
-      "funding_ms": 1793228977900.315,
+      "funding": -1.92558244814996,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size"
     },
     "xyz:EWZ": {
@@ -34,9 +34,9 @@
       "extreme": 33.24,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.18303995542889948,
-      "checked_ms": 1793228700000,
-      "funding_ms": 1793228977900.315,
+      "funding": -0.21321438915790744,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:MRNA": {
@@ -51,9 +51,9 @@
       "extreme": 215.37,
       "dex": "xyz",
       "fees": 1.9067278755709545,
-      "funding": -0.20979894250037623,
-      "checked_ms": 1793228700000,
-      "funding_ms": 1793228977900.315,
+      "funding": -0.17567719252595151,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Smart-money candidate: 3L/0S top traders net +$5.3M, price above 50h EMA, no contrary news or scheduled event; half size post-FOMC"
     },
     "xyz:CBRS": {
@@ -68,9 +68,9 @@
       "extreme": 108.72061250000002,
       "dex": "xyz",
       "fees": 1.2603220556325845,
-      "funding": -0.01991776543573986,
-      "checked_ms": 1793228700000,
-      "funding_ms": 1793228977900.315,
+      "funding": -0.1505949065549617,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Smart-money candidate: 1L/5S top traders, price well below 50h EMA, -8.8% 24h; no contrary news; half size"
     },
     "PENGU": {
@@ -85,9 +85,9 @@
       "extreme": 0.008027,
       "dex": "core",
       "fees": 3.999746044321419,
-      "funding": 0.15843996798656887,
-      "checked_ms": 1793228700000,
-      "funding_ms": 1793228977900.315,
+      "funding": 0.21265461852072495,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Trend breakout, top traders 3L/0S agree; no contrary news or positioning"
     },
     "xyz:SKHY": {
@@ -99,12 +99,12 @@
       "stop": 155.4629727102188,
       "initial_stop": 155.4629727102188,
       "atr": 2.368543644890606,
-      "extreme": 160.20006,
+      "extreme": 162.37,
       "dex": "xyz",
       "fees": 4.104201554695905,
-      "funding": -0.00010418318357690045,
-      "checked_ms": 1793228972440,
-      "funding_ms": 1793228977900.315,
+      "funding": 0.6105320424208617,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Smart-money candidate: 7L/2S top traders net +$32.7M, price above 50h EMA, 2 followed traders added this hour (0xfc27136e also added big to SKHX); no contrary news"
     },
     "GRASS": {
@@ -116,13 +116,30 @@
       "stop": 0.7086129578475874,
       "initial_stop": 0.7086129578475874,
       "atr": 0.013686873923793695,
-      "extreme": 0.68123921,
+      "extreme": 0.68017,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -1.6270782423239945e-05,
-      "checked_ms": 1793228973556,
-      "funding_ms": 1793228977900.315,
+      "funding": -0.01378797333618703,
+      "checked_ms": 1793232600000,
+      "funding_ms": 1793232651389.1812,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
+    },
+    "XMR": {
+      "side": "short",
+      "qty": 3.320474837731345,
+      "entry_px": 598.2657175,
+      "entry_time": "2026-10-29T01:10:46+01:00",
+      "entry_ms": 1793232646752,
+      "stop": 611.3791717895674,
+      "initial_stop": 611.3791717895674,
+      "atr": 6.556727144783677,
+      "extreme": 598.2657175,
+      "dex": "core",
+      "fees": 1.8871999481742374,
+      "funding": -3.200410859854486e-05,
+      "checked_ms": 1793232646752,
+      "funding_ms": 1793232651389.1812,
+      "reason": "Smart-money candidate: 0L/8S top traders net -$18.3M, price below 50h EMA; no XMR news, Liquid positioning neutral; half size (skipped GOOGL/AAPL on earnings day)"
     }
   },
   "closed": [
@@ -4376,6 +4393,14 @@
     {
       "t": "2026-10-29T00:09:39+01:00",
       "equity": 8661.98
+    },
+    {
+      "t": "2026-10-29T01:08:13+01:00",
+      "equity": 8700.51
+    },
+    {
+      "t": "2026-10-29T01:10:53+01:00",
+      "equity": 8703.85
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
