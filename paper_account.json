@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8241.073741844524,
+  "cash": 8241.13194399872,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 34.68614825,
       "entry_time": "2026-10-27T14:13:47+01:00",
       "entry_ms": 1793106827289,
-      "stop": 34.54073331098434,
+      "stop": 34.43273331098435,
       "initial_stop": 35.81263712398957,
       "atr": 0.5632444369947824,
-      "extreme": 32.851,
+      "extreme": 32.743,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.4078869711398298,
-      "checked_ms": 1793293800000,
-      "funding_ms": 1793293985666.8223,
+      "funding": -0.4168070469571752,
+      "checked_ms": 1793297100000,
+      "funding_ms": 1793297332453.1711,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -34,9 +34,9 @@
       "extreme": 0.63771,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.23538168666912784,
-      "checked_ms": 1793293800000,
-      "funding_ms": 1793293985666.8223,
+      "funding": -0.24725118027666437,
+      "checked_ms": 1793297100000,
+      "funding_ms": 1793297332453.1711,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -51,9 +51,9 @@
       "extreme": 280.8,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -0.9560994431572137,
-      "checked_ms": 1793293800000,
-      "funding_ms": 1793293985666.8223,
+      "funding": -0.9935120279271568,
+      "checked_ms": 1793297100000,
+      "funding_ms": 1793297332453.1711,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     }
   },
@@ -4592,6 +4592,10 @@
     {
       "t": "2026-10-29T18:13:06+01:00",
       "equity": 8388.25
+    },
+    {
+      "t": "2026-10-29T19:08:53+01:00",
+      "equity": 8425.3
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
