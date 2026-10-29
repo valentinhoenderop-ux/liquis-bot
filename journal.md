@@ -347,3 +347,5 @@
 - 2026-10-29 21:13 OPEN LONG xyz:AAPL 18.2057 @ 351.22 ($6,394 notional, stop 348.89, risk $42): Smart-money candidate: 10L/0S top traders net +$25M, above 50h EMA; Liquid smart money 75% long vs crowd 11% long, no contrary news
 - 2026-10-29 22:12 OPEN SHORT xyz:MU 1.69617 @ 903.45 ($1,532 notional, stop 928.57, risk $43): Trend breakout short, top traders 3L/9S agree; Alphabet miss revives AI capex jitters, no MU event, half size after 6% drop
 - 2026-10-29 22:12 OPEN SHORT DASH 21.895 @ 48.3763 ($1,059 notional, stop 50.3221, risk $43): Trend breakout short, top traders 1L/3S agree; no contrary news, half size
+- 2026-10-29 23:08 CLOSE SHORT ETH @ 2,282.19: net +31.60 USD (+0.75R, fees 5.14, funding +0.12). trailing stop hit
+- 2026-10-29 23:11 OPEN SHORT CHIP 15090.9 @ 0.0432444 ($653 notional, stop 0.0460664, risk $43): Trend breakout short, top traders 0L/4S agree; Liquid data shows no contrary news, half size after 13% drop and thin liquidity

@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8226.668829926377,
+  "cash": 8260.077154754177,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 34.68614825,
       "entry_time": "2026-10-27T14:13:47+01:00",
       "entry_ms": 1793106827289,
-      "stop": 34.43273331098435,
+      "stop": 34.42573331098434,
       "initial_stop": 35.81263712398957,
       "atr": 0.5632444369947824,
-      "extreme": 32.743,
+      "extreme": 32.736,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.44689246009114525,
-      "checked_ms": 1793308200000,
-      "funding_ms": 1793308342113.6726,
+      "funding": -0.27832011814716384,
+      "checked_ms": 1793311800000,
+      "funding_ms": 1793311878209.901,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -34,9 +34,9 @@
       "extreme": 0.58739,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.27765778928260565,
-      "checked_ms": 1793308200000,
-      "funding_ms": 1793308342113.6726,
+      "funding": -0.2893227713713284,
+      "checked_ms": 1793311800000,
+      "funding_ms": 1793311878209.901,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -51,27 +51,10 @@
       "extreme": 280.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -1.114500584364526,
-      "checked_ms": 1793308200000,
-      "funding_ms": 1793308342113.6726,
+      "funding": -1.141497488707903,
+      "checked_ms": 1793311800000,
+      "funding_ms": 1793311878209.901,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
-    },
-    "ETH": {
-      "side": "short",
-      "qty": 1.177396570347352,
-      "entry_px": 2313.4926750000004,
-      "entry_time": "2026-10-29T21:13:33+01:00",
-      "entry_ms": 1793304813434,
-      "stop": 2281.0473469944163,
-      "initial_stop": 2349.3909063296114,
-      "atr": 17.9491156648055,
-      "extreme": 2227.2,
-      "dex": "core",
-      "fees": 2.5877034240152854,
-      "funding": -0.003657848723471621,
-      "checked_ms": 1793308200000,
-      "funding_ms": 1793308342113.6726,
-      "reason": "Smart-money candidate: 3L/20S top traders net -$382M, price at/below 50h EMA; Fed hold sideways, one headline of a big ETH long so half size"
     },
     "xyz:AAPL": {
       "side": "long",
@@ -82,12 +65,12 @@
       "stop": 348.8949304127822,
       "initial_stop": 348.8949304127822,
       "atr": 1.1602947936089294,
-      "extreme": 351.21552,
+      "extreme": 351.33,
       "dex": "xyz",
       "fees": 8.951797965959296,
-      "funding": -0.04286476096712422,
-      "checked_ms": 1793308200000,
-      "funding_ms": 1793308342113.6726,
+      "funding": -0.0036315557772276723,
+      "checked_ms": 1793311800000,
+      "funding_ms": 1793311878209.901,
       "reason": "Smart-money candidate: 10L/0S top traders net +$25M, above 50h EMA; Liquid smart money 75% long vs crowd 11% long, no contrary news"
     },
     "xyz:MU": {
@@ -99,12 +82,12 @@
       "stop": 928.5707270629358,
       "initial_stop": 928.5707270629358,
       "atr": 12.561338531467864,
-      "extreme": 903.4480500000001,
+      "extreme": 899.74,
       "dex": "xyz",
       "fees": 2.1453659891163968,
-      "funding": -1.4958522468990867e-05,
-      "checked_ms": 1793308336494,
-      "funding_ms": 1793308342113.6726,
+      "funding": -0.00950898281183678,
+      "checked_ms": 1793311800000,
+      "funding_ms": 1793311878209.901,
       "reason": "Trend breakout short, top traders 3L/9S agree; Alphabet miss revives AI capex jitters, no MU event, half size after 6% drop"
     },
     "DASH": {
@@ -116,13 +99,30 @@
       "stop": 50.32207516767373,
       "initial_stop": 50.32207516767373,
       "atr": 0.9728877088368648,
-      "extreme": 48.37629975,
+      "extreme": 47.474,
       "dex": "core",
       "fees": 1.0062392867189538,
-      "funding": 2.555332753067956e-05,
-      "checked_ms": 1793308337675,
-      "funding_ms": 1793308342113.6726,
+      "funding": -0.0050979556497275326,
+      "checked_ms": 1793311800000,
+      "funding_ms": 1793311878209.901,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size"
+    },
+    "CHIP": {
+      "side": "short",
+      "qty": 15090.928241605112,
+      "entry_px": 0.043244367,
+      "entry_time": "2026-10-29T23:11:13+01:00",
+      "entry_ms": 1793311873515,
+      "stop": 0.046066381340304524,
+      "initial_stop": 0.046066381340304524,
+      "atr": 0.0014110071701522614,
+      "extreme": 0.043244367,
+      "dex": "core",
+      "fees": 0.6199677572881043,
+      "funding": 2.6101907273307002e-05,
+      "checked_ms": 1793311873515,
+      "funding_ms": 1793311878209.901,
+      "reason": "Trend breakout short, top traders 0L/4S agree; Liquid data shows no contrary news, half size after 13% drop and thin liquidity"
     }
   },
   "closed": [
@@ -2845,6 +2845,22 @@
       "return_on_risk": 0.17774319784571263,
       "entry_reason": "Smart-money candidate: 1L/7S top traders net -$24M, price below 50h EMA; no META news or scheduled event, FOMC macro risk so half size",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "ETH",
+      "side": "short",
+      "qty": 1.177396570347352,
+      "entry_px": 2313.4926750000004,
+      "exit_px": 2282.1878706679136,
+      "entry_time": "2026-10-29T21:13:33+01:00",
+      "exit_time": "2026-10-29T23:08:35+01:00",
+      "gross_pnl": 36.85816925599399,
+      "fees": 5.140391587237376,
+      "funding": 0.11897842962098425,
+      "net_pnl": 31.59879923913563,
+      "return_on_risk": 0.747609413920651,
+      "entry_reason": "Smart-money candidate: 3L/20S top traders net -$382M, price at/below 50h EMA; Fed hold sideways, one headline of a big ETH long so half size",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -4680,6 +4696,14 @@
     {
       "t": "2026-10-29T22:12:24+01:00",
       "equity": 8520.14
+    },
+    {
+      "t": "2026-10-29T23:08:36+01:00",
+      "equity": 8526.3
+    },
+    {
+      "t": "2026-10-29T23:11:21+01:00",
+      "equity": 8517.58
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
