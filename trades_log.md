@@ -25,3 +25,14 @@
 ## Michael Rulli: filing 20035671, filed 2026-10-19 (found 2026-10-21 00:11)
 [PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035671.pdf)
 - 2026-10-16 **sale** Alphabet Inc. - Class C Capital Stock (GOOG, ST), $50,001 - $100,000
+
+## Pete Sessions: filing 20035563, filed 2026-10-27 (found 2026-10-29 02:10)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf)
+- 2026-10-02 **sale** Abbott Laboratories Common Stock (ABT, ST), $50,001 - $100,000
+- 2026-10-02 **sale** Alphabet Inc. - Class C Capital Stock (GOOG, ST), $100,001 - $250,000
+- 2026-10-02 **sale** Amazon.com, Inc. - Common Stock (AMZN, ST), $100,001 - $250,000
+- 2026-10-02 **sale** Apple Inc. - Common Stock (AAPL, ST), $250,001 - $500,000
+- 2026-10-02 **sale** Costco Wholesale Corporation - Common Stock (COST, ST), $250,001 - $500,000
+- 2026-10-13 **sale** Costco Wholesale Corporation - Common Stock (COST, ST), $100,001 - $250,000
+- 2026-10-02 **sale** Microsoft Corporation - Common Stock (MSFT, ST), $250,001 - $500,000
+- 2026-10-02 **sale** Walmart Inc. - Common Stock (WMT, ST), $50,001 - $100,000
