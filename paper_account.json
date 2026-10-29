@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8241.223747986496,
+  "cash": 8229.726554202874,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.743,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.4298132541455727,
-      "checked_ms": 1793300700000,
-      "funding_ms": 1793300980784.1987,
+      "funding": -0.4384796839521775,
+      "checked_ms": 1793304600000,
+      "funding_ms": 1793304713197.2207,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -28,15 +28,15 @@
       "entry_px": 0.68123921,
       "entry_time": "2026-10-29T00:09:33+01:00",
       "entry_ms": 1793228973556,
-      "stop": 0.6767106217713811,
+      "stop": 0.652640621771381,
       "initial_stop": 0.7086129578475874,
       "atr": 0.013686873923793695,
-      "extreme": 0.63565,
+      "extreme": 0.61158,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.26012655665433315,
-      "checked_ms": 1793300700000,
-      "funding_ms": 1793300980784.1987,
+      "funding": -0.26552178708297897,
+      "checked_ms": 1793304600000,
+      "funding_ms": 1793304713197.2207,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -51,10 +51,44 @@
       "extreme": 280.8,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -1.0594344321371862,
-      "checked_ms": 1793300700000,
-      "funding_ms": 1793300980784.1987,
+      "funding": -1.0876803782541293,
+      "checked_ms": 1793304600000,
+      "funding_ms": 1793304713197.2207,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
+    },
+    "ETH": {
+      "side": "short",
+      "qty": 1.177396570347352,
+      "entry_px": 2313.4926750000004,
+      "entry_time": "2026-10-29T21:13:33+01:00",
+      "entry_ms": 1793304813434,
+      "stop": 2349.3909063296114,
+      "initial_stop": 2349.3909063296114,
+      "atr": 17.9491156648055,
+      "extreme": 2313.4926750000004,
+      "dex": "core",
+      "fees": 2.5877034240152854,
+      "funding": 0.0,
+      "checked_ms": 1793304813434,
+      "funding_ms": 1793304813434,
+      "reason": "Smart-money candidate: 3L/20S top traders net -$382M, price at/below 50h EMA; Fed hold sideways, one headline of a big ETH long so half size"
+    },
+    "xyz:AAPL": {
+      "side": "long",
+      "qty": 18.205748436904607,
+      "entry_px": 351.21552,
+      "entry_time": "2026-10-29T21:13:34+01:00",
+      "entry_ms": 1793304814498,
+      "stop": 348.8949304127822,
+      "initial_stop": 348.8949304127822,
+      "atr": 1.1602947936089294,
+      "extreme": 351.21552,
+      "dex": "xyz",
+      "fees": 8.951797965959296,
+      "funding": 0.0,
+      "checked_ms": 1793304814498,
+      "funding_ms": 1793304814498,
+      "reason": "Smart-money candidate: 10L/0S top traders net +$25M, above 50h EMA; Liquid smart money 75% long vs crowd 11% long, no contrary news"
     }
   },
   "closed": [
@@ -4600,6 +4634,10 @@
     {
       "t": "2026-10-29T20:09:41+01:00",
       "equity": 8418.05
+    },
+    {
+      "t": "2026-10-29T21:11:54+01:00",
+      "equity": 8455.09
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

@@ -343,3 +343,5 @@
 - 2026-10-29 15:34 CLOSE LONG xyz:MRNA @ 218.46: net -19.31 USD (-0.23R, fees 10.30, funding -0.05). trailing stop hit (gapped through)
 - 2026-10-29 16:27 CLOSE SHORT ETH @ 2,353.99: net -50.89 USD (-1.19R, fees 6.37, funding -0.08). stop-loss hit
 - 2026-10-29 18:13 CLOSE SHORT xyz:META @ 633.45: net +8.24 USD (+0.18R, fees 5.21, funding -2.50). trailing stop hit
+- 2026-10-29 21:13 OPEN SHORT ETH 1.1774 @ 2,313.49 ($2,724 notional, stop 2,349.39, risk $42): Smart-money candidate: 3L/20S top traders net -$382M, price at/below 50h EMA; Fed hold sideways, one headline of a big ETH long so half size
+- 2026-10-29 21:13 OPEN LONG xyz:AAPL 18.2057 @ 351.22 ($6,394 notional, stop 348.89, risk $42): Smart-money candidate: 10L/0S top traders net +$25M, above 50h EMA; Liquid smart money 75% long vs crowd 11% long, no contrary news
