@@ -354,3 +354,5 @@
 - 2026-10-30 03:08 CLOSE SHORT xyz:BABA @ 97.6920: net -13.51 USD (-0.32R, fees 11.53, funding -0.08). trailing stop hit
 - 2026-10-30 03:12 OPEN SHORT xyz:HOOD 38.3075 @ 86.1149 ($3,299 notional, stop 88.3713, risk $86): Trend breakout short, top traders 1L/5S agree; no HOOD news or event, distinct theme from existing shorts
 - 2026-10-30 03:12 OPEN LONG xyz:AAPL 16.2379 @ 350.05 ($5,684 notional, stop 347.40, risk $43): Smart-money candidate: 10L/0S top traders net +$26.5M, Liquid smart money 74% long vs crowd 13%, price above 50h EMA; half size after recent stop-out
+- 2026-10-30 05:08 CLOSE SHORT xyz:MU @ 903.90: net -4.89 USD (-0.11R, fees 4.29, funding -0.17). trailing stop hit
+- 2026-10-30 05:10 OPEN SHORT SOL 13.7059 @ 96.8610 ($1,328 notional, stop 99.9598, risk $42): Smart-money candidate: 3L/14S top traders net -$58.9M, price below 50h EMA; Binance $6B hack news weighs on crypto, Liquid positioning balanced, half size
