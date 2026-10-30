@@ -364,3 +364,5 @@
 - 2026-10-30 10:10 OPEN SHORT xyz:INTC 10.9514 @ 68.1444 ($746 notional, stop 71.9989, risk $42): Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news
 - 2026-10-30 12:10 CLOSE SHORT CHIP @ 0.043266: net -1.46 USD (-0.03R, fees 1.24, funding -0.10). trailing stop hit
 - 2026-10-30 12:11 OPEN LONG xyz:MRNA 9.20373 @ 219.95 ($2,024 notional, stop 215.36, risk $42): Smart-money candidate: 5L/0S top traders net +$5.4M, price above 50h EMA; no MRNA news/event, diversifies an all-short book, half size
+- 2026-10-30 15:14 CLOSE LONG xyz:MRNA @ 219.84: net -6.40 USD (-0.15R, fees 5.67, funding -0.28). trailing stop hit
+- 2026-10-30 15:16 OPEN SHORT xyz:GOLD 1.2807 @ 3,906.70 ($5,003 notional, stop 3,940.51, risk $43): Trend breakout short (1.98 ATR), top traders mixed 4L/7S net -$22M; gold broke below $4,000 on bullion selloff/Hormuz news, Liquid bias short-heavy so half size
