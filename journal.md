@@ -357,3 +357,6 @@
 - 2026-10-30 05:08 CLOSE SHORT xyz:MU @ 903.90: net -4.89 USD (-0.11R, fees 4.29, funding -0.17). trailing stop hit
 - 2026-10-30 05:10 OPEN SHORT SOL 13.7059 @ 96.8610 ($1,328 notional, stop 99.9598, risk $42): Smart-money candidate: 3L/14S top traders net -$58.9M, price below 50h EMA; Binance $6B hack news weighs on crypto, Liquid positioning balanced, half size
 - 2026-10-30 06:08 CLOSE SHORT DASH @ 48.2938: net -0.20 USD (-0.00R, fees 2.01, funding -0.01). trailing stop hit
+- 2026-10-30 07:10 CLOSE SHORT GRASS @ 0.590856: net +141.52 USD (+3.27R, fees 1.91, funding -0.38). trailing stop hit
+- 2026-10-30 07:11 OPEN SHORT AERO 3155.51 @ 0.61968 ($1,955 notional, stop 0.646459, risk $85): Trend breakout short, top traders 1L/7S agree; Liquid shows short-heavy bias, crypto weak on Binance hack, no contrary news
+- 2026-10-30 07:11 OPEN SHORT XMR 1.53189 @ 591.11 ($906 notional, stop 618.68, risk $42): Smart-money candidate: 0L/11S top traders net -$13.5M, price below 50h EMA; crypto risk-off on Binance hack, half size
