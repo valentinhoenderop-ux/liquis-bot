@@ -368,3 +368,4 @@
 - 2026-10-30 15:16 OPEN SHORT xyz:GOLD 1.2807 @ 3,906.70 ($5,003 notional, stop 3,940.51, risk $43): Trend breakout short (1.98 ATR), top traders mixed 4L/7S net -$22M; gold broke below $4,000 on bullion selloff/Hormuz news, Liquid bias short-heavy so half size
 - 2026-10-30 16:09 CLOSE SHORT XMR @ 591.40: net -1.83 USD (-0.04R, fees 1.72, funding -0.34). trailing stop hit
 - 2026-10-30 16:12 OPEN LONG xyz:AAPL 10.0735 @ 348.09 ($3,506 notional, stop 343.85, risk $43): Smart-money candidate: 10L/0S top traders net +$23.9M, price above 50h EMA; Liquid smart money 71% long vs losing crowd 13% long, no AAPL-specific news, half size
+- 2026-10-30 19:09 CLOSE LONG xyz:AAPL @ 343.67: net -54.06 USD (-1.26R, fees 9.76, funding -0.16). stop-loss hit
