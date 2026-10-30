@@ -350,3 +350,7 @@
 - 2026-10-29 23:08 CLOSE SHORT ETH @ 2,282.19: net +31.60 USD (+0.75R, fees 5.14, funding +0.12). trailing stop hit
 - 2026-10-29 23:11 OPEN SHORT CHIP 15090.9 @ 0.0432444 ($653 notional, stop 0.0460664, risk $43): Trend breakout short, top traders 0L/4S agree; Liquid data shows no contrary news, half size after 13% drop and thin liquidity
 - 2026-10-30 00:11 OPEN SHORT xyz:BABA 42.1576 @ 97.6432 ($4,116 notional, stop 98.6602, risk $43): Trend breakout short, top traders 0L/4S (net -$1.9M) agree; no BABA news or scheduled event, Liquid shows no contrary positioning, half size
+- 2026-10-30 03:08 CLOSE LONG xyz:AAPL @ 351.04: net -20.89 USD (-0.49R, fees 17.90, funding -0.21). trailing stop hit
+- 2026-10-30 03:08 CLOSE SHORT xyz:BABA @ 97.6920: net -13.51 USD (-0.32R, fees 11.53, funding -0.08). trailing stop hit
+- 2026-10-30 03:12 OPEN SHORT xyz:HOOD 38.3075 @ 86.1149 ($3,299 notional, stop 88.3713, risk $86): Trend breakout short, top traders 1L/5S agree; no HOOD news or event, distinct theme from existing shorts
+- 2026-10-30 03:12 OPEN LONG xyz:AAPL 16.2379 @ 350.05 ($5,684 notional, stop 347.40, risk $43): Smart-money candidate: 10L/0S top traders net +$26.5M, Liquid smart money 74% long vs crowd 13%, price above 50h EMA; half size after recent stop-out
