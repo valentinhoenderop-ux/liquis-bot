@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8254.718799005925,
+  "cash": 8254.902704094713,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.736,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.4472422456425716,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -0.4551650791946981,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "GRASS": {
@@ -28,15 +28,15 @@
       "entry_px": 0.68123921,
       "entry_time": "2026-10-29T00:09:33+01:00",
       "entry_ms": 1793228973556,
-      "stop": 0.615960621771381,
+      "stop": 0.590560621771381,
       "initial_stop": 0.7086129578475874,
       "atr": 0.013686873923793695,
-      "extreme": 0.5749,
+      "extreme": 0.5495,
       "dex": "core",
       "fees": 1.024278101311968,
-      "funding": -0.31234078404644816,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -0.32306049340048004,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size as thin volume"
     },
     "xyz:GOOGL": {
@@ -45,15 +45,15 @@
       "entry_px": 293.0683925,
       "entry_time": "2026-10-29T03:09:13+01:00",
       "entry_ms": 1793239753583,
-      "stop": 292.5498504757722,
+      "stop": 289.6298504757722,
       "initial_stop": 301.4882928171815,
       "atr": 4.209950158590731,
-      "extreme": 279.92,
+      "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -1.2920203741124237,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -1.3006022007512517,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:AAPL": {
@@ -68,9 +68,9 @@
       "extreme": 352.7,
       "dex": "xyz",
       "fees": 8.951797965959296,
-      "funding": -0.0003056874607818439,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -0.10367109749371643,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Smart-money candidate: 10L/0S top traders net +$25M, above 50h EMA; Liquid smart money 75% long vs crowd 11% long, no contrary news"
     },
     "xyz:MU": {
@@ -79,15 +79,15 @@
       "entry_px": 903.4480500000001,
       "entry_time": "2026-10-29T22:12:16+01:00",
       "entry_ms": 1793308336494,
-      "stop": 928.5707270629358,
+      "stop": 903.4480500000001,
       "initial_stop": 928.5707270629358,
       "atr": 12.561338531467864,
-      "extreme": 894.81,
+      "extreme": 887.77,
       "dex": "xyz",
       "fees": 2.1453659891163968,
-      "funding": -0.08583097530818541,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -0.09486480655893381,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Trend breakout short, top traders 3L/9S agree; Alphabet miss revives AI capex jitters, no MU event, half size after 6% drop"
     },
     "DASH": {
@@ -96,15 +96,15 @@
       "entry_px": 48.37629975,
       "entry_time": "2026-10-29T22:12:17+01:00",
       "entry_ms": 1793308337675,
-      "stop": 48.37629975,
+      "stop": 48.26966312651059,
       "initial_stop": 50.32207516767373,
       "atr": 0.9728877088368648,
-      "extreme": 47.29,
+      "extreme": 45.351,
       "dex": "core",
       "fees": 1.0062392867189538,
-      "funding": 0.04834894716637083,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": 0.03604898301416787,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Trend breakout short, top traders 1L/3S agree; no contrary news, half size"
     },
     "CHIP": {
@@ -113,15 +113,15 @@
       "entry_px": 0.043244367,
       "entry_time": "2026-10-29T23:11:13+01:00",
       "entry_ms": 1793311873515,
-      "stop": 0.046066381340304524,
+      "stop": 0.043244367,
       "initial_stop": 0.046066381340304524,
       "atr": 0.0014110071701522614,
-      "extreme": 0.042294,
+      "extreme": 0.040335,
       "dex": "core",
       "fees": 0.6199677572881043,
-      "funding": -0.015918490316943836,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -0.023386376630664063,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Trend breakout short, top traders 0L/4S agree; Liquid data shows no contrary news, half size after 13% drop and thin liquidity"
     },
     "xyz:BABA": {
@@ -133,12 +133,12 @@
       "stop": 98.66022719928917,
       "initial_stop": 98.66022719928917,
       "atr": 0.5085365996445846,
-      "extreme": 97.643154,
+      "extreme": 97.175,
       "dex": "xyz",
       "fees": 5.762958760820286,
-      "funding": -0.026646173401535776,
-      "checked_ms": 1793319000000,
-      "funding_ms": 1793319075836.1653,
+      "funding": -0.05115980089439032,
+      "checked_ms": 1793322300000,
+      "funding_ms": 1793322523749.0923,
       "reason": "Trend breakout short, top traders 0L/4S (net -$1.9M) agree; no BABA news or scheduled event, Liquid shows no contrary positioning, half size"
     }
   },
@@ -4741,6 +4741,10 @@
     {
       "t": "2026-10-30T01:11:18+01:00",
       "equity": 8606.35
+    },
+    {
+      "t": "2026-10-30T02:08:46+01:00",
+      "equity": 8699.34
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
