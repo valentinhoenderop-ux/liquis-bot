@@ -372,3 +372,5 @@
 - 2026-10-30 20:11 OPEN SHORT xyz:XYZ100 0.157726 @ 28,237.37 ($4,454 notional, stop 28,513.31, risk $44): Trend breakout short, top traders 1L/5S net -$45M agree; Nasdaq futures down on Amazon/Intel earnings, Liquid positioning balanced, half size given existing short book
 - 2026-10-31 01:08 CLOSE SHORT xyz:HOOD @ 85.4043: net +18.70 USD (+0.22R, fees 9.20, funding -0.67). trailing stop hit
 - 2026-10-31 01:10 OPEN LONG xyz:MRNA 8.33693 @ 221.42 ($1,846 notional, stop 216.35, risk $42): Smart-money candidate: 5L/0S top traders net +$5.7M, price above 50h EMA; no contrary news, uncorrelated with the short-heavy book, half size
+- 2026-10-31 02:08 CLOSE SHORT SOL @ 96.9095: net -3.04 USD (-0.07R, fees 2.52, funding -0.15). trailing stop hit
+- 2026-10-31 02:09 OPEN SHORT BTC 0.0725397 @ 77,463.75 ($5,619 notional, stop 78,624.76, risk $84): Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news
