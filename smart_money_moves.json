@@ -2,6 +2,86 @@
   {
     "trader": "0xfc667adb",
     "symbol": "xyz:NVDA",
+    "action": "added to",
+    "side": "long",
+    "notional": 668725,
+    "pct_of_account": 0.8,
+    "trader_month_pnl": 20734373,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:NVDA",
+    "action": "added to",
+    "side": "long",
+    "notional": 376177,
+    "pct_of_account": 1.1,
+    "trader_month_pnl": 19289573,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0x7a6d5fc5",
+    "symbol": "XMR",
+    "action": "added to",
+    "side": "long",
+    "notional": 16754,
+    "pct_of_account": 0.7,
+    "trader_month_pnl": 3240130,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XMR",
+    "action": "cut",
+    "side": "short",
+    "notional": 8526,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 11528469,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "MON",
+    "action": "added to",
+    "side": "short",
+    "notional": 6535,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 11528469,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "UNI",
+    "action": "cut",
+    "side": "long",
+    "notional": 2673,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 11528469,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:NVDA",
+    "action": "cut",
+    "side": "long",
+    "notional": 2492,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15908223,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "MERL",
+    "action": "added to",
+    "side": "long",
+    "notional": 1005,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 21836261,
+    "at": "2026-10-31T12:09:23+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:NVDA",
     "action": "flipped to",
     "side": "long",
     "notional": 414131,
@@ -2917,86 +2997,6 @@
     "notional": 145395,
     "pct_of_account": 1.7,
     "trader_month_pnl": 3433761,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "AVAX",
-    "action": "added to",
-    "side": "short",
-    "notional": 138572,
-    "pct_of_account": 2.2,
-    "trader_month_pnl": 6237756,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0xda3768e9",
-    "symbol": "xyz:SOXL",
-    "action": "added to",
-    "side": "short",
-    "notional": 129550,
-    "pct_of_account": 0.7,
-    "trader_month_pnl": 3838588,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "DOGE",
-    "action": "added to",
-    "side": "short",
-    "notional": 113714,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 19023382,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0x856c3503",
-    "symbol": "ENA",
-    "action": "added to",
-    "side": "short",
-    "notional": 50214,
-    "pct_of_account": 2.3,
-    "trader_month_pnl": 5861023,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "UNI",
-    "action": "cut",
-    "side": "short",
-    "notional": 28268,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:TSLA",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 27526,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 6329797,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:RIVN",
-    "action": "added to",
-    "side": "short",
-    "notional": 20759,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 19023382,
-    "at": "2026-10-30T17:12:41+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:HOOD",
-    "action": "added to",
-    "side": "short",
-    "notional": 19314,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19023382,
     "at": "2026-10-30T17:12:41+01:00"
   }
 ]
