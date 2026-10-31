@@ -1,5 +1,65 @@
 [
   {
+    "trader": "0x8cc94dc8",
+    "symbol": "BNB",
+    "action": "added to",
+    "side": "long",
+    "notional": 85950,
+    "pct_of_account": 1.8,
+    "trader_month_pnl": 4670015,
+    "at": "2026-10-31T21:08:55+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "SAGA",
+    "action": "added to",
+    "side": "short",
+    "notional": 42690,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 15908223,
+    "at": "2026-10-31T21:08:55+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:SNDK",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 2501,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15908223,
+    "at": "2026-10-31T21:08:55+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "PURR",
+    "action": "added to",
+    "side": "short",
+    "notional": 496,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15908223,
+    "at": "2026-10-31T21:08:55+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "CAKE",
+    "action": "opened",
+    "side": "short",
+    "notional": 338,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 21836261,
+    "at": "2026-10-31T21:08:55+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "W",
+    "action": "cut",
+    "side": "long",
+    "notional": 4,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 11528469,
+    "at": "2026-10-31T21:08:55+01:00"
+  },
+  {
     "trader": "0xd4c1f7e8",
     "symbol": "NEAR",
     "action": "added to",
@@ -2937,66 +2997,6 @@
     "notional": 450295,
     "pct_of_account": 34.6,
     "trader_month_pnl": 3919639,
-    "at": "2026-10-30T20:09:06+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "HYPE",
-    "action": "added to",
-    "side": "long",
-    "notional": 409875,
-    "pct_of_account": 1.0,
-    "trader_month_pnl": 19023382,
-    "at": "2026-10-30T20:09:06+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "BTC",
-    "action": "added to",
-    "side": "short",
-    "notional": 366125,
-    "pct_of_account": 2.8,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-30T20:09:06+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ENA",
-    "action": "added to",
-    "side": "long",
-    "notional": 361772,
-    "pct_of_account": 2.7,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-30T20:09:06+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:PURRDAT",
-    "action": "added to",
-    "side": "short",
-    "notional": 289103,
-    "pct_of_account": 1.1,
-    "trader_month_pnl": 6329797,
-    "at": "2026-10-30T20:09:06+01:00"
-  },
-  {
-    "trader": "NMTD -Thank you Jeff",
-    "symbol": "xyz:INTC",
-    "action": "cut",
-    "side": "long",
-    "notional": 243454,
-    "pct_of_account": 2.3,
-    "trader_month_pnl": 3923717,
-    "at": "2026-10-30T20:09:06+01:00"
-  },
-  {
-    "trader": "0xd8c5228c",
-    "symbol": "xyz:MSFT",
-    "action": "opened",
-    "side": "long",
-    "notional": 207816,
-    "pct_of_account": 1.7,
-    "trader_month_pnl": 4672315,
     "at": "2026-10-30T20:09:06+01:00"
   }
 ]
