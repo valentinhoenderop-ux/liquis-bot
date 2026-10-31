@@ -374,3 +374,4 @@
 - 2026-10-31 01:10 OPEN LONG xyz:MRNA 8.33693 @ 221.42 ($1,846 notional, stop 216.35, risk $42): Smart-money candidate: 5L/0S top traders net +$5.7M, price above 50h EMA; no contrary news, uncorrelated with the short-heavy book, half size
 - 2026-10-31 02:08 CLOSE SHORT SOL @ 96.9095: net -3.04 USD (-0.07R, fees 2.52, funding -0.15). trailing stop hit
 - 2026-10-31 02:09 OPEN SHORT BTC 0.0725397 @ 77,463.75 ($5,619 notional, stop 78,624.76, risk $84): Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news
+- 2026-10-31 20:08 CLOSE SHORT AERO @ 0.646782: net -88.51 USD (-1.05R, fees 3.80, funding -0.80). stop-loss hit
