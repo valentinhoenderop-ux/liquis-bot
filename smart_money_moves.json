@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "NEAR",
+    "action": "added to",
+    "side": "long",
+    "notional": 387301,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 21101529,
+    "at": "2026-11-01T19:09:05+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:TSLA",
+    "action": "added to",
+    "side": "short",
+    "notional": 74314,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 18128610,
+    "at": "2026-11-01T19:09:05+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "BCH",
+    "action": "added to",
+    "side": "short",
+    "notional": 7766,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T19:09:05+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "BTC",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 6443,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T19:09:05+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "short",
+    "notional": 164,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15642945,
+    "at": "2026-11-01T19:09:05+01:00"
+  },
+  {
     "trader": "0xdf954bbe",
     "symbol": "xyz:SKHY",
     "action": "added to",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.2,
     "trader_month_pnl": 4670015,
     "at": "2026-10-31T06:08:25+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:NVDA",
-    "action": "cut",
-    "side": "short",
-    "notional": 2708,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 26869614,
-    "at": "2026-10-31T06:08:25+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:NVDA",
-    "action": "added to",
-    "side": "long",
-    "notional": 2529,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 15908223,
-    "at": "2026-10-31T06:08:25+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "MINA",
-    "action": "added to",
-    "side": "long",
-    "notional": 1989,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 4670015,
-    "at": "2026-10-31T06:08:25+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "GALA",
-    "action": "added to",
-    "side": "long",
-    "notional": 1530,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 4670015,
-    "at": "2026-10-31T06:08:25+01:00"
-  },
-  {
-    "trader": "0x10e14ba2",
-    "symbol": "BTC",
-    "action": "opened",
-    "side": "long",
-    "notional": 902003,
-    "pct_of_account": 7.4,
-    "trader_month_pnl": 3222752,
-    "at": "2026-10-31T05:08:51+01:00"
   }
 ]
