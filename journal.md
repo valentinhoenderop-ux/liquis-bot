@@ -378,3 +378,4 @@
 - 2026-11-01 03:09 OPEN SHORT STRK 37597.1 @ 0.0436881 ($1,643 notional, stop 0.0447962, risk $42): Smart-money candidate: 2L/7S top traders net -$4.1M, price below 50h EMA; no STRK news, Liquid positioning unknown so half size
 - 2026-11-01 07:08 CLOSE SHORT xyz:XYZ100 @ 28,527.56: net -57.21 USD (-1.31R, fees 12.53, funding -1.10). stop-loss hit
 - 2026-11-01 08:09 OPEN LONG xyz:SKHY 32.476 @ 151.68 ($4,926 notional, stop 150.41, risk $41): Smart-money candidate: 8L/1S top traders net +$36.8M, price above 50h EMA; Korea chip/export news supportive, no contrary event, uncorrelated with short-heavy book so half size
+- 2026-11-01 13:11 CLOSE LONG xyz:SKHY @ 151.60: net -17.67 USD (-0.43R, fees 13.79, funding +1.42). trailing stop hit
