@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8205.841730943945,
+  "cash": 8204.464071416372,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.22,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.8352555003811513,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -0.8434436399942727,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -2.17933161673628,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -2.2151693000943813,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +51,9 @@
       "extreme": 63.272,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -0.7711685098160641,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -0.7921181369815389,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     },
     "xyz:GOLD": {
@@ -68,9 +68,9 @@
       "extreme": 3875.0,
       "dex": "xyz",
       "fees": 7.004624402319412,
-      "funding": -1.9599728312255933,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -1.9909680131507248,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Trend breakout short (1.98 ATR), top traders mixed 4L/7S net -$22M; gold broke below $4,000 on bullion selloff/Hormuz news, Liquid bias short-heavy so half size"
     },
     "xyz:XYZ100": {
@@ -85,9 +85,9 @@
       "extreme": 28202.0,
       "dex": "xyz",
       "fees": 6.235256346781562,
-      "funding": -0.9117466253994947,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -0.9397021673541449,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Trend breakout short, top traders 1L/5S net -$45M agree; Nasdaq futures down on Amazon/Intel earnings, Liquid positioning balanced, half size given existing short book"
     },
     "xyz:MRNA": {
@@ -102,9 +102,9 @@
       "extreme": 222.09,
       "dex": "xyz",
       "fees": 2.5843573199224763,
-      "funding": -0.638834336992041,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -0.6274460556977476,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Smart-money candidate: 5L/0S top traders net +$5.7M, price above 50h EMA; no contrary news, uncorrelated with the short-heavy book, half size"
     },
     "BTC": {
@@ -119,10 +119,27 @@
       "extreme": 77072.0,
       "dex": "core",
       "fees": 5.338238958675853,
-      "funding": -1.6839604592168376,
-      "checked_ms": 1793495100000,
-      "funding_ms": 1793495298376.9475,
+      "funding": -1.7541822122275126,
+      "checked_ms": 1793498700000,
+      "funding_ms": 1793498884929.8716,
       "reason": "Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news"
+    },
+    "STRK": {
+      "side": "short",
+      "qty": 37597.07577912063,
+      "entry_px": 0.043688145000000005,
+      "entry_time": "2026-11-01T03:09:55+01:00",
+      "entry_ms": 1793498995555,
+      "stop": 0.04479624468714493,
+      "initial_stop": 0.04479624468714493,
+      "atr": 0.0005540498435724618,
+      "extreme": 0.043688145000000005,
+      "dex": "core",
+      "fees": 1.5604191733034996,
+      "funding": 0.0,
+      "checked_ms": 1793498995555,
+      "funding_ms": 1793498995555,
+      "reason": "Smart-money candidate: 2L/7S top traders net -$4.1M, price below 50h EMA; no STRK news, Liquid positioning unknown so half size"
     }
   },
   "closed": [
@@ -5176,6 +5193,10 @@
     {
       "t": "2026-11-01T02:08:20+01:00",
       "equity": 8344.37
+    },
+    {
+      "t": "2026-11-01T03:08:07+01:00",
+      "equity": 8331.24
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
