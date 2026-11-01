@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8205.610431957033,
+  "cash": 8205.73950242555,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.22,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.873618946920356,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -0.8641493762384279,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -2.161106369959,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -2.1702690570029626,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +51,9 @@
       "extreme": 63.272,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -0.7831333001886449,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -0.7667224512741475,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     },
     "xyz:GOLD": {
@@ -68,9 +68,9 @@
       "extreme": 3875.0,
       "dex": "xyz",
       "fees": 7.004624402319412,
-      "funding": -1.8977090688371752,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -1.9290127335065923,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Trend breakout short (1.98 ATR), top traders mixed 4L/7S net -$22M; gold broke below $4,000 on bullion selloff/Hormuz news, Liquid bias short-heavy so half size"
     },
     "xyz:XYZ100": {
@@ -85,9 +85,9 @@
       "extreme": 28202.0,
       "dex": "xyz",
       "fees": 6.235256346781562,
-      "funding": -0.8555751241300378,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -0.8838146965201829,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Trend breakout short, top traders 1L/5S net -$45M agree; Nasdaq futures down on Amazon/Intel earnings, Liquid positioning balanced, half size given existing short book"
     },
     "xyz:MRNA": {
@@ -102,9 +102,9 @@
       "extreme": 222.09,
       "dex": "xyz",
       "fees": 2.5843573199224763,
-      "funding": -0.6347228279999667,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -0.6502160355923551,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Smart-money candidate: 5L/0S top traders net +$5.7M, price above 50h EMA; no contrary news, uncorrelated with the short-heavy book, half size"
     },
     "BTC": {
@@ -119,9 +119,9 @@
       "extreme": 77072.0,
       "dex": "core",
       "fees": 5.338238958675853,
-      "funding": -1.5431052548191566,
-      "checked_ms": 1793487900000,
-      "funding_ms": 1793488089830.7046,
+      "funding": -1.6138570112353952,
+      "checked_ms": 1793491500000,
+      "funding_ms": 1793491714223.8882,
       "reason": "Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news"
     }
   },
@@ -5164,6 +5164,10 @@
     {
       "t": "2026-11-01T00:08:12+01:00",
       "equity": 8354.89
+    },
+    {
+      "t": "2026-11-01T01:08:36+01:00",
+      "equity": 8356.83
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
