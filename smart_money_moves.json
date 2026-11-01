@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:EWY",
+    "action": "added to",
+    "side": "short",
+    "notional": 991320,
+    "pct_of_account": 2.9,
+    "trader_month_pnl": 18128610,
+    "at": "2026-11-01T08:08:26+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "long",
+    "notional": 35244,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 5667269,
+    "at": "2026-11-01T08:08:26+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:TSLA",
+    "action": "cut",
+    "side": "long",
+    "notional": 29397,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 18128610,
+    "at": "2026-11-01T08:08:26+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "JTO",
+    "action": "added to",
+    "side": "long",
+    "notional": 779,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 10474167,
+    "at": "2026-11-01T08:08:26+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "ONDO",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 766,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T08:08:26+01:00"
+  },
+  {
     "trader": "0x936cf4fb",
     "symbol": "XPL",
     "action": "cut",
@@ -2947,56 +2997,6 @@
     "notional": 12444,
     "pct_of_account": 1.1,
     "trader_month_pnl": 3919639,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0xd8c5228c",
-    "symbol": "xyz:ANT",
-    "action": "cut",
-    "side": "long",
-    "notional": 11335,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 4672315,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "UNI",
-    "action": "added to",
-    "side": "long",
-    "notional": 7180,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:MU",
-    "action": "added to",
-    "side": "short",
-    "notional": 6433,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 17499395,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "PENGU",
-    "action": "closed",
-    "side": "long",
-    "notional": 5994,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 5572548,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:ARM",
-    "action": "cut",
-    "side": "long",
-    "notional": 277,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6329797,
     "at": "2026-10-31T01:08:32+01:00"
   }
 ]
