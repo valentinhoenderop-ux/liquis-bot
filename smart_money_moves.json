@@ -1,5 +1,45 @@
 [
   {
+    "trader": "0xe86b057f",
+    "symbol": "BTC",
+    "action": "added to",
+    "side": "long",
+    "notional": 117721,
+    "pct_of_account": 3.2,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T22:08:50+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "LIT",
+    "action": "cut",
+    "side": "short",
+    "notional": 30257,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 5667269,
+    "at": "2026-11-01T22:08:50+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "BCH",
+    "action": "added to",
+    "side": "short",
+    "notional": 5838,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T22:08:50+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "ZRO",
+    "action": "cut",
+    "side": "short",
+    "notional": 121,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T22:08:50+01:00"
+  },
+  {
     "trader": "0x5b5d5120",
     "symbol": "ZRO",
     "action": "added to",
@@ -2958,45 +2998,5 @@
     "pct_of_account": 0.2,
     "trader_month_pnl": 4745914,
     "at": "2026-10-31T08:09:02+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:ORCL",
-    "action": "cut",
-    "side": "short",
-    "notional": 13064,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19289573,
-    "at": "2026-10-31T08:09:02+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "NIL",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 433,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21836261,
-    "at": "2026-10-31T08:09:02+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ZRO",
-    "action": "added to",
-    "side": "short",
-    "notional": 419788,
-    "pct_of_account": 3.2,
-    "trader_month_pnl": 11528469,
-    "at": "2026-10-31T07:08:45+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ZRO",
-    "action": "added to",
-    "side": "short",
-    "notional": 278558,
-    "pct_of_account": 2.4,
-    "trader_month_pnl": 15908223,
-    "at": "2026-10-31T07:08:45+01:00"
   }
 ]
