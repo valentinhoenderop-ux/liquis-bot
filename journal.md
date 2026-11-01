@@ -381,3 +381,6 @@
 - 2026-11-01 13:11 CLOSE LONG xyz:SKHY @ 151.60: net -17.67 USD (-0.43R, fees 13.79, funding +1.42). trailing stop hit
 - 2026-11-01 15:16 OPEN LONG xyz:SKHY 30.1877 @ 152.04 ($4,590 notional, stop 150.67, risk $41): Smart-money candidate: 8L/1S top traders net +$36.6M, price above 50h EMA; Korea chip exports surging, no contrary news, uncorrelated with short-heavy book, half size
 - 2026-11-01 23:10 CLOSE LONG xyz:MRNA @ 219.70: net -19.03 USD (-0.45R, fees 5.15, funding -0.46). Exit suggestion: price through 50h EMA, and Liquid positioning shows smart money fading a crowded long (84% losing crowd long)
+- 2026-11-02 00:09 CLOSE LONG xyz:SKHY @ 150.59: net -51.53 USD (-1.25R, fees 12.79, funding -4.91). stop-loss hit
+- 2026-11-02 00:10 OPEN SHORT xyz:COIN 56.5058 @ 146.14 ($8,258 notional, stop 147.09, risk $53): Trend breakout short, top traders 1L/4S agree; crypto rout (Binance hack) news supportive, no scheduled event
+- 2026-11-02 00:10 OPEN SHORT HYPE 8.62555 @ 87.4642 ($754 notional, stop 88.9938, risk $13): Smart-money candidate: 4L/16S top traders net -$173M, price below 50h EMA; Liquid positioning balanced, crypto rout news, half size

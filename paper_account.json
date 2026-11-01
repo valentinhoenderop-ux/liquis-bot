@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8114.4522259220685,
+  "cash": 8057.034396371255,
   "peak_equity": 10237.87863865582,
   "halted": null,
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.22,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.7737984981738478,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
+      "funding": -0.7796589215031541,
+      "checked_ms": 1793574600000,
+      "funding_ms": 1793574632800.8076,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -2.3997414163061594,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
+      "funding": -2.4207971887028448,
+      "checked_ms": 1793574600000,
+      "funding_ms": 1793574632800.8076,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +51,9 @@
       "extreme": 63.272,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.2821834565717278,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
+      "funding": -1.1738535100472465,
+      "checked_ms": 1793574600000,
+      "funding_ms": 1793574632800.8076,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     },
     "xyz:GOLD": {
@@ -68,9 +68,9 @@
       "extreme": 3875.0,
       "dex": "xyz",
       "fees": 7.004624402319412,
-      "funding": -2.4741812489944204,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
+      "funding": -2.5886078978250886,
+      "checked_ms": 1793574600000,
+      "funding_ms": 1793574632800.8076,
       "reason": "Trend breakout short (1.98 ATR), top traders mixed 4L/7S net -$22M; gold broke below $4,000 on bullion selloff/Hormuz news, Liquid bias short-heavy so half size"
     },
     "BTC": {
@@ -85,9 +85,9 @@
       "extreme": 77072.0,
       "dex": "core",
       "fees": 5.338238958675853,
-      "funding": -3.1708894049662093,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
+      "funding": -3.241216927965467,
+      "checked_ms": 1793574600000,
+      "funding_ms": 1793574632800.8076,
       "reason": "Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news"
     },
     "STRK": {
@@ -99,30 +99,47 @@
       "stop": 0.043688145000000005,
       "initial_stop": 0.04479624468714493,
       "atr": 0.0005540498435724618,
-      "extreme": 0.0425,
+      "extreme": 0.04243,
       "dex": "core",
       "fees": 1.5604191733034996,
-      "funding": -0.4095432182534748,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
+      "funding": -0.4295636323993969,
+      "checked_ms": 1793574600000,
+      "funding_ms": 1793574632800.8076,
       "reason": "Smart-money candidate: 2L/7S top traders net -$4.1M, price below 50h EMA; no STRK news, Liquid positioning unknown so half size"
     },
-    "xyz:SKHY": {
-      "side": "long",
-      "qty": 30.18774768494474,
-      "entry_px": 152.03598,
-      "entry_time": "2026-11-01T15:16:01+01:00",
-      "entry_ms": 1793542561638,
-      "stop": 150.66526883260843,
-      "initial_stop": 150.66526883260843,
-      "atr": 0.6853555836957831,
-      "extreme": 152.03598,
+    "xyz:COIN": {
+      "side": "short",
+      "qty": 56.50577340391482,
+      "entry_px": 146.1418925,
+      "entry_time": "2026-11-02T00:10:25+01:00",
+      "entry_ms": 1793574625737,
+      "stop": 147.08754419897264,
+      "initial_stop": 147.08754419897264,
+      "atr": 0.4728258494863135,
+      "extreme": 146.1418925,
       "dex": "xyz",
-      "fees": 6.425473324582626,
-      "funding": -0.1565108948674784,
-      "checked_ms": 1793571000000,
-      "funding_ms": 1793571052974.0078,
-      "reason": "Smart-money candidate: 8L/1S top traders net +$36.6M, price above 50h EMA; Korea chip exports surging, no contrary news, uncorrelated with short-heavy book, half size"
+      "fees": 11.561004927393991,
+      "funding": -0.0009074236662274325,
+      "checked_ms": 1793574625737,
+      "funding_ms": 1793574632800.8076,
+      "reason": "Trend breakout short, top traders 1L/4S agree; crypto rout (Binance hack) news supportive, no scheduled event"
+    },
+    "HYPE": {
+      "side": "short",
+      "qty": 8.625549966764977,
+      "entry_px": 87.464246,
+      "entry_time": "2026-11-02T00:10:27+01:00",
+      "entry_ms": 1793574627120,
+      "stop": 88.99382488583205,
+      "initial_stop": 88.99382488583205,
+      "atr": 0.7647894429160232,
+      "extreme": 87.464246,
+      "dex": "core",
+      "fees": 0.7167058629695026,
+      "funding": -1.4888881499451912e-05,
+      "checked_ms": 1793574627120,
+      "funding_ms": 1793574632800.8076,
+      "reason": "Smart-money candidate: 4L/16S top traders net -$173M, price below 50h EMA; Liquid positioning balanced, crypto rout news, half size"
     }
   },
   "closed": [
@@ -3117,6 +3134,22 @@
       "return_on_risk": -0.4498352210867648,
       "entry_reason": "Smart-money candidate: 5L/0S top traders net +$5.7M, price above 50h EMA; no contrary news, uncorrelated with the short-heavy book, half size",
       "exit_reason": "Exit suggestion: price through 50h EMA, and Liquid positioning shows smart money fading a crowded long (84% losing crowd long)"
+    },
+    {
+      "symbol": "xyz:SKHY",
+      "side": "long",
+      "qty": 30.18774768494474,
+      "entry_px": 152.03598,
+      "exit_px": 150.58993619819213,
+      "entry_time": "2026-11-01T15:16:01+01:00",
+      "exit_time": "2026-11-02T00:09:14+01:00",
+      "gross_pnl": -43.65280543035393,
+      "fees": 12.789832721562757,
+      "funding": -4.909273814027787,
+      "net_pnl": -51.5333643378889,
+      "return_on_risk": -1.245408523504773,
+      "entry_reason": "Smart-money candidate: 8L/1S top traders net +$36.6M, price above 50h EMA; Korea chip exports surging, no contrary news, uncorrelated with short-heavy book, half size",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -3193,7 +3226,11 @@
       "end_equity": 8354.365161823745
     },
     "2026-11-01": {
-      "start_equity": 8354.365161823745
+      "start_equity": 8354.365161823745,
+      "end_equity": 8194.241125834542
+    },
+    "2026-11-02": {
+      "start_equity": 8194.241125834542
     }
   },
   "equity_history": [
@@ -5324,6 +5361,14 @@
     {
       "t": "2026-11-01T23:10:55+01:00",
       "equity": 8314.1
+    },
+    {
+      "t": "2026-11-02T00:09:14+01:00",
+      "equity": 8260.67
+    },
+    {
+      "t": "2026-11-02T00:10:35+01:00",
+      "equity": 8246.96
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
