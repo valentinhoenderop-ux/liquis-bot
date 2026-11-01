@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0x5b5d5120",
+    "symbol": "ZRO",
+    "action": "added to",
+    "side": "short",
+    "notional": 162663,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 120211188,
+    "at": "2026-11-01T21:08:52+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "ETH",
+    "action": "cut",
+    "side": "short",
+    "notional": 21365,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T21:08:52+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "USELESS",
+    "action": "added to",
+    "side": "short",
+    "notional": 18723,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T21:08:52+01:00"
+  },
+  {
+    "trader": "0x92bbd811",
+    "symbol": "CRV",
+    "action": "closed",
+    "side": "short",
+    "notional": 15638,
+    "pct_of_account": 1.3,
+    "trader_month_pnl": 2878869,
+    "at": "2026-11-01T21:08:52+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "CRV",
+    "action": "added to",
+    "side": "long",
+    "notional": 12400,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T21:08:52+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "NEAR",
     "action": "added to",
@@ -2947,56 +2997,6 @@
     "notional": 278558,
     "pct_of_account": 2.4,
     "trader_month_pnl": 15908223,
-    "at": "2026-10-31T07:08:45+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:MU",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 105864,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 26869614,
-    "at": "2026-10-31T07:08:45+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:NVDA",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 49280,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 26869614,
-    "at": "2026-10-31T07:08:45+01:00"
-  },
-  {
-    "trader": "0xd8c5228c",
-    "symbol": "xyz:ANT",
-    "action": "added to",
-    "side": "long",
-    "notional": 21015,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 4745914,
-    "at": "2026-10-31T07:08:45+01:00"
-  },
-  {
-    "trader": "0x92bbd811",
-    "symbol": "XMR",
-    "action": "closed",
-    "side": "short",
-    "notional": 5594,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 3376340,
-    "at": "2026-10-31T07:08:45+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "MON",
-    "action": "added to",
-    "side": "short",
-    "notional": 5058,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 11528469,
     "at": "2026-10-31T07:08:45+01:00"
   }
 ]
