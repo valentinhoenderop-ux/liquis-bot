@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "XPL",
+    "action": "cut",
+    "side": "short",
+    "notional": 70413,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 10474167,
+    "at": "2026-11-01T07:09:09+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "AAVE",
+    "action": "added to",
+    "side": "long",
+    "notional": 38903,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 10474167,
+    "at": "2026-11-01T07:09:09+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "SOL",
+    "action": "added to",
+    "side": "long",
+    "notional": 25527,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 5667269,
+    "at": "2026-11-01T07:09:09+01:00"
+  },
+  {
     "trader": "0xfe7ce058",
     "symbol": "XPL",
     "action": "added to",
@@ -2968,35 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 6329797,
     "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ENA",
-    "action": "added to",
-    "side": "long",
-    "notional": 162880,
-    "pct_of_account": 1.2,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-31T00:08:31+01:00"
-  },
-  {
-    "trader": "0xe86b057f",
-    "symbol": "BCH",
-    "action": "added to",
-    "side": "short",
-    "notional": 16225,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 3178366,
-    "at": "2026-10-31T00:08:31+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "SUI",
-    "action": "added to",
-    "side": "long",
-    "notional": 10574,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-31T00:08:31+01:00"
   }
 ]
