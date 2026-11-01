@@ -4,6 +4,56 @@
     "symbol": "xyz:SKHY",
     "action": "added to",
     "side": "long",
+    "notional": 108094,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 15642945,
+    "at": "2026-11-01T18:09:18+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "BTC",
+    "action": "added to",
+    "side": "short",
+    "notional": 71435,
+    "pct_of_account": 2.0,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T18:09:18+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:TSLA",
+    "action": "added to",
+    "side": "short",
+    "notional": 54241,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 18128610,
+    "at": "2026-11-01T18:09:18+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "CRV",
+    "action": "added to",
+    "side": "short",
+    "notional": 4955,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T18:09:18+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:DRAM",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1073,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15642945,
+    "at": "2026-11-01T18:09:18+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:SKHY",
+    "action": "added to",
+    "side": "long",
     "notional": 66380,
     "pct_of_account": 0.6,
     "trader_month_pnl": 15642945,
@@ -2947,56 +2997,6 @@
     "notional": 902003,
     "pct_of_account": 7.4,
     "trader_month_pnl": 3222752,
-    "at": "2026-10-31T05:08:51+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "XPL",
-    "action": "added to",
-    "side": "short",
-    "notional": 142905,
-    "pct_of_account": 3.0,
-    "trader_month_pnl": 4670015,
-    "at": "2026-10-31T05:08:51+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "CRV",
-    "action": "added to",
-    "side": "short",
-    "notional": 58656,
-    "pct_of_account": 1.2,
-    "trader_month_pnl": 4670015,
-    "at": "2026-10-31T05:08:51+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "PENDLE",
-    "action": "added to",
-    "side": "short",
-    "notional": 27484,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 4670015,
-    "at": "2026-10-31T05:08:51+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:NVDA",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 20480,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 19289573,
-    "at": "2026-10-31T05:08:51+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "ICP",
-    "action": "added to",
-    "side": "long",
-    "notional": 8258,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 4670015,
     "at": "2026-10-31T05:08:51+01:00"
   }
 ]
