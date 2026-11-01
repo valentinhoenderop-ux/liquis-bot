@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:CL",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 81297,
+    "pct_of_account": 0.7,
+    "trader_month_pnl": 15642945,
+    "at": "2026-11-01T09:08:34+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "ETH",
+    "action": "added to",
+    "side": "short",
+    "notional": 71149,
+    "pct_of_account": 2.0,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T09:08:34+01:00"
+  },
+  {
     "trader": "0xfc27136e",
     "symbol": "xyz:EWY",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 12711,
     "pct_of_account": 0.4,
     "trader_month_pnl": 3178366,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "PUMP",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 12624,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-31T01:08:32+01:00"
-  },
-  {
-    "trader": "0x58b27998",
-    "symbol": "xyz:ANT",
-    "action": "added to",
-    "side": "short",
-    "notional": 12444,
-    "pct_of_account": 1.1,
-    "trader_month_pnl": 3919639,
     "at": "2026-10-31T01:08:32+01:00"
   }
 ]
