@@ -1,5 +1,105 @@
 [
   {
+    "trader": "0xaf0fdd39",
+    "symbol": "LIT",
+    "action": "added to",
+    "side": "long",
+    "notional": 277412,
+    "pct_of_account": 29.7,
+    "trader_month_pnl": 3302070,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "BNB",
+    "action": "added to",
+    "side": "long",
+    "notional": 142159,
+    "pct_of_account": 2.2,
+    "trader_month_pnl": 5662315,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XMR",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 14975,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 11528469,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:PLTR",
+    "action": "added to",
+    "side": "long",
+    "notional": 13529,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 19289573,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:MU",
+    "action": "added to",
+    "side": "short",
+    "notional": 8165,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 15908223,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "MERL",
+    "action": "added to",
+    "side": "long",
+    "notional": 1822,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 4670015,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "HYPER",
+    "action": "added to",
+    "side": "long",
+    "notional": 1522,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 4670015,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "PEOPLE",
+    "action": "added to",
+    "side": "long",
+    "notional": 450,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 4670015,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "MOVE",
+    "action": "added to",
+    "side": "long",
+    "notional": 449,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 4670015,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "GAS",
+    "action": "added to",
+    "side": "long",
+    "notional": 260,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 4670015,
+    "at": "2026-11-01T04:08:45+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "ETH",
     "action": "flipped to",
@@ -2898,105 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 3838588,
     "at": "2026-10-30T23:09:07+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "GRIFFAIN",
-    "action": "added to",
-    "side": "long",
-    "notional": 72,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 20236344,
-    "at": "2026-10-30T23:09:07+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:SILVER",
-    "action": "added to",
-    "side": "short",
-    "notional": 1692130,
-    "pct_of_account": 3.5,
-    "trader_month_pnl": 24487794,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:META",
-    "action": "added to",
-    "side": "short",
-    "notional": 529612,
-    "pct_of_account": 2.0,
-    "trader_month_pnl": 6329797,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "0xe86b057f",
-    "symbol": "UNI",
-    "action": "added to",
-    "side": "long",
-    "notional": 328090,
-    "pct_of_account": 9.1,
-    "trader_month_pnl": 3178366,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ENA",
-    "action": "cut",
-    "side": "long",
-    "notional": 109952,
-    "pct_of_account": 0.8,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "WLD",
-    "action": "cut",
-    "side": "short",
-    "notional": 81682,
-    "pct_of_account": 1.2,
-    "trader_month_pnl": 6237756,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "FARTCOIN",
-    "action": "added to",
-    "side": "short",
-    "notional": 62108,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 11037505,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "ENA",
-    "action": "added to",
-    "side": "long",
-    "notional": 54265,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 19023382,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:SKHY",
-    "action": "added to",
-    "side": "long",
-    "notional": 42698,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 6329797,
-    "at": "2026-10-30T22:10:17+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "XLM",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 14113,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19023382,
-    "at": "2026-10-30T22:10:17+01:00"
   }
 ]
