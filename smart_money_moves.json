@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0x936cf4fb",
+    "symbol": "ZEC",
+    "action": "added to",
+    "side": "short",
+    "notional": 540270,
+    "pct_of_account": 4.0,
+    "trader_month_pnl": 10474167,
+    "at": "2026-11-01T16:09:11+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "BTC",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 34197,
+    "pct_of_account": 1.0,
+    "trader_month_pnl": 2921967,
+    "at": "2026-11-01T16:09:11+01:00"
+  },
+  {
     "trader": "0x024294c5",
     "symbol": "xyz:AMD",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 81420,
     "pct_of_account": 8.2,
     "trader_month_pnl": 3899815,
-    "at": "2026-10-31T04:08:46+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "CRV",
-    "action": "added to",
-    "side": "short",
-    "notional": 43696,
-    "pct_of_account": 0.9,
-    "trader_month_pnl": 5572548,
-    "at": "2026-10-31T04:08:46+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "PENDLE",
-    "action": "added to",
-    "side": "short",
-    "notional": 20646,
-    "pct_of_account": 0.4,
-    "trader_month_pnl": 5572548,
     "at": "2026-10-31T04:08:46+01:00"
   }
 ]
