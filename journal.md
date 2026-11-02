@@ -387,3 +387,6 @@
 - 2026-11-02 01:09 CLOSE SHORT xyz:COIN @ 147.16: net -79.87 USD (-1.49R, fees 23.20, funding -0.92). stop-loss hit
 - 2026-11-02 01:09 **HALTED**: max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again
 - 2026-11-02 03:07 CLOSE SHORT xyz:GOLD @ 3,908.65: net -13.63 USD (-0.31R, fees 14.01, funding -2.88). trailing stop hit
+- 2026-11-02 05:08 CLOSE SHORT BTC @ 78,664.07: net -94.24 USD (-1.12R, fees 10.76, funding -3.59). stop-loss hit
+- 2026-11-02 05:08 CLOSE SHORT STRK @ 0.04371: net -3.41 USD (-0.08R, fees 3.12, funding -0.53). trailing stop hit
+- 2026-11-02 05:08 CLOSE SHORT HYPE @ 89.0383: net -14.89 USD (-1.13R, fees 1.45, funding -0.13). stop-loss hit

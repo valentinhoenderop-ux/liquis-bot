@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7980.478128505506,
+  "cash": 7871.535711755158,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.22,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.9621562235491007,
-      "checked_ms": 1793588700000,
-      "funding_ms": 1793588909435.8672,
+      "funding": -0.9704412684235258,
+      "checked_ms": 1793592300000,
+      "funding_ms": 1793592480952.4905,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -2.6613946459223836,
-      "checked_ms": 1793588700000,
-      "funding_ms": 1793588909435.8672,
+      "funding": -2.732102879666068,
+      "checked_ms": 1793592300000,
+      "funding_ms": 1793592480952.4905,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,61 +51,10 @@
       "extreme": 63.272,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.2805374045903406,
-      "checked_ms": 1793588700000,
-      "funding_ms": 1793588909435.8672,
+      "funding": -1.2940191016359788,
+      "checked_ms": 1793592300000,
+      "funding_ms": 1793592480952.4905,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
-    },
-    "BTC": {
-      "side": "short",
-      "qty": 0.07253972334858529,
-      "entry_px": 77463.74875,
-      "entry_time": "2026-10-31T02:09:49+01:00",
-      "entry_ms": 1793408989677,
-      "stop": 78624.76073247743,
-      "initial_stop": 78624.76073247743,
-      "atr": 580.5059912387132,
-      "extreme": 77072.0,
-      "dex": "core",
-      "fees": 5.338238958675853,
-      "funding": -3.52306932714784,
-      "checked_ms": 1793588700000,
-      "funding_ms": 1793588909435.8672,
-      "reason": "Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news"
-    },
-    "STRK": {
-      "side": "short",
-      "qty": 37597.07577912063,
-      "entry_px": 0.043688145000000005,
-      "entry_time": "2026-11-01T03:09:55+01:00",
-      "entry_ms": 1793498995555,
-      "stop": 0.043688145000000005,
-      "initial_stop": 0.04479624468714493,
-      "atr": 0.0005540498435724618,
-      "extreme": 0.0424,
-      "dex": "core",
-      "fees": 1.5604191733034996,
-      "funding": -0.5094818863065436,
-      "checked_ms": 1793588700000,
-      "funding_ms": 1793588909435.8672,
-      "reason": "Smart-money candidate: 2L/7S top traders net -$4.1M, price below 50h EMA; no STRK news, Liquid positioning unknown so half size"
-    },
-    "HYPE": {
-      "side": "short",
-      "qty": 8.625549966764977,
-      "entry_px": 87.464246,
-      "entry_time": "2026-11-02T00:10:27+01:00",
-      "entry_ms": 1793574627120,
-      "stop": 88.99382488583205,
-      "initial_stop": 88.99382488583205,
-      "atr": 0.7647894429160232,
-      "extreme": 87.38,
-      "dex": "core",
-      "fees": 0.7167058629695026,
-      "funding": -0.07900835283955202,
-      "checked_ms": 1793588700000,
-      "funding_ms": 1793588909435.8672,
-      "reason": "Smart-money candidate: 4L/16S top traders net -$173M, price below 50h EMA; Liquid positioning balanced, crypto rout news, half size"
     }
   },
   "closed": [
@@ -3148,6 +3097,54 @@
       "return_on_risk": -0.3147730628550399,
       "entry_reason": "Trend breakout short (1.98 ATR), top traders mixed 4L/7S net -$22M; gold broke below $4,000 on bullion selloff/Hormuz news, Liquid bias short-heavy so half size",
       "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "BTC",
+      "side": "short",
+      "qty": 0.07253972334858529,
+      "entry_px": 77463.74875,
+      "exit_px": 78664.07311284366,
+      "entry_time": "2026-10-31T02:09:49+01:00",
+      "exit_time": "2026-11-02T05:08:02+01:00",
+      "gross_pnl": -87.0711972092461,
+      "fees": 10.75919555470049,
+      "funding": -3.593745125939589,
+      "net_pnl": -94.236647638007,
+      "return_on_risk": -1.1189411128113143,
+      "entry_reason": "Smart-money candidate: 4L/18S top traders net -$491M, BobbyBigSize added $18M short (39% of account) this hour, price below 50h EMA; Liquid BTC balanced, crypto weak on Binance hack, no contrary news",
+      "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "STRK",
+      "side": "short",
+      "qty": 37597.07577912063,
+      "entry_px": 0.043688145000000005,
+      "exit_px": 0.043709989072500004,
+      "entry_time": "2026-11-01T03:09:55+01:00",
+      "exit_time": "2026-11-02T05:08:02+01:00",
+      "gross_pnl": -0.8212732491070708,
+      "fees": 3.121618556193651,
+      "funding": -0.5297868592520644,
+      "net_pnl": -3.4131049460486573,
+      "return_on_risk": -0.08192505510274348,
+      "entry_reason": "Smart-money candidate: 2L/7S top traders net -$4.1M, price below 50h EMA; no STRK news, Liquid positioning unknown so half size",
+      "exit_reason": "trailing stop hit"
+    },
+    {
+      "symbol": "HYPE",
+      "side": "short",
+      "qty": 8.625549966764977,
+      "entry_px": 87.464246,
+      "exit_px": 89.03832179827496,
+      "entry_time": "2026-11-02T00:10:27+01:00",
+      "exit_time": "2026-11-02T05:08:02+01:00",
+      "gross_pnl": -13.577269449496148,
+      "fees": 1.4463101319160265,
+      "funding": -0.1346360108012554,
+      "net_pnl": -14.88894357061092,
+      "return_on_risk": -1.1285094719207232,
+      "entry_reason": "Smart-money candidate: 4L/16S top traders net -$173M, price below 50h EMA; Liquid positioning balanced, crypto rout news, half size",
+      "exit_reason": "stop-loss hit"
     }
   ],
   "days": {
@@ -5383,6 +5380,10 @@
     {
       "t": "2026-11-02T04:08:31+01:00",
       "equity": 8067.95
+    },
+    {
+      "t": "2026-11-02T05:08:02+01:00",
+      "equity": 8000.4
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
