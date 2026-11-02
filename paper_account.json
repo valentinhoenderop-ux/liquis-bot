@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7872.320450092009,
+  "cash": 7872.372284025714,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 34.68614825,
       "entry_time": "2026-10-27T14:13:47+01:00",
       "entry_ms": 1793106827289,
-      "stop": 33.88673331098435,
+      "stop": 33.81373331098435,
       "initial_stop": 35.81263712398957,
       "atr": 0.5632444369947824,
-      "extreme": 32.197,
+      "extreme": 32.124,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -1.1589905219363528,
-      "checked_ms": 1793649900000,
-      "funding_ms": 1793650158978.687,
+      "funding": -1.159797151227286,
+      "checked_ms": 1793653500000,
+      "funding_ms": 1793653698382.2583,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -3.155693817461954,
-      "checked_ms": 1793649900000,
-      "funding_ms": 1793650158978.687,
+      "funding": -3.190178275421843,
+      "checked_ms": 1793653500000,
+      "funding_ms": 1793653698382.2583,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -45,15 +45,15 @@
       "entry_px": 68.14441075,
       "entry_time": "2026-10-30T10:10:59+01:00",
       "entry_ms": 1793351459592,
-      "stop": 65.82278538229278,
+      "stop": 65.22578538229278,
       "initial_stop": 71.9989343381952,
       "atr": 1.927261794097593,
-      "extreme": 60.041,
+      "extreme": 59.444,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.4666172471768204,
-      "checked_ms": 1793649900000,
-      "funding_ms": 1793650158978.687,
+      "funding": -1.4831600936308216,
+      "checked_ms": 1793653500000,
+      "funding_ms": 1793653698382.2583,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -5444,6 +5444,10 @@
     {
       "t": "2026-11-02T21:09:19+01:00",
       "equity": 8104.56
+    },
+    {
+      "t": "2026-11-02T22:08:19+01:00",
+      "equity": 8126.13
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
