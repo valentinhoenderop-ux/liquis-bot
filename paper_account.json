@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7871.703456221117,
+  "cash": 7871.767484408886,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.22,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.9904114491045011,
-      "checked_ms": 1793603400000,
-      "funding_ms": 1793603584937.3965,
+      "funding": -1.0180003357571044,
+      "checked_ms": 1793607300000,
+      "funding_ms": 1793607488087.0847,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -2.857938687723254,
-      "checked_ms": 1793603400000,
-      "funding_ms": 1793603584937.3965,
+      "funding": -2.8845777921296825,
+      "checked_ms": 1793607300000,
+      "funding_ms": 1793607488087.0847,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +51,9 @@
       "extreme": 63.272,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.315957578855481,
-      "checked_ms": 1793603400000,
-      "funding_ms": 1793603584937.3965,
+      "funding": -1.3257577755651784,
+      "checked_ms": 1793607300000,
+      "funding_ms": 1793607488087.0847,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -5396,6 +5396,10 @@
     {
       "t": "2026-11-02T08:13:05+01:00",
       "equity": 8013.82
+    },
+    {
+      "t": "2026-11-02T09:18:09+01:00",
+      "equity": 8024.0
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
