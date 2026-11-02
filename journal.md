@@ -384,3 +384,5 @@
 - 2026-11-02 00:09 CLOSE LONG xyz:SKHY @ 150.59: net -51.53 USD (-1.25R, fees 12.79, funding -4.91). stop-loss hit
 - 2026-11-02 00:10 OPEN SHORT xyz:COIN 56.5058 @ 146.14 ($8,258 notional, stop 147.09, risk $53): Trend breakout short, top traders 1L/4S agree; crypto rout (Binance hack) news supportive, no scheduled event
 - 2026-11-02 00:10 OPEN SHORT HYPE 8.62555 @ 87.4642 ($754 notional, stop 88.9938, risk $13): Smart-money candidate: 4L/16S top traders net -$173M, price below 50h EMA; Liquid positioning balanced, crypto rout news, half size
+- 2026-11-02 01:09 CLOSE SHORT xyz:COIN @ 147.16: net -79.87 USD (-1.49R, fees 23.20, funding -0.92). stop-loss hit
+- 2026-11-02 01:09 **HALTED**: max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again
