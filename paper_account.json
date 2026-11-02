@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7871.867547391509,
+  "cash": 7871.914724831009,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 32.22,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -1.0570089256734376,
-      "checked_ms": 1793614200000,
-      "funding_ms": 1793614313289.127,
+      "funding": -1.064975680287724,
+      "checked_ms": 1793617500000,
+      "funding_ms": 1793617785421.3735,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -2.9310519814669984,
-      "checked_ms": 1793614200000,
-      "funding_ms": 1793614313289.127,
+      "funding": -2.9567979043551547,
+      "checked_ms": 1793617500000,
+      "funding_ms": 1793617785421.3735,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +51,9 @@
       "extreme": 63.272,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.340337978935592,
-      "checked_ms": 1793614200000,
-      "funding_ms": 1793614313289.127,
+      "funding": -1.3538027409333966,
+      "checked_ms": 1793617500000,
+      "funding_ms": 1793617785421.3735,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -5408,6 +5408,10 @@
     {
       "t": "2026-11-02T11:11:54+01:00",
       "equity": 8026.53
+    },
+    {
+      "t": "2026-11-02T12:09:46+01:00",
+      "equity": 8037.16
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
