@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7872.3331367436385,
+  "cash": 7872.342494625157,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 34.68614825,
       "entry_time": "2026-10-27T14:13:47+01:00",
       "entry_ms": 1793106827289,
-      "stop": 33.81373331098435,
+      "stop": 33.793733310984344,
       "initial_stop": 35.81263712398957,
       "atr": 0.5632444369947824,
-      "extreme": 32.124,
+      "extreme": 32.104,
       "dex": "xyz",
       "fees": 1.9689172697343846,
-      "funding": -0.8932908688886578,
-      "checked_ms": 1793685900000,
-      "funding_ms": 1793686181949.0205,
+      "funding": -0.8897321599964129,
+      "checked_ms": 1793689500000,
+      "funding_ms": 1793689735892.4763,
       "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
     },
     "xyz:GOOGL": {
@@ -34,9 +34,9 @@
       "extreme": 277.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -3.318570750458287,
-      "checked_ms": 1793685900000,
-      "funding_ms": 1793686181949.0205,
+      "funding": -3.327420934489341,
+      "checked_ms": 1793689500000,
+      "funding_ms": 1793689735892.4763,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +51,9 @@
       "extreme": 59.444,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.5821266188575962,
-      "checked_ms": 1793685900000,
-      "funding_ms": 1793686181949.0205,
+      "funding": -1.586193025237078,
+      "checked_ms": 1793689500000,
+      "funding_ms": 1793689735892.4763,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -5488,6 +5488,10 @@
     {
       "t": "2026-11-03T07:09:43+01:00",
       "equity": 8133.89
+    },
+    {
+      "t": "2026-11-03T08:08:56+01:00",
+      "equity": 8138.71
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
