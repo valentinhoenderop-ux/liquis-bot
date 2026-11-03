@@ -1,27 +1,10 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7872.605111869597,
+  "cash": 7989.873492296323,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
-    "xyz:EWZ": {
-      "side": "short",
-      "qty": 40.545564997454086,
-      "entry_px": 34.68614825,
-      "entry_time": "2026-10-27T14:13:47+01:00",
-      "entry_ms": 1793106827289,
-      "stop": 33.305733310984344,
-      "initial_stop": 35.81263712398957,
-      "atr": 0.5632444369947824,
-      "extreme": 31.616,
-      "dex": "xyz",
-      "fees": 1.9689172697343846,
-      "funding": -0.9488866137737545,
-      "checked_ms": 1793711100000,
-      "funding_ms": 1793711357325.6687,
-      "reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size"
-    },
     "xyz:GOOGL": {
       "side": "short",
       "qty": 5.149637988717315,
@@ -34,9 +17,9 @@
       "extreme": 274.67,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -3.476389397585395,
-      "checked_ms": 1793711100000,
-      "funding_ms": 1793711357325.6687,
+      "funding": -3.5187498966831368,
+      "checked_ms": 1793715000000,
+      "funding_ms": 1793715258036.9355,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -51,9 +34,9 @@
       "extreme": 59.444,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.6406873528048873,
-      "checked_ms": 1793711100000,
-      "funding_ms": 1793711357325.6687,
+      "funding": -1.6454321361342996,
+      "checked_ms": 1793715000000,
+      "funding_ms": 1793715258036.9355,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -3145,6 +3128,22 @@
       "return_on_risk": -1.1285094719207232,
       "entry_reason": "Smart-money candidate: 4L/16S top traders net -$173M, price below 50h EMA; Liquid positioning balanced, crypto rout news, half size",
       "exit_reason": "stop-loss hit"
+    },
+    {
+      "symbol": "xyz:EWZ",
+      "side": "short",
+      "qty": 40.545564997454086,
+      "entry_px": 34.68614825,
+      "exit_px": 31.7508675,
+      "entry_time": "2026-10-27T14:13:47+01:00",
+      "exit_time": "2026-11-03T15:14:18+01:00",
+      "gross_pnl": 119.01261643490093,
+      "fees": 3.771216876459908,
+      "funding": -0.9598449298974487,
+      "net_pnl": 116.20124448833846,
+      "return_on_risk": 2.5441371282757426,
+      "entry_reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size",
+      "exit_reason": "time exit after 168h"
     }
   ],
   "days": {
@@ -5516,6 +5515,10 @@
     {
       "t": "2026-11-03T14:09:18+01:00",
       "equity": 8127.4
+    },
+    {
+      "t": "2026-11-03T15:14:18+01:00",
+      "equity": 8117.71
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

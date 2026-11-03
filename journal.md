@@ -390,3 +390,4 @@
 - 2026-11-02 05:08 CLOSE SHORT BTC @ 78,664.07: net -94.24 USD (-1.12R, fees 10.76, funding -3.59). stop-loss hit
 - 2026-11-02 05:08 CLOSE SHORT STRK @ 0.04371: net -3.41 USD (-0.08R, fees 3.12, funding -0.53). trailing stop hit
 - 2026-11-02 05:08 CLOSE SHORT HYPE @ 89.0383: net -14.89 USD (-1.13R, fees 1.45, funding -0.13). stop-loss hit
+- 2026-11-03 15:14 CLOSE SHORT xyz:EWZ @ 31.7509: net +116.20 USD (+2.54R, fees 3.77, funding -0.96). time exit after 168h
