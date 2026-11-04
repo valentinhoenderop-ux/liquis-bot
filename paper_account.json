@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7990.210452415834,
+  "cash": 7990.223207540136,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -11,15 +11,15 @@
       "entry_px": 293.0683925,
       "entry_time": "2026-10-29T03:09:13+01:00",
       "entry_ms": 1793239753583,
-      "stop": 287.2998504757722,
+      "stop": 285.6298504757722,
       "initial_stop": 301.4882928171815,
       "atr": 4.209950158590731,
-      "extreme": 274.67,
+      "extreme": 273.0,
       "dex": "xyz",
       "fees": 2.1128745782344436,
-      "funding": -3.8060600883200526,
-      "checked_ms": 1793757900000,
-      "funding_ms": 1793758100982.8196,
+      "funding": -3.814879283848537,
+      "checked_ms": 1793761500000,
+      "funding_ms": 1793761715806.624,
       "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
     },
     "xyz:INTC": {
@@ -28,15 +28,15 @@
       "entry_px": 68.14441075,
       "entry_time": "2026-10-30T10:10:59+01:00",
       "entry_ms": 1793351459592,
-      "stop": 64.15178538229277,
+      "stop": 62.55678538229278,
       "initial_stop": 71.9989343381952,
       "atr": 1.927261794097593,
-      "extreme": 58.37,
+      "extreme": 56.775,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.6950820640073312,
-      "checked_ms": 1793757900000,
-      "funding_ms": 1793758100982.8196,
+      "funding": -1.699017992781285,
+      "checked_ms": 1793761500000,
+      "funding_ms": 1793761715806.624,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -5571,6 +5571,10 @@
     {
       "t": "2026-11-04T03:08:21+01:00",
       "equity": 8172.42
+    },
+    {
+      "t": "2026-11-04T04:08:36+01:00",
+      "equity": 8213.25
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
