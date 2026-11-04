@@ -1,27 +1,10 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 7990.524267290825,
+  "cash": 8027.085251180529,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
-    "xyz:GOOGL": {
-      "side": "short",
-      "qty": 5.149637988717315,
-      "entry_px": 293.0683925,
-      "entry_time": "2026-10-29T03:09:13+01:00",
-      "entry_ms": 1793239753583,
-      "stop": 285.4298504757722,
-      "initial_stop": 301.4882928171815,
-      "atr": 4.209950158590731,
-      "extreme": 272.8,
-      "dex": "xyz",
-      "fees": 2.1128745782344436,
-      "funding": -4.026746022511594,
-      "checked_ms": 1793801100000,
-      "funding_ms": 1793801391923.0627,
-      "reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size"
-    },
     "xyz:INTC": {
       "side": "short",
       "qty": 10.951423259791078,
@@ -34,9 +17,9 @@
       "extreme": 56.775,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -1.7882110048083721,
-      "checked_ms": 1793801100000,
-      "funding_ms": 1793801391923.0627,
+      "funding": -1.7975092654754379,
+      "checked_ms": 1793805000000,
+      "funding_ms": 1793805088571.787,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -3144,6 +3127,22 @@
       "return_on_risk": 2.5441371282757426,
       "entry_reason": "Smart-money candidate: 1L/3S top traders net -$4.2M, price below 50h EMA; no EWZ news/event, Fed-day macro risk so half size",
       "exit_reason": "time exit after 168h"
+    },
+    {
+      "symbol": "xyz:GOOGL",
+      "side": "short",
+      "qty": 5.149637988717315,
+      "entry_px": 293.0683925,
+      "exit_px": 285.5725654010101,
+      "entry_time": "2026-10-29T03:09:13+01:00",
+      "exit_time": "2026-11-04T16:11:28+01:00",
+      "gross_pnl": 38.600795985815274,
+      "fees": 4.171708042088746,
+      "funding": -4.036469129586089,
+      "net_pnl": 38.46555707331262,
+      "return_on_risk": 0.8871322686211396,
+      "entry_reason": "Smart-money candidate: 2L/9S top traders net -$35M, price well below 50h EMA; earnings already out, Fed done, half size",
+      "exit_reason": "trailing stop hit"
     }
   ],
   "days": {
@@ -5619,6 +5618,10 @@
     {
       "t": "2026-11-04T15:09:52+01:00",
       "equity": 8136.71
+    },
+    {
+      "t": "2026-11-04T16:11:29+01:00",
+      "equity": 8126.39
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"

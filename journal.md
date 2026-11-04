@@ -391,3 +391,4 @@
 - 2026-11-02 05:08 CLOSE SHORT STRK @ 0.04371: net -3.41 USD (-0.08R, fees 3.12, funding -0.53). trailing stop hit
 - 2026-11-02 05:08 CLOSE SHORT HYPE @ 89.0383: net -14.89 USD (-1.13R, fees 1.45, funding -0.13). stop-loss hit
 - 2026-11-03 15:14 CLOSE SHORT xyz:EWZ @ 31.7509: net +116.20 USD (+2.54R, fees 3.77, funding -0.96). time exit after 168h
+- 2026-11-04 16:11 CLOSE SHORT xyz:GOOGL @ 285.57: net +38.47 USD (+0.89R, fees 4.17, funding -4.04). trailing stop hit
