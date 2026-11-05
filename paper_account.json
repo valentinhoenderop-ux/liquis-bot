@@ -1,7 +1,7 @@
 {
   "created": "2026-10-14T23:26:35+02:00",
   "starting_equity": 10000,
-  "cash": 8027.3398223829445,
+  "cash": 8027.357382509619,
   "peak_equity": 10237.87863865582,
   "halted": "max drawdown hit (20.5% below peak) on 2026-11-02T01:09:22+01:00; run `python3 trader.py resume` to allow new trades again",
   "positions": {
@@ -17,9 +17,9 @@
       "extreme": 56.002,
       "dex": "xyz",
       "fees": 1.04478959887723,
-      "funding": -2.052080467892761,
-      "checked_ms": 1793862300000,
-      "funding_ms": 1793862574907.9592,
+      "funding": -2.069640594567837,
+      "checked_ms": 1793865900000,
+      "funding_ms": 1793866124977.2268,
       "reason": "Trend breakout short, top traders 2L/6S (net -$24M) agree; Intel earnings already out (-26% 24h) so half size, no contrary news"
     }
   },
@@ -5690,6 +5690,10 @@
     {
       "t": "2026-11-05T08:09:35+01:00",
       "equity": 8150.02
+    },
+    {
+      "t": "2026-11-05T09:08:45+01:00",
+      "equity": 8150.52
     }
   ],
   "timestamps_migrated": "2026-10-15T00:50:01+02:00"
