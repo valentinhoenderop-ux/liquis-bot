@@ -1,135 +1,118 @@
 {
-  "at": "2026-11-06T14:14:39+01:00",
-  "markets_scanned": 99,
+  "at": "2026-11-06T15:14:56+01:00",
+  "markets_scanned": 97,
   "smart_money_snapshot": true,
-  "candidates": [
-    {
-      "symbol": "xyz:NFLX",
-      "side": "short",
-      "score": 0.916,
-      "price": 64.015,
-      "atr": 0.4095799271811663,
-      "atr_pct": 0.639,
-      "stop": 64.83415985436233,
-      "breakout_level": 64.283,
-      "trend_atr": 0.07,
-      "breakout_atr": 0.38,
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 3782100,
-      "smart_money_view": "agrees",
-      "smart_money": "1L/3S top traders, net $-1.5M"
-    }
-  ],
+  "candidates": [],
   "smart_money_candidates": [
     {
       "symbol": "BTC",
       "side": "short",
-      "price": 75875.5,
+      "price": 75596.5,
       "score": 3.1,
-      "smart_money": "2L/21S top traders, net $-759.2M",
-      "atr_pct": 0.666,
-      "trend": "close 76,032.00 vs 50h EMA 77,337.14",
+      "smart_money": "2L/21S top traders, net $-756.5M",
+      "atr_pct": 0.667,
+      "trend": "close 75,888.00 vs 50h EMA 77,277.53",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 4822825261
+      "volume_24h": 4818101992
     },
     {
       "symbol": "HYPE",
       "side": "short",
-      "price": 78.3825,
+      "price": 78.1855,
       "score": 2.5,
-      "smart_money": "5L/15S top traders, net $-212.0M",
-      "atr_pct": 1.223,
-      "trend": "close 78.4260 vs 50h EMA 80.4052",
+      "smart_money": "5L/15S top traders, net $-211.9M",
+      "atr_pct": 1.212,
+      "trend": "close 78.5600 vs 50h EMA 80.3340",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 834378844
+      "volume_24h": 823947585
     },
     {
       "symbol": "ZRO",
       "side": "short",
-      "price": 1.6496,
-      "score": 2.321,
-      "smart_money": "0L/14S top traders, net $-9.2M",
-      "atr_pct": 1.864,
-      "trend": "close 1.6500 vs 50h EMA 1.6956",
+      "price": 1.63,
+      "score": 2.312,
+      "smart_money": "0L/14S top traders, net $-9.1M",
+      "atr_pct": 1.83,
+      "trend": "close 1.6474 vs 50h EMA 1.6933",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 18505261
+      "volume_24h": 18849280
     },
     {
       "symbol": "VVV",
       "side": "short",
-      "price": 20.7825,
-      "score": 2.251,
-      "smart_money": "1L/14S top traders, net $-8.5M",
-      "atr_pct": 2.099,
-      "trend": "close 20.8390 vs 50h EMA 21.3780",
+      "price": 20.6465,
+      "score": 2.245,
+      "smart_money": "1L/14S top traders, net $-8.4M",
+      "atr_pct": 2.051,
+      "trend": "close 20.7750 vs 50h EMA 21.3526",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 19342299
+      "volume_24h": 19034721
     },
     {
       "symbol": "xyz:MU",
       "side": "short",
-      "price": 703.56,
+      "price": 699.45,
       "score": 2.2,
-      "smart_money": "1L/12S top traders, net $-32.3M",
-      "atr_pct": 2.365,
-      "trend": "close 705.53 vs 50h EMA 738.05",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 474719257
+      "smart_money": "1L/12S top traders, net $-32.1M",
+      "atr_pct": 2.318,
+      "trend": "close 708.48 vs 50h EMA 736.92",
+      "funding_hourly_pct": 0.00076,
+      "volume_24h": 502419713
     },
     {
       "symbol": "XMR",
       "side": "short",
-      "price": 622.575,
+      "price": 622.265,
       "score": 2.2,
-      "smart_money": "3L/12S top traders, net $-33.0M",
-      "atr_pct": 0.763,
-      "trend": "close 624.14 vs 50h EMA 624.88",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 57378788
-    },
-    {
-      "symbol": "PUMP",
-      "side": "short",
-      "price": 0.004014,
-      "score": 2.2,
-      "smart_money": "1L/12S top traders, net $-14.8M",
-      "atr_pct": 1.83,
-      "trend": "close 0.004021 vs 50h EMA 0.00408254",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 56577839
+      "smart_money": "3L/12S top traders, net $-33.4M",
+      "atr_pct": 0.732,
+      "trend": "close 623.17 vs 50h EMA 624.83",
+      "funding_hourly_pct": 0.01293,
+      "volume_24h": 59306826
     },
     {
       "symbol": "xyz:GOOGL",
       "side": "short",
-      "price": 282.055,
+      "price": 282.615,
       "score": 2.1,
       "smart_money": "2L/11S top traders, net $-25.9M",
-      "atr_pct": 0.926,
-      "trend": "close 281.91 vs 50h EMA 284.70",
-      "funding_hourly_pct": 0.00181,
-      "volume_24h": 129356119
-    },
-    {
-      "symbol": "xyz:BRENTOIL",
-      "side": "short",
-      "price": 97.8055,
-      "score": 1.6,
-      "smart_money": "2L/6S top traders, net $-43.1M",
-      "atr_pct": 1.028,
-      "trend": "close 97.4350 vs 50h EMA 98.5453",
-      "funding_hourly_pct": -0.03037,
-      "volume_24h": 283875336
+      "atr_pct": 0.905,
+      "trend": "close 282.82 vs 50h EMA 284.63",
+      "funding_hourly_pct": 0.00126,
+      "volume_24h": 129491127
     },
     {
       "symbol": "GRAM",
       "side": "short",
-      "price": 1.09775,
-      "score": 1.5,
+      "price": 1.09465,
+      "score": 1.498,
       "smart_money": "2L/11S top traders, net $-4.0M",
-      "atr_pct": 0.988,
-      "trend": "close 1.1014 vs 50h EMA 1.1301",
+      "atr_pct": 0.982,
+      "trend": "close 1.0966 vs 50h EMA 1.1287",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3858548
+      "volume_24h": 3865115
+    },
+    {
+      "symbol": "ASTER",
+      "side": "short",
+      "price": 0.680745,
+      "score": 1.142,
+      "smart_money": "0L/8S top traders, net $-3.4M",
+      "atr_pct": 0.806,
+      "trend": "close 0.68288 vs 50h EMA 0.69456",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 5186623
+    },
+    {
+      "symbol": "xyz:PURRDAT",
+      "side": "short",
+      "price": 8.97585,
+      "score": 1.032,
+      "smart_money": "0L/4S top traders, net $-6.3M",
+      "atr_pct": 2.124,
+      "trend": "close 9.0290 vs 50h EMA 9.2269",
+      "funding_hourly_pct": -0.00496,
+      "volume_24h": 24351367
     }
   ],
   "skipped_as_correlated": [
@@ -155,17 +138,15 @@
       "score": 2.3,
       "moves_with": [
         "BTC (corr 0.76)",
-        "HYPE (corr 0.74)"
+        "HYPE (corr 0.76)"
       ]
     },
     {
-      "symbol": "DOGE",
+      "symbol": "PUMP",
       "side": "short",
       "score": 2.2,
       "moves_with": [
-        "BTC (corr 0.89)",
-        "HYPE (corr 0.76)",
-        "PUMP (corr 0.79)"
+        "ZRO (corr 0.71)"
       ]
     },
     {
@@ -174,7 +155,7 @@
       "score": 2.2,
       "moves_with": [
         "BTC (corr 0.78)",
-        "PUMP (corr 0.79)"
+        "HYPE (corr 0.71)"
       ]
     },
     {
@@ -183,6 +164,16 @@
       "score": 2.1,
       "moves_with": [
         "xyz:MU (corr 0.97)"
+      ]
+    },
+    {
+      "symbol": "DOGE",
+      "side": "short",
+      "score": 2.1,
+      "moves_with": [
+        "BTC (corr 0.89)",
+        "HYPE (corr 0.78)",
+        "xyz:GOOGL (corr 0.74)"
       ]
     },
     {
@@ -207,21 +198,13 @@
       "score": 1.9,
       "moves_with": [
         "BTC (corr 0.72)",
-        "PUMP (corr 0.86)"
-      ]
-    },
-    {
-      "symbol": "xyz:SPCX",
-      "side": "short",
-      "score": 1.776,
-      "moves_with": [
-        "xyz:MU (corr 0.75)"
+        "HYPE (corr 0.73)"
       ]
     },
     {
       "symbol": "MON",
       "side": "short",
-      "score": 1.718,
+      "score": 1.721,
       "moves_with": [
         "BTC (corr 0.75)"
       ]
@@ -229,11 +212,10 @@
     {
       "symbol": "LINK",
       "side": "short",
-      "score": 1.614,
+      "score": 1.613,
       "moves_with": [
         "BTC (corr 0.87)",
-        "HYPE (corr 0.75)",
-        "PUMP (corr 0.72)",
+        "HYPE (corr 0.76)",
         "xyz:GOOGL (corr 0.74)"
       ]
     },
@@ -251,14 +233,14 @@
       "score": 1.499,
       "moves_with": [
         "BTC (corr 0.85)",
-        "HYPE (corr 0.75)",
-        "ZRO (corr 0.71)"
+        "HYPE (corr 0.77)",
+        "ZRO (corr 0.72)"
       ]
     },
     {
       "symbol": "UNI",
       "side": "short",
-      "score": 1.48,
+      "score": 1.481,
       "moves_with": [
         "BTC (corr 0.78)"
       ]
@@ -266,30 +248,29 @@
     {
       "symbol": "TAO",
       "side": "short",
-      "score": 1.386,
+      "score": 1.385,
       "moves_with": [
         "BTC (corr 0.86)",
-        "HYPE (corr 0.77)",
-        "PUMP (corr 0.75)",
+        "HYPE (corr 0.78)",
         "xyz:GOOGL (corr 0.71)"
       ]
     },
     {
       "symbol": "xyz:MSTR",
       "side": "short",
-      "score": 1.261,
+      "score": 1.236,
       "moves_with": [
         "BTC (corr 0.88)",
         "HYPE (corr 0.72)",
-        "GRAM (corr 0.76)"
+        "GRAM (corr 0.77)"
       ]
     },
     {
       "symbol": "STRK",
       "side": "short",
-      "score": 1.204,
+      "score": 1.202,
       "moves_with": [
-        "BTC (corr 0.74)"
+        "BTC (corr 0.75)"
       ]
     },
     {
@@ -298,14 +279,13 @@
       "score": 1.194,
       "moves_with": [
         "BTC (corr 0.88)",
-        "HYPE (corr 0.72)",
-        "PUMP (corr 0.75)"
+        "HYPE (corr 0.73)"
       ]
     },
     {
       "symbol": "xyz:SMSN",
       "side": "short",
-      "score": 1.189,
+      "score": 1.18,
       "moves_with": [
         "xyz:MU (corr 0.82)"
       ]
@@ -313,7 +293,7 @@
     {
       "symbol": "AERO",
       "side": "short",
-      "score": 1.036,
+      "score": 1.033,
       "moves_with": [
         "BTC (corr 0.78)"
       ]
@@ -321,15 +301,7 @@
     {
       "symbol": "xyz:AMD",
       "side": "short",
-      "score": 0.925,
-      "moves_with": [
-        "xyz:MU (corr 0.81)"
-      ]
-    },
-    {
-      "symbol": "xyz:ARM",
-      "side": "short",
-      "score": 0.7,
+      "score": 0.93,
       "moves_with": [
         "xyz:MU (corr 0.81)"
       ]
@@ -339,14 +311,13 @@
       "side": "short",
       "score": 0.683,
       "moves_with": [
-        "xyz:MU (corr 0.85)",
-        "xyz:PURRDAT (corr 0.71)"
+        "xyz:MU (corr 0.85)"
       ]
     },
     {
       "symbol": "xyz:MRVL",
       "side": "short",
-      "score": 0.68,
+      "score": 0.675,
       "moves_with": [
         "xyz:MU (corr 0.86)"
       ]
@@ -354,7 +325,7 @@
     {
       "symbol": "xyz:TSM",
       "side": "short",
-      "score": 0.668,
+      "score": 0.67,
       "moves_with": [
         "xyz:MU (corr 0.91)"
       ]
@@ -364,16 +335,23 @@
       "side": "short",
       "score": 0.642,
       "moves_with": [
-        "BTC (corr 0.8)",
-        "PUMP (corr 0.73)"
+        "BTC (corr 0.8)"
       ]
     },
     {
       "symbol": "xyz:KIOXIA",
       "side": "short",
-      "score": 0.615,
+      "score": 0.614,
       "moves_with": [
         "xyz:MU (corr 0.75)"
+      ]
+    },
+    {
+      "symbol": "xyz:ARM",
+      "side": "short",
+      "score": 0.599,
+      "moves_with": [
+        "xyz:MU (corr 0.81)"
       ]
     },
     {
@@ -382,16 +360,15 @@
       "score": 0.586,
       "moves_with": [
         "BTC (corr 0.8)",
-        "HYPE (corr 0.74)",
-        "PUMP (corr 0.79)"
+        "HYPE (corr 0.76)"
       ]
     },
     {
       "symbol": "GRASS",
       "side": "short",
-      "score": 0.572,
+      "score": 0.57,
       "moves_with": [
-        "ZRO (corr 0.71)"
+        "ZRO (corr 0.72)"
       ]
     },
     {
@@ -405,7 +382,7 @@
     {
       "symbol": "PURR",
       "side": "short",
-      "score": 0.544,
+      "score": 0.543,
       "moves_with": [
         "BTC (corr 0.71)",
         "HYPE (corr 0.74)"
@@ -414,7 +391,7 @@
     {
       "symbol": "CRV",
       "side": "short",
-      "score": 0.544,
+      "score": 0.543,
       "moves_with": [
         "BTC (corr 0.74)"
       ]
@@ -422,110 +399,64 @@
     {
       "symbol": "CHIP",
       "side": "short",
-      "score": 0.543,
+      "score": 0.542,
       "moves_with": [
-        "BTC (corr 0.79)",
-        "HYPE (corr 0.75)",
-        "ZRO (corr 0.73)"
-      ]
-    },
-    {
-      "symbol": "VIRTUAL",
-      "side": "short",
-      "score": 0.529,
-      "moves_with": [
-        "BTC (corr 0.84)",
-        "HYPE (corr 0.72)",
-        "PUMP (corr 0.77)",
-        "ASTER (corr 0.72)"
+        "BTC (corr 0.8)",
+        "HYPE (corr 0.74)",
+        "ZRO (corr 0.72)"
       ]
     },
     {
       "symbol": "xyz:EWY",
       "side": "short",
-      "score": 0.503,
+      "score": 0.497,
       "moves_with": [
         "xyz:MU (corr 0.81)"
       ]
     },
     {
-      "symbol": "xyz:LITE",
-      "side": "short",
-      "score": 0.494,
-      "moves_with": [
-        "xyz:MU (corr 0.88)"
-      ]
-    },
-    {
       "symbol": "xyz:AVGO",
       "side": "short",
-      "score": 0.465,
+      "score": 0.466,
       "moves_with": [
         "xyz:MU (corr 0.92)"
       ]
     },
     {
-      "symbol": "TIA",
-      "side": "short",
-      "score": 0.447,
-      "moves_with": [
-        "BTC (corr 0.75)"
-      ]
-    },
-    {
       "symbol": "HBAR",
       "side": "short",
-      "score": 0.428,
+      "score": 0.429,
       "moves_with": [
         "BTC (corr 0.82)",
-        "HYPE (corr 0.78)",
-        "PUMP (corr 0.76)",
+        "HYPE (corr 0.8)",
         "xyz:GOOGL (corr 0.71)"
-      ]
-    },
-    {
-      "symbol": "xyz:KORU",
-      "side": "short",
-      "score": 0.418,
-      "moves_with": [
-        "xyz:MU (corr 0.84)"
       ]
     },
     {
       "symbol": "xyz:DELL",
       "side": "short",
-      "score": 0.412,
+      "score": 0.41,
       "moves_with": [
         "xyz:MU (corr 0.89)"
       ]
     },
     {
-      "symbol": "xyz:BE",
+      "symbol": "xyz:KORU",
       "side": "short",
-      "score": 0.376,
+      "score": 0.401,
       "moves_with": [
-        "xyz:MU (corr 0.87)",
-        "xyz:PURRDAT (corr 0.77)"
+        "xyz:MU (corr 0.84)"
       ]
     },
     {
       "symbol": "JUP",
       "side": "short",
-      "score": 0.346,
+      "score": 0.345,
       "moves_with": [
         "BTC (corr 0.86)",
-        "HYPE (corr 0.72)",
+        "HYPE (corr 0.74)",
         "xyz:MU (corr 0.71)",
-        "PUMP (corr 0.77)",
         "xyz:GOOGL (corr 0.73)"
-      ]
-    },
-    {
-      "symbol": "DASH",
-      "side": "short",
-      "score": 0.334,
-      "moves_with": [
-        "BTC (corr 0.8)"
       ]
     },
     {
@@ -533,8 +464,7 @@
       "side": "short",
       "score": 0.329,
       "moves_with": [
-        "BTC (corr 0.77)",
-        "PUMP (corr 0.79)"
+        "BTC (corr 0.75)"
       ]
     }
   ],
