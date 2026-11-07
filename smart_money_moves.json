@@ -1,5 +1,85 @@
 [
   {
+    "trader": "John Wick",
+    "symbol": "xyz:RKLB",
+    "action": "added to",
+    "side": "long",
+    "notional": 65578,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 20797477,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "NEAR",
+    "action": "cut",
+    "side": "short",
+    "notional": 36579,
+    "pct_of_account": 0.7,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "AERO",
+    "action": "added to",
+    "side": "long",
+    "notional": 10114,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 8663201,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "KAITO",
+    "action": "added to",
+    "side": "short",
+    "notional": 3211,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 8663201,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SNDK",
+    "action": "cut",
+    "side": "long",
+    "notional": 2580,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 27264910,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:RKLB",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1754,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 2846618,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:NBIS",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1557,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 2846618,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "xyz:MRVL",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 960,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 2846618,
+    "at": "2026-11-08T00:08:21+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "xyz:SNDK",
     "action": "cut",
@@ -2917,86 +2997,6 @@
     "notional": 2933467,
     "pct_of_account": 10.0,
     "trader_month_pnl": 33340579,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:INTC",
-    "action": "cut",
-    "side": "short",
-    "notional": 2851108,
-    "pct_of_account": 61.7,
-    "trader_month_pnl": 15547534,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xd1dd6d99",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "short",
-    "notional": 2551580,
-    "pct_of_account": 104.9,
-    "trader_month_pnl": 3859889,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:SPCX",
-    "action": "closed",
-    "side": "short",
-    "notional": 1644854,
-    "pct_of_account": 35.6,
-    "trader_month_pnl": 15547534,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:AMD",
-    "action": "cut",
-    "side": "short",
-    "notional": 602075,
-    "pct_of_account": 0.7,
-    "trader_month_pnl": 29036193,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "ZEC",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 590506,
-    "pct_of_account": 1.8,
-    "trader_month_pnl": 10906948,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:AMD",
-    "action": "closed",
-    "side": "short",
-    "notional": 589559,
-    "pct_of_account": 12.8,
-    "trader_month_pnl": 15547534,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:MU",
-    "action": "cut",
-    "side": "short",
-    "notional": 586053,
-    "pct_of_account": 12.7,
-    "trader_month_pnl": 15547534,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:COIN",
-    "action": "added to",
-    "side": "short",
-    "notional": 505441,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 29036193,
     "at": "2026-11-06T16:11:36+01:00"
   }
 ]
