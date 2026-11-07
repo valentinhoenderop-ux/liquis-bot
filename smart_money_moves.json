@@ -1,5 +1,25 @@
 [
   {
+    "trader": "John Wick",
+    "symbol": "xyz:MSTR",
+    "action": "cut",
+    "side": "long",
+    "notional": 19415,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 20797477,
+    "at": "2026-11-07T09:10:26+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "OP",
+    "action": "added to",
+    "side": "short",
+    "notional": 471,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15867730,
+    "at": "2026-11-07T09:10:26+01:00"
+  },
+  {
     "trader": "0xfc27136e",
     "symbol": "xyz:MSTR",
     "action": "cut",
@@ -2977,26 +2997,6 @@
     "notional": 22573,
     "pct_of_account": 0.1,
     "trader_month_pnl": 33340579,
-    "at": "2026-11-06T13:13:45+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "AVNT",
-    "action": "added to",
-    "side": "short",
-    "notional": 11361,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 21029248,
-    "at": "2026-11-06T13:13:45+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:HIMS",
-    "action": "cut",
-    "side": "short",
-    "notional": 6019,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 15547534,
     "at": "2026-11-06T13:13:45+01:00"
   }
 ]
