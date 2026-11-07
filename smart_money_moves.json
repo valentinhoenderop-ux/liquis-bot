@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0xd4c1f7e8",
+    "symbol": "ZEC",
+    "action": "cut",
+    "side": "short",
+    "notional": 492221,
+    "pct_of_account": 9.4,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-07T15:08:59+01:00"
+  },
+  {
+    "trader": "0x9aa58935",
+    "symbol": "xyz:CL",
+    "action": "added to",
+    "side": "short",
+    "notional": 72836,
+    "pct_of_account": 2.3,
+    "trader_month_pnl": 3556353,
+    "at": "2026-11-07T15:08:59+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "LIT",
+    "action": "cut",
+    "side": "short",
+    "notional": 33474,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-07T15:08:59+01:00"
+  },
+  {
+    "trader": "0x3eb6bed6",
+    "symbol": "xyz:MU",
+    "action": "added to",
+    "side": "long",
+    "notional": 24548,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 3885116,
+    "at": "2026-11-07T15:08:59+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "UMA",
+    "action": "closed",
+    "side": "short",
+    "notional": 11,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15867730,
+    "at": "2026-11-07T15:08:59+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "SOL",
     "action": "added to",
@@ -2947,56 +2997,6 @@
     "notional": 200282,
     "pct_of_account": 4.0,
     "trader_month_pnl": 7394271,
-    "at": "2026-11-06T15:14:13+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "XMR",
-    "action": "added to",
-    "side": "short",
-    "notional": 56824,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 10906948,
-    "at": "2026-11-06T15:14:13+01:00"
-  },
-  {
-    "trader": "0xd1dd6d99",
-    "symbol": "xyz:ANT",
-    "action": "closed",
-    "side": "short",
-    "notional": 34850,
-    "pct_of_account": 1.6,
-    "trader_month_pnl": 3859889,
-    "at": "2026-11-06T15:14:13+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:BRENTOIL",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 33847,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 34996827,
-    "at": "2026-11-06T15:14:13+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "DOGE",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 22428,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 34996827,
-    "at": "2026-11-06T15:14:13+01:00"
-  },
-  {
-    "trader": "2 freres 2 fauves",
-    "symbol": "xyz:ARM",
-    "action": "closed",
-    "side": "short",
-    "notional": 15073,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 15547534,
     "at": "2026-11-06T15:14:13+01:00"
   }
 ]
