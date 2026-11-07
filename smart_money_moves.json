@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:MSTR",
+    "action": "cut",
+    "side": "long",
+    "notional": 76023,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 24420175,
+    "at": "2026-11-07T08:08:33+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SNDK",
+    "action": "cut",
+    "side": "long",
+    "notional": 46886,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 34996827,
+    "at": "2026-11-07T08:08:33+01:00"
+  },
+  {
+    "trader": "0x56472490",
+    "symbol": "GRAM",
+    "action": "closed",
+    "side": "long",
+    "notional": 24439,
+    "pct_of_account": 1.0,
+    "trader_month_pnl": 5052036,
+    "at": "2026-11-07T08:08:33+01:00"
+  },
+  {
     "trader": "0x56472490",
     "symbol": "AERO",
     "action": "added to",
@@ -2968,35 +2998,5 @@
     "pct_of_account": 0.1,
     "trader_month_pnl": 15547534,
     "at": "2026-11-06T13:13:45+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "long",
-    "notional": 1301622,
-    "pct_of_account": 3.2,
-    "trader_month_pnl": 24420175,
-    "at": "2026-11-06T12:08:59+01:00"
-  },
-  {
-    "trader": "0xd1dd6d99",
-    "symbol": "xyz:ANT",
-    "action": "added to",
-    "side": "short",
-    "notional": 535928,
-    "pct_of_account": 23.3,
-    "trader_month_pnl": 3859889,
-    "at": "2026-11-06T12:08:59+01:00"
-  },
-  {
-    "trader": "0xba5d9cc8",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "short",
-    "notional": 227932,
-    "pct_of_account": 6.1,
-    "trader_month_pnl": 8715440,
-    "at": "2026-11-06T12:08:59+01:00"
   }
 ]
