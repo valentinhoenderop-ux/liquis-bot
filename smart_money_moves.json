@@ -1,6 +1,56 @@
 [
   {
     "trader": "John Wick",
+    "symbol": "xyz:MSTR",
+    "action": "added to",
+    "side": "short",
+    "notional": 355854,
+    "pct_of_account": 0.8,
+    "trader_month_pnl": 20797477,
+    "at": "2026-11-08T01:08:35+01:00"
+  },
+  {
+    "trader": "0x3eb6bed6",
+    "symbol": "xyz:MU",
+    "action": "added to",
+    "side": "long",
+    "notional": 42237,
+    "pct_of_account": 0.8,
+    "trader_month_pnl": 3885116,
+    "at": "2026-11-08T01:08:35+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "NEAR",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 22570,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-08T01:08:35+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SNDK",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 9261,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 27264910,
+    "at": "2026-11-08T01:08:35+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:AAPL",
+    "action": "cut",
+    "side": "short",
+    "notional": 1120,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15867730,
+    "at": "2026-11-08T01:08:35+01:00"
+  },
+  {
+    "trader": "John Wick",
     "symbol": "xyz:RKLB",
     "action": "added to",
     "side": "long",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 21029248,
     "at": "2026-11-06T17:11:35+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "BTC",
-    "action": "added to",
-    "side": "short",
-    "notional": 20144358,
-    "pct_of_account": 22.0,
-    "trader_month_pnl": 29036193,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "short",
-    "notional": 5104853,
-    "pct_of_account": 104.6,
-    "trader_month_pnl": 7394271,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "long",
-    "notional": 4736148,
-    "pct_of_account": 11.4,
-    "trader_month_pnl": 24420175,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SKHY",
-    "action": "added to",
-    "side": "long",
-    "notional": 4411987,
-    "pct_of_account": 4.8,
-    "trader_month_pnl": 29036193,
-    "at": "2026-11-06T16:11:36+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "short",
-    "notional": 2933467,
-    "pct_of_account": 10.0,
-    "trader_month_pnl": 33340579,
-    "at": "2026-11-06T16:11:36+01:00"
   }
 ]
