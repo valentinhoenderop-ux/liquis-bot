@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xdf954bbe",
+    "symbol": "XLM",
+    "action": "added to",
+    "side": "short",
+    "notional": 34161,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 13129768,
+    "at": "2026-11-08T13:08:38+01:00"
+  },
+  {
+    "trader": "0xe86b057f",
+    "symbol": "TRUMP",
+    "action": "added to",
+    "side": "short",
+    "notional": 3021,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 2452361,
+    "at": "2026-11-08T13:08:38+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "LINK",
+    "action": "cut",
+    "side": "short",
+    "notional": 836,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 6100897,
+    "at": "2026-11-08T13:08:38+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "xyz:SNDK",
     "action": "added to",
@@ -2966,36 +2996,6 @@
     "side": "long",
     "notional": 23173,
     "pct_of_account": 0.1,
-    "trader_month_pnl": 24420175,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:EWZ",
-    "action": "added to",
-    "side": "long",
-    "notional": 15253,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24420175,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "XRP",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 10248,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 34996827,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:IBM",
-    "action": "cut",
-    "side": "long",
-    "notional": 7510,
-    "pct_of_account": 0.0,
     "trader_month_pnl": 24420175,
     "at": "2026-11-06T20:09:09+01:00"
   }
