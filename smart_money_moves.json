@@ -1,6 +1,26 @@
 [
   {
     "trader": "0xd4c1f7e8",
+    "symbol": "ONDO",
+    "action": "added to",
+    "side": "long",
+    "notional": 64274,
+    "pct_of_account": 1.4,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-08T08:11:02+01:00"
+  },
+  {
+    "trader": "0x56472490",
+    "symbol": "BCH",
+    "action": "closed",
+    "side": "short",
+    "notional": 12559,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 4213429,
+    "at": "2026-11-08T08:11:02+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
     "symbol": "PUMP",
     "action": "added to",
     "side": "short",
@@ -2978,25 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 21029248,
     "at": "2026-11-06T19:09:09+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:AAPL",
-    "action": "cut",
-    "side": "short",
-    "notional": 1127,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21029248,
-    "at": "2026-11-06T19:09:09+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:BRENTOIL",
-    "action": "added to",
-    "side": "long",
-    "notional": 1221954,
-    "pct_of_account": 2.8,
-    "trader_month_pnl": 34996827,
-    "at": "2026-11-06T18:09:30+01:00"
   }
 ]
