@@ -1,6 +1,56 @@
 [
   {
     "trader": "0xd4c1f7e8",
+    "symbol": "ONDO",
+    "action": "added to",
+    "side": "long",
+    "notional": 43714,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-08T06:08:43+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
+    "symbol": "WLD",
+    "action": "added to",
+    "side": "long",
+    "notional": 7941,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-08T06:08:43+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:DRAM",
+    "action": "cut",
+    "side": "long",
+    "notional": 2768,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15867730,
+    "at": "2026-11-08T06:08:43+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "MET",
+    "action": "cut",
+    "side": "long",
+    "notional": 2385,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 15867730,
+    "at": "2026-11-08T06:08:43+01:00"
+  },
+  {
+    "trader": "John Wick",
+    "symbol": "ONDO",
+    "action": "cut",
+    "side": "short",
+    "notional": 50,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 20797477,
+    "at": "2026-11-08T06:08:43+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
     "symbol": "NEAR",
     "action": "added to",
     "side": "long",
@@ -2946,56 +2996,6 @@
     "side": "short",
     "notional": 61349,
     "pct_of_account": 1.1,
-    "trader_month_pnl": 4104020,
-    "at": "2026-11-06T18:09:30+01:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "ONDO",
-    "action": "added to",
-    "side": "short",
-    "notional": 58602,
-    "pct_of_account": 1.1,
-    "trader_month_pnl": 7394271,
-    "at": "2026-11-06T18:09:30+01:00"
-  },
-  {
-    "trader": "0xd4c1f7e8",
-    "symbol": "NEAR",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 28168,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 7394271,
-    "at": "2026-11-06T18:09:30+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "xyz:QNT",
-    "action": "cut",
-    "side": "short",
-    "notional": 20966,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 33340579,
-    "at": "2026-11-06T18:09:30+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "LIT",
-    "action": "cut",
-    "side": "long",
-    "notional": 12013,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 10906948,
-    "at": "2026-11-06T18:09:30+01:00"
-  },
-  {
-    "trader": "x.com/SilkBtc",
-    "symbol": "xyz:MSTR",
-    "action": "opened",
-    "side": "short",
-    "notional": 11693,
-    "pct_of_account": 0.2,
     "trader_month_pnl": 4104020,
     "at": "2026-11-06T18:09:30+01:00"
   }
