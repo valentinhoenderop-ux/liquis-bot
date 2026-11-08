@@ -1,6 +1,36 @@
 [
   {
     "trader": "0xd4c1f7e8",
+    "symbol": "ZEC",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 126050,
+    "pct_of_account": 3.1,
+    "trader_month_pnl": 5939494,
+    "at": "2026-11-08T09:08:39+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "ZEC",
+    "action": "cut",
+    "side": "long",
+    "notional": 55597,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 8663201,
+    "at": "2026-11-08T09:08:39+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "short",
+    "notional": 16133,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 27264910,
+    "at": "2026-11-08T09:08:39+01:00"
+  },
+  {
+    "trader": "0xd4c1f7e8",
     "symbol": "ONDO",
     "action": "added to",
     "side": "long",
@@ -2967,36 +2997,6 @@
     "notional": 5288,
     "pct_of_account": 0.1,
     "trader_month_pnl": 4316768,
-    "at": "2026-11-06T19:09:09+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "xyz:QNT",
-    "action": "cut",
-    "side": "short",
-    "notional": 4079,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 33340579,
-    "at": "2026-11-06T19:09:09+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "AERO",
-    "action": "cut",
-    "side": "short",
-    "notional": 3979,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 10906948,
-    "at": "2026-11-06T19:09:09+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "IO",
-    "action": "added to",
-    "side": "long",
-    "notional": 1234,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21029248,
     "at": "2026-11-06T19:09:09+01:00"
   }
 ]
