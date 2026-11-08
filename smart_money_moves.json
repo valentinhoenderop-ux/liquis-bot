@@ -1,5 +1,45 @@
 [
   {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "short",
+    "notional": 120881,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 23569025,
+    "at": "2026-11-08T12:08:26+01:00"
+  },
+  {
+    "trader": "0x936cf4fb",
+    "symbol": "XPL",
+    "action": "cut",
+    "side": "short",
+    "notional": 1380,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 6100897,
+    "at": "2026-11-08T12:08:26+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "RUNE",
+    "action": "cut",
+    "side": "short",
+    "notional": 1103,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13129768,
+    "at": "2026-11-08T12:08:26+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "kPEPE",
+    "action": "cut",
+    "side": "short",
+    "notional": 7,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 13129768,
+    "at": "2026-11-08T12:08:26+01:00"
+  },
+  {
     "trader": "0xe86b057f",
     "symbol": "PUMP",
     "action": "added to",
@@ -2957,46 +2997,6 @@
     "notional": 7510,
     "pct_of_account": 0.0,
     "trader_month_pnl": 24420175,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:AAPL",
-    "action": "added to",
-    "side": "short",
-    "notional": 4552,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21029248,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:URNM",
-    "action": "cut",
-    "side": "short",
-    "notional": 4191,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24420175,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "XPL",
-    "action": "cut",
-    "side": "short",
-    "notional": 2528,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 10906948,
-    "at": "2026-11-06T20:09:09+01:00"
-  },
-  {
-    "trader": "0x936cf4fb",
-    "symbol": "AERO",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 874,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 10906948,
     "at": "2026-11-06T20:09:09+01:00"
   }
 ]
