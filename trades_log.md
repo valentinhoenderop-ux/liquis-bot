@@ -36,3 +36,7 @@
 - 2026-10-13 **sale** Costco Wholesale Corporation - Common Stock (COST, ST), $100,001 - $250,000
 - 2026-10-02 **sale** Microsoft Corporation - Common Stock (MSFT, ST), $250,001 - $500,000
 - 2026-10-02 **sale** Walmart Inc. - Common Stock (WMT, ST), $50,001 - $100,000
+
+## Nancy Pelosi: filing 20035780, filed 2026-11-06 (found 2026-11-11 04:09)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035780.pdf)
+- 2026-10-07 **sale** Warner Bros. Discovery, Inc. - Series A Common Stock (WBD, ST), $50,001 - $100,000: Cash proceeds from Warner Bros Discovery merger with Paramount Skydance.
