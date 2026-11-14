@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SPCX",
+    "action": "added to",
+    "side": "long",
+    "notional": 511462,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 22211396,
+    "at": "2026-11-14T12:09:16+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "SOL",
+    "action": "cut",
+    "side": "long",
+    "notional": 211054,
+    "pct_of_account": 0.8,
+    "trader_month_pnl": 31418094,
+    "at": "2026-11-14T12:09:16+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "CAKE",
+    "action": "added to",
+    "side": "short",
+    "notional": 12223,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 26693729,
+    "at": "2026-11-14T12:09:16+01:00"
+  },
+  {
     "trader": "0xdf954bbe",
     "symbol": "xyz:TSLA",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 2427,
     "pct_of_account": 3.8,
     "trader_month_pnl": 3281911,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:BX",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 542,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19428253,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:SOXL",
-    "action": "opened",
-    "side": "long",
-    "notional": 449,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24211877,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CRWV",
-    "action": "closed",
-    "side": "short",
-    "notional": 442,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24211877,
     "at": "2026-11-13T10:09:12+01:00"
   }
 ]
