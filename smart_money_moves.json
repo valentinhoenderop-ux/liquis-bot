@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:AAPL",
+    "action": "added to",
+    "side": "long",
+    "notional": 41125,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 26693729,
+    "at": "2026-11-14T08:08:27+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "NEAR",
+    "action": "added to",
+    "side": "long",
+    "notional": 32578,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 22211396,
+    "at": "2026-11-14T08:08:27+01:00"
+  },
+  {
+    "trader": "0xd1dd6d99",
+    "symbol": "xyz:ANT",
+    "action": "opened",
+    "side": "short",
+    "notional": 14953,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 3713588,
+    "at": "2026-11-14T08:08:27+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "RUNE",
+    "action": "added to",
+    "side": "long",
+    "notional": 46,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 26693729,
+    "at": "2026-11-14T08:08:27+01:00"
+  },
+  {
+    "trader": "0x3fc56e94",
+    "symbol": "PURR",
+    "action": "closed",
+    "side": "short",
+    "notional": 7,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 3142333,
+    "at": "2026-11-14T08:08:27+01:00"
+  },
+  {
     "trader": "0x3fc56e94",
     "symbol": "xyz:PURRDAT",
     "action": "closed",
@@ -2947,56 +2997,6 @@
     "notional": 37492,
     "pct_of_account": 1.0,
     "trader_month_pnl": 2931120,
-    "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:XYZ100",
-    "action": "added to",
-    "side": "long",
-    "notional": 33527,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 19428253,
-    "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:BX",
-    "action": "added to",
-    "side": "short",
-    "notional": 4581,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19428253,
-    "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:HOOD",
-    "action": "added to",
-    "side": "short",
-    "notional": 4253,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24211877,
-    "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "0x92bbd811",
-    "symbol": "AERO",
-    "action": "opened",
-    "side": "short",
-    "notional": 2427,
-    "pct_of_account": 3.9,
-    "trader_month_pnl": 3281911,
-    "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CRWV",
-    "action": "cut",
-    "side": "short",
-    "notional": 442,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 24211877,
     "at": "2026-11-13T09:09:51+01:00"
   }
 ]
