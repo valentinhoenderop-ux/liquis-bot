@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:TSLA",
+    "action": "added to",
+    "side": "long",
+    "notional": 22544,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 26693729,
+    "at": "2026-11-14T11:08:15+01:00"
+  },
+  {
+    "trader": "John Wick",
+    "symbol": "DOGE",
+    "action": "cut",
+    "side": "short",
+    "notional": 11261,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 22944825,
+    "at": "2026-11-14T11:08:15+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "ZEC",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 442,
     "pct_of_account": 0.0,
     "trader_month_pnl": 24211877,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "x.com/SilkBtc",
-    "symbol": "ZEC",
-    "action": "cut",
-    "side": "short",
-    "notional": 424,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 4982590,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "BANANA",
-    "action": "opened",
-    "side": "long",
-    "notional": 24,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 22256243,
     "at": "2026-11-13T10:09:12+01:00"
   }
 ]
