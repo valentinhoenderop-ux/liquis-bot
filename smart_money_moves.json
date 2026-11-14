@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0x3fc56e94",
+    "symbol": "xyz:PURRDAT",
+    "action": "closed",
+    "side": "long",
+    "notional": 2835,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 3142333,
+    "at": "2026-11-14T07:08:23+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "NEAR",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 2726,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 22211396,
+    "at": "2026-11-14T07:08:23+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "SKR",
+    "action": "added to",
+    "side": "short",
+    "notional": 361,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 26693729,
+    "at": "2026-11-14T07:08:23+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "ETH",
     "action": "added to",
@@ -2968,35 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 24211877,
     "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "INIT",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 35,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 22256243,
-    "at": "2026-11-13T09:09:51+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "long",
-    "notional": 593577,
-    "pct_of_account": 1.0,
-    "trader_month_pnl": 23420865,
-    "at": "2026-11-13T08:10:06+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SILVER",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 387546,
-    "pct_of_account": 0.7,
-    "trader_month_pnl": 23420865,
-    "at": "2026-11-13T08:10:06+01:00"
   }
 ]
