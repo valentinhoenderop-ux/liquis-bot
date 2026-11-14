@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0x56472490",
+    "symbol": "ENA",
+    "action": "closed",
+    "side": "short",
+    "notional": 62295,
+    "pct_of_account": 4.8,
+    "trader_month_pnl": 4807164,
+    "at": "2026-11-14T13:08:32+01:00"
+  },
+  {
+    "trader": "0xbfc79c44",
+    "symbol": "XMR",
+    "action": "closed",
+    "side": "short",
+    "notional": 93,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5641498,
+    "at": "2026-11-14T13:08:32+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "xyz:SPCX",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 49786,
     "pct_of_account": 0.2,
     "trader_month_pnl": 22157424,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ICP",
-    "action": "added to",
-    "side": "short",
-    "notional": 9612,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 22256243,
-    "at": "2026-11-13T10:09:12+01:00"
-  },
-  {
-    "trader": "0x92bbd811",
-    "symbol": "AERO",
-    "action": "closed",
-    "side": "short",
-    "notional": 2427,
-    "pct_of_account": 3.8,
-    "trader_month_pnl": 3281911,
     "at": "2026-11-13T10:09:12+01:00"
   }
 ]
