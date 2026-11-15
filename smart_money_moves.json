@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xbfc79c44",
+    "symbol": "XMR",
+    "action": "closed",
+    "side": "long",
+    "notional": 43520,
+    "pct_of_account": 2.8,
+    "trader_month_pnl": 5794368,
+    "at": "2026-11-15T15:08:31+01:00"
+  },
+  {
+    "trader": "0x418aa6bf",
+    "symbol": "TRUMP",
+    "action": "added to",
+    "side": "long",
+    "notional": 9485,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 4935608,
+    "at": "2026-11-15T15:08:31+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "PENDLE",
+    "action": "added to",
+    "side": "short",
+    "notional": 1792,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 21272983,
+    "at": "2026-11-15T15:08:31+01:00"
+  },
+  {
     "trader": "0x024294c5",
     "symbol": "xyz:LLY",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 2691,
     "pct_of_account": 0.0,
     "trader_month_pnl": 31257011,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "MEME",
-    "action": "added to",
-    "side": "short",
-    "notional": 575,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "DOT",
-    "action": "opened",
-    "side": "short",
-    "notional": 487,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21272983,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "PEOPLE",
-    "action": "added to",
-    "side": "short",
-    "notional": 326,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
     "at": "2026-11-14T22:08:22+01:00"
   }
 ]
