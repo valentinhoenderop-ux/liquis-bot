@@ -1,5 +1,85 @@
 [
   {
+    "trader": "John Wick",
+    "symbol": "ETH",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 445873,
+    "pct_of_account": 1.0,
+    "trader_month_pnl": 25613417,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "0x56472490",
+    "symbol": "xyz:BRENTOIL",
+    "action": "opened",
+    "side": "short",
+    "notional": 406114,
+    "pct_of_account": 43.7,
+    "trader_month_pnl": 4734934,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "John Wick",
+    "symbol": "xyz:SPCX",
+    "action": "added to",
+    "side": "short",
+    "notional": 225151,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 25613417,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "SOL",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 138231,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 14865767,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "MORPHO",
+    "action": "added to",
+    "side": "short",
+    "notional": 25901,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 5940670,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "John Wick",
+    "symbol": "xyz:COIN",
+    "action": "added to",
+    "side": "short",
+    "notional": 18306,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 25613417,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "ALGO",
+    "action": "added to",
+    "side": "long",
+    "notional": 605,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5940670,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
+    "trader": "0xb83de012",
+    "symbol": "TAO",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 3,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 104713091,
+    "at": "2026-11-15T07:08:53+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "SOL",
     "action": "added to",
@@ -2917,86 +2997,6 @@
     "notional": 1014994,
     "pct_of_account": 7.9,
     "trader_month_pnl": 4858728,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:HOOD",
-    "action": "added to",
-    "side": "short",
-    "notional": 1010832,
-    "pct_of_account": 1.7,
-    "trader_month_pnl": 14865767,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:MSTR",
-    "action": "added to",
-    "side": "short",
-    "notional": 868836,
-    "pct_of_account": 2.0,
-    "trader_month_pnl": 25613417,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:SP500",
-    "action": "added to",
-    "side": "short",
-    "notional": 324588,
-    "pct_of_account": 1.8,
-    "trader_month_pnl": 21833969,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "kPEPE",
-    "action": "cut",
-    "side": "short",
-    "notional": 324237,
-    "pct_of_account": 1.3,
-    "trader_month_pnl": 21272983,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "SOL",
-    "action": "added to",
-    "side": "long",
-    "notional": 309304,
-    "pct_of_account": 1.3,
-    "trader_month_pnl": 31257011,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SOXL",
-    "action": "added to",
-    "side": "short",
-    "notional": 306346,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 14865767,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "0x56472490",
-    "symbol": "XPL",
-    "action": "closed",
-    "side": "short",
-    "notional": 292935,
-    "pct_of_account": 35.5,
-    "trader_month_pnl": 4734934,
-    "at": "2026-11-14T18:08:41+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:TSLA",
-    "action": "added to",
-    "side": "short",
-    "notional": 82140,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 14865767,
     "at": "2026-11-14T18:08:41+01:00"
   }
 ]
