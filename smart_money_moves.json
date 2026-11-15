@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0x47f5a639",
+    "symbol": "xyz:GOLD",
+    "action": "closed",
+    "side": "long",
+    "notional": 296408,
+    "pct_of_account": 15.5,
+    "trader_month_pnl": 3184938,
+    "at": "2026-11-15T09:08:35+01:00"
+  },
+  {
+    "trader": "John Wick",
+    "symbol": "xyz:COIN",
+    "action": "added to",
+    "side": "short",
+    "notional": 46911,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 25613417,
+    "at": "2026-11-15T09:08:35+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:IBM",
+    "action": "added to",
+    "side": "short",
+    "notional": 18153,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 21833969,
+    "at": "2026-11-15T09:08:35+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "INIT",
+    "action": "added to",
+    "side": "long",
+    "notional": 5556,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 29157570,
+    "at": "2026-11-15T09:08:35+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "SUPER",
+    "action": "cut",
+    "side": "short",
+    "notional": 114,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 21272983,
+    "at": "2026-11-15T09:08:35+01:00"
+  },
+  {
     "trader": "0x5b5d5120",
     "symbol": "ETH",
     "action": "cut",
@@ -2947,56 +2997,6 @@
     "notional": 2617,
     "pct_of_account": 0.0,
     "trader_month_pnl": 21833969,
-    "at": "2026-11-14T19:08:18+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "kPEPE",
-    "action": "cut",
-    "side": "short",
-    "notional": 2317,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21272983,
-    "at": "2026-11-14T19:08:18+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "INIT",
-    "action": "added to",
-    "side": "long",
-    "notional": 2014,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T19:08:18+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "RUNE",
-    "action": "added to",
-    "side": "long",
-    "notional": 668,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T19:08:18+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "MEME",
-    "action": "added to",
-    "side": "short",
-    "notional": 474,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T19:08:18+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "PEOPLE",
-    "action": "added to",
-    "side": "short",
-    "notional": 154,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
     "at": "2026-11-14T19:08:18+01:00"
   }
 ]
