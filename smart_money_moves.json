@@ -1,5 +1,65 @@
 [
   {
+    "trader": "0xbfc79c44",
+    "symbol": "XMR",
+    "action": "cut",
+    "side": "long",
+    "notional": 275748,
+    "pct_of_account": 16.8,
+    "trader_month_pnl": 5794368,
+    "at": "2026-11-15T12:08:32+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "ZEC",
+    "action": "added to",
+    "side": "short",
+    "notional": 189253,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 14865767,
+    "at": "2026-11-15T12:08:32+01:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "XMR",
+    "action": "cut",
+    "side": "short",
+    "notional": 55723,
+    "pct_of_account": 2.7,
+    "trader_month_pnl": 4690006,
+    "at": "2026-11-15T12:08:32+01:00"
+  },
+  {
+    "trader": "0x3fc56e94",
+    "symbol": "xyz:PURRDAT",
+    "action": "added to",
+    "side": "long",
+    "notional": 9523,
+    "pct_of_account": 1.2,
+    "trader_month_pnl": 3377871,
+    "at": "2026-11-15T12:08:32+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SOXL",
+    "action": "cut",
+    "side": "short",
+    "notional": 7659,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 14865767,
+    "at": "2026-11-15T12:08:32+01:00"
+  },
+  {
+    "trader": "0xbfc79c44",
+    "symbol": "ZRO",
+    "action": "closed",
+    "side": "short",
+    "notional": 0,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5794368,
+    "at": "2026-11-15T12:08:32+01:00"
+  },
+  {
     "trader": "0x9aa58935",
     "symbol": "ZEC",
     "action": "added to",
@@ -2938,65 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 21272983,
     "at": "2026-11-14T21:09:10+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:CRCL",
-    "action": "cut",
-    "side": "long",
-    "notional": 240,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T21:09:10+01:00"
-  },
-  {
-    "trader": "0xbfc79c44",
-    "symbol": "WLD",
-    "action": "opened",
-    "side": "long",
-    "notional": 53,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 5794368,
-    "at": "2026-11-14T21:09:10+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "FARTCOIN",
-    "action": "cut",
-    "side": "short",
-    "notional": 179058,
-    "pct_of_account": 0.8,
-    "trader_month_pnl": 31257011,
-    "at": "2026-11-14T20:08:29+01:00"
-  },
-  {
-    "trader": "0x56472490",
-    "symbol": "XMR",
-    "action": "opened",
-    "side": "long",
-    "notional": 148912,
-    "pct_of_account": 17.1,
-    "trader_month_pnl": 4734934,
-    "at": "2026-11-14T20:08:29+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:INTC",
-    "action": "added to",
-    "side": "long",
-    "notional": 95991,
-    "pct_of_account": 0.9,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T20:08:29+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:MSTR",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 26236,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 14865767,
-    "at": "2026-11-14T20:08:29+01:00"
   }
 ]
