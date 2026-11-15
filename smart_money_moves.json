@@ -1,5 +1,95 @@
 [
   {
+    "trader": "BobbyBigSize",
+    "symbol": "ZEC",
+    "action": "added to",
+    "side": "long",
+    "notional": 1065850,
+    "pct_of_account": 5.1,
+    "trader_month_pnl": 31257011,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "John Wick",
+    "symbol": "ETH",
+    "action": "added to",
+    "side": "long",
+    "notional": 921178,
+    "pct_of_account": 2.1,
+    "trader_month_pnl": 25613417,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0xd1dd6d99",
+    "symbol": "xyz:ANT",
+    "action": "added to",
+    "side": "short",
+    "notional": 296231,
+    "pct_of_account": 3.2,
+    "trader_month_pnl": 4237661,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MRVL",
+    "action": "added to",
+    "side": "short",
+    "notional": 286935,
+    "pct_of_account": 1.7,
+    "trader_month_pnl": 21833969,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:AAPL",
+    "action": "added to",
+    "side": "long",
+    "notional": 153855,
+    "pct_of_account": 1.5,
+    "trader_month_pnl": 29157570,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "HEMI",
+    "action": "added to",
+    "side": "short",
+    "notional": 2191,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 29157570,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "FARTCOIN",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 246,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 29157570,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "FOGO",
+    "action": "added to",
+    "side": "short",
+    "notional": 244,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 29157570,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "AR",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 84,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 21272983,
+    "at": "2026-11-15T16:08:52+01:00"
+  },
+  {
     "trader": "0xbfc79c44",
     "symbol": "XMR",
     "action": "closed",
@@ -2907,96 +2997,6 @@
     "notional": 16634,
     "pct_of_account": 0.1,
     "trader_month_pnl": 21833969,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "XLM",
-    "action": "added to",
-    "side": "long",
-    "notional": 11811,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 25613417,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0x47f5a639",
-    "symbol": "FIL",
-    "action": "cut",
-    "side": "short",
-    "notional": 8268,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 3184938,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "NIL",
-    "action": "added to",
-    "side": "short",
-    "notional": 7267,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21272983,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:CRCL",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 5500,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "DOGE",
-    "action": "added to",
-    "side": "short",
-    "notional": 5169,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 25613417,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:DRAM",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 4761,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 29157570,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "TAO",
-    "action": "cut",
-    "side": "short",
-    "notional": 4299,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 21272983,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "x.com/SilkBtc",
-    "symbol": "xyz:GOOGL",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 3065,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 4690006,
-    "at": "2026-11-14T22:08:22+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "FARTCOIN",
-    "action": "cut",
-    "side": "short",
-    "notional": 2691,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 31257011,
     "at": "2026-11-14T22:08:22+01:00"
   }
 ]
