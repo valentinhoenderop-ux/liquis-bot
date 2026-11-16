@@ -40,3 +40,8 @@
 ## Nancy Pelosi: filing 20035780, filed 2026-11-06 (found 2026-11-11 04:09)
 [PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035780.pdf)
 - 2026-10-07 **sale** Warner Bros. Discovery, Inc. - Series A Common Stock (WBD, ST), $50,001 - $100,000: Cash proceeds from Warner Bros Discovery merger with Paramount Skydance.
+
+## Gilbert Cisneros: filing 20035788, filed 2026-11-10 (found 2026-11-16 20:09)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf)
+- 2026-10-15 **purchase** Mobility Global Inc. Common Stock (MBGL, ST), $50,001 - $100,000
+- 2026-10-15 **sale** Strategy Inc - Variable Rate Series A Perpetual Stretch Preferred Stock (STRC, ST), $50,001 - $100,000
