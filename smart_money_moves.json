@@ -1,6 +1,26 @@
 [
   {
     "trader": "0x024294c5",
+    "symbol": "xyz:MSFT",
+    "action": "added to",
+    "side": "short",
+    "notional": 169362,
+    "pct_of_account": 1.1,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T00:08:41+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "long",
+    "notional": 119298,
+    "pct_of_account": 0.8,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T00:08:41+01:00"
+  },
+  {
+    "trader": "0x024294c5",
     "symbol": "xyz:SP500",
     "action": "added to",
     "side": "long",
@@ -2977,26 +2997,6 @@
     "notional": 444080,
     "pct_of_account": 0.6,
     "trader_month_pnl": 22846672,
-    "at": "2026-11-20T23:09:03+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:EWY",
-    "action": "cut",
-    "side": "short",
-    "notional": 369392,
-    "pct_of_account": 0.9,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-20T23:09:03+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:COIN",
-    "action": "added to",
-    "side": "short",
-    "notional": 169525,
-    "pct_of_account": 0.4,
-    "trader_month_pnl": 36719736,
     "at": "2026-11-20T23:09:03+01:00"
   }
 ]
