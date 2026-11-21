@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "HYPE",
+    "action": "added to",
+    "side": "short",
+    "notional": 1033140,
+    "pct_of_account": 1.4,
+    "trader_month_pnl": 22846672,
+    "at": "2026-11-21T19:08:27+01:00"
+  },
+  {
+    "trader": "0x77375a8c",
+    "symbol": "AAVE",
+    "action": "added to",
+    "side": "short",
+    "notional": 465242,
+    "pct_of_account": 655.1,
+    "trader_month_pnl": 4765970,
+    "at": "2026-11-21T19:08:27+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:MSFT",
+    "action": "added to",
+    "side": "short",
+    "notional": 104601,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 22846672,
+    "at": "2026-11-21T19:08:27+01:00"
+  },
+  {
     "trader": "0x77375a8c",
     "symbol": "AAVE",
     "action": "added to",
@@ -2967,36 +2997,6 @@
     "notional": 483766,
     "pct_of_account": 1.7,
     "trader_month_pnl": 44680319,
-    "at": "2026-11-20T22:08:30+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "HYPE",
-    "action": "cut",
-    "side": "long",
-    "notional": 359353,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 22846672,
-    "at": "2026-11-20T22:08:30+01:00"
-  },
-  {
-    "trader": "0xe187055f",
-    "symbol": "xyz:SOXL",
-    "action": "added to",
-    "side": "long",
-    "notional": 146917,
-    "pct_of_account": 7.0,
-    "trader_month_pnl": 4622900,
-    "at": "2026-11-20T22:08:30+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:TSM",
-    "action": "added to",
-    "side": "short",
-    "notional": 119149,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 36719736,
     "at": "2026-11-20T22:08:30+01:00"
   }
 ]
