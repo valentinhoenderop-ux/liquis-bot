@@ -1,6 +1,56 @@
 [
   {
     "trader": "0x024294c5",
+    "symbol": "xyz:MRNA",
+    "action": "added to",
+    "side": "short",
+    "notional": 66394,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T06:08:11+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:PLTR",
+    "action": "closed",
+    "side": "long",
+    "notional": 17555,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T06:08:11+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:CBRS",
+    "action": "added to",
+    "side": "short",
+    "notional": 13668,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 23587606,
+    "at": "2026-11-22T06:08:11+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:AMD",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 1035,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T06:08:11+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "BLUR",
+    "action": "added to",
+    "side": "short",
+    "notional": 306,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 42870684,
+    "at": "2026-11-22T06:08:11+01:00"
+  },
+  {
+    "trader": "0x024294c5",
     "symbol": "xyz:SNDK",
     "action": "added to",
     "side": "long",
@@ -2945,56 +2995,6 @@
     "action": "added to",
     "side": "short",
     "notional": 3517,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "AR",
-    "action": "added to",
-    "side": "short",
-    "notional": 3467,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:NVDA",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 2876,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "BERA",
-    "action": "added to",
-    "side": "long",
-    "notional": 2183,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 6667198,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ETC",
-    "action": "added to",
-    "side": "short",
-    "notional": 1269,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ANIME",
-    "action": "added to",
-    "side": "short",
-    "notional": 490,
     "pct_of_account": 0.0,
     "trader_month_pnl": 43371791,
     "at": "2026-11-21T03:08:53+01:00"
