@@ -1,6 +1,46 @@
 [
   {
     "trader": "0xfc667adb",
+    "symbol": "xyz:CRCL",
+    "action": "added to",
+    "side": "short",
+    "notional": 876865,
+    "pct_of_account": 1.2,
+    "trader_month_pnl": 23587606,
+    "at": "2026-11-22T18:08:46+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SOXL",
+    "action": "added to",
+    "side": "short",
+    "notional": 314791,
+    "pct_of_account": 0.4,
+    "trader_month_pnl": 23587606,
+    "at": "2026-11-22T18:08:46+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MRNA",
+    "action": "added to",
+    "side": "short",
+    "notional": 174347,
+    "pct_of_account": 1.0,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T18:08:46+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:CBRS",
+    "action": "added to",
+    "side": "short",
+    "notional": 20167,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 23587606,
+    "at": "2026-11-22T18:08:46+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
     "symbol": "xyz:SOXL",
     "action": "added to",
     "side": "short",
@@ -2957,46 +2997,6 @@
     "notional": 96181,
     "pct_of_account": 0.2,
     "trader_month_pnl": 36719736,
-    "at": "2026-11-21T06:08:22+01:00"
-  },
-  {
-    "trader": "0xbfc79c44",
-    "symbol": "ONDO",
-    "action": "cut",
-    "side": "short",
-    "notional": 66500,
-    "pct_of_account": 5.3,
-    "trader_month_pnl": 8179006,
-    "at": "2026-11-21T06:08:22+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:XYZ100",
-    "action": "cut",
-    "side": "long",
-    "notional": 62561,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T06:08:22+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:SNDK",
-    "action": "added to",
-    "side": "long",
-    "notional": 56991,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T06:08:22+01:00"
-  },
-  {
-    "trader": "0x418aa6bf",
-    "symbol": "BTC",
-    "action": "closed",
-    "side": "short",
-    "notional": 55550,
-    "pct_of_account": 104.3,
-    "trader_month_pnl": 5866868,
     "at": "2026-11-21T06:08:22+01:00"
   }
 ]
