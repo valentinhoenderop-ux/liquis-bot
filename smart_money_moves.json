@@ -2,6 +2,36 @@
   {
     "trader": "0x024294c5",
     "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "long",
+    "notional": 343241,
+    "pct_of_account": 2.0,
+    "trader_month_pnl": 27992100,
+    "at": "2026-11-22T21:08:19+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SOXL",
+    "action": "added to",
+    "side": "long",
+    "notional": 69269,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 15647492,
+    "at": "2026-11-22T21:08:19+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "ACE",
+    "action": "cut",
+    "side": "long",
+    "notional": 0,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 36829866,
+    "at": "2026-11-22T21:08:19+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:SNDK",
     "action": "cut",
     "side": "long",
     "notional": 274661,
@@ -2966,36 +2996,6 @@
     "side": "long",
     "notional": 200018,
     "pct_of_account": 0.4,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T07:08:52+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:MSTR",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 143042,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T07:08:52+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "xyz:NVDA",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 73299,
-    "pct_of_account": 0.8,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T07:08:52+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:EWY",
-    "action": "added to",
-    "side": "long",
-    "notional": 42661,
-    "pct_of_account": 0.1,
     "trader_month_pnl": 36719736,
     "at": "2026-11-21T07:08:52+01:00"
   }
