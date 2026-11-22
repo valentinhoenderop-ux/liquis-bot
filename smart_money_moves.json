@@ -1,5 +1,95 @@
 [
   {
+    "trader": "x.com/SilkBtc",
+    "symbol": "BTC",
+    "action": "closed",
+    "side": "long",
+    "notional": 272087,
+    "pct_of_account": 87.6,
+    "trader_month_pnl": 6196650,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:EWT",
+    "action": "added to",
+    "side": "long",
+    "notional": 231408,
+    "pct_of_account": 0.6,
+    "trader_month_pnl": 37532368,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "long",
+    "notional": 217692,
+    "pct_of_account": 1.4,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:AVGO",
+    "action": "added to",
+    "side": "long",
+    "notional": 205905,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 37532368,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MSTR",
+    "action": "added to",
+    "side": "long",
+    "notional": 20035,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:HOOD",
+    "action": "added to",
+    "side": "long",
+    "notional": 9807,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "XPL",
+    "action": "opened",
+    "side": "long",
+    "notional": 4422,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 6334662,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "RESOLV",
+    "action": "added to",
+    "side": "short",
+    "notional": 3505,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 42870684,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "ORDI",
+    "action": "added to",
+    "side": "short",
+    "notional": 33,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 6334662,
+    "at": "2026-11-22T02:08:33+01:00"
+  },
+  {
     "trader": "0x024294c5",
     "symbol": "xyz:MSTR",
     "action": "added to",
@@ -2908,95 +2998,5 @@
     "pct_of_account": 0.2,
     "trader_month_pnl": 44680319,
     "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "x.com/SilkBtc",
-    "symbol": "BTC",
-    "action": "cut",
-    "side": "long",
-    "notional": 31553,
-    "pct_of_account": 16.8,
-    "trader_month_pnl": 5410569,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:GOLD",
-    "action": "cut",
-    "side": "short",
-    "notional": 10473,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "SKY",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 566,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6667198,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "0x3fc56e94",
-    "symbol": "xyz:BX",
-    "action": "added to",
-    "side": "long",
-    "notional": 365,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 4617692,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "MET",
-    "action": "closed",
-    "side": "short",
-    "notional": 102,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6667198,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "kLUNC",
-    "action": "cut",
-    "side": "short",
-    "notional": 47,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 6667198,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "NEO",
-    "action": "opened",
-    "side": "short",
-    "notional": 12,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T00:08:26+01:00"
-  },
-  {
-    "trader": "0xb37f083b",
-    "symbol": "BTC",
-    "action": "closed",
-    "side": "short",
-    "notional": 56641210,
-    "pct_of_account": null,
-    "trader_month_pnl": 6557757,
-    "at": "2026-11-20T23:09:03+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "ETH",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1255797,
-    "pct_of_account": 4.5,
-    "trader_month_pnl": 44680319,
-    "at": "2026-11-20T23:09:03+01:00"
   }
 ]
