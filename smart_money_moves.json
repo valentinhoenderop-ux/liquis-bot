@@ -1,6 +1,36 @@
 [
   {
     "trader": "0x024294c5",
+    "symbol": "xyz:XYZ100",
+    "action": "added to",
+    "side": "short",
+    "notional": 6858351,
+    "pct_of_account": 41.7,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T15:08:31+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MSFT",
+    "action": "added to",
+    "side": "short",
+    "notional": 1188700,
+    "pct_of_account": 7.2,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T15:08:31+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:SPCX",
+    "action": "added to",
+    "side": "long",
+    "notional": 188053,
+    "pct_of_account": 1.1,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T15:08:31+01:00"
+  },
+  {
+    "trader": "0x024294c5",
     "symbol": "xyz:MSFT",
     "action": "added to",
     "side": "short",
@@ -2967,36 +2997,6 @@
     "notional": 2322191,
     "pct_of_account": 533.2,
     "trader_month_pnl": 5410569,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "x.com/SilkBtc",
-    "symbol": "BTC",
-    "action": "added to",
-    "side": "long",
-    "notional": 1722097,
-    "pct_of_account": 395.4,
-    "trader_month_pnl": 5410569,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:COIN",
-    "action": "added to",
-    "side": "short",
-    "notional": 784222,
-    "pct_of_account": 1.0,
-    "trader_month_pnl": 22846672,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "ETH",
-    "action": "cut",
-    "side": "short",
-    "notional": 477084,
-    "pct_of_account": 0.6,
-    "trader_month_pnl": 22846672,
     "at": "2026-11-21T05:08:12+01:00"
   }
 ]
