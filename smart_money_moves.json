@@ -1,5 +1,55 @@
 [
   {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MSFT",
+    "action": "added to",
+    "side": "short",
+    "notional": 340413,
+    "pct_of_account": 2.2,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T09:08:18+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:TSLA",
+    "action": "added to",
+    "side": "short",
+    "notional": 190839,
+    "pct_of_account": 1.2,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T09:08:18+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MRNA",
+    "action": "added to",
+    "side": "short",
+    "notional": 84015,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T09:08:18+01:00"
+  },
+  {
+    "trader": "BobbyBigSize",
+    "symbol": "xyz:ANT",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 129,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 47197429,
+    "at": "2026-11-22T09:08:18+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "ZORA",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 3,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 42870684,
+    "at": "2026-11-22T09:08:18+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "xyz:ANT",
     "action": "cut",
@@ -2948,55 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 5630450,
     "at": "2026-11-21T04:08:20+01:00"
-  },
-  {
-    "trader": "0x37b81ab9",
-    "symbol": "ETH",
-    "action": "added to",
-    "side": "long",
-    "notional": 16253620,
-    "pct_of_account": 555.1,
-    "trader_month_pnl": 4759221,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "BobbyBigSize",
-    "symbol": "xyz:ANT",
-    "action": "added to",
-    "side": "short",
-    "notional": 305587,
-    "pct_of_account": 1.1,
-    "trader_month_pnl": 44680319,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0x56472490",
-    "symbol": "ZRO",
-    "action": "cut",
-    "side": "short",
-    "notional": 217695,
-    "pct_of_account": 34.5,
-    "trader_month_pnl": 4835693,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:AMZN",
-    "action": "added to",
-    "side": "long",
-    "notional": 205617,
-    "pct_of_account": 0.5,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T03:08:53+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:AMZN",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 202098,
-    "pct_of_account": 0.3,
-    "trader_month_pnl": 22846672,
-    "at": "2026-11-21T03:08:53+01:00"
   }
 ]
