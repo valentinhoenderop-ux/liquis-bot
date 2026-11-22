@@ -1,5 +1,75 @@
 [
   {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:XYZ100",
+    "action": "added to",
+    "side": "long",
+    "notional": 1080101,
+    "pct_of_account": 2.6,
+    "trader_month_pnl": 37532368,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:EWY",
+    "action": "added to",
+    "side": "short",
+    "notional": 1034789,
+    "pct_of_account": 2.5,
+    "trader_month_pnl": 37532368,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:MSFT",
+    "action": "added to",
+    "side": "short",
+    "notional": 529979,
+    "pct_of_account": 3.4,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
+    "trader": "0x9aa58935",
+    "symbol": "BTC",
+    "action": "cut",
+    "side": "short",
+    "notional": 250256,
+    "pct_of_account": 20.6,
+    "trader_month_pnl": 7657578,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:SPCX",
+    "action": "closed",
+    "side": "short",
+    "notional": 17069,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
+    "trader": "0x024294c5",
+    "symbol": "xyz:PLTR",
+    "action": "closed",
+    "side": "short",
+    "notional": 682,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 34314084,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:SNDK",
+    "action": "added to",
+    "side": "short",
+    "notional": 583,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 42870684,
+    "at": "2026-11-22T12:08:56+01:00"
+  },
+  {
     "trader": "0x9aa58935",
     "symbol": "BTC",
     "action": "cut",
@@ -2926,76 +2996,6 @@
     "side": "short",
     "notional": 7856,
     "pct_of_account": 0.1,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "KAITO",
-    "action": "added to",
-    "side": "short",
-    "notional": 3870,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0x8cc94dc8",
-    "symbol": "BERA",
-    "action": "added to",
-    "side": "long",
-    "notional": 3724,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 6667198,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "W",
-    "action": "added to",
-    "side": "long",
-    "notional": 2156,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0x6859da14",
-    "symbol": "ZEC",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1791,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 7290881,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "PEOPLE",
-    "action": "added to",
-    "side": "short",
-    "notional": 1516,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 43371791,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:MSFT",
-    "action": "cut",
-    "side": "short",
-    "notional": 1357,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T05:08:12+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "POPCAT",
-    "action": "cut",
-    "side": "long",
-    "notional": 536,
-    "pct_of_account": 0.0,
     "trader_month_pnl": 43371791,
     "at": "2026-11-21T05:08:12+01:00"
   }
