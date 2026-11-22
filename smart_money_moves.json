@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:SOXL",
+    "action": "added to",
+    "side": "short",
+    "notional": 206676,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 23587606,
+    "at": "2026-11-22T17:08:43+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:TSLA",
+    "action": "added to",
+    "side": "short",
+    "notional": 191558,
+    "pct_of_account": 0.3,
+    "trader_month_pnl": 23587606,
+    "at": "2026-11-22T17:08:43+01:00"
+  },
+  {
     "trader": "0x024294c5",
     "symbol": "xyz:SPCX",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 55550,
     "pct_of_account": 104.3,
     "trader_month_pnl": 5866868,
-    "at": "2026-11-21T06:08:22+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:MSTR",
-    "action": "cut",
-    "side": "short",
-    "notional": 35798,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 36719736,
-    "at": "2026-11-21T06:08:22+01:00"
-  },
-  {
-    "trader": "John Wick",
-    "symbol": "xyz:EWY",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 27449,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 36719736,
     "at": "2026-11-21T06:08:22+01:00"
   }
 ]
