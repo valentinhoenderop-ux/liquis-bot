@@ -1,127 +1,156 @@
 {
-  "at": "2026-11-23T23:09:17+01:00",
+  "at": "2026-11-24T00:10:00+01:00",
   "markets_scanned": 64,
   "smart_money_snapshot": true,
   "candidates": [
     {
-      "symbol": "MON",
+      "symbol": "WLFI",
       "side": "short",
-      "score": 1.255,
-      "price": 0.011353,
-      "atr": 0.0003612600481402682,
-      "atr_pct": 3.162,
-      "stop": 0.012075520096280537,
-      "breakout_level": 0.0115,
-      "trend_atr": 1.13,
-      "breakout_atr": 0.2,
-      "funding_hourly_pct": -0.00031,
-      "volume_24h": 8309650,
-      "smart_money_view": "agrees",
-      "smart_money": "0L/7S top traders, net $-2.5M"
+      "score": 0.231,
+      "price": 0.041808,
+      "atr": 0.00038027262991160846,
+      "atr_pct": 0.91,
+      "stop": 0.04256854525982322,
+      "breakout_level": 0.042022,
+      "trend_atr": 1.41,
+      "breakout_atr": 0.56,
+      "funding_hourly_pct": -0.00077,
+      "volume_24h": 2087474,
+      "smart_money_view": "opposes",
+      "smart_money": "4L/0S top traders, net $+0.9M"
     }
   ],
   "smart_money_candidates": [
     {
-      "symbol": "ZEC",
+      "symbol": "ETH",
       "side": "short",
-      "price": 774.15,
-      "score": 2.4,
-      "smart_money": "1L/14S top traders, net $-21.7M",
-      "atr_pct": 2.774,
-      "trend": "close 776.46 vs 50h EMA 800.92",
-      "funding_hourly_pct": -0.00018,
-      "volume_24h": 341175752
+      "price": 1715.45,
+      "score": 2.5,
+      "smart_money": "4L/15S top traders, net $-158.1M",
+      "atr_pct": 1.394,
+      "trend": "close 1,711.20 vs 50h EMA 1,719.97",
+      "funding_hourly_pct": -0.00202,
+      "volume_24h": 1445793341
     },
     {
       "symbol": "xyz:AAPL",
       "side": "long",
-      "price": 349.49,
+      "price": 348.925,
       "score": 2.0,
       "smart_money": "10L/1S top traders, net $+24.5M",
-      "atr_pct": 0.607,
-      "trend": "close 349.48 vs 50h EMA 348.29",
-      "funding_hourly_pct": -0.00059,
-      "volume_24h": 78135048
+      "atr_pct": 0.571,
+      "trend": "close 349.53 vs 50h EMA 348.34",
+      "funding_hourly_pct": -9e-05,
+      "volume_24h": 73268590
     },
     {
-      "symbol": "VVV",
+      "symbol": "LIT",
       "side": "short",
-      "price": 24.482,
-      "score": 1.471,
-      "smart_money": "1L/10S top traders, net $-4.7M",
-      "atr_pct": 2.699,
-      "trend": "close 24.4340 vs 50h EMA 25.0996",
+      "price": 2.4244,
+      "score": 1.367,
+      "smart_money": "2L/9S top traders, net $-4.7M",
+      "atr_pct": 2.867,
+      "trend": "close 2.4044 vs 50h EMA 2.4401",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 29507367
+      "volume_24h": 27691864
     },
     {
       "symbol": "XMR",
       "side": "short",
-      "price": 491.995,
-      "score": 1.198,
+      "price": 488.295,
+      "score": 1.196,
       "smart_money": "2L/8S top traders, net $-4.0M",
-      "atr_pct": 1.438,
-      "trend": "close 494.06 vs 50h EMA 495.30",
-      "funding_hourly_pct": 0.00973,
-      "volume_24h": 17601875
+      "atr_pct": 1.497,
+      "trend": "close 486.45 vs 50h EMA 494.98",
+      "funding_hourly_pct": 0.00604,
+      "volume_24h": 18024601
     },
     {
       "symbol": "ZRO",
       "side": "short",
-      "price": 1.15605,
-      "score": 0.995,
+      "price": 1.1312,
+      "score": 0.989,
       "smart_money": "0L/7S top traders, net $-2.9M",
-      "atr_pct": 2.31,
-      "trend": "close 1.1611 vs 50h EMA 1.1989",
+      "atr_pct": 2.438,
+      "trend": "close 1.1289 vs 50h EMA 1.1960",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 8055059
+      "volume_24h": 8246802
     },
     {
-      "symbol": "STRK",
+      "symbol": "MON",
       "side": "short",
-      "price": 0.03149,
-      "score": 0.724,
-      "smart_money": "1L/4S top traders, net $-3.2M",
-      "atr_pct": 1.735,
-      "trend": "close 0.0316 vs 50h EMA 0.031643",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 2000819
+      "price": 0.011467,
+      "score": 0.951,
+      "smart_money": "0L/7S top traders, net $-2.5M",
+      "atr_pct": 3.074,
+      "trend": "close 0.011462 vs 50h EMA 0.0123727",
+      "funding_hourly_pct": -0.00117,
+      "volume_24h": 8376217
     },
     {
       "symbol": "ADA",
       "side": "long",
-      "price": 0.14751,
+      "price": 0.147385,
       "score": 0.583,
       "smart_money": "4L/1S top traders, net $+1.8M",
-      "atr_pct": 1.444,
-      "trend": "close 0.14797 vs 50h EMA 0.14648",
-      "funding_hourly_pct": -0.00095,
-      "volume_24h": 9170321
+      "atr_pct": 1.435,
+      "trend": "close 0.14681 vs 50h EMA 0.146492",
+      "funding_hourly_pct": -0.00221,
+      "volume_24h": 9157243
+    },
+    {
+      "symbol": "ETHFI",
+      "side": "short",
+      "price": 0.48652,
+      "score": 0.335,
+      "smart_money": "0L/3S top traders, net $-0.4M",
+      "atr_pct": 2.071,
+      "trend": "close 0.4853 vs 50h EMA 0.492921",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 2374138
     }
   ],
   "skipped_as_correlated": [
+    {
+      "symbol": "ZEC",
+      "side": "short",
+      "score": 2.5,
+      "moves_with": [
+        "ETH (corr 0.79)"
+      ]
+    },
     {
       "symbol": "NEAR",
       "side": "short",
       "score": 2.1,
       "moves_with": [
-        "ZEC (corr 0.83)"
+        "ETH (corr 0.83)"
       ]
     },
     {
-      "symbol": "LIT",
+      "symbol": "VVV",
       "side": "short",
-      "score": 1.364,
+      "score": 1.47,
       "moves_with": [
-        "ZEC (corr 0.82)"
+        "ETH (corr 0.72)"
       ]
     },
     {
       "symbol": "AAVE",
       "side": "short",
-      "score": 1.353,
+      "score": 1.351,
       "moves_with": [
-        "ZEC (corr 0.81)"
+        "ETH (corr 0.86)",
+        "LIT (corr 0.73)"
+      ]
+    },
+    {
+      "symbol": "PUMP",
+      "side": "short",
+      "score": 1.081,
+      "moves_with": [
+        "ETH (corr 0.74)",
+        "LIT (corr 0.71)"
       ]
     },
     {
@@ -129,15 +158,44 @@
       "side": "short",
       "score": 1.071,
       "moves_with": [
-        "ZEC (corr 0.71)"
+        "ETH (corr 0.71)"
       ]
     },
     {
-      "symbol": "ETHFI",
+      "symbol": "STRK",
       "side": "short",
-      "score": 0.335,
+      "score": 0.723,
       "moves_with": [
-        "STRK (corr 0.77)"
+        "ETH (corr 0.71)"
+      ]
+    },
+    {
+      "symbol": "kPEPE",
+      "side": "short",
+      "score": 0.596,
+      "moves_with": [
+        "ETH (corr 0.83)",
+        "LIT (corr 0.75)",
+        "ZRO (corr 0.73)"
+      ]
+    },
+    {
+      "symbol": "HBAR",
+      "side": "short",
+      "score": 0.45,
+      "moves_with": [
+        "ETH (corr 0.87)",
+        "LIT (corr 0.8)",
+        "ZRO (corr 0.73)"
+      ]
+    },
+    {
+      "symbol": "GRASS",
+      "side": "short",
+      "score": 0.337,
+      "moves_with": [
+        "ETH (corr 0.75)",
+        "LIT (corr 0.76)"
       ]
     }
   ],
