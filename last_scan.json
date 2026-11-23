@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-23T20:09:30+01:00",
+  "at": "2026-11-23T21:09:11+01:00",
   "markets_scanned": 65,
   "smart_money_snapshot": true,
   "candidates": [],
@@ -7,47 +7,82 @@
     {
       "symbol": "xyz:AAPL",
       "side": "long",
-      "price": 349.465,
+      "price": 349.765,
       "score": 2.0,
       "smart_money": "10L/1S top traders, net $+24.5M",
-      "atr_pct": 0.619,
-      "trend": "close 348.48 vs 50h EMA 348.12",
-      "funding_hourly_pct": 0.00017,
-      "volume_24h": 74160457
+      "atr_pct": 0.611,
+      "trend": "close 350.14 vs 50h EMA 348.22",
+      "funding_hourly_pct": 0.00056,
+      "volume_24h": 76106254
+    },
+    {
+      "symbol": "VVV",
+      "side": "short",
+      "price": 24.951,
+      "score": 1.48,
+      "smart_money": "1L/10S top traders, net $-4.8M",
+      "atr_pct": 2.734,
+      "trend": "close 24.9490 vs 50h EMA 25.1534",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 29347773
+    },
+    {
+      "symbol": "AAVE",
+      "side": "short",
+      "price": 97.6135,
+      "score": 1.356,
+      "smart_money": "0L/8S top traders, net $-5.6M",
+      "atr_pct": 1.949,
+      "trend": "close 97.9790 vs 50h EMA 98.6348",
+      "funding_hourly_pct": -0.00131,
+      "volume_24h": 13866539
+    },
+    {
+      "symbol": "ZRO",
+      "side": "short",
+      "price": 1.17225,
+      "score": 0.999,
+      "smart_money": "0L/7S top traders, net $-3.0M",
+      "atr_pct": 2.317,
+      "trend": "close 1.1761 vs 50h EMA 1.2024",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 7595433
     },
     {
       "symbol": "MON",
       "side": "short",
-      "price": 0.011686,
-      "score": 0.956,
+      "price": 0.01175,
+      "score": 0.957,
       "smart_money": "0L/7S top traders, net $-2.6M",
-      "atr_pct": 3.178,
-      "trend": "close 0.011775 vs 50h EMA 0.0125137",
+      "atr_pct": 3.111,
+      "trend": "close 0.011728 vs 50h EMA 0.0124855",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 7305212
+      "volume_24h": 7492748
     },
     {
       "symbol": "ADA",
       "side": "long",
-      "price": 0.150155,
-      "score": 0.586,
-      "smart_money": "4L/1S top traders, net $+1.9M",
-      "atr_pct": 1.447,
-      "trend": "close 0.14973 vs 50h EMA 0.14626",
-      "funding_hourly_pct": -0.00207,
-      "volume_24h": 8703879
-    }
-  ],
-  "skipped_as_correlated": [
+      "price": 0.148145,
+      "score": 0.584,
+      "smart_money": "4L/1S top traders, net $+1.8M",
+      "atr_pct": 1.487,
+      "trend": "close 0.1488 vs 50h EMA 0.14637",
+      "funding_hourly_pct": -0.00286,
+      "volume_24h": 8870298
+    },
     {
-      "symbol": "TRUMP",
-      "side": "long",
-      "score": 0.326,
-      "moves_with": [
-        "ADA (corr 0.87)"
-      ]
+      "symbol": "ETHFI",
+      "side": "short",
+      "price": 0.48665,
+      "score": 0.335,
+      "smart_money": "0L/3S top traders, net $-0.4M",
+      "atr_pct": 2.166,
+      "trend": "close 0.49094 vs 50h EMA 0.493929",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 1556485
     }
   ],
+  "skipped_as_correlated": [],
   "exit_suggestions": [],
   "errors": []
 }
