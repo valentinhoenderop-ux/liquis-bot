@@ -1,88 +1,146 @@
 {
-  "at": "2026-11-23T21:09:11+01:00",
-  "markets_scanned": 65,
+  "at": "2026-11-23T23:09:17+01:00",
+  "markets_scanned": 64,
   "smart_money_snapshot": true,
-  "candidates": [],
+  "candidates": [
+    {
+      "symbol": "MON",
+      "side": "short",
+      "score": 1.255,
+      "price": 0.011353,
+      "atr": 0.0003612600481402682,
+      "atr_pct": 3.162,
+      "stop": 0.012075520096280537,
+      "breakout_level": 0.0115,
+      "trend_atr": 1.13,
+      "breakout_atr": 0.2,
+      "funding_hourly_pct": -0.00031,
+      "volume_24h": 8309650,
+      "smart_money_view": "agrees",
+      "smart_money": "0L/7S top traders, net $-2.5M"
+    }
+  ],
   "smart_money_candidates": [
+    {
+      "symbol": "ZEC",
+      "side": "short",
+      "price": 774.15,
+      "score": 2.4,
+      "smart_money": "1L/14S top traders, net $-21.7M",
+      "atr_pct": 2.774,
+      "trend": "close 776.46 vs 50h EMA 800.92",
+      "funding_hourly_pct": -0.00018,
+      "volume_24h": 341175752
+    },
     {
       "symbol": "xyz:AAPL",
       "side": "long",
-      "price": 349.765,
+      "price": 349.49,
       "score": 2.0,
       "smart_money": "10L/1S top traders, net $+24.5M",
-      "atr_pct": 0.611,
-      "trend": "close 350.14 vs 50h EMA 348.22",
-      "funding_hourly_pct": 0.00056,
-      "volume_24h": 76106254
+      "atr_pct": 0.607,
+      "trend": "close 349.48 vs 50h EMA 348.29",
+      "funding_hourly_pct": -0.00059,
+      "volume_24h": 78135048
     },
     {
       "symbol": "VVV",
       "side": "short",
-      "price": 24.951,
-      "score": 1.48,
-      "smart_money": "1L/10S top traders, net $-4.8M",
-      "atr_pct": 2.734,
-      "trend": "close 24.9490 vs 50h EMA 25.1534",
+      "price": 24.482,
+      "score": 1.471,
+      "smart_money": "1L/10S top traders, net $-4.7M",
+      "atr_pct": 2.699,
+      "trend": "close 24.4340 vs 50h EMA 25.0996",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 29347773
+      "volume_24h": 29507367
     },
     {
-      "symbol": "AAVE",
+      "symbol": "XMR",
       "side": "short",
-      "price": 97.6135,
-      "score": 1.356,
-      "smart_money": "0L/8S top traders, net $-5.6M",
-      "atr_pct": 1.949,
-      "trend": "close 97.9790 vs 50h EMA 98.6348",
-      "funding_hourly_pct": -0.00131,
-      "volume_24h": 13866539
+      "price": 491.995,
+      "score": 1.198,
+      "smart_money": "2L/8S top traders, net $-4.0M",
+      "atr_pct": 1.438,
+      "trend": "close 494.06 vs 50h EMA 495.30",
+      "funding_hourly_pct": 0.00973,
+      "volume_24h": 17601875
     },
     {
       "symbol": "ZRO",
       "side": "short",
-      "price": 1.17225,
-      "score": 0.999,
-      "smart_money": "0L/7S top traders, net $-3.0M",
-      "atr_pct": 2.317,
-      "trend": "close 1.1761 vs 50h EMA 1.2024",
+      "price": 1.15605,
+      "score": 0.995,
+      "smart_money": "0L/7S top traders, net $-2.9M",
+      "atr_pct": 2.31,
+      "trend": "close 1.1611 vs 50h EMA 1.1989",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 7595433
+      "volume_24h": 8055059
     },
     {
-      "symbol": "MON",
+      "symbol": "STRK",
       "side": "short",
-      "price": 0.01175,
-      "score": 0.957,
-      "smart_money": "0L/7S top traders, net $-2.6M",
-      "atr_pct": 3.111,
-      "trend": "close 0.011728 vs 50h EMA 0.0124855",
+      "price": 0.03149,
+      "score": 0.724,
+      "smart_money": "1L/4S top traders, net $-3.2M",
+      "atr_pct": 1.735,
+      "trend": "close 0.0316 vs 50h EMA 0.031643",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 7492748
+      "volume_24h": 2000819
     },
     {
       "symbol": "ADA",
       "side": "long",
-      "price": 0.148145,
-      "score": 0.584,
+      "price": 0.14751,
+      "score": 0.583,
       "smart_money": "4L/1S top traders, net $+1.8M",
-      "atr_pct": 1.487,
-      "trend": "close 0.1488 vs 50h EMA 0.14637",
-      "funding_hourly_pct": -0.00286,
-      "volume_24h": 8870298
+      "atr_pct": 1.444,
+      "trend": "close 0.14797 vs 50h EMA 0.14648",
+      "funding_hourly_pct": -0.00095,
+      "volume_24h": 9170321
+    }
+  ],
+  "skipped_as_correlated": [
+    {
+      "symbol": "NEAR",
+      "side": "short",
+      "score": 2.1,
+      "moves_with": [
+        "ZEC (corr 0.83)"
+      ]
+    },
+    {
+      "symbol": "LIT",
+      "side": "short",
+      "score": 1.364,
+      "moves_with": [
+        "ZEC (corr 0.82)"
+      ]
+    },
+    {
+      "symbol": "AAVE",
+      "side": "short",
+      "score": 1.353,
+      "moves_with": [
+        "ZEC (corr 0.81)"
+      ]
+    },
+    {
+      "symbol": "XPL",
+      "side": "short",
+      "score": 1.071,
+      "moves_with": [
+        "ZEC (corr 0.71)"
+      ]
     },
     {
       "symbol": "ETHFI",
       "side": "short",
-      "price": 0.48665,
       "score": 0.335,
-      "smart_money": "0L/3S top traders, net $-0.4M",
-      "atr_pct": 2.166,
-      "trend": "close 0.49094 vs 50h EMA 0.493929",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 1556485
+      "moves_with": [
+        "STRK (corr 0.77)"
+      ]
     }
   ],
-  "skipped_as_correlated": [],
   "exit_suggestions": [],
   "errors": []
 }
