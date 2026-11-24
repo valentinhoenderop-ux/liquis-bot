@@ -1,200 +1,127 @@
 {
-  "at": "2026-11-24T18:09:49+01:00",
-  "markets_scanned": 62,
+  "at": "2026-11-24T19:09:04+01:00",
+  "markets_scanned": 63,
   "smart_money_snapshot": true,
-  "candidates": [
-    {
-      "symbol": "ETHFI",
-      "side": "short",
-      "score": 1.536,
-      "price": 0.45507,
-      "atr": 0.007690454423267898,
-      "atr_pct": 1.694,
-      "stop": 0.4704509088465358,
-      "breakout_level": 0.45865,
-      "trend_atr": 0.86,
-      "breakout_atr": 0.61,
-      "funding_hourly_pct": 0.00043,
-      "volume_24h": 2912051,
-      "smart_money_view": "agrees",
-      "smart_money": "0L/3S top traders, net $-0.3M"
-    },
-    {
-      "symbol": "xyz:COIN",
-      "side": "short",
-      "score": 0.76,
-      "price": 103.72,
-      "atr": 1.5181888864815947,
-      "atr_pct": 1.478,
-      "stop": 106.75637777296319,
-      "breakout_level": 102.95,
-      "trend_atr": 0.19,
-      "breakout_atr": 0.16,
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 4272361,
-      "smart_money_view": "agrees",
-      "smart_money": "0L/3S top traders, net $-0.8M"
-    },
-    {
-      "symbol": "xyz:SILVER",
-      "side": "short",
-      "score": 0.318,
-      "price": 41.024,
-      "atr": 0.4938396356968651,
-      "atr_pct": 1.208,
-      "stop": 42.01167927139373,
-      "breakout_level": 40.986,
-      "trend_atr": 0.17,
-      "breakout_atr": 0.23,
-      "funding_hourly_pct": 0.00218,
-      "volume_24h": 140290374,
-      "smart_money_view": "mixed",
-      "smart_money": "4L/4S top traders, net $-12.2M"
-    }
-  ],
+  "candidates": [],
   "smart_money_candidates": [
     {
-      "symbol": "xyz:NVDA",
+      "symbol": "BTC",
       "side": "short",
-      "price": 152.605,
-      "score": 2.1,
-      "smart_money": "3L/11S top traders, net $-36.7M",
-      "atr_pct": 2.117,
-      "trend": "close 150.87 vs 50h EMA 152.03",
-      "funding_hourly_pct": 0.00272,
-      "volume_24h": 724094199
+      "price": 60075.0,
+      "score": 2.7,
+      "smart_money": "3L/17S top traders, net $-296.9M",
+      "atr_pct": 1.125,
+      "trend": "close 60,090.00 vs 50h EMA 60,638.32",
+      "funding_hourly_pct": 0.0005,
+      "volume_24h": 3482835124
     },
     {
       "symbol": "xyz:AAPL",
       "side": "long",
-      "price": 351.745,
+      "price": 353.105,
       "score": 2.0,
-      "smart_money": "10L/1S top traders, net $+25.9M",
-      "atr_pct": 0.613,
-      "trend": "close 351.18 vs 50h EMA 349.17",
-      "funding_hourly_pct": -0.00038,
-      "volume_24h": 34727731
+      "smart_money": "10L/1S top traders, net $+26.1M",
+      "atr_pct": 0.615,
+      "trend": "close 353.27 vs 50h EMA 349.32",
+      "funding_hourly_pct": -0.0018,
+      "volume_24h": 34694305
     },
     {
-      "symbol": "VVV",
+      "symbol": "xyz:MU",
       "side": "short",
-      "price": 24.941,
-      "score": 1.633,
-      "smart_money": "1L/11S top traders, net $-5.3M",
-      "atr_pct": 2.5,
-      "trend": "close 24.6500 vs 50h EMA 25.0920",
+      "price": 632.105,
+      "score": 1.9,
+      "smart_money": "1L/9S top traders, net $-30.3M",
+      "atr_pct": 2.263,
+      "trend": "close 635.51 vs 50h EMA 661.85",
+      "funding_hourly_pct": 0.00147,
+      "volume_24h": 144616658
+    },
+    {
+      "symbol": "xyz:GOLD",
+      "side": "short",
+      "price": 3564.95,
+      "score": 1.6,
+      "smart_money": "0L/6S top traders, net $-17.8M",
+      "atr_pct": 0.554,
+      "trend": "close 3,569.40 vs 50h EMA 3,610.98",
+      "funding_hourly_pct": 0.00169,
+      "volume_24h": 67510745
+    },
+    {
+      "symbol": "XPL",
+      "side": "short",
+      "price": 0.04493,
+      "score": 1.067,
+      "smart_money": "0L/7S top traders, net $-3.7M",
+      "atr_pct": 1.447,
+      "trend": "close 0.045039 vs 50h EMA 0.0455548",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 17394521
-    },
-    {
-      "symbol": "xyz:SPCX",
-      "side": "short",
-      "price": 126.495,
-      "score": 1.261,
-      "smart_money": "3L/9S top traders, net $-3.6M",
-      "atr_pct": 1.32,
-      "trend": "close 125.44 vs 50h EMA 132.10",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 94754423
-    },
-    {
-      "symbol": "XMR",
-      "side": "short",
-      "price": 496.495,
-      "score": 1.202,
-      "smart_money": "2L/8S top traders, net $-4.0M",
-      "atr_pct": 1.209,
-      "trend": "close 494.36 vs 50h EMA 494.51",
-      "funding_hourly_pct": -0.00027,
-      "volume_24h": 16266040
-    },
-    {
-      "symbol": "PUMP",
-      "side": "short",
-      "price": 0.002422,
-      "score": 1.184,
-      "smart_money": "1L/10S top traders, net $-1.8M",
-      "atr_pct": 2.113,
-      "trend": "close 0.002403 vs 50h EMA 0.0025028",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 23954127
+      "volume_24h": 3549773
     },
     {
       "symbol": "ZRO",
       "side": "short",
-      "price": 1.0344,
-      "score": 0.963,
-      "smart_money": "0L/7S top traders, net $-2.6M",
-      "atr_pct": 2.69,
-      "trend": "close 1.0315 vs 50h EMA 1.1359",
+      "price": 1.04685,
+      "score": 0.966,
+      "smart_money": "0L/7S top traders, net $-2.7M",
+      "atr_pct": 2.645,
+      "trend": "close 1.0498 vs 50h EMA 1.1326",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 8311239
+      "volume_24h": 8374298
     },
     {
       "symbol": "MON",
       "side": "short",
-      "price": 0.010071,
+      "price": 0.010043,
       "score": 0.959,
       "smart_money": "0L/7S top traders, net $-2.6M",
-      "atr_pct": 5.602,
-      "trend": "close 0.010044 vs 50h EMA 0.0121925",
-      "funding_hourly_pct": 0.00125,
-      "volume_24h": 19718063
+      "atr_pct": 5.384,
+      "trend": "close 0.010037 vs 50h EMA 0.0121044",
+      "funding_hourly_pct": 0.00127,
+      "volume_24h": 19714017
     },
     {
       "symbol": "xyz:AMZN",
       "side": "short",
-      "price": 252.7,
-      "score": 0.78,
+      "price": 252.695,
+      "score": 0.779,
       "smart_money": "1L/7S top traders, net $-0.8M",
-      "atr_pct": 0.841,
-      "trend": "close 251.37 vs 50h EMA 255.04",
+      "atr_pct": 0.86,
+      "trend": "close 252.98 vs 50h EMA 254.94",
       "funding_hourly_pct": 0.00063,
-      "volume_24h": 12359762
+      "volume_24h": 11906658
+    },
+    {
+      "symbol": "UNI",
+      "side": "short",
+      "price": 4.73795,
+      "score": 0.661,
+      "smart_money": "2L/6S top traders, net $-0.6M",
+      "atr_pct": 1.648,
+      "trend": "close 4.7401 vs 50h EMA 4.7768",
+      "funding_hourly_pct": 0.00061,
+      "volume_24h": 9392660
     },
     {
       "symbol": "xyz:NATGAS",
       "side": "long",
-      "price": 3.7291,
-      "score": 0.54,
+      "price": 3.712,
+      "score": 0.542,
       "smart_money": "3L/0S top traders, net $+2.4M",
-      "atr_pct": 0.922,
-      "trend": "close 3.7365 vs 50h EMA 3.6053",
-      "funding_hourly_pct": -0.00039,
-      "volume_24h": 5255097
+      "atr_pct": 0.949,
+      "trend": "close 3.6957 vs 50h EMA 3.6086",
+      "funding_hourly_pct": -0.00109,
+      "volume_24h": 5345753
     }
   ],
   "skipped_as_correlated": [
     {
       "symbol": "HYPE",
       "side": "short",
-      "score": 0.748,
-      "moves_with": [
-        "xyz:COIN (corr 0.72)"
-      ]
-    },
-    {
-      "symbol": "xyz:MSTR",
-      "side": "short",
-      "score": 0.699,
-      "moves_with": [
-        "xyz:COIN (corr 0.93)"
-      ]
-    },
-    {
-      "symbol": "BTC",
-      "side": "short",
-      "score": 2.7,
-      "moves_with": [
-        "xyz:COIN (corr 0.86)"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "side": "short",
       "score": 2.5,
       "moves_with": [
-        "xyz:COIN (corr 0.78)"
+        "BTC (corr 0.79)"
       ]
     },
     {
@@ -202,129 +129,93 @@
       "side": "short",
       "score": 2.3,
       "moves_with": [
-        "xyz:COIN (corr 0.73)"
+        "BTC (corr 0.88)"
       ]
     },
     {
       "symbol": "ZEC",
       "side": "short",
-      "score": 2.035,
+      "score": 2.063,
       "moves_with": [
-        "xyz:NVDA (corr 0.83)"
-      ]
-    },
-    {
-      "symbol": "xyz:MU",
-      "side": "short",
-      "score": 1.9,
-      "moves_with": [
-        "xyz:COIN (corr 0.73)",
-        "xyz:NVDA (corr 0.87)"
-      ]
-    },
-    {
-      "symbol": "xyz:GOLD",
-      "side": "short",
-      "score": 1.6,
-      "moves_with": [
-        "xyz:SILVER (corr 0.89)"
+        "BTC (corr 0.74)"
       ]
     },
     {
       "symbol": "xyz:NBIS",
       "side": "short",
-      "score": 1.449,
+      "score": 1.443,
       "moves_with": [
-        "xyz:NVDA (corr 0.89)"
+        "BTC (corr 0.71)",
+        "xyz:MU (corr 0.87)"
       ]
     },
     {
       "symbol": "xyz:DRAM",
       "side": "short",
-      "score": 1.353,
+      "score": 1.386,
       "moves_with": [
-        "xyz:SILVER (corr 0.74)",
-        "xyz:NVDA (corr 0.83)"
+        "xyz:MU (corr 0.96)"
       ]
     },
     {
-      "symbol": "xyz:XYZ100",
+      "symbol": "xyz:SPCX",
       "side": "short",
-      "score": 1.3,
+      "score": 1.314,
       "moves_with": [
-        "xyz:COIN (corr 0.81)",
-        "xyz:SILVER (corr 0.71)",
-        "xyz:NVDA (corr 0.83)"
-      ]
-    },
-    {
-      "symbol": "xyz:SP500",
-      "side": "short",
-      "score": 1.3,
-      "moves_with": [
-        "xyz:COIN (corr 0.71)"
+        "xyz:MU (corr 0.75)"
       ]
     },
     {
       "symbol": "AAVE",
       "side": "short",
-      "score": 1.235,
+      "score": 1.237,
       "moves_with": [
-        "xyz:NVDA (corr 0.72)"
+        "BTC (corr 0.76)"
       ]
     },
     {
-      "symbol": "XPL",
+      "symbol": "PUMP",
       "side": "short",
-      "score": 1.065,
+      "score": 1.084,
       "moves_with": [
-        "PUMP (corr 0.72)"
+        "BTC (corr 0.71)"
       ]
     },
     {
       "symbol": "LTC",
       "side": "short",
-      "score": 0.676,
+      "score": 0.678,
       "moves_with": [
-        "xyz:NVDA (corr 0.73)",
-        "xyz:SPCX (corr 0.72)",
-        "PUMP (corr 0.82)"
-      ]
-    },
-    {
-      "symbol": "UNI",
-      "side": "short",
-      "score": 0.66,
-      "moves_with": [
-        "xyz:NVDA (corr 0.76)",
-        "PUMP (corr 0.73)"
+        "BTC (corr 0.75)",
+        "xyz:MU (corr 0.71)",
+        "XPL (corr 0.74)"
       ]
     },
     {
       "symbol": "kPEPE",
       "side": "short",
-      "score": 0.574,
+      "score": 0.576,
       "moves_with": [
-        "xyz:NVDA (corr 0.72)",
-        "xyz:SPCX (corr 0.71)",
-        "PUMP (corr 0.75)"
+        "XPL (corr 0.74)",
+        "UNI (corr 0.86)"
       ]
     },
     {
       "symbol": "xyz:TSM",
       "side": "short",
-      "score": 0.542,
+      "score": 0.54,
       "moves_with": [
-        "xyz:NVDA (corr 0.77)",
-        "xyz:SPCX (corr 0.87)"
+        "xyz:MU (corr 0.83)",
+        "UNI (corr 0.73)"
       ]
     },
     {
       "symbol": "xyz:CRWV",
       "side": "short",
-      "score": 0.466,
+      "score": 0.464,
       "moves_with": [
-        "xyz:NVDA (corr 0.9)"
+        "BTC (corr 0.72)",
+        "xyz:MU (corr 0.85)"
       ]
     },
     {
@@ -332,17 +223,7 @@
       "side": "short",
       "score": 0.432,
       "moves_with": [
-        "xyz:SILVER (corr 0.78)"
-      ]
-    },
-    {
-      "symbol": "xyz:KORU",
-      "side": "short",
-      "score": 0.425,
-      "moves_with": [
-        "xyz:COIN (corr 0.72)",
-        "xyz:NVDA (corr 0.84)",
-        "xyz:SPCX (corr 0.74)"
+        "xyz:MU (corr 0.75)"
       ]
     },
     {
@@ -350,9 +231,18 @@
       "side": "short",
       "score": 0.413,
       "moves_with": [
-        "xyz:COIN (corr 0.87)",
-        "xyz:SILVER (corr 0.74)",
-        "xyz:NVDA (corr 0.76)"
+        "BTC (corr 0.82)",
+        "xyz:MU (corr 0.83)",
+        "UNI (corr 0.71)"
+      ]
+    },
+    {
+      "symbol": "xyz:COIN",
+      "side": "short",
+      "score": 0.379,
+      "moves_with": [
+        "BTC (corr 0.87)",
+        "xyz:MU (corr 0.73)"
       ]
     },
     {
@@ -360,9 +250,8 @@
       "side": "short",
       "score": 0.345,
       "moves_with": [
-        "xyz:SILVER (corr 0.71)",
-        "xyz:NVDA (corr 0.78)",
-        "xyz:SPCX (corr 0.85)"
+        "xyz:MU (corr 0.9)",
+        "UNI (corr 0.73)"
       ]
     },
     {
@@ -370,8 +259,7 @@
       "side": "short",
       "score": 0.327,
       "moves_with": [
-        "xyz:COIN (corr 0.76)",
-        "xyz:NVDA (corr 0.8)"
+        "xyz:MU (corr 0.92)"
       ]
     }
   ],
