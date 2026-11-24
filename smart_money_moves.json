@@ -4,6 +4,46 @@
     "symbol": "xyz:DELL",
     "action": "added to",
     "side": "short",
+    "notional": 560945,
+    "pct_of_account": 1.3,
+    "trader_month_pnl": 30126693,
+    "at": "2026-11-24T23:08:18+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "xyz:SKHY",
+    "action": "added to",
+    "side": "long",
+    "notional": 128842,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 18133732,
+    "at": "2026-11-24T23:08:18+01:00"
+  },
+  {
+    "trader": "0xda3768e9",
+    "symbol": "xyz:DELL",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 95403,
+    "pct_of_account": 0.5,
+    "trader_month_pnl": 5455685,
+    "at": "2026-11-24T23:08:18+01:00"
+  },
+  {
+    "trader": "0xfe7ce058",
+    "symbol": "REZ",
+    "action": "cut",
+    "side": "short",
+    "notional": 188,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 18133732,
+    "at": "2026-11-24T23:08:18+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:DELL",
+    "action": "added to",
+    "side": "short",
     "notional": 413721,
     "pct_of_account": 1.0,
     "trader_month_pnl": 30126693,
@@ -2958,45 +2998,5 @@
     "pct_of_account": 2.3,
     "trader_month_pnl": 3900485,
     "at": "2026-11-24T09:08:53+01:00"
-  },
-  {
-    "trader": "x.com/SilkBtc",
-    "symbol": "HYPE",
-    "action": "flipped to",
-    "side": "short",
-    "notional": 3115,
-    "pct_of_account": 3.0,
-    "trader_month_pnl": 5102910,
-    "at": "2026-11-24T09:08:53+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SKHX",
-    "action": "added to",
-    "side": "short",
-    "notional": 2260361,
-    "pct_of_account": 3.0,
-    "trader_month_pnl": 7710912,
-    "at": "2026-11-24T08:08:59+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:BRENTOIL",
-    "action": "added to",
-    "side": "long",
-    "notional": 259029,
-    "pct_of_account": 2.5,
-    "trader_month_pnl": 13058764,
-    "at": "2026-11-24T08:08:59+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:CL",
-    "action": "added to",
-    "side": "short",
-    "notional": 159764,
-    "pct_of_account": 1.5,
-    "trader_month_pnl": 13058764,
-    "at": "2026-11-24T08:08:59+01:00"
   }
 ]
