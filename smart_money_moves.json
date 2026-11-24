@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0x56472490",
+    "symbol": "xyz:COST",
+    "action": "closed",
+    "side": "long",
+    "notional": 18376,
+    "pct_of_account": 2.3,
+    "trader_month_pnl": 3900485,
+    "at": "2026-11-24T09:08:53+01:00"
+  },
+  {
+    "trader": "x.com/SilkBtc",
+    "symbol": "HYPE",
+    "action": "flipped to",
+    "side": "short",
+    "notional": 3115,
+    "pct_of_account": 3.0,
+    "trader_month_pnl": 5102910,
+    "at": "2026-11-24T09:08:53+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "xyz:SKHX",
     "action": "added to",
@@ -2977,26 +2997,6 @@
     "notional": 5336670,
     "pct_of_account": 993.7,
     "trader_month_pnl": 5239473,
-    "at": "2026-11-23T16:10:50+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "ZEC",
-    "action": "added to",
-    "side": "short",
-    "notional": 4693969,
-    "pct_of_account": 6.3,
-    "trader_month_pnl": 15647492,
-    "at": "2026-11-23T16:10:50+01:00"
-  },
-  {
-    "trader": "0xd8c5228c",
-    "symbol": "xyz:NVDA",
-    "action": "cut",
-    "side": "short",
-    "notional": 2431872,
-    "pct_of_account": 18.8,
-    "trader_month_pnl": 6607318,
     "at": "2026-11-23T16:10:50+01:00"
   }
 ]
