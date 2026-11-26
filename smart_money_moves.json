@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0x9aa58935",
+    "symbol": "xyz:CRCL",
+    "action": "added to",
+    "side": "long",
+    "notional": 39878,
+    "pct_of_account": 3.5,
+    "trader_month_pnl": 5150025,
+    "at": "2026-11-26T07:08:22+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "MOVE",
+    "action": "flipped to",
+    "side": "long",
+    "notional": 1135,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 35881566,
+    "at": "2026-11-26T07:08:22+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "BABY",
+    "action": "cut",
+    "side": "short",
+    "notional": 4,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 35881566,
+    "at": "2026-11-26T07:08:22+01:00"
+  },
+  {
     "trader": "0x77375a8c",
     "symbol": "ETH",
     "action": "added to",
@@ -2965,36 +2995,6 @@
     "action": "added to",
     "side": "short",
     "notional": 310,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 37160741,
-    "at": "2026-11-25T15:09:55+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ANIME",
-    "action": "added to",
-    "side": "short",
-    "notional": 243,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 37160741,
-    "at": "2026-11-25T15:09:55+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "MOODENG",
-    "action": "added to",
-    "side": "short",
-    "notional": 152,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 37160741,
-    "at": "2026-11-25T15:09:55+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "POPCAT",
-    "action": "cut",
-    "side": "long",
-    "notional": 8,
     "pct_of_account": 0.0,
     "trader_month_pnl": 37160741,
     "at": "2026-11-25T15:09:55+01:00"
