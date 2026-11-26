@@ -1,5 +1,35 @@
 [
   {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:SKHY",
+    "action": "added to",
+    "side": "short",
+    "notional": 2394951,
+    "pct_of_account": 6.7,
+    "trader_month_pnl": 31676254,
+    "at": "2026-11-26T19:09:20+01:00"
+  },
+  {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:ARM",
+    "action": "added to",
+    "side": "short",
+    "notional": 195267,
+    "pct_of_account": 0.2,
+    "trader_month_pnl": 11815752,
+    "at": "2026-11-26T19:09:20+01:00"
+  },
+  {
+    "trader": "0xfc27136e",
+    "symbol": "xyz:CBRS",
+    "action": "added to",
+    "side": "long",
+    "notional": 17405,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 31676254,
+    "at": "2026-11-26T19:09:20+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "BTC",
     "action": "added to",
@@ -2966,36 +2996,6 @@
     "side": "short",
     "notional": 91320,
     "pct_of_account": 0.3,
-    "trader_month_pnl": 31676254,
-    "at": "2026-11-25T21:09:02+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:SILVER",
-    "action": "cut",
-    "side": "short",
-    "notional": 74419,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 31676254,
-    "at": "2026-11-25T21:09:02+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:CL",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 69005,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 31676254,
-    "at": "2026-11-25T21:09:02+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:COIN",
-    "action": "added to",
-    "side": "short",
-    "notional": 27452,
-    "pct_of_account": 0.1,
     "trader_month_pnl": 31676254,
     "at": "2026-11-25T21:09:02+01:00"
   }
