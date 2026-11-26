@@ -45,3 +45,7 @@
 [PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf)
 - 2026-10-15 **purchase** Mobility Global Inc. Common Stock (MBGL, ST), $50,001 - $100,000
 - 2026-10-15 **sale** Strategy Inc - Variable Rate Series A Perpetual Stretch Preferred Stock (STRC, ST), $50,001 - $100,000
+
+## Jennifer McClellan: filing 20036883, filed 2026-11-20 (found 2026-11-26 01:09)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036883.pdf)
+- 2026-11-19 **partial sale** Verizon Communications Inc. Common Stock (VZ, ST), $50,001 - $100,000
