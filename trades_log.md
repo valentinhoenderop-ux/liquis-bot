@@ -49,3 +49,9 @@
 ## Jennifer McClellan: filing 20036883, filed 2026-11-20 (found 2026-11-26 01:09)
 [PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036883.pdf)
 - 2026-11-19 **partial sale** Verizon Communications Inc. Common Stock (VZ, ST), $50,001 - $100,000
+
+## Kevin Hern: filing 20036875, filed 2026-11-24 (found 2026-11-27 09:09)
+[PDF](https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf)
+- 2026-11-17 **partial sale** Rockwell Automation, Inc. Common Stock (ROK, ST), $50,001 - $100,000
+- 2026-11-17 **partial sale** Rockwell Automation, Inc. Common Stock (ROK, ST), $50,001 - $100,000
+- 2026-11-16 **partial sale** Rockwell Automation, Inc. Common Stock (ROK, ST), $100,001 - $250,000
