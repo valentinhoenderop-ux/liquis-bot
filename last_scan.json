@@ -1,135 +1,135 @@
 {
-  "at": "2026-11-27T20:08:44+01:00",
+  "at": "2026-11-27T21:08:54+01:00",
   "markets_scanned": 63,
   "smart_money_snapshot": true,
   "candidates": [
     {
       "symbol": "WLFI",
       "side": "short",
-      "score": 0.165,
-      "price": 0.037311,
-      "atr": 0.0004994059880059809,
-      "atr_pct": 1.334,
-      "stop": 0.03830981197601196,
-      "breakout_level": 0.037542,
-      "trend_atr": 1.87,
-      "breakout_atr": 0.23,
-      "funding_hourly_pct": 0.00098,
-      "volume_24h": 1394740,
+      "score": 1.536,
+      "price": 0.035983,
+      "atr": 0.0006013089879247168,
+      "atr_pct": 1.665,
+      "stop": 0.03718561797584943,
+      "breakout_level": 0.037299,
+      "trend_atr": 1.86,
+      "breakout_atr": 1.95,
+      "funding_hourly_pct": -0.00694,
+      "volume_24h": 1979324,
       "smart_money_view": "opposes",
-      "smart_money": "3L/0S top traders, net $+0.8M"
+      "smart_money": "3L/0S top traders, net $+0.7M"
     }
   ],
   "smart_money_candidates": [
     {
       "symbol": "BTC",
       "side": "short",
-      "price": 59850.5,
+      "price": 59824.5,
       "score": 2.5,
-      "smart_money": "3L/15S top traders, net $-269.5M",
-      "atr_pct": 0.976,
-      "trend": "close 59,887.00 vs 50h EMA 60,651.54",
-      "funding_hourly_pct": 0.00018,
-      "volume_24h": 3575567610
+      "smart_money": "3L/15S top traders, net $-268.5M",
+      "atr_pct": 0.933,
+      "trend": "close 59,885.00 vs 50h EMA 60,618.90",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 3551490806
     },
     {
       "symbol": "xyz:NVDA",
       "side": "short",
-      "price": 149.985,
+      "price": 149.705,
       "score": 2.0,
-      "smart_money": "3L/10S top traders, net $-58.1M",
-      "atr_pct": 1.571,
-      "trend": "close 149.63 vs 50h EMA 151.57",
-      "funding_hourly_pct": 0.00092,
-      "volume_24h": 287566420
+      "smart_money": "3L/10S top traders, net $-58.0M",
+      "atr_pct": 1.488,
+      "trend": "close 149.70 vs 50h EMA 151.49",
+      "funding_hourly_pct": 0.00063,
+      "volume_24h": 287589443
     },
     {
       "symbol": "xyz:AAPL",
       "side": "long",
-      "price": 358.4,
+      "price": 358.34,
       "score": 1.8,
       "smart_money": "8L/0S top traders, net $+29.7M",
-      "atr_pct": 0.37,
-      "trend": "close 358.40 vs 50h EMA 356.35",
-      "funding_hourly_pct": -3e-05,
-      "volume_24h": 32914559
+      "atr_pct": 0.349,
+      "trend": "close 358.33 vs 50h EMA 356.40",
+      "funding_hourly_pct": 0.00062,
+      "volume_24h": 32836107
     },
     {
       "symbol": "VVV",
       "side": "short",
-      "price": 26.558,
-      "score": 1.394,
+      "price": 26.1995,
+      "score": 1.388,
       "smart_money": "1L/9S top traders, net $-4.9M",
-      "atr_pct": 2.344,
-      "trend": "close 26.6810 vs 50h EMA 26.8281",
-      "funding_hourly_pct": -0.00335,
-      "volume_24h": 16445469
+      "atr_pct": 2.368,
+      "trend": "close 26.3670 vs 50h EMA 26.8105",
+      "funding_hourly_pct": -0.00267,
+      "volume_24h": 16546693
     },
     {
       "symbol": "xyz:CBRS",
       "side": "long",
-      "price": 93.5245,
-      "score": 0.868,
+      "price": 93.5965,
+      "score": 0.869,
       "smart_money": "5L/1S top traders, net $+3.7M",
-      "atr_pct": 1.785,
-      "trend": "close 93.4950 vs 50h EMA 92.2140",
-      "funding_hourly_pct": 0.00063,
-      "volume_24h": 6677341
+      "atr_pct": 1.703,
+      "trend": "close 93.5540 vs 50h EMA 92.2597",
+      "funding_hourly_pct": -0.00144,
+      "volume_24h": 6739994
     },
     {
       "symbol": "MON",
       "side": "short",
-      "price": 0.010279,
-      "score": 0.863,
-      "smart_money": "0L/6S top traders, net $-2.6M",
-      "atr_pct": 2.254,
-      "trend": "close 0.010256 vs 50h EMA 0.0105734",
+      "price": 0.01045,
+      "score": 0.867,
+      "smart_money": "0L/6S top traders, net $-2.7M",
+      "atr_pct": 2.211,
+      "trend": "close 0.010466 vs 50h EMA 0.0105692",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3585647
+      "volume_24h": 3677516
+    },
+    {
+      "symbol": "XMR",
+      "side": "short",
+      "price": 403.295,
+      "score": 0.817,
+      "smart_money": "2L/6S top traders, net $-2.2M",
+      "atr_pct": 3.036,
+      "trend": "close 398.38 vs 50h EMA 460.35",
+      "funding_hourly_pct": 0.00125,
+      "volume_24h": 80849278
     },
     {
       "symbol": "XPL",
       "side": "short",
-      "price": 0.046864,
-      "score": 0.768,
+      "price": 0.046648,
+      "score": 0.767,
       "smart_money": "0L/5S top traders, net $-2.7M",
-      "atr_pct": 1.354,
-      "trend": "close 0.046746 vs 50h EMA 0.0473423",
+      "atr_pct": 1.328,
+      "trend": "close 0.04667 vs 50h EMA 0.047314",
       "funding_hourly_pct": 0.00125,
-      "volume_24h": 3133230
+      "volume_24h": 3072517
     },
     {
       "symbol": "ZRO",
       "side": "short",
-      "price": 1.04725,
+      "price": 1.0481,
       "score": 0.654,
       "smart_money": "0L/4S top traders, net $-2.5M",
-      "atr_pct": 1.917,
-      "trend": "close 1.0508 vs 50h EMA 1.0900",
-      "funding_hourly_pct": -0.00132,
-      "volume_24h": 10538323
+      "atr_pct": 1.88,
+      "trend": "close 1.0461 vs 50h EMA 1.0883",
+      "funding_hourly_pct": -0.00081,
+      "volume_24h": 10342979
     },
     {
       "symbol": "xyz:STRC",
       "side": "long",
-      "price": 98.775,
+      "price": 98.908,
       "score": 0.503,
       "smart_money": "3L/0S top traders, net $+2.0M",
-      "atr_pct": 0.248,
-      "trend": "close 98.8040 vs 50h EMA 98.1078",
-      "funding_hourly_pct": -0.00065,
-      "volume_24h": 2102264
-    },
-    {
-      "symbol": "xyz:MRNA",
-      "side": "long",
-      "price": 227.7,
-      "score": 0.377,
-      "smart_money": "3L/1S top traders, net $+0.8M",
-      "atr_pct": 1.272,
-      "trend": "close 227.58 vs 50h EMA 223.80",
-      "funding_hourly_pct": 0.00027,
-      "volume_24h": 5331456
+      "atr_pct": 0.255,
+      "trend": "close 98.9580 vs 50h EMA 98.1390",
+      "funding_hourly_pct": -0.00657,
+      "volume_24h": 2297307
     }
   ],
   "skipped_as_correlated": [
@@ -142,14 +142,6 @@
       ]
     },
     {
-      "symbol": "NEAR",
-      "side": "short",
-      "score": 2.1,
-      "moves_with": [
-        "BTC (corr 0.75)"
-      ]
-    },
-    {
       "symbol": "xyz:GOOGL",
       "side": "short",
       "score": 1.9,
@@ -159,9 +151,18 @@
       ]
     },
     {
+      "symbol": "xyz:NBIS",
+      "side": "short",
+      "score": 1.8,
+      "moves_with": [
+        "BTC (corr 0.73)",
+        "xyz:NVDA (corr 0.84)"
+      ]
+    },
+    {
       "symbol": "AAVE",
       "side": "short",
-      "score": 1.065,
+      "score": 1.067,
       "moves_with": [
         "BTC (corr 0.83)"
       ]
@@ -177,17 +178,9 @@
     {
       "symbol": "ADA",
       "side": "long",
-      "score": 0.592,
+      "score": 0.591,
       "moves_with": [
         "xyz:CBRS (corr 0.71)"
-      ]
-    },
-    {
-      "symbol": "kPEPE",
-      "side": "short",
-      "score": 0.439,
-      "moves_with": [
-        "BTC (corr 0.75)"
       ]
     }
   ],
