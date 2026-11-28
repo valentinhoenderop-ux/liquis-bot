@@ -1,5 +1,45 @@
 [
   {
+    "trader": "0xfc667adb",
+    "symbol": "xyz:MRVL",
+    "action": "added to",
+    "side": "short",
+    "notional": 688613,
+    "pct_of_account": 0.9,
+    "trader_month_pnl": 11773745,
+    "at": "2026-11-28T03:08:26+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "STBL",
+    "action": "added to",
+    "side": "short",
+    "notional": 1874,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 37212888,
+    "at": "2026-11-28T03:08:26+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "ICP",
+    "action": "added to",
+    "side": "long",
+    "notional": 1454,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5687313,
+    "at": "2026-11-28T03:08:26+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "2Z",
+    "action": "added to",
+    "side": "short",
+    "notional": 1432,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 5687313,
+    "at": "2026-11-28T03:08:26+01:00"
+  },
+  {
     "trader": "0xdf954bbe",
     "symbol": "STBL",
     "action": "added to",
@@ -2957,46 +2997,6 @@
     "notional": 5546,
     "pct_of_account": 0.0,
     "trader_month_pnl": 30374643,
-    "at": "2026-11-27T08:08:41+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:ZHIPU",
-    "action": "cut",
-    "side": "short",
-    "notional": 5254,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19023798,
-    "at": "2026-11-27T08:08:41+01:00"
-  },
-  {
-    "trader": "0xfc27136e",
-    "symbol": "xyz:EWJ",
-    "action": "added to",
-    "side": "short",
-    "notional": 3394,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 30374643,
-    "at": "2026-11-27T08:08:41+01:00"
-  },
-  {
-    "trader": "0x024294c5",
-    "symbol": "xyz:EWY",
-    "action": "closed",
-    "side": "long",
-    "notional": 1172,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 19023798,
-    "at": "2026-11-27T08:08:41+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "xyz:MINIMAX",
-    "action": "cut",
-    "side": "short",
-    "notional": 426,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 17041553,
     "at": "2026-11-27T08:08:41+01:00"
   }
 ]
