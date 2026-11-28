@@ -1,5 +1,45 @@
 [
   {
+    "trader": "0xdf954bbe",
+    "symbol": "xyz:SP500",
+    "action": "added to",
+    "side": "long",
+    "notional": 394043,
+    "pct_of_account": 3.8,
+    "trader_month_pnl": 37212888,
+    "at": "2026-11-28T09:08:23+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "WLFI",
+    "action": "cut",
+    "side": "long",
+    "notional": 12900,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 37212888,
+    "at": "2026-11-28T09:08:23+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "MOVE",
+    "action": "added to",
+    "side": "long",
+    "notional": 3863,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 37212888,
+    "at": "2026-11-28T09:08:23+01:00"
+  },
+  {
+    "trader": "0xdf954bbe",
+    "symbol": "PROVE",
+    "action": "added to",
+    "side": "short",
+    "notional": 491,
+    "pct_of_account": 0.0,
+    "trader_month_pnl": 37212888,
+    "at": "2026-11-28T09:08:23+01:00"
+  },
+  {
     "trader": "BobbyBigSize",
     "symbol": "xyz:ANT",
     "action": "added to",
@@ -2958,45 +2998,5 @@
     "pct_of_account": 0.0,
     "trader_month_pnl": 17041553,
     "at": "2026-11-27T09:08:19+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "BLUR",
-    "action": "cut",
-    "side": "short",
-    "notional": 10,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 34125155,
-    "at": "2026-11-27T09:08:19+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ZORA",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 4,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 34125155,
-    "at": "2026-11-27T09:08:19+01:00"
-  },
-  {
-    "trader": "0xdf954bbe",
-    "symbol": "ME",
-    "action": "flipped to",
-    "side": "long",
-    "notional": 1,
-    "pct_of_account": 0.0,
-    "trader_month_pnl": 34125155,
-    "at": "2026-11-27T09:08:19+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:SP500",
-    "action": "added to",
-    "side": "short",
-    "notional": 4609374,
-    "pct_of_account": 6.1,
-    "trader_month_pnl": 11653444,
-    "at": "2026-11-27T08:08:41+01:00"
   }
 ]
