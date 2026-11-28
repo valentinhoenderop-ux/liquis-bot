@@ -1,5 +1,25 @@
 [
   {
+    "trader": "0x8cc94dc8",
+    "symbol": "ICP",
+    "action": "added to",
+    "side": "long",
+    "notional": 2997,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5687313,
+    "at": "2026-11-28T05:08:43+01:00"
+  },
+  {
+    "trader": "0x8cc94dc8",
+    "symbol": "2Z",
+    "action": "added to",
+    "side": "short",
+    "notional": 2860,
+    "pct_of_account": 0.1,
+    "trader_month_pnl": 5687313,
+    "at": "2026-11-28T05:08:43+01:00"
+  },
+  {
     "trader": "0xfc667adb",
     "symbol": "xyz:SP500",
     "action": "cut",
@@ -2977,26 +2997,6 @@
     "notional": 44132,
     "pct_of_account": 0.1,
     "trader_month_pnl": 11653444,
-    "at": "2026-11-27T08:08:41+01:00"
-  },
-  {
-    "trader": "0xfc667adb",
-    "symbol": "xyz:ZHIPU",
-    "action": "cut",
-    "side": "short",
-    "notional": 40521,
-    "pct_of_account": 0.1,
-    "trader_month_pnl": 11653444,
-    "at": "2026-11-27T08:08:41+01:00"
-  },
-  {
-    "trader": "0xfe7ce058",
-    "symbol": "xyz:PURRDAT",
-    "action": "added to",
-    "side": "short",
-    "notional": 33165,
-    "pct_of_account": 0.2,
-    "trader_month_pnl": 17041553,
     "at": "2026-11-27T08:08:41+01:00"
   }
 ]
